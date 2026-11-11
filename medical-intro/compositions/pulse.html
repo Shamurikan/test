@@ -1,0 +1,35 @@
+<template>
+  <style>
+    #root { position:absolute; inset:0; font-family:"Outfit",sans-serif; }
+    #pulse-line { position:absolute; left:160px; top:380px; width:1600px; height:320px; }
+    #pulse-line path { fill:none; stroke:#2fd4b4; stroke-width:8; stroke-linecap:round; stroke-linejoin:round; }
+    #pulse-dot { position:absolute; width:28px; height:28px; border-radius:50%; background:#eafaf7; left:0; top:0; box-shadow:0 0 40px 10px #2fd4b4; }
+    #pulse-kicker { position:absolute; left:0; right:0; top:800px; text-align:center; color:#eafaf7; font-size:48px; font-weight:400; letter-spacing:0.02em; }
+  </style>
+  <div id="root" data-composition-id="pulse" data-width="1920" data-height="1080">
+    <svg id="pulse-line" viewBox="0 0 1600 320">
+      <path id="pulse-path" pathLength="1" d="M0 160 H520 L580 160 L620 60 L680 270 L740 20 L800 160 H880 L920 130 L960 160 H1600"/>
+    </svg>
+    <div id="pulse-dot" class="clip" data-start="0" data-duration="3.5"></div>
+    <p id="pulse-kicker" class="clip" data-start="1.4" data-duration="2.1">Every second counts in medicine.</p>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const path = document.getElementById("pulse-path");
+    const len = path.getTotalLength();
+    const svg = document.getElementById("pulse-line");
+    const dot = document.getElementById("pulse-dot");
+    const state = { p: 0 };
+    tl.fromTo("#pulse-path", { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 2.2, ease: "power1.inOut" }, 0.2);
+    tl.fromTo(state, { p: 0 }, { p: 1, duration: 2.2, ease: "power1.inOut", onUpdate() {
+      const pt = path.getPointAtLength(state.p * len);
+      const r = svg.getBoundingClientRect();
+      const s = r.width / 1600 || 1;
+      dot.style.left = (160 + pt.x * s - 14) + "px";
+      dot.style.top = (380 + pt.y * s - 14) + "px";
+    } }, 0.2);
+    tl.fromTo("#pulse-kicker", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 1.4);
+    tl.to("#root", { opacity: 0, duration: 0.3, ease: "power2.in" }, 3.2);
+    window.__timelines["pulse"] = tl;
+  </script>
+</template>

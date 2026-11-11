@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"
+  data-composition-variables='[{"id":"product_name","type":"string","label":"Product name","default":"Your Product"},{"id":"headline","type":"string","label":"Headline","default":"Medical content, made clear."},{"id":"cta","type":"string","label":"Call to action","default":"yourproduct.com"}]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root { --ground:#06202b; --ink:#eafaf7; --accent:#2fd4b4; --font-display:"Outfit",sans-serif; }
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html, body { width:1920px; height:1080px; overflow:hidden; background:var(--ground); }
+      #bg { position:absolute; inset:0; background:radial-gradient(ellipse at 50% 45%, #0d3a47 0%, #06202b 70%); }
+    </style>
+  </head>
+  <body>
+    <div id="main" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
+      <div id="bg"></div>
+      <div id="pulse" data-composition-id="pulse" data-composition-src="compositions/pulse.html"
+        data-start="0" data-duration="3.5" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="claim" data-composition-id="claim" data-composition-src="compositions/claim.html"
+        data-start="3.5" data-duration="3.5" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="endcard" data-composition-id="endcard" data-composition-src="compositions/endcard.html"
+        data-start="7" data-duration="3" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
