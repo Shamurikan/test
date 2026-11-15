@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "style-transfer": {
+      "source": "eachlabs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/style-transfer/SKILL.md",
+      "computedHash": "e7ab711f08c1e04cc5c3dc0b8b5e689a3ee9a91ec7a318ab3b2b29f511bfffe5"
+    }
+  }
+}
