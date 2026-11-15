@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+out/
+public/final_audio.wav
+pipeline/audio_in/narration.m4a
+pipeline/final_audio.wav
