@@ -351,10 +351,10 @@ export const S09: React.FC = () => {
           <text x={0} y={100} fontFamily={F.body} fontSize={22} fill={C.ink2} opacity={0}>.</text>
         </g>
       </Svg>
-      <Text t={t} t0={T.shorten} x={1320} y={430} w={420} size={28} color={C.ink}>
+      <Text t={t} t0={T.shorten} x={1300} y={430} w={560} size={28} color={C.ink}>
         <b style={{ color: C.coral }}>fast</b> shortening, <b style={{ color: C.coral }}>slow</b> lengthening
       </Text>
-      <Text t={t} t0={T.sway - 0.1} x={1320} y={470} w={420} size={28} color={C.ink2}>
+      <Text t={t} t0={T.sway - 0.1} x={1300} y={474} w={560} size={28} color={C.ink2}>
         + side-to-side sway
       </Text>
       <Chip t={t} t0={T.local - 0.1} x={192} y={300} label="local reflexes: chyme touching villi" color={C.chyme} size={28} />
@@ -492,7 +492,7 @@ export const S11: React.FC = () => {
       <Text t={t} t0={T.food - 0.1} x={192} y={300} w={600} size={32} weight={600} color={C.ink}>
         1 · food distends the stomach
       </Text>
-      <Text t={t} t0={T.imp - 0.1} x={192} y={360} w={600} size={32} weight={600} color={C.nerve}>
+      <Text t={t} t0={T.imp - 0.1} x={192} y={360} w={720} size={30} weight={600} color={C.nerve}>
         2 · impulses: myenteric plexus + vagus
       </Text>
       <Text t={t} t0={T.wave - 0.1} x={192} y={420} w={600} size={32} weight={600} color={C.coral}>

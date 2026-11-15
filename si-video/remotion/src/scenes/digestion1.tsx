@@ -149,10 +149,10 @@ export const S12: React.FC = () => {
       <Text t={t} t0={T.up - 0.1} x={192} y={720} w={540} size={32} weight={600} color={C.teal}>
         Villi do the reverse: they reabsorb water, electrolytes &amp; end products
       </Text>
-      <Text t={t} t0={T.entero} x={1100} y={190} w={600} size={28} color={C.ink2} out={T.up - 0.3}>
+      <Text t={t} t0={T.entero} x={192} y={830} w={600} size={28} color={C.ink2} out={T.up - 0.3}>
         crypts <b style={{ color: C.water }}>secrete</b> ↑
       </Text>
-      <Text t={t} t0={T.up} x={1100} y={190} w={600} size={28} color={C.ink2}>
+      <Text t={t} t0={T.up} x={192} y={830} w={600} size={28} color={C.ink2}>
         crypts <b style={{ color: C.water }}>secrete</b> ↑ · villi <b style={{ color: C.teal }}>absorb</b> ↓
       </Text>
     </AbsoluteFill>

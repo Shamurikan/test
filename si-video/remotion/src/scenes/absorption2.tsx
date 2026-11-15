@@ -302,9 +302,9 @@ export const S27: React.FC = () => {
       <Text t={t} t0={T.drives - 0.1} x={192} y={370} w={360} size={28} weight={700} color={C.ink2} style={{ letterSpacing: "0.1em" }}>
         Na⁺ ENTRY
       </Text>
-      <Chip t={t} t0={T.jej - 0.1} x={1420} y={300} label="jejunum: net NaHCO₃" color={C.hco3} size={26} />
-      <Chip t={t} t0={T.ile - 0.1} x={1420} y={364} label="ileum: net NaCl" color={C.cl} size={26} />
-      <Chip t={t} t0={T.aldo - 0.1} x={1060} y={240} label="aldosterone ↑ Na⁺ absorption (esp. colon)" color={C.gold} size={26} />
+      <Chip t={t} t0={T.jej - 0.1} x={1390} y={300} label="jejunum: net NaHCO₃" color={C.hco3} size={26} />
+      <Chip t={t} t0={T.ile - 0.1} x={1390} y={364} label="ileum: net NaCl" color={C.cl} size={26} />
+      <Chip t={t} t0={T.aldo - 0.1} x={1040} y={236} label="aldosterone ↑ Na⁺ absorption (esp. colon)" color={C.gold} size={26} />
     </AbsoluteFill>
   );
 };
