@@ -10,3 +10,5 @@ out/
 public/final_audio.wav
 pipeline/audio_in/narration.m4a
 pipeline/final_audio.wav
+pipeline/audio_in/db.npy
+pipeline/align_report.txt

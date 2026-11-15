@@ -1,0 +1,186 @@
+[Chapter 0 - Cold open]
+
+Each time you eat, a soft, unremarkable-looking gland tucked behind your stomach begins to release some of the most powerful enzymes in the human body. Together, they can take apart almost everything in a meal: proteins, starches, fats, even DNA. And they could just as easily take apart the gland that makes them.
+
+At the same moment, a wave of acid from the stomach is arriving in the small intestine, with a pH near two. Those enzymes cannot work in acid, and the intestinal lining cannot survive it.
+
+So the pancreas has two problems to solve with every meal. It must deliver a dangerous arsenal of enzymes without destroying itself. And it must neutralize that acid fast enough for the enzymes to work.
+
+Its solution is elegant: two factories, built side by side, each with its own product, its own signal, and its own way of failing. Let's take them apart, one at a time.
+
+
+[Chapter 1 - One organ, two glands]
+
+The pancreas lies behind the stomach, running roughly parallel to it. Its head is tucked into the C-shaped curve of the duodenum, and its tail reaches toward the spleen. In fact, it is really two glands sharing one body.
+
+About ninety-nine percent of its mass is exocrine tissue: clusters of secretory cells that release their products into ducts, and through those ducts into the gut. The remaining one percent is scattered through it as tiny islands, the islets of Langerhans. These are endocrine: they release hormones directly into the blood.
+
+Within the islets, beta cells, about sixty percent, make insulin. Alpha cells, about a quarter, make glucagon. And delta cells, roughly ten percent, make somatostatin. Insulin and glucagon govern how the body handles glucose, fat and protein, and they deserve a lecture of their own. Today, our focus is the exocrine pancreas: the digestive gland.
+
+Zoom into the exocrine tissue, and it looks remarkably like a salivary gland: a compound gland, built as a branching tree of ducts, each twig ending in a rounded sac called an acinus. Picture a bunch of grapes. Each grape is an acinus; the stems are the ducts.
+
+The acinus is lined by pyramid-shaped acinar cells. Their tips, facing the center, are packed with dense granules called zymogen granules. These hold the digestive enzymes, stored in an inactive form.
+
+Where the acinus opens into the duct system sit pale centroacinar cells. They lead into the intercalated ducts, and then into progressively larger ducts. The cells lining these ducts are the second factory. They secrete a watery fluid rich in sodium bicarbonate.
+
+So the division of labor is built into the anatomy itself. The acini make enzymes. The ducts make bicarbonate.
+
+All these ducts converge into the main pancreatic duct, which runs the length of the gland. Just before it reaches the duodenum, it joins the common bile duct, coming down from the liver and gallbladder. Together they empty through a small mound in the duodenal wall, the papilla of Vater, guarded by a ring of smooth muscle, the sphincter of Oddi. That shared exit will matter later, because a gallstone lodged there can block the pancreas, too.
+
+Let's start our two-factory board. On the left, the acinar cell, making enzymes. On the right, the duct cell, making bicarbonate.
+
+
+[Chapter 2 - Pancreatic juice]
+
+Mix the products of both factories, and you get pancreatic juice. An adult makes roughly one to one and a half liters of it every day. It is clear and alkaline, with a pH of about eight, and it is isotonic: its total concentration of dissolved particles matches that of plasma. Most of that volume, about a liter a day, is the bicarbonate-rich fluid from the ducts.
+
+By weight, the juice is mostly water. Only about one to two percent is organic material, and that material is almost entirely protein: the digestive enzymes, made by the acinar cells. About one percent is inorganic: electrolytes such as sodium, potassium, calcium and chloride, and above all bicarbonate, carried mostly as sodium bicarbonate. These come from the centroacinar and duct cells.
+
+Why such an alkaline fluid? Think about what arrives in the duodenum. Chyme leaves the stomach with a pH around two, carrying hydrochloric acid and the active enzyme pepsin. Pancreatic juice does three jobs with it.
+
+First, it neutralizes that acid, raising duodenal pH into the range of seven to eight, which is exactly where pancreatic enzymes work best. Second, by removing the acid, it protects the duodenal lining from acid and pepsin, which would otherwise erode it into an ulcer. Third, it delivers the enzymes that digest carbohydrate, fat and protein.
+
+These jobs are linked, and a rare condition makes the link vivid. In Zollinger-Ellison syndrome, a gastrin-secreting tumor drives the stomach to pour out acid relentlessly. The pancreas cannot keep up. Ulcers form not only in the first part of the duodenum, but further along, even in the jejunum. And because pancreatic lipase is inactivated in acid, fat goes undigested, and patients develop diarrhea and fatty stools. Bicarbonate is not a side product. It is what allows the enzymes to work at all.
+
+
+[Chapter 3 - The bicarbonate factory]
+
+When the pancreas is stimulated hard, the bicarbonate concentration of its juice can reach about one hundred forty-five milliequivalents per liter, roughly five times the level in plasma. To see how, we need to step inside a single duct cell.
+
+Like every epithelial cell, it has two faces. The basolateral membrane faces the blood. The apical membrane faces the duct lumen. Bicarbonate has to end up on the apical side, and the cell gets it there in four steps.
+
+Step one: make bicarbonate. Carbon dioxide diffuses in from the blood and combines with water to form carbonic acid. On its own this reaction is slow, but the enzyme carbonic anhydrase speeds it up enormously.
+
+Step two: carbonic acid dissociates into a hydrogen ion and a bicarbonate ion. Now the cell holds two products, and it sends them in opposite directions.
+
+Step three: the hydrogen ion leaves across the basolateral membrane into the blood, swapped for sodium by a sodium-hydrogen exchanger. That exchanger has no energy source of its own. It runs on the sodium gradient, which the sodium-potassium ATPase on the same membrane maintains by pumping sodium out. This is secondary active transport: the pump spends the energy, and the exchanger uses it. Some bicarbonate also enters directly from the blood, carried in alongside sodium.
+
+Step four: bicarbonate leaves across the apical membrane into the lumen, swapped for chloride by a chloride-bicarbonate exchanger. For that exchange to keep running, there must be chloride in the lumen. It comes from a chloride channel in the same apical membrane: the cystic fibrosis transmembrane conductance regulator, or CFTR. Chloride leaks out through CFTR and comes back in through the exchanger, and every turn of that cycle pushes more bicarbonate into the duct.
+
+As bicarbonate leaves the cell, the lumen becomes electrically negative. That pulls sodium through the leaky junctions between neighboring cells, and water follows the sodium and bicarbonate by osmosis. The result is a large volume of isotonic sodium bicarbonate solution.
+
+Now notice where the hydrogen ions went: into the blood. During active secretion, venous blood leaving the pancreas becomes slightly more acidic. This is the acid tide. Compare the stomach. There, the parietal cell secretes acid into the lumen and sends bicarbonate into the blood, producing an alkaline tide after meals. The two cells are mirror images, and over the course of a meal, their tides tend to offset each other.
+
+That chloride channel is not a minor detail. In cystic fibrosis, CFTR is defective. With less chloride reaching the lumen, less bicarbonate and less water follow. Pancreatic juice becomes scant, thick and protein-rich. It plugs the small ducts, and the enzymes trapped behind those plugs gradually destroy the gland. Most patients develop pancreatic insufficiency early in life: they cannot digest fat properly, and they lose the fat-soluble vitamins A, D, E and K.
+
+This design has one more visible consequence, when you plot the composition of the juice against its flow rate. Sodium and potassium stay constant, close to their plasma values, at every rate. But bicarbonate and chloride move in opposite directions. As flow rises, bicarbonate climbs and chloride falls, like mirror images, so their sum stays constant, and the juice stays isotonic.
+
+Why? Think of the juice as a mixture of two fluids. The acinar secretion is small in volume and plasma-like, rich in chloride. The ductal secretion is rich in bicarbonate. At low flow, the plasma-like component weighs more heavily. When the ducts are driven hard, by the hormone secretin as we will see, ductal fluid dominates, and bicarbonate climbs toward its maximum.
+
+On the board: the duct cell's product is bicarbonate, made by carbonic anhydrase and exported in exchange for chloride.
+
+
+[Chapter 4 - The enzyme factory]
+
+Now the other factory. Pancreatic enzymes are proteins, so the acinar cell is built like a protein export plant. Its base is crowded with rough endoplasmic reticulum and mitochondria. Its tip is packed with granules.
+
+Enzymes are synthesized on the ribosomes of the rough endoplasmic reticulum and threaded into its channels. They travel to the Golgi apparatus, where they are modified, concentrated and packaged into membrane-bound vesicles. These mature into zymogen granules, which gather at the tip of the cell and wait.
+
+They wait for a signal. When acetylcholine from the vagus nerve, or the hormone cholecystokinin, binds to receptors on the acinar cell, calcium rises inside the cell. Calcium is the trigger. It drives the granules to fuse with the apical membrane and empty their contents into the lumen of the acinus. This process is called exocytosis.
+
+Here is the critical safety feature. The protein-digesting enzymes are made and shipped as inactive precursors called zymogens: trypsinogen, chymotrypsinogen, proelastase and procarboxypeptidase. The ending "ogen", or the prefix "pro", tells you the enzyme is still locked. Phospholipase A two is shipped locked as well. Amylase and lipase, by contrast, are secreted in their active forms; on their own, they pose little threat to the cell.
+
+But a lock can fail. If even a few molecules of trypsinogen were activated too early inside the gland, they could set off a chain reaction. So the acinar cell adds a second safeguard: trypsin inhibitor, a protein made in its cytoplasm and secreted along with the enzymes. It binds and neutralizes any trypsin that forms too early, inside the cells, in the acini or in the ducts.
+
+And because trypsin is the enzyme that activates all the others, blocking trypsin blocks the entire cascade. One inhibitor guards the whole arsenal.
+
+On the board: the acinar cell makes enzymes, stores them as locked zymogens, and releases them when calcium rises.
+
+
+[Chapter 5 - Unlocking]
+
+The key is waiting in the duodenum. When chyme touches the duodenal lining, the intestinal mucosa releases an enzyme called enteropeptidase, also known as enterokinase. Enteropeptidase has one job. It snips a short peptide off trypsinogen, converting it into active trypsin.
+
+Trypsin then becomes the master switch. It activates chymotrypsinogen into chymotrypsin, procarboxypeptidase into carboxypeptidase, proelastase into elastase, and the precursors of phospholipase and colipase. And it activates more trypsinogen, autocatalytically. That is positive feedback: a little trypsin makes more trypsin, which activates everything else.
+
+The logic is beautiful. The key exists only in the intestine, so the arsenal can be unlocked only where it is meant to work.
+
+Now imagine the pancreatic duct is blocked, say by a gallstone wedged at the papilla of Vater, or the gland is injured, for example by heavy alcohol use. Secretion keeps coming, but it has nowhere to go, so enzymes pool inside the gland. There is only so much trypsin inhibitor, and it is overwhelmed. Trypsin activates, positive feedback takes over, and within hours, the pancreas begins to digest itself.
+
+This is acute pancreatitis. Patients typically present with severe upper abdominal pain radiating to the back, and because the enzymes leak into the circulation, serum lipase and amylase rise. In severe cases, it can lead to circulatory shock. The same positive feedback that makes digestion fast makes this failure catastrophic.
+
+We can now fill the last row of the board: what goes wrong. In the acinar factory, enzymes are activated too early, causing pancreatitis. In the duct factory, chloride and bicarbonate secretion fails, as in cystic fibrosis.
+
+
+[Chapter 6 - The arsenal at work]
+
+With the locks off, the pancreatic arsenal covers all four classes of macromolecule: proteins, carbohydrates, fats and nucleic acids.
+
+Proteins first. The proteases fall into two groups, and the difference is where they cut. Endopeptidases cut bonds inside the chain. Trypsin, chymotrypsin and elastase are endopeptidases, and each prefers a different site. Trypsin cuts next to basic amino acids, such as lysine and arginine; chymotrypsin, next to aromatic ones, such as phenylalanine and tyrosine. Together, they break whole proteins into peptides of various sizes, but they release almost no free amino acids.
+
+Exopeptidases work from the end. Carboxypeptidases A and B remove amino acids one at a time from the carboxyl end of those peptides, completing the digestion of some of them.
+
+The two groups are partners. Every cut an endopeptidase makes creates a new end for an exopeptidase to attack. What leaves this stage is mostly small peptides, plus some free amino acids, which enzymes on the intestinal brush border then finish.
+
+Carbohydrates. Pancreatic amylase is an alpha-amylase, like the amylase in saliva but several times more powerful. It hydrolyzes the alpha one-four glycosidic bonds of starch and glycogen, producing mainly the disaccharide maltose, plus a few slightly longer fragments, such as maltotriose. What it cannot touch is cellulose, whose beta bonds no human enzyme can break. That is why plant fiber passes through undigested.
+
+Fats. Pancreatic lipase is by far the most important fat-splitting enzyme. It splits each triglyceride into a two-monoglyceride and two free fatty acids. But lipase has a problem: it dissolves in water, and fat does not. Bile salts help by emulsifying fat into small droplets, which multiplies the surface that lipase can reach. Yet those same bile salts coat the droplet and tend to push lipase away. The solution is colipase, a small protein secreted by the pancreas, which anchors lipase to the bile-coated surface. So lipase works only in partnership, with bile salts and colipase.
+
+Two more enzymes complete the set. Cholesterol esterase frees cholesterol from cholesterol esters. And phospholipase A two removes a fatty acid from phospholipids, leaving lysolecithin.
+
+Finally, ribonuclease and deoxyribonuclease break RNA and DNA into mononucleotides, the building blocks of nucleic acids. Four classes of food, one secretion: no other digestive juice covers them all.
+
+
+[Chapter 7 - Control]
+
+We now know what the two factories make. The next question is how they are switched on. Three basic stimuli drive pancreatic secretion: acetylcholine from nerves, and two hormones from the small intestine, cholecystokinin and secretin.
+
+Acetylcholine is released by the vagus nerve and by cholinergic neurons of the enteric nervous system. It acts mainly on the acinar cells, producing plenty of enzymes but relatively little water.
+
+Cholecystokinin, or CCK, comes from I cells in the mucosa of the duodenum and upper jejunum. Its stimulus is food, specifically the products of partial digestion: proteoses and peptones from protein, and long-chain fatty acids from fat. CCK travels through the blood to the pancreas, where it drives a marked increase in enzyme secretion by the acinar cells. It accounts for most of the enzymes secreted after a meal, around seventy to eighty percent.
+
+Notice the logic. The signal for enzyme release is the presence of the very nutrients those enzymes digest.
+
+Secretin comes from S cells in the mucosa of the duodenum and jejunum, where it is stored as an inactive precursor, prosecretin. Its stimulus is acid. When chyme with a pH below about four and a half to five enters the duodenum, secretin is released and activated, absorbed into the blood, and carried to the pancreas. Its release rises steeply as the pH falls toward three.
+
+Secretin acts on the duct cells. It works through cyclic A M P, and one of its key actions is to open the CFTR chloride channel we met earlier, which drives the chloride-bicarbonate exchange. The result is a large volume of watery juice, with bicarbonate up to one hundred forty-five milliequivalents per liter and correspondingly little chloride.
+
+In the duodenum, that bicarbonate meets hydrochloric acid. Hydrochloric acid and sodium bicarbonate give sodium chloride and carbonic acid. The carbonic acid breaks down into water and carbon dioxide, which is absorbed and breathed out. What remains is a neutral salt solution.
+
+Again, the logic: the signal for bicarbonate is the very acid that bicarbonate neutralizes. Each hormone is summoned by the problem it solves.
+
+These stimuli are deployed across three phases, just as in gastric secretion.
+
+The cephalic phase begins before food reaches the stomach: the sight, smell or taste of food, even the sound of it being prepared, along with chewing and swallowing. The vagus releases acetylcholine onto the acinar cells. This phase contributes about twenty percent of pancreatic enzyme secretion.
+
+The gastric phase follows as food enters the stomach. Distension of the stomach and the presence of protein trigger vagovagal reflexes, which continue acetylcholine release. This adds about five to ten percent.
+
+But notice a catch. In both of these phases, the acinar cells secrete enzymes with little fluid. Without water to carry them, most of those enzymes stay stored in the acini and ducts, waiting. And because both phases depend on the vagus, they are greatly reduced after a vagotomy.
+
+The intestinal phase is the main event, accounting for about seventy to seventy-five percent of pancreatic secretion. Acid in the chyme releases secretin; fatty acids and peptides release CCK; and vagovagal reflexes add acetylcholine. Now the ducts finally produce a large volume of fluid, which washes the stored enzymes into the duodenum.
+
+There is a neat contrast with the stomach here. For gastric secretion, the gastric phase is the most important. For pancreatic secretion, it is the intestinal phase. The phase that drives one gland most strongly drives the other only weakly.
+
+Four more cells of the board. Trigger: nutrients for the acinar side, acid for the duct side. Hormone: CCK, with acetylcholine, versus secretin. Messenger: calcium versus cyclic A M P.
+
+
+[Chapter 8 - Better together]
+
+Here is a striking observation. Give acetylcholine, CCK or secretin alone, and each produces a certain amount of secretion. Give all three together, and the total is far greater than the sum of the three separate responses. The stimuli do not simply add; they multiply. This is called potentiation, or the multiplicative effect.
+
+There are two reasons, one physical and one molecular. The physical reason we have already seen. CCK and acetylcholine supply the cargo, the enzymes, while secretin supplies the river that carries them out. Each makes the other's effect visible.
+
+The molecular reason lies in the second messengers. Secretin acts through cyclic A M P; acetylcholine and CCK act through calcium. When both pathways are active in the same cell, they reinforce each other. So CCK and acetylcholine amplify secretin's bicarbonate response in the duct cells, and secretin enhances CCK's enzyme response. In practice, a meal never presents just one stimulus. Pancreatic secretion is always the combined product of several.
+
+Look at the other actions of these two hormones, and a bigger pattern emerges. They do not just command the pancreas. They coordinate the whole upper gut around the needs of the duodenum.
+
+CCK contracts the gallbladder and relaxes the sphincter of Oddi, so bile arrives just when lipase needs it. It also slows gastric emptying. Over the longer term, it has a trophic effect on the pancreas, and it may contribute to the feeling of fullness after a meal.
+
+Secretin inhibits gastric acid secretion and the release of gastrin, contracts the pylorus and slows gastric emptying. It also stimulates bicarbonate secretion by the bile ducts, adding still more alkali.
+
+Put together, this is a feedback loop. When the duodenum is too acidic, or too full of fat and protein, it releases hormones that bring in bicarbonate, enzymes and bile, and at the same time slow the stomach down. The duodenum controls its own input.
+
+And on the board, an arrow between the columns: the two factories potentiate each other.
+
+
+[Chapter 9 - One meal, start to finish]
+
+Let's put it all together by following one meal. You smell dinner cooking. The vagus releases acetylcholine onto the acinar cells, and zymogen granules begin to empty into the acini. But with little fluid, the enzymes wait. You start eating, your stomach stretches, and vagovagal reflexes add a little more.
+
+Then the first squirt of acidic chyme reaches the duodenum. Its low pH releases secretin. Through cyclic A M P, secretin opens the duct cells' chloride channels, and a flood of bicarbonate-rich fluid pours down the ducts, washing the stored enzymes ahead of it. At the same time, peptides and fatty acids release CCK: more enzymes, the gallbladder contracts, and the sphincter of Oddi opens. Acetylcholine, CCK and secretin potentiate one another.
+
+In the duodenum, bicarbonate neutralizes the acid, pepsin falls silent, and the pH rises to seven or eight. Enteropeptidase unlocks trypsin, and trypsin unlocks the rest. Proteins, starches, fats and nucleic acids are taken apart. Meanwhile, the stomach is slowed, so the duodenum is never overwhelmed. As the acid is neutralized and nutrients are absorbed, the stimuli fade, and secretion winds down.
+
+Two factories. Two products. Two signals. Two messengers. And two ways to fail. An enzyme factory that must stay locked until its products reach the gut, and a bicarbonate factory that makes the gut safe for those enzymes to work. Understand that partnership, and the rest of pancreatic physiology falls into place.
+
+Before you go, try three questions. Pause after each one and answer it out loud. What are the three phases of pancreatic secretion, and roughly how much does each contribute? What is the multiplicative, or potentiation, effect? And why does a blocked pancreatic duct lead to the pancreas digesting itself?
