@@ -1,0 +1,332 @@
+{
+ "duration": 24.6335,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "43229201-bfef-4007-b922-93fd98ed9ef8",
+ "segments": [
+  {
+   "end": 0.72,
+   "start": 0.32,
+   "text": "Mixing"
+  },
+  {
+   "end": 1.2,
+   "start": 0.72,
+   "text": "first"
+  },
+  {
+   "end": 1.6,
+   "start": 1.44,
+   "text": "When"
+  },
+  {
+   "end": 2.08,
+   "start": 1.6,
+   "text": "chyme"
+  },
+  {
+   "end": 2.56,
+   "start": 2.08,
+   "text": "stretches"
+  },
+  {
+   "end": 2.64,
+   "start": 2.56,
+   "text": "the"
+  },
+  {
+   "end": 3.12,
+   "start": 2.64,
+   "text": "wall"
+  },
+  {
+   "end": 3.52,
+   "start": 3.44,
+   "text": "the"
+  },
+  {
+   "end": 4,
+   "start": 3.52,
+   "text": "enteric"
+  },
+  {
+   "end": 4.32,
+   "start": 4,
+   "text": "nervous"
+  },
+  {
+   "end": 4.72,
+   "start": 4.32,
+   "text": "system"
+  },
+  {
+   "end": 5.04,
+   "start": 4.72,
+   "text": "triggers"
+  },
+  {
+   "end": 5.92,
+   "start": 5.04,
+   "text": "segmentation"
+  },
+  {
+   "end": 6.56,
+   "start": 6.24,
+   "text": "Rings"
+  },
+  {
+   "end": 6.64,
+   "start": 6.56,
+   "text": "of"
+  },
+  {
+   "end": 7.12,
+   "start": 6.64,
+   "text": "circular"
+  },
+  {
+   "end": 7.44,
+   "start": 7.12,
+   "text": "muscle"
+  },
+  {
+   "end": 7.92,
+   "start": 7.44,
+   "text": "squeeze"
+  },
+  {
+   "end": 8.08,
+   "start": 7.92,
+   "text": "at"
+  },
+  {
+   "end": 8.48,
+   "start": 8.08,
+   "text": "spaced"
+  },
+  {
+   "end": 8.96,
+   "start": 8.48,
+   "text": "points"
+  },
+  {
+   "end": 9.68,
+   "start": 9.28,
+   "text": "dividing"
+  },
+  {
+   "end": 9.76,
+   "start": 9.68,
+   "text": "the"
+  },
+  {
+   "end": 10,
+   "start": 9.76,
+   "text": "gut"
+  },
+  {
+   "end": 10.24,
+   "start": 10,
+   "text": "into"
+  },
+  {
+   "end": 10.32,
+   "start": 10.24,
+   "text": "a"
+  },
+  {
+   "end": 10.56,
+   "start": 10.32,
+   "text": "chain"
+  },
+  {
+   "end": 10.72,
+   "start": 10.56,
+   "text": "of"
+  },
+  {
+   "end": 11.44,
+   "start": 10.72,
+   "text": "sausages"
+  },
+  {
+   "end": 12,
+   "start": 11.76,
+   "text": "Each"
+  },
+  {
+   "end": 12.32,
+   "start": 12,
+   "text": "set"
+  },
+  {
+   "end": 12.8,
+   "start": 12.32,
+   "text": "lasts"
+  },
+  {
+   "end": 12.8,
+   "start": 12.8,
+   "text": "a"
+  },
+  {
+   "end": 13.28,
+   "start": 12.8,
+   "text": "fraction"
+  },
+  {
+   "end": 13.36,
+   "start": 13.28,
+   "text": "of"
+  },
+  {
+   "end": 13.36,
+   "start": 13.36,
+   "text": "a"
+  },
+  {
+   "end": 13.76,
+   "start": 13.36,
+   "text": "minute"
+  },
+  {
+   "end": 14.16,
+   "start": 14,
+   "text": "As"
+  },
+  {
+   "end": 14.24,
+   "start": 14.16,
+   "text": "it"
+  },
+  {
+   "end": 14.88,
+   "start": 14.24,
+   "text": "relaxes"
+  },
+  {
+   "end": 15.28,
+   "start": 15.2,
+   "text": "a"
+  },
+  {
+   "end": 15.52,
+   "start": 15.28,
+   "text": "new"
+  },
+  {
+   "end": 15.84,
+   "start": 15.52,
+   "text": "set"
+  },
+  {
+   "end": 16.16,
+   "start": 15.84,
+   "text": "forms"
+  },
+  {
+   "end": 16.32,
+   "start": 16.16,
+   "text": "in"
+  },
+  {
+   "end": 16.8,
+   "start": 16.32,
+   "text": "between"
+  },
+  {
+   "end": 17.6,
+   "start": 17.2,
+   "text": "Chyme"
+  },
+  {
+   "end": 17.92,
+   "start": 17.6,
+   "text": "barely"
+  },
+  {
+   "end": 18.16,
+   "start": 17.92,
+   "text": "moves"
+  },
+  {
+   "end": 18.64,
+   "start": 18.16,
+   "text": "forward"
+  },
+  {
+   "end": 19.6,
+   "start": 19.04,
+   "text": "Instead"
+  },
+  {
+   "end": 20,
+   "start": 19.84,
+   "text": "it's"
+  },
+  {
+   "end": 20.56,
+   "start": 20,
+   "text": "churned"
+  },
+  {
+   "end": 21.2,
+   "start": 20.8,
+   "text": "blended"
+  },
+  {
+   "end": 21.36,
+   "start": 21.2,
+   "text": "with"
+  },
+  {
+   "end": 21.84,
+   "start": 21.36,
+   "text": "digestive"
+  },
+  {
+   "end": 22.4,
+   "start": 21.84,
+   "text": "juices"
+  },
+  {
+   "end": 22.72,
+   "start": 22.56,
+   "text": "and"
+  },
+  {
+   "end": 23.04,
+   "start": 22.72,
+   "text": "pressed"
+  },
+  {
+   "end": 23.36,
+   "start": 23.04,
+   "text": "against"
+  },
+  {
+   "end": 23.44,
+   "start": 23.36,
+   "text": "the"
+  },
+  {
+   "end": 23.92,
+   "start": 23.44,
+   "text": "absorptive"
+  },
+  {
+   "end": 24.48,
+   "start": 23.92,
+   "text": "surface"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 24.48,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Mixing first. When chyme stretches the wall, the enteric nervous system triggers segmentation. Rings of circular muscle squeeze at spaced points, dividing the gut into a chain of sausages. Each set lasts a fraction of a minute. As it relaxes, a new set forms in between. Chyme barely moves forward. Instead, it's churned, blended with digestive juices, and pressed against the absorptive surface."
+  }
+ ],
+ "text": "Mixing first. When chyme stretches the wall, the enteric nervous system triggers segmentation. Rings of circular muscle squeeze at spaced points, dividing the gut into a chain of sausages. Each set lasts a fraction of a minute. As it relaxes, a new set forms in between. Chyme barely moves forward. Instead, it's churned, blended with digestive juices, and pressed against the absorptive surface."
+}

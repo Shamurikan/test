@@ -1,0 +1,27 @@
+{
+ "duration": 1.43675,
+ "language": "French",
+ "language_code": "fr",
+ "request_id": "7633e188-37d2-4533-9998-696ca36a0d9f",
+ "segments": [
+  {
+   "end": 0.72,
+   "start": 0.32,
+   "text": "Simple"
+  },
+  {
+   "end": 1.36,
+   "start": 0.72,
+   "text": "diffusion"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 1.36,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Simple diffusion."
+  }
+ ],
+ "text": "Simple diffusion."
+}

@@ -1,0 +1,62 @@
+<template>
+  <style>
+    
+      @font-face { font-family: "Fraunces"; src: url("assets/fonts/fraunces-latin-full-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "Fraunces"; src: url("assets/fonts/fraunces-latin-full-italic.woff2") format("woff2"); font-weight: 100 900; font-style: italic; }
+      @font-face { font-family: "InterVar"; src: url("assets/fonts/inter-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "JBMono"; src: url("assets/fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; }
+      #root { position: absolute; inset: 0; overflow: hidden; color: #F7EFE9; font-family: "InterVar", sans-serif; }
+      #root .disp { font-family: "Fraunces", serif; font-variation-settings: "opsz" 144, "SOFT" 30; letter-spacing: -0.02em; }
+      #root .mono { font-family: "JBMono", monospace; }
+      #root .kicker { font-size: 28px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #FF9A86; }
+      #root .muted { color: #CDBDB5; }
+      #root .w { display: inline-block; }
+    #c1-num { position: absolute; right: 150px; top: 170px; font-size: 520px; line-height: 1; font-style: italic; font-weight: 300; color: #FF7A63; opacity: 0.9; font-variation-settings: "opsz" 144, "SOFT" 100; }
+    #c1-col { position: absolute; left: 192px; top: 300px; width: 1100px; display: flex; flex-direction: column; gap: 26px; }
+    #c1-title { font-size: 168px; line-height: 0.95; font-weight: 520; color: #F7EFE9; }
+    #c1-rule { width: 520px; height: 4px; border-radius: 2px; background: #FF7A63; transform-origin: 0 50%; }
+    #c1-sub { font-size: 30px; line-height: 1.6; color: #CDBDB5; max-width: 1080px; }
+    #c1-sub .dot { color: #FF7A63; margin: 0 6px; }
+    #c1-track { position: absolute; left: 0; top: 930px; width: 1920px; height: 2px; background: linear-gradient(90deg, transparent, #FF7A63 20%, #FF7A63 80%, transparent); opacity: 0.35; transform-origin: 0 50%; }
+  </style>
+  <div id="root" data-composition-id="c1" data-width="1920" data-height="1080">
+    <div id="c1-num" class="disp" data-var-text="number">01</div>
+    <div id="c1-track"></div>
+    <div id="c1-col">
+      <div id="c1-kicker" class="kicker" style="color: #FF7A63" data-var-text="kicker">Part one</div>
+      <h1 id="c1-title" class="disp">Motility</h1>
+      <div id="c1-rule"></div>
+      <div id="c1-sub"><span class="w c1-subw">Segmentation</span><span class="w dot c1-subw">·</span> <span class="w c1-subw">Peristalsis</span><span class="w dot c1-subw">·</span> <span class="w c1-subw">Migrating motor complex</span><span class="w dot c1-subw">·</span> <span class="w c1-subw">Antiperistalsis</span><span class="w dot c1-subw">·</span> <span class="w c1-subw">Peristaltic rush</span><span class="w dot c1-subw">·</span> <span class="w c1-subw">Control</span></div>
+    </div>
+  </div>
+  <script>
+    
+      const __W = [{"t":"Part","s":0.74,"e":0.98},{"t":"one.","s":0.98,"e":1.46},{"t":"Motility.","s":1.7,"e":2.42}];
+      const __P = [{"key":"c1","start":0.5,"duration":1.985}];
+      const __norm = (x) => x.toLowerCase().replace(/[^a-z0-9]/g, "");
+      function cue(phrase, n = 1, fallback = 0) {
+        const p = phrase.split(/\s+/).map(__norm).filter(Boolean);
+        let c = 0;
+        for (let i = 0; i < __W.length; i++) {
+          let ok = true;
+          for (let j = 0; j < p.length; j++) {
+            const w = __W[i + j];
+            if (!w || !__norm(w.t).startsWith(p[j])) { ok = false; break; }
+          }
+          if (ok && ++c === n) return __W[i].s;
+        }
+        return fallback;
+      }
+      function part(key) { return __P.find((p) => p.key.endsWith(key)); }
+    const DUR = 4.6;
+    const tTitle = __W[2] ? __W[2].s : 1.0;
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#c1-track", { scaleX: 0 }, { scaleX: 1, duration: DUR - 0.2, ease: "power1.inOut" }, 0);
+    tl.fromTo("#c1-num", { opacity: 0, y: 60, filter: "blur(14px)" }, { opacity: 0.9, y: 0, filter: "blur(0px)", duration: 0.9, ease: "expo.out" }, 0.1);
+    tl.fromTo("#c1-kicker", { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out" }, Math.max(0.15, cue("part") - 0.05));
+    tl.fromTo("#c1-title", { opacity: 0, filter: "blur(12px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out" }, tTitle - 0.12);
+    tl.fromTo("#c1-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: "power2.inOut" }, tTitle);
+    tl.fromTo(".c1-subw", { opacity: 0, filter: "blur(6px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.16, ease: "power3.out", stagger: 0.03 }, tTitle + 0.15);
+    window.__timelines["c1"] = tl;
+  </script>
+</template>

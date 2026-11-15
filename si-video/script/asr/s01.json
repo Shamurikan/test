@@ -1,0 +1,192 @@
+{
+ "duration": 13.427,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "ae65cf05-f268-408a-9f1f-476d89703185",
+ "segments": [
+  {
+   "end": 0.56,
+   "start": 0.32,
+   "text": "Every"
+  },
+  {
+   "end": 0.88,
+   "start": 0.56,
+   "text": "meal"
+  },
+  {
+   "end": 1.04,
+   "start": 0.88,
+   "text": "you"
+  },
+  {
+   "end": 1.36,
+   "start": 1.12,
+   "text": "eat"
+  },
+  {
+   "end": 1.84,
+   "start": 1.6,
+   "text": "ends"
+  },
+  {
+   "end": 2,
+   "start": 1.84,
+   "text": "up"
+  },
+  {
+   "end": 2.32,
+   "start": 2,
+   "text": "here"
+  },
+  {
+   "end": 3.2,
+   "start": 2.8,
+   "text": "Five"
+  },
+  {
+   "end": 3.28,
+   "start": 3.28,
+   "text": "to"
+  },
+  {
+   "end": 3.68,
+   "start": 3.28,
+   "text": "seven"
+  },
+  {
+   "end": 4,
+   "start": 3.68,
+   "text": "meters"
+  },
+  {
+   "end": 4.08,
+   "start": 4,
+   "text": "of"
+  },
+  {
+   "end": 4.56,
+   "start": 4.08,
+   "text": "folded"
+  },
+  {
+   "end": 4.96,
+   "start": 4.56,
+   "text": "moving"
+  },
+  {
+   "end": 5.28,
+   "start": 4.96,
+   "text": "tube"
+  },
+  {
+   "end": 6,
+   "start": 5.76,
+   "text": "Let's"
+  },
+  {
+   "end": 6.32,
+   "start": 6,
+   "text": "follow"
+  },
+  {
+   "end": 6.64,
+   "start": 6.32,
+   "text": "one"
+  },
+  {
+   "end": 6.88,
+   "start": 6.64,
+   "text": "meal"
+  },
+  {
+   "end": 7.04,
+   "start": 6.88,
+   "text": "through"
+  },
+  {
+   "end": 7.12,
+   "start": 7.04,
+   "text": "the"
+  },
+  {
+   "end": 7.52,
+   "start": 7.12,
+   "text": "small"
+  },
+  {
+   "end": 8.08,
+   "start": 7.52,
+   "text": "intestine"
+  },
+  {
+   "end": 8.48,
+   "start": 8.24,
+   "text": "and"
+  },
+  {
+   "end": 8.72,
+   "start": 8.48,
+   "text": "watch"
+  },
+  {
+   "end": 8.8,
+   "start": 8.72,
+   "text": "it"
+  },
+  {
+   "end": 8.96,
+   "start": 8.8,
+   "text": "do"
+  },
+  {
+   "end": 9.28,
+   "start": 8.96,
+   "text": "three"
+  },
+  {
+   "end": 9.76,
+   "start": 9.28,
+   "text": "jobs"
+  },
+  {
+   "end": 10.4,
+   "start": 10.24,
+   "text": "It"
+  },
+  {
+   "end": 10.96,
+   "start": 10.4,
+   "text": "moves"
+  },
+  {
+   "end": 11.28,
+   "start": 11.2,
+   "text": "It"
+  },
+  {
+   "end": 12.08,
+   "start": 11.28,
+   "text": "digests"
+  },
+  {
+   "end": 12.56,
+   "start": 12.48,
+   "text": "It"
+  },
+  {
+   "end": 13.28,
+   "start": 12.56,
+   "text": "absorbs"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 13.28,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Every meal you eat ends up here. Five to seven meters of folded, moving tube. Let's follow one meal through the small intestine and watch it do three jobs. It moves. It digests. It absorbs."
+  }
+ ],
+ "text": "Every meal you eat ends up here. Five to seven meters of folded, moving tube. Let's follow one meal through the small intestine and watch it do three jobs. It moves. It digests. It absorbs."
+}

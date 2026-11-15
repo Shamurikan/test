@@ -1,0 +1,157 @@
+{
+ "duration": 11.52,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "10f2574b-3b1c-47e5-8f27-017d313225d6",
+ "segments": [
+  {
+   "end": 0.4,
+   "start": 0.24,
+   "text": "By"
+  },
+  {
+   "end": 0.72,
+   "start": 0.4,
+   "text": "now"
+  },
+  {
+   "end": 1.44,
+   "start": 0.72,
+   "text": "carbohydrates"
+  },
+  {
+   "end": 1.52,
+   "start": 1.44,
+   "text": "are"
+  },
+  {
+   "end": 2.56,
+   "start": 1.52,
+   "text": "monosaccharides"
+  },
+  {
+   "end": 3.36,
+   "start": 2.88,
+   "text": "proteins"
+  },
+  {
+   "end": 3.44,
+   "start": 3.36,
+   "text": "are"
+  },
+  {
+   "end": 3.76,
+   "start": 3.44,
+   "text": "amino"
+  },
+  {
+   "end": 4.16,
+   "start": 3.76,
+   "text": "acids"
+  },
+  {
+   "end": 4.32,
+   "start": 4.24,
+   "text": "and"
+  },
+  {
+   "end": 4.56,
+   "start": 4.32,
+   "text": "small"
+  },
+  {
+   "end": 5.28,
+   "start": 4.56,
+   "text": "peptides"
+  },
+  {
+   "end": 5.68,
+   "start": 5.52,
+   "text": "and"
+  },
+  {
+   "end": 6.08,
+   "start": 5.68,
+   "text": "fats"
+  },
+  {
+   "end": 6.16,
+   "start": 6.08,
+   "text": "are"
+  },
+  {
+   "end": 6.56,
+   "start": 6.16,
+   "text": "fatty"
+  },
+  {
+   "end": 6.96,
+   "start": 6.56,
+   "text": "acids"
+  },
+  {
+   "end": 7.04,
+   "start": 6.96,
+   "text": "and"
+  },
+  {
+   "end": 8,
+   "start": 7.04,
+   "text": "monoglycerides"
+  },
+  {
+   "end": 8.96,
+   "start": 8.32,
+   "text": "Vitamins"
+  },
+  {
+   "end": 9.6,
+   "start": 9.12,
+   "text": "minerals"
+  },
+  {
+   "end": 9.76,
+   "start": 9.6,
+   "text": "and"
+  },
+  {
+   "end": 10,
+   "start": 9.76,
+   "text": "water"
+  },
+  {
+   "end": 10.24,
+   "start": 10,
+   "text": "need"
+  },
+  {
+   "end": 10.4,
+   "start": 10.24,
+   "text": "no"
+  },
+  {
+   "end": 10.96,
+   "start": 10.4,
+   "text": "digestion"
+  },
+  {
+   "end": 11.04,
+   "start": 10.96,
+   "text": "at"
+  },
+  {
+   "end": 11.44,
+   "start": 11.04,
+   "text": "all"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 11.44,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "By now, carbohydrates are monosaccharides, proteins are amino acids and small peptides, and fats are fatty acids and monoglycerides. Vitamins, minerals, and water need no digestion at all."
+  }
+ ],
+ "text": "By now, carbohydrates are monosaccharides, proteins are amino acids and small peptides, and fats are fatty acids and monoglycerides. Vitamins, minerals, and water need no digestion at all."
+}

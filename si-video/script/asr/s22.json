@@ -1,0 +1,347 @@
+{
+ "duration": 30.1975625,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "92bf8caa-712a-4017-ab32-720e6c6bbe02",
+ "segments": [
+  {
+   "end": 1.12,
+   "start": 0.32,
+   "text": "Carbohydrates"
+  },
+  {
+   "end": 1.28,
+   "start": 1.12,
+   "text": "are"
+  },
+  {
+   "end": 1.68,
+   "start": 1.28,
+   "text": "absorbed"
+  },
+  {
+   "end": 1.84,
+   "start": 1.68,
+   "text": "as"
+  },
+  {
+   "end": 2.88,
+   "start": 1.84,
+   "text": "monosaccharides"
+  },
+  {
+   "end": 3.76,
+   "start": 3.2,
+   "text": "Glucose"
+  },
+  {
+   "end": 3.92,
+   "start": 3.76,
+   "text": "and"
+  },
+  {
+   "end": 4.48,
+   "start": 3.92,
+   "text": "galactose"
+  },
+  {
+   "end": 4.72,
+   "start": 4.48,
+   "text": "enter"
+  },
+  {
+   "end": 4.8,
+   "start": 4.72,
+   "text": "with"
+  },
+  {
+   "end": 5.36,
+   "start": 4.8,
+   "text": "sodium"
+  },
+  {
+   "end": 5.76,
+   "start": 5.6,
+   "text": "through"
+  },
+  {
+   "end": 6.64,
+   "start": 5.84,
+   "text": "SGLT1"
+  },
+  {
+   "end": 7.68,
+   "start": 7.52,
+   "text": "That's"
+  },
+  {
+   "end": 8.24,
+   "start": 7.68,
+   "text": "secondary"
+  },
+  {
+   "end": 8.48,
+   "start": 8.24,
+   "text": "active"
+  },
+  {
+   "end": 9.12,
+   "start": 8.48,
+   "text": "transport"
+  },
+  {
+   "end": 9.84,
+   "start": 9.52,
+   "text": "powered"
+  },
+  {
+   "end": 10,
+   "start": 9.84,
+   "text": "by"
+  },
+  {
+   "end": 10.08,
+   "start": 10,
+   "text": "the"
+  },
+  {
+   "end": 10.56,
+   "start": 10.08,
+   "text": "sodium"
+  },
+  {
+   "end": 11.04,
+   "start": 10.56,
+   "text": "gradient"
+  },
+  {
+   "end": 11.28,
+   "start": 11.2,
+   "text": "that"
+  },
+  {
+   "end": 11.36,
+   "start": 11.28,
+   "text": "the"
+  },
+  {
+   "end": 11.76,
+   "start": 11.36,
+   "text": "sodium"
+  },
+  {
+   "end": 12.4,
+   "start": 11.76,
+   "text": "potassium"
+  },
+  {
+   "end": 12.64,
+   "start": 12.4,
+   "text": "pump"
+  },
+  {
+   "end": 13.28,
+   "start": 12.64,
+   "text": "maintains"
+  },
+  {
+   "end": 14.24,
+   "start": 13.68,
+   "text": "Fructose"
+  },
+  {
+   "end": 14.48,
+   "start": 14.24,
+   "text": "doesn't"
+  },
+  {
+   "end": 14.72,
+   "start": 14.48,
+   "text": "need"
+  },
+  {
+   "end": 15.2,
+   "start": 14.72,
+   "text": "sodium"
+  },
+  {
+   "end": 15.6,
+   "start": 15.44,
+   "text": "It"
+  },
+  {
+   "end": 15.92,
+   "start": 15.6,
+   "text": "uses"
+  },
+  {
+   "end": 16.64,
+   "start": 15.92,
+   "text": "facilitated"
+  },
+  {
+   "end": 17.12,
+   "start": 16.64,
+   "text": "diffusion"
+  },
+  {
+   "end": 17.36,
+   "start": 17.12,
+   "text": "through"
+  },
+  {
+   "end": 18,
+   "start": 17.36,
+   "text": "GLUT5"
+  },
+  {
+   "end": 18.64,
+   "start": 18.48,
+   "text": "All"
+  },
+  {
+   "end": 18.96,
+   "start": 18.64,
+   "text": "three"
+  },
+  {
+   "end": 19.28,
+   "start": 18.96,
+   "text": "exit"
+  },
+  {
+   "end": 19.44,
+   "start": 19.28,
+   "text": "into"
+  },
+  {
+   "end": 19.52,
+   "start": 19.44,
+   "text": "the"
+  },
+  {
+   "end": 19.84,
+   "start": 19.52,
+   "text": "blood"
+  },
+  {
+   "end": 20,
+   "start": 19.84,
+   "text": "through"
+  },
+  {
+   "end": 20.64,
+   "start": 20,
+   "text": "GLUT2"
+  },
+  {
+   "end": 21.6,
+   "start": 21.04,
+   "text": "Pentoses"
+  },
+  {
+   "end": 21.92,
+   "start": 21.6,
+   "text": "simply"
+  },
+  {
+   "end": 22.48,
+   "start": 21.92,
+   "text": "diffuse"
+  },
+  {
+   "end": 23.04,
+   "start": 22.88,
+   "text": "If"
+  },
+  {
+   "end": 23.52,
+   "start": 23.04,
+   "text": "lactase"
+  },
+  {
+   "end": 23.68,
+   "start": 23.52,
+   "text": "is"
+  },
+  {
+   "end": 24.08,
+   "start": 23.68,
+   "text": "missing"
+  },
+  {
+   "end": 25.04,
+   "start": 24.4,
+   "text": "undigested"
+  },
+  {
+   "end": 25.6,
+   "start": 25.04,
+   "text": "lactose"
+  },
+  {
+   "end": 25.76,
+   "start": 25.6,
+   "text": "holds"
+  },
+  {
+   "end": 26.16,
+   "start": 25.76,
+   "text": "water"
+  },
+  {
+   "end": 26.24,
+   "start": 26.16,
+   "text": "in"
+  },
+  {
+   "end": 26.32,
+   "start": 26.24,
+   "text": "the"
+  },
+  {
+   "end": 26.72,
+   "start": 26.32,
+   "text": "lumen"
+  },
+  {
+   "end": 27.2,
+   "start": 26.88,
+   "text": "causing"
+  },
+  {
+   "end": 27.68,
+   "start": 27.2,
+   "text": "osmotic"
+  },
+  {
+   "end": 28.32,
+   "start": 27.68,
+   "text": "diarrhea"
+  },
+  {
+   "end": 28.8,
+   "start": 28.56,
+   "text": "That's"
+  },
+  {
+   "end": 29.36,
+   "start": 28.8,
+   "text": "lactose"
+  },
+  {
+   "end": 30,
+   "start": 29.36,
+   "text": "intolerance"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 30,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Carbohydrates are absorbed as monosaccharides. Glucose and galactose enter with sodium through SGLT1. That's secondary active transport, powered by the sodium gradient that the sodium-potassium pump maintains. Fructose doesn't need sodium. It uses facilitated diffusion through GLUT5. All three exit into the blood through GLUT2. Pentoses simply diffuse. If lactase is missing, undigested lactose holds water in the lumen, causing osmotic diarrhea. That's lactose intolerance."
+  }
+ ],
+ "text": "Carbohydrates are absorbed as monosaccharides. Glucose and galactose enter with sodium through SGLT1. That's secondary active transport, powered by the sodium gradient that the sodium-potassium pump maintains. Fructose doesn't need sodium. It uses facilitated diffusion through GLUT5. All three exit into the blood through GLUT2. Pentoses simply diffuse. If lactase is missing, undigested lactose holds water in the lumen, causing osmotic diarrhea. That's lactose intolerance."
+}

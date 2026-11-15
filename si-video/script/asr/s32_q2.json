@@ -1,0 +1,37 @@
+{
+ "duration": 1.9330625,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "7a8b7c2f-e6a9-410d-931d-5e67365fcc7e",
+ "segments": [
+  {
+   "end": 0.56,
+   "start": 0.32,
+   "text": "What"
+  },
+  {
+   "end": 0.64,
+   "start": 0.56,
+   "text": "does"
+  },
+  {
+   "end": 1.52,
+   "start": 0.64,
+   "text": "segmentation"
+  },
+  {
+   "end": 1.92,
+   "start": 1.52,
+   "text": "do"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 1.92,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "What does segmentation do?"
+  }
+ ],
+ "text": "What does segmentation do?"
+}

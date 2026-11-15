@@ -1,0 +1,397 @@
+{
+ "duration": 28.0555625,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "123cc0e7-9651-49d1-a502-6400463b6503",
+ "segments": [
+  {
+   "end": 1.28,
+   "start": 0.32,
+   "text": "Antiperistalsis"
+  },
+  {
+   "end": 1.6,
+   "start": 1.28,
+   "text": "runs"
+  },
+  {
+   "end": 1.68,
+   "start": 1.6,
+   "text": "the"
+  },
+  {
+   "end": 1.84,
+   "start": 1.68,
+   "text": "other"
+  },
+  {
+   "end": 2.24,
+   "start": 1.84,
+   "text": "way"
+  },
+  {
+   "end": 2.72,
+   "start": 2.48,
+   "text": "toward"
+  },
+  {
+   "end": 2.8,
+   "start": 2.72,
+   "text": "the"
+  },
+  {
+   "end": 3.2,
+   "start": 2.8,
+   "text": "mouth"
+  },
+  {
+   "end": 3.92,
+   "start": 3.6,
+   "text": "Between"
+  },
+  {
+   "end": 4.32,
+   "start": 3.92,
+   "text": "stomach"
+  },
+  {
+   "end": 4.48,
+   "start": 4.32,
+   "text": "and"
+  },
+  {
+   "end": 5.04,
+   "start": 4.48,
+   "text": "duodenum"
+  },
+  {
+   "end": 5.52,
+   "start": 5.36,
+   "text": "it"
+  },
+  {
+   "end": 5.76,
+   "start": 5.52,
+   "text": "buys"
+  },
+  {
+   "end": 6.16,
+   "start": 5.76,
+   "text": "time"
+  },
+  {
+   "end": 6.24,
+   "start": 6.24,
+   "text": "to"
+  },
+  {
+   "end": 6.88,
+   "start": 6.24,
+   "text": "neutralize"
+  },
+  {
+   "end": 7.2,
+   "start": 6.88,
+   "text": "acid"
+  },
+  {
+   "end": 7.6,
+   "start": 7.2,
+   "text": "chyme"
+  },
+  {
+   "end": 8.32,
+   "start": 8,
+   "text": "Between"
+  },
+  {
+   "end": 8.72,
+   "start": 8.4,
+   "text": "ilium"
+  },
+  {
+   "end": 8.8,
+   "start": 8.72,
+   "text": "and"
+  },
+  {
+   "end": 9.28,
+   "start": 8.8,
+   "text": "cecum"
+  },
+  {
+   "end": 9.68,
+   "start": 9.52,
+   "text": "it"
+  },
+  {
+   "end": 10,
+   "start": 9.68,
+   "text": "buys"
+  },
+  {
+   "end": 10.32,
+   "start": 10,
+   "text": "time"
+  },
+  {
+   "end": 10.48,
+   "start": 10.32,
+   "text": "for"
+  },
+  {
+   "end": 11.04,
+   "start": 10.48,
+   "text": "absorption"
+  },
+  {
+   "end": 12.16,
+   "start": 11.44,
+   "text": "Peristaltic"
+  },
+  {
+   "end": 12.4,
+   "start": 12.16,
+   "text": "rush"
+  },
+  {
+   "end": 12.56,
+   "start": 12.4,
+   "text": "is"
+  },
+  {
+   "end": 12.64,
+   "start": 12.56,
+   "text": "the"
+  },
+  {
+   "end": 13.12,
+   "start": 12.64,
+   "text": "emergency"
+  },
+  {
+   "end": 13.6,
+   "start": 13.12,
+   "text": "flush"
+  },
+  {
+   "end": 14,
+   "start": 13.92,
+   "text": "a"
+  },
+  {
+   "end": 14.56,
+   "start": 14,
+   "text": "powerful"
+  },
+  {
+   "end": 14.96,
+   "start": 14.56,
+   "text": "rapid"
+  },
+  {
+   "end": 15.28,
+   "start": 14.96,
+   "text": "wave"
+  },
+  {
+   "end": 15.52,
+   "start": 15.28,
+   "text": "set"
+  },
+  {
+   "end": 15.68,
+   "start": 15.52,
+   "text": "off"
+  },
+  {
+   "end": 15.92,
+   "start": 15.68,
+   "text": "by"
+  },
+  {
+   "end": 16.32,
+   "start": 15.92,
+   "text": "intense"
+  },
+  {
+   "end": 16.96,
+   "start": 16.32,
+   "text": "irritation"
+  },
+  {
+   "end": 17.36,
+   "start": 17.2,
+   "text": "as"
+  },
+  {
+   "end": 17.52,
+   "start": 17.36,
+   "text": "in"
+  },
+  {
+   "end": 18,
+   "start": 17.52,
+   "text": "infectious"
+  },
+  {
+   "end": 18.56,
+   "start": 18,
+   "text": "diarrhea"
+  },
+  {
+   "end": 19.36,
+   "start": 19.04,
+   "text": "Driven"
+  },
+  {
+   "end": 19.68,
+   "start": 19.36,
+   "text": "mainly"
+  },
+  {
+   "end": 19.84,
+   "start": 19.68,
+   "text": "by"
+  },
+  {
+   "end": 20.4,
+   "start": 19.84,
+   "text": "extrinsic"
+  },
+  {
+   "end": 21.04,
+   "start": 20.4,
+   "text": "reflexes"
+  },
+  {
+   "end": 21.2,
+   "start": 21.04,
+   "text": "through"
+  },
+  {
+   "end": 21.28,
+   "start": 21.2,
+   "text": "the"
+  },
+  {
+   "end": 21.52,
+   "start": 21.28,
+   "text": "brain"
+  },
+  {
+   "end": 21.92,
+   "start": 21.52,
+   "text": "stem"
+  },
+  {
+   "end": 22.24,
+   "start": 22.16,
+   "text": "it"
+  },
+  {
+   "end": 22.64,
+   "start": 22.32,
+   "text": "sweeps"
+  },
+  {
+   "end": 23.12,
+   "start": 22.72,
+   "text": "everything"
+  },
+  {
+   "end": 23.28,
+   "start": 23.12,
+   "text": "into"
+  },
+  {
+   "end": 23.36,
+   "start": 23.28,
+   "text": "the"
+  },
+  {
+   "end": 23.84,
+   "start": 23.36,
+   "text": "colon"
+  },
+  {
+   "end": 24.16,
+   "start": 23.84,
+   "text": "before"
+  },
+  {
+   "end": 24.24,
+   "start": 24.16,
+   "text": "it"
+  },
+  {
+   "end": 24.32,
+   "start": 24.24,
+   "text": "can"
+  },
+  {
+   "end": 24.48,
+   "start": 24.32,
+   "text": "be"
+  },
+  {
+   "end": 24.96,
+   "start": 24.48,
+   "text": "absorbed"
+  },
+  {
+   "end": 25.44,
+   "start": 25.36,
+   "text": "The"
+  },
+  {
+   "end": 25.84,
+   "start": 25.44,
+   "text": "result"
+  },
+  {
+   "end": 25.92,
+   "start": 25.84,
+   "text": "is"
+  },
+  {
+   "end": 26.56,
+   "start": 25.92,
+   "text": "diarrhea"
+  },
+  {
+   "end": 26.88,
+   "start": 26.8,
+   "text": "but"
+  },
+  {
+   "end": 27.04,
+   "start": 26.88,
+   "text": "the"
+  },
+  {
+   "end": 27.52,
+   "start": 27.04,
+   "text": "irritant"
+  },
+  {
+   "end": 27.6,
+   "start": 27.52,
+   "text": "is"
+  },
+  {
+   "end": 28,
+   "start": 27.6,
+   "text": "gone"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 28,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Antiperistalsis runs the other way, toward the mouth. Between stomach and duodenum, it buys time to neutralize acid chyme. Between ilium and cecum, it buys time for absorption. Peristaltic rush is the emergency flush, a powerful rapid wave set off by intense irritation, as in infectious diarrhea. Driven mainly by extrinsic reflexes through the brain stem, it sweeps everything into the colon before it can be absorbed. The result is diarrhea, but the irritant is gone."
+  }
+ ],
+ "text": "Antiperistalsis runs the other way, toward the mouth. Between stomach and duodenum, it buys time to neutralize acid chyme. Between ilium and cecum, it buys time for absorption. Peristaltic rush is the emergency flush, a powerful rapid wave set off by intense irritation, as in infectious diarrhea. Driven mainly by extrinsic reflexes through the brain stem, it sweeps everything into the colon before it can be absorbed. The result is diarrhea, but the irritant is gone."
+}

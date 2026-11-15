@@ -1,0 +1,267 @@
+{
+ "duration": 18.9388125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "9846f7c6-1ae4-4ef8-b7de-8b718dfc7cb8",
+ "segments": [
+  {
+   "end": 1.04,
+   "start": 0.32,
+   "text": "Carbohydrate"
+  },
+  {
+   "end": 1.6,
+   "start": 1.04,
+   "text": "digestion"
+  },
+  {
+   "end": 2,
+   "start": 1.6,
+   "text": "begins"
+  },
+  {
+   "end": 2.08,
+   "start": 2,
+   "text": "in"
+  },
+  {
+   "end": 2.16,
+   "start": 2.08,
+   "text": "the"
+  },
+  {
+   "end": 2.56,
+   "start": 2.16,
+   "text": "mouth"
+  },
+  {
+   "end": 3.44,
+   "start": 2.88,
+   "text": "Salivary"
+  },
+  {
+   "end": 4,
+   "start": 3.44,
+   "text": "amylase"
+  },
+  {
+   "end": 4.8,
+   "start": 4.32,
+   "text": "tylin"
+  },
+  {
+   "end": 5.68,
+   "start": 5.12,
+   "text": "digests"
+  },
+  {
+   "end": 6,
+   "start": 5.76,
+   "text": "20"
+  },
+  {
+   "end": 6.08,
+   "start": 6,
+   "text": "to"
+  },
+  {
+   "end": 6.4,
+   "start": 6.08,
+   "text": "40"
+  },
+  {
+   "end": 6.8,
+   "start": 6.72,
+   "text": "of"
+  },
+  {
+   "end": 7.28,
+   "start": 6.8,
+   "text": "starch"
+  },
+  {
+   "end": 7.84,
+   "start": 7.68,
+   "text": "and"
+  },
+  {
+   "end": 8.08,
+   "start": 7.84,
+   "text": "keeps"
+  },
+  {
+   "end": 8.4,
+   "start": 8.08,
+   "text": "working"
+  },
+  {
+   "end": 8.48,
+   "start": 8.4,
+   "text": "in"
+  },
+  {
+   "end": 8.56,
+   "start": 8.48,
+   "text": "the"
+  },
+  {
+   "end": 8.96,
+   "start": 8.56,
+   "text": "stomach"
+  },
+  {
+   "end": 9.12,
+   "start": 8.96,
+   "text": "for"
+  },
+  {
+   "end": 9.2,
+   "start": 9.12,
+   "text": "up"
+  },
+  {
+   "end": 9.36,
+   "start": 9.2,
+   "text": "to"
+  },
+  {
+   "end": 9.44,
+   "start": 9.36,
+   "text": "an"
+  },
+  {
+   "end": 9.76,
+   "start": 9.44,
+   "text": "hour"
+  },
+  {
+   "end": 10.72,
+   "start": 10.16,
+   "text": "Pancreatic"
+  },
+  {
+   "end": 11.2,
+   "start": 10.72,
+   "text": "amylase"
+  },
+  {
+   "end": 11.36,
+   "start": 11.2,
+   "text": "is"
+  },
+  {
+   "end": 11.68,
+   "start": 11.36,
+   "text": "several"
+  },
+  {
+   "end": 12,
+   "start": 11.68,
+   "text": "times"
+  },
+  {
+   "end": 12.16,
+   "start": 12,
+   "text": "more"
+  },
+  {
+   "end": 12.72,
+   "start": 12.16,
+   "text": "powerful"
+  },
+  {
+   "end": 13.36,
+   "start": 13.12,
+   "text": "Within"
+  },
+  {
+   "end": 13.84,
+   "start": 13.36,
+   "text": "15"
+  },
+  {
+   "end": 13.84,
+   "start": 13.84,
+   "text": "to"
+  },
+  {
+   "end": 14.16,
+   "start": 13.84,
+   "text": "30"
+  },
+  {
+   "end": 14.56,
+   "start": 14.16,
+   "text": "minutes"
+  },
+  {
+   "end": 15.04,
+   "start": 14.88,
+   "text": "it"
+  },
+  {
+   "end": 15.28,
+   "start": 15.04,
+   "text": "turns"
+  },
+  {
+   "end": 15.6,
+   "start": 15.28,
+   "text": "almost"
+  },
+  {
+   "end": 15.84,
+   "start": 15.6,
+   "text": "all"
+  },
+  {
+   "end": 16.16,
+   "start": 15.84,
+   "text": "remaining"
+  },
+  {
+   "end": 16.56,
+   "start": 16.16,
+   "text": "starch"
+  },
+  {
+   "end": 16.8,
+   "start": 16.56,
+   "text": "into"
+  },
+  {
+   "end": 17.36,
+   "start": 16.8,
+   "text": "maltose"
+  },
+  {
+   "end": 17.44,
+   "start": 17.36,
+   "text": "and"
+  },
+  {
+   "end": 17.76,
+   "start": 17.44,
+   "text": "small"
+  },
+  {
+   "end": 18.16,
+   "start": 17.76,
+   "text": "glucose"
+  },
+  {
+   "end": 18.72,
+   "start": 18.16,
+   "text": "polymers"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 18.72,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Carbohydrate digestion begins in the mouth. Salivary amylase, tylin, digests 20 to 40% of starch, and keeps working in the stomach for up to an hour. Pancreatic amylase is several times more powerful. Within 15 to 30 minutes, it turns almost all remaining starch into maltose and small glucose polymers."
+  }
+ ],
+ "text": "Carbohydrate digestion begins in the mouth. Salivary amylase, tylin, digests 20 to 40% of starch, and keeps working in the stomach for up to an hour. Pancreatic amylase is several times more powerful. Within 15 to 30 minutes, it turns almost all remaining starch into maltose and small glucose polymers."
+}

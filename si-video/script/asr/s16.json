@@ -1,0 +1,367 @@
+{
+ "duration": 28.6825,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "68576118-f62e-4e3f-be75-dd79ef9f322c",
+ "segments": [
+  {
+   "end": 0.72,
+   "start": 0.32,
+   "text": "Protein"
+  },
+  {
+   "end": 1.36,
+   "start": 0.72,
+   "text": "digestion"
+  },
+  {
+   "end": 1.76,
+   "start": 1.36,
+   "text": "starts"
+  },
+  {
+   "end": 1.84,
+   "start": 1.76,
+   "text": "in"
+  },
+  {
+   "end": 1.84,
+   "start": 1.84,
+   "text": "the"
+  },
+  {
+   "end": 2.32,
+   "start": 1.84,
+   "text": "stomach"
+  },
+  {
+   "end": 2.48,
+   "start": 2.32,
+   "text": "with"
+  },
+  {
+   "end": 2.96,
+   "start": 2.48,
+   "text": "pepsin"
+  },
+  {
+   "end": 3.84,
+   "start": 3.44,
+   "text": "active"
+  },
+  {
+   "end": 4.16,
+   "start": 3.84,
+   "text": "only"
+  },
+  {
+   "end": 4.24,
+   "start": 4.16,
+   "text": "at"
+  },
+  {
+   "end": 4.24,
+   "start": 4.24,
+   "text": "a"
+  },
+  {
+   "end": 4.72,
+   "start": 4.24,
+   "text": "pH"
+  },
+  {
+   "end": 4.88,
+   "start": 4.72,
+   "text": "of"
+  },
+  {
+   "end": 5.04,
+   "start": 4.88,
+   "text": "two"
+  },
+  {
+   "end": 5.12,
+   "start": 5.04,
+   "text": "to"
+  },
+  {
+   "end": 5.6,
+   "start": 5.12,
+   "text": "three"
+  },
+  {
+   "end": 6.08,
+   "start": 6,
+   "text": "Its"
+  },
+  {
+   "end": 6.48,
+   "start": 6.08,
+   "text": "special"
+  },
+  {
+   "end": 6.88,
+   "start": 6.48,
+   "text": "skill"
+  },
+  {
+   "end": 7.04,
+   "start": 6.88,
+   "text": "is"
+  },
+  {
+   "end": 7.6,
+   "start": 7.04,
+   "text": "digesting"
+  },
+  {
+   "end": 8.24,
+   "start": 7.6,
+   "text": "collagen"
+  },
+  {
+   "end": 8.72,
+   "start": 8.56,
+   "text": "which"
+  },
+  {
+   "end": 9.12,
+   "start": 8.8,
+   "text": "opens"
+  },
+  {
+   "end": 9.36,
+   "start": 9.12,
+   "text": "meat"
+  },
+  {
+   "end": 9.52,
+   "start": 9.36,
+   "text": "up"
+  },
+  {
+   "end": 9.6,
+   "start": 9.6,
+   "text": "to"
+  },
+  {
+   "end": 9.76,
+   "start": 9.6,
+   "text": "the"
+  },
+  {
+   "end": 10,
+   "start": 9.76,
+   "text": "other"
+  },
+  {
+   "end": 10.56,
+   "start": 10,
+   "text": "enzymes"
+  },
+  {
+   "end": 11.28,
+   "start": 10.88,
+   "text": "Still"
+  },
+  {
+   "end": 11.44,
+   "start": 11.28,
+   "text": "it"
+  },
+  {
+   "end": 11.76,
+   "start": 11.44,
+   "text": "handles"
+  },
+  {
+   "end": 12,
+   "start": 11.76,
+   "text": "only"
+  },
+  {
+   "end": 12.32,
+   "start": 12,
+   "text": "10"
+  },
+  {
+   "end": 12.4,
+   "start": 12.32,
+   "text": "to"
+  },
+  {
+   "end": 13.12,
+   "start": 12.4,
+   "text": "20"
+  },
+  {
+   "end": 13.2,
+   "start": 13.12,
+   "text": "of"
+  },
+  {
+   "end": 13.6,
+   "start": 13.2,
+   "text": "protein"
+  },
+  {
+   "end": 14.24,
+   "start": 13.6,
+   "text": "digestion"
+  },
+  {
+   "end": 14.8,
+   "start": 14.72,
+   "text": "The"
+  },
+  {
+   "end": 15.12,
+   "start": 14.8,
+   "text": "rest"
+  },
+  {
+   "end": 15.44,
+   "start": 15.12,
+   "text": "happens"
+  },
+  {
+   "end": 15.84,
+   "start": 15.44,
+   "text": "mainly"
+  },
+  {
+   "end": 15.92,
+   "start": 15.84,
+   "text": "in"
+  },
+  {
+   "end": 16,
+   "start": 15.92,
+   "text": "the"
+  },
+  {
+   "end": 16.72,
+   "start": 16,
+   "text": "duodenum"
+  },
+  {
+   "end": 16.88,
+   "start": 16.8,
+   "text": "and"
+  },
+  {
+   "end": 17.44,
+   "start": 16.88,
+   "text": "jejunum"
+  },
+  {
+   "end": 18.8,
+   "start": 17.92,
+   "text": "Enterokinase"
+  },
+  {
+   "end": 18.96,
+   "start": 18.8,
+   "text": "on"
+  },
+  {
+   "end": 19.04,
+   "start": 18.96,
+   "text": "the"
+  },
+  {
+   "end": 19.36,
+   "start": 19.04,
+   "text": "brush"
+  },
+  {
+   "end": 19.76,
+   "start": 19.36,
+   "text": "border"
+  },
+  {
+   "end": 20.56,
+   "start": 20.08,
+   "text": "activates"
+  },
+  {
+   "end": 21.28,
+   "start": 20.56,
+   "text": "trypsinogen"
+  },
+  {
+   "end": 21.52,
+   "start": 21.36,
+   "text": "into"
+  },
+  {
+   "end": 22.08,
+   "start": 21.52,
+   "text": "trypsin"
+  },
+  {
+   "end": 22.88,
+   "start": 22.4,
+   "text": "Trypsin"
+  },
+  {
+   "end": 23.04,
+   "start": 22.88,
+   "text": "then"
+  },
+  {
+   "end": 23.52,
+   "start": 23.04,
+   "text": "activates"
+  },
+  {
+   "end": 23.76,
+   "start": 23.52,
+   "text": "more"
+  },
+  {
+   "end": 24.32,
+   "start": 23.76,
+   "text": "trypsin"
+  },
+  {
+   "end": 24.8,
+   "start": 24.56,
+   "text": "plus"
+  },
+  {
+   "end": 25.76,
+   "start": 24.8,
+   "text": "chymotrypsin"
+  },
+  {
+   "end": 26.88,
+   "start": 26.08,
+   "text": "elastase"
+  },
+  {
+   "end": 27.12,
+   "start": 26.96,
+   "text": "and"
+  },
+  {
+   "end": 27.2,
+   "start": 27.12,
+   "text": "the"
+  },
+  {
+   "end": 28.56,
+   "start": 27.2,
+   "text": "carboxypeptidases"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 28.56,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Protein digestion starts in the stomach with pepsin, active only at a pH of two to three. Its special skill is digesting collagen, which opens meat up to the other enzymes. Still, it handles only 10 to 20% of protein digestion. The rest happens mainly in the duodenum and jejunum. Enterokinase on the brush border activates trypsinogen into trypsin. Trypsin then activates more trypsin, plus chymotrypsin, elastase, and the carboxypeptidases."
+  }
+ ],
+ "text": "Protein digestion starts in the stomach with pepsin, active only at a pH of two to three. Its special skill is digesting collagen, which opens meat up to the other enzymes. Still, it handles only 10 to 20% of protein digestion. The rest happens mainly in the duodenum and jejunum. Enterokinase on the brush border activates trypsinogen into trypsin. Trypsin then activates more trypsin, plus chymotrypsin, elastase, and the carboxypeptidases."
+}

@@ -1,0 +1,26 @@
+{
+ "duration": 1.1494375,
+ "language_code": "en",
+ "request_id": "35b5c6b9-5ce4-41cd-93a9-0aca93144e8f",
+ "segments": [
+  {
+   "end": 0.72,
+   "start": 0.24,
+   "text": "Secret"
+  },
+  {
+   "end": 0.96,
+   "start": 0.72,
+   "text": "in"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 0.96,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Secret in."
+  }
+ ],
+ "text": "Secret in."
+}

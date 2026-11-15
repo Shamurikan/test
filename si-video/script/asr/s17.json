@@ -1,0 +1,252 @@
+{
+ "duration": 21.6816875,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "5f119456-f61c-4e40-92ba-862a5ac987d2",
+ "segments": [
+  {
+   "end": 0.96,
+   "start": 0.32,
+   "text": "Trypsin"
+  },
+  {
+   "end": 1.28,
+   "start": 1.12,
+   "text": "and"
+  },
+  {
+   "end": 2.24,
+   "start": 1.28,
+   "text": "chymotrypsin"
+  },
+  {
+   "end": 2.72,
+   "start": 2.48,
+   "text": "cut"
+  },
+  {
+   "end": 3.36,
+   "start": 2.72,
+   "text": "proteins"
+  },
+  {
+   "end": 3.52,
+   "start": 3.36,
+   "text": "into"
+  },
+  {
+   "end": 4.56,
+   "start": 3.52,
+   "text": "polypeptides"
+  },
+  {
+   "end": 6.08,
+   "start": 4.96,
+   "text": "Carboxypeptidase"
+  },
+  {
+   "end": 6.4,
+   "start": 6.08,
+   "text": "clips"
+  },
+  {
+   "end": 6.8,
+   "start": 6.4,
+   "text": "amino"
+  },
+  {
+   "end": 7.2,
+   "start": 6.8,
+   "text": "acids"
+  },
+  {
+   "end": 7.52,
+   "start": 7.28,
+   "text": "off"
+  },
+  {
+   "end": 7.6,
+   "start": 7.52,
+   "text": "the"
+  },
+  {
+   "end": 8.16,
+   "start": 7.6,
+   "text": "carboxyl"
+  },
+  {
+   "end": 8.48,
+   "start": 8.16,
+   "text": "end"
+  },
+  {
+   "end": 9.28,
+   "start": 9.12,
+   "text": "and"
+  },
+  {
+   "end": 9.92,
+   "start": 9.28,
+   "text": "elastase"
+  },
+  {
+   "end": 10.4,
+   "start": 9.92,
+   "text": "digests"
+  },
+  {
+   "end": 11.04,
+   "start": 10.48,
+   "text": "elastin"
+  },
+  {
+   "end": 11.6,
+   "start": 11.04,
+   "text": "fibers"
+  },
+  {
+   "end": 12.24,
+   "start": 12,
+   "text": "Only"
+  },
+  {
+   "end": 12.32,
+   "start": 12.24,
+   "text": "a"
+  },
+  {
+   "end": 12.64,
+   "start": 12.32,
+   "text": "small"
+  },
+  {
+   "end": 13.12,
+   "start": 12.64,
+   "text": "fraction"
+  },
+  {
+   "end": 13.44,
+   "start": 13.12,
+   "text": "becomes"
+  },
+  {
+   "end": 13.68,
+   "start": 13.44,
+   "text": "free"
+  },
+  {
+   "end": 14.08,
+   "start": 13.68,
+   "text": "amino"
+  },
+  {
+   "end": 14.48,
+   "start": 14.08,
+   "text": "acids"
+  },
+  {
+   "end": 14.56,
+   "start": 14.48,
+   "text": "in"
+  },
+  {
+   "end": 14.64,
+   "start": 14.56,
+   "text": "the"
+  },
+  {
+   "end": 15.04,
+   "start": 14.64,
+   "text": "lumen"
+  },
+  {
+   "end": 15.76,
+   "start": 15.44,
+   "text": "Most"
+  },
+  {
+   "end": 16,
+   "start": 15.76,
+   "text": "ends"
+  },
+  {
+   "end": 16.16,
+   "start": 16,
+   "text": "up"
+  },
+  {
+   "end": 16.24,
+   "start": 16.16,
+   "text": "as"
+  },
+  {
+   "end": 17.04,
+   "start": 16.24,
+   "text": "dipeptides"
+  },
+  {
+   "end": 17.12,
+   "start": 17.04,
+   "text": "and"
+  },
+  {
+   "end": 18,
+   "start": 17.12,
+   "text": "tripeptides"
+  },
+  {
+   "end": 18.72,
+   "start": 18.56,
+   "text": "which"
+  },
+  {
+   "end": 19.36,
+   "start": 18.72,
+   "text": "peptidases"
+  },
+  {
+   "end": 19.68,
+   "start": 19.44,
+   "text": "on"
+  },
+  {
+   "end": 19.76,
+   "start": 19.68,
+   "text": "and"
+  },
+  {
+   "end": 20.16,
+   "start": 19.76,
+   "text": "inside"
+  },
+  {
+   "end": 20.32,
+   "start": 20.16,
+   "text": "the"
+  },
+  {
+   "end": 20.96,
+   "start": 20.32,
+   "text": "enterocytes"
+  },
+  {
+   "end": 21.28,
+   "start": 20.96,
+   "text": "finish"
+  },
+  {
+   "end": 21.6,
+   "start": 21.28,
+   "text": "off"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 21.6,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Trypsin and chymotrypsin cut proteins into polypeptides. Carboxypeptidase clips amino acids off the carboxyl end, and elastase digests elastin fibers. Only a small fraction becomes free amino acids in the lumen. Most ends up as dipeptides and tripeptides, which peptidases on and inside the enterocytes finish off."
+  }
+ ],
+ "text": "Trypsin and chymotrypsin cut proteins into polypeptides. Carboxypeptidase clips amino acids off the carboxyl end, and elastase digests elastin fibers. Only a small fraction becomes free amino acids in the lumen. Most ends up as dipeptides and tripeptides, which peptidases on and inside the enterocytes finish off."
+}

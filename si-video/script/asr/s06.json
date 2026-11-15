@@ -1,0 +1,387 @@
+{
+ "duration": 24.9730625,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "2f74dc38-da54-4c60-86fc-a70bc2ad045d",
+ "segments": [
+  {
+   "end": 0.64,
+   "start": 0.32,
+   "text": "These"
+  },
+  {
+   "end": 1.04,
+   "start": 0.64,
+   "text": "waves"
+  },
+  {
+   "end": 1.44,
+   "start": 1.04,
+   "text": "travel"
+  },
+  {
+   "end": 1.6,
+   "start": 1.44,
+   "text": "at"
+  },
+  {
+   "end": 1.76,
+   "start": 1.6,
+   "text": "half"
+  },
+  {
+   "end": 1.76,
+   "start": 1.76,
+   "text": "a"
+  },
+  {
+   "end": 2.4,
+   "start": 1.76,
+   "text": "centimeter"
+  },
+  {
+   "end": 2.8,
+   "start": 2.72,
+   "text": "to"
+  },
+  {
+   "end": 3.04,
+   "start": 2.8,
+   "text": "two"
+  },
+  {
+   "end": 3.6,
+   "start": 3.04,
+   "text": "centimeters"
+  },
+  {
+   "end": 3.76,
+   "start": 3.6,
+   "text": "per"
+  },
+  {
+   "end": 4.24,
+   "start": 3.76,
+   "text": "second"
+  },
+  {
+   "end": 5.12,
+   "start": 4.64,
+   "text": "faster"
+  },
+  {
+   "end": 5.2,
+   "start": 5.12,
+   "text": "in"
+  },
+  {
+   "end": 5.28,
+   "start": 5.2,
+   "text": "the"
+  },
+  {
+   "end": 5.52,
+   "start": 5.28,
+   "text": "upper"
+  },
+  {
+   "end": 6.16,
+   "start": 5.52,
+   "text": "intestine"
+  },
+  {
+   "end": 6.56,
+   "start": 6.4,
+   "text": "and"
+  },
+  {
+   "end": 6.96,
+   "start": 6.56,
+   "text": "slower"
+  },
+  {
+   "end": 7.12,
+   "start": 6.96,
+   "text": "near"
+  },
+  {
+   "end": 7.28,
+   "start": 7.12,
+   "text": "the"
+  },
+  {
+   "end": 7.6,
+   "start": 7.28,
+   "text": "end"
+  },
+  {
+   "end": 8.16,
+   "start": 8,
+   "text": "But"
+  },
+  {
+   "end": 8.48,
+   "start": 8.16,
+   "text": "most"
+  },
+  {
+   "end": 8.8,
+   "start": 8.48,
+   "text": "fade"
+  },
+  {
+   "end": 9.04,
+   "start": 8.8,
+   "text": "after"
+  },
+  {
+   "end": 9.28,
+   "start": 9.04,
+   "text": "three"
+  },
+  {
+   "end": 9.36,
+   "start": 9.28,
+   "text": "to"
+  },
+  {
+   "end": 9.68,
+   "start": 9.36,
+   "text": "five"
+  },
+  {
+   "end": 10.32,
+   "start": 9.68,
+   "text": "centimeters"
+  },
+  {
+   "end": 10.88,
+   "start": 10.72,
+   "text": "so"
+  },
+  {
+   "end": 10.96,
+   "start": 10.88,
+   "text": "the"
+  },
+  {
+   "end": 11.2,
+   "start": 10.96,
+   "text": "net"
+  },
+  {
+   "end": 11.6,
+   "start": 11.2,
+   "text": "advance"
+  },
+  {
+   "end": 11.68,
+   "start": 11.6,
+   "text": "is"
+  },
+  {
+   "end": 11.92,
+   "start": 11.68,
+   "text": "only"
+  },
+  {
+   "end": 12.16,
+   "start": 11.92,
+   "text": "about"
+  },
+  {
+   "end": 12.48,
+   "start": 12.16,
+   "text": "one"
+  },
+  {
+   "end": 12.96,
+   "start": 12.48,
+   "text": "centimeter"
+  },
+  {
+   "end": 13.12,
+   "start": 12.96,
+   "text": "per"
+  },
+  {
+   "end": 13.44,
+   "start": 13.12,
+   "text": "minute"
+  },
+  {
+   "end": 14.08,
+   "start": 13.84,
+   "text": "That's"
+  },
+  {
+   "end": 14.24,
+   "start": 14.08,
+   "text": "why"
+  },
+  {
+   "end": 14.64,
+   "start": 14.24,
+   "text": "chyme"
+  },
+  {
+   "end": 14.88,
+   "start": 14.64,
+   "text": "needs"
+  },
+  {
+   "end": 15.12,
+   "start": 14.88,
+   "text": "three"
+  },
+  {
+   "end": 15.2,
+   "start": 15.12,
+   "text": "to"
+  },
+  {
+   "end": 15.44,
+   "start": 15.2,
+   "text": "five"
+  },
+  {
+   "end": 15.76,
+   "start": 15.44,
+   "text": "hours"
+  },
+  {
+   "end": 15.84,
+   "start": 15.76,
+   "text": "to"
+  },
+  {
+   "end": 16,
+   "start": 15.84,
+   "text": "get"
+  },
+  {
+   "end": 16.16,
+   "start": 16,
+   "text": "from"
+  },
+  {
+   "end": 16.24,
+   "start": 16.16,
+   "text": "the"
+  },
+  {
+   "end": 16.88,
+   "start": 16.24,
+   "text": "pylorus"
+  },
+  {
+   "end": 17.04,
+   "start": 16.96,
+   "text": "to"
+  },
+  {
+   "end": 17.12,
+   "start": 17.04,
+   "text": "the"
+  },
+  {
+   "end": 17.92,
+   "start": 17.2,
+   "text": "ileocecal"
+  },
+  {
+   "end": 18.24,
+   "start": 17.92,
+   "text": "valve"
+  },
+  {
+   "end": 18.88,
+   "start": 18.64,
+   "text": "Both"
+  },
+  {
+   "end": 19.68,
+   "start": 18.88,
+   "text": "peristalsis"
+  },
+  {
+   "end": 19.84,
+   "start": 19.68,
+   "text": "and"
+  },
+  {
+   "end": 20.64,
+   "start": 19.84,
+   "text": "segmentation"
+  },
+  {
+   "end": 20.96,
+   "start": 20.64,
+   "text": "depend"
+  },
+  {
+   "end": 21.12,
+   "start": 20.96,
+   "text": "on"
+  },
+  {
+   "end": 21.12,
+   "start": 21.12,
+   "text": "the"
+  },
+  {
+   "end": 21.76,
+   "start": 21.12,
+   "text": "myenteric"
+  },
+  {
+   "end": 22.4,
+   "start": 21.76,
+   "text": "plexus"
+  },
+  {
+   "end": 23.04,
+   "start": 22.72,
+   "text": "Block"
+  },
+  {
+   "end": 23.2,
+   "start": 23.04,
+   "text": "it"
+  },
+  {
+   "end": 23.28,
+   "start": 23.2,
+   "text": "with"
+  },
+  {
+   "end": 23.92,
+   "start": 23.28,
+   "text": "atropine"
+  },
+  {
+   "end": 24.24,
+   "start": 24.16,
+   "text": "and"
+  },
+  {
+   "end": 24.32,
+   "start": 24.24,
+   "text": "they"
+  },
+  {
+   "end": 24.8,
+   "start": 24.32,
+   "text": "weaken"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 24.8,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "These waves travel at half a centimeter to two centimeters per second, faster in the upper intestine and slower near the end. But most fade after three to five centimeters, so the net advance is only about one centimeter per minute. That's why chyme needs three to five hours to get from the pylorus to the ileocecal valve. Both peristalsis and segmentation depend on the myenteric plexus. Block it with atropine, and they weaken."
+  }
+ ],
+ "text": "These waves travel at half a centimeter to two centimeters per second, faster in the upper intestine and slower near the end. But most fade after three to five centimeters, so the net advance is only about one centimeter per minute. That's why chyme needs three to five hours to get from the pylorus to the ileocecal valve. Both peristalsis and segmentation depend on the myenteric plexus. Block it with atropine, and they weaken."
+}

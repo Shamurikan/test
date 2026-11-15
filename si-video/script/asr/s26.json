@@ -1,0 +1,342 @@
+{
+ "duration": 23.3535,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "45250fb0-7f91-48d9-95b5-7d47630c88fb",
+ "segments": [
+  {
+   "end": 0.48,
+   "start": 0.24,
+   "text": "Every"
+  },
+  {
+   "end": 0.88,
+   "start": 0.48,
+   "text": "day"
+  },
+  {
+   "end": 1.28,
+   "start": 1.04,
+   "text": "about"
+  },
+  {
+   "end": 1.68,
+   "start": 1.28,
+   "text": "nine"
+  },
+  {
+   "end": 2,
+   "start": 1.68,
+   "text": "liters"
+  },
+  {
+   "end": 2.08,
+   "start": 2,
+   "text": "of"
+  },
+  {
+   "end": 2.56,
+   "start": 2.08,
+   "text": "fluid"
+  },
+  {
+   "end": 2.96,
+   "start": 2.72,
+   "text": "enter"
+  },
+  {
+   "end": 3.04,
+   "start": 2.96,
+   "text": "the"
+  },
+  {
+   "end": 3.36,
+   "start": 3.04,
+   "text": "gut"
+  },
+  {
+   "end": 4,
+   "start": 3.84,
+   "text": "Two"
+  },
+  {
+   "end": 4.4,
+   "start": 4,
+   "text": "liters"
+  },
+  {
+   "end": 4.48,
+   "start": 4.4,
+   "text": "we"
+  },
+  {
+   "end": 4.88,
+   "start": 4.48,
+   "text": "drink"
+  },
+  {
+   "end": 5.28,
+   "start": 5.12,
+   "text": "and"
+  },
+  {
+   "end": 5.6,
+   "start": 5.28,
+   "text": "seven"
+  },
+  {
+   "end": 5.92,
+   "start": 5.6,
+   "text": "liters"
+  },
+  {
+   "end": 6,
+   "start": 5.92,
+   "text": "of"
+  },
+  {
+   "end": 6.72,
+   "start": 6,
+   "text": "secretions"
+  },
+  {
+   "end": 7.2,
+   "start": 7.2,
+   "text": "The"
+  },
+  {
+   "end": 7.6,
+   "start": 7.2,
+   "text": "small"
+  },
+  {
+   "end": 8,
+   "start": 7.6,
+   "text": "intestine"
+  },
+  {
+   "end": 8.48,
+   "start": 8,
+   "text": "absorbs"
+  },
+  {
+   "end": 8.72,
+   "start": 8.48,
+   "text": "about"
+  },
+  {
+   "end": 8.88,
+   "start": 8.72,
+   "text": "eight"
+  },
+  {
+   "end": 8.96,
+   "start": 8.88,
+   "text": "and"
+  },
+  {
+   "end": 9.04,
+   "start": 8.96,
+   "text": "a"
+  },
+  {
+   "end": 9.36,
+   "start": 9.04,
+   "text": "half"
+  },
+  {
+   "end": 9.76,
+   "start": 9.36,
+   "text": "liters"
+  },
+  {
+   "end": 10.16,
+   "start": 10,
+   "text": "and"
+  },
+  {
+   "end": 10.24,
+   "start": 10.16,
+   "text": "the"
+  },
+  {
+   "end": 10.64,
+   "start": 10.24,
+   "text": "colon"
+  },
+  {
+   "end": 10.88,
+   "start": 10.64,
+   "text": "about"
+  },
+  {
+   "end": 11.44,
+   "start": 10.88,
+   "text": "400"
+  },
+  {
+   "end": 12.08,
+   "start": 11.44,
+   "text": "milliliters"
+  },
+  {
+   "end": 12.88,
+   "start": 12.48,
+   "text": "Water"
+  },
+  {
+   "end": 12.96,
+   "start": 12.88,
+   "text": "and"
+  },
+  {
+   "end": 13.6,
+   "start": 12.96,
+   "text": "electrolytes"
+  },
+  {
+   "end": 14.08,
+   "start": 13.6,
+   "text": "cross"
+  },
+  {
+   "end": 14.32,
+   "start": 14.08,
+   "text": "either"
+  },
+  {
+   "end": 14.56,
+   "start": 14.32,
+   "text": "through"
+  },
+  {
+   "end": 14.56,
+   "start": 14.56,
+   "text": "the"
+  },
+  {
+   "end": 15.12,
+   "start": 14.56,
+   "text": "cells"
+  },
+  {
+   "end": 15.36,
+   "start": 15.28,
+   "text": "the"
+  },
+  {
+   "end": 16.08,
+   "start": 15.36,
+   "text": "transcellular"
+  },
+  {
+   "end": 16.4,
+   "start": 16.08,
+   "text": "route"
+  },
+  {
+   "end": 16.8,
+   "start": 16.72,
+   "text": "or"
+  },
+  {
+   "end": 17.28,
+   "start": 16.8,
+   "text": "between"
+  },
+  {
+   "end": 17.52,
+   "start": 17.28,
+   "text": "them"
+  },
+  {
+   "end": 17.68,
+   "start": 17.6,
+   "text": "the"
+  },
+  {
+   "end": 18.4,
+   "start": 17.68,
+   "text": "paracellular"
+  },
+  {
+   "end": 18.72,
+   "start": 18.4,
+   "text": "route"
+  },
+  {
+   "end": 19.28,
+   "start": 19.04,
+   "text": "Tight"
+  },
+  {
+   "end": 19.84,
+   "start": 19.28,
+   "text": "junctions"
+  },
+  {
+   "end": 19.92,
+   "start": 19.84,
+   "text": "in"
+  },
+  {
+   "end": 19.92,
+   "start": 19.92,
+   "text": "the"
+  },
+  {
+   "end": 20.32,
+   "start": 19.92,
+   "text": "small"
+  },
+  {
+   "end": 20.8,
+   "start": 20.32,
+   "text": "intestine"
+  },
+  {
+   "end": 20.96,
+   "start": 20.8,
+   "text": "are"
+  },
+  {
+   "end": 21.44,
+   "start": 20.96,
+   "text": "leaky"
+  },
+  {
+   "end": 21.92,
+   "start": 21.76,
+   "text": "In"
+  },
+  {
+   "end": 21.92,
+   "start": 21.92,
+   "text": "the"
+  },
+  {
+   "end": 22.48,
+   "start": 21.92,
+   "text": "colon"
+  },
+  {
+   "end": 22.72,
+   "start": 22.56,
+   "text": "they're"
+  },
+  {
+   "end": 23.12,
+   "start": 22.72,
+   "text": "tight"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 23.12,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Every day, about nine liters of fluid enter the gut. Two liters we drink, and seven liters of secretions. The small intestine absorbs about eight and a half liters, and the colon about 400 milliliters. Water and electrolytes cross either through the cells, the transcellular route, or between them, the paracellular route. Tight junctions in the small intestine are leaky. In the colon, they're tight."
+  }
+ ],
+ "text": "Every day, about nine liters of fluid enter the gut. Two liters we drink, and seven liters of secretions. The small intestine absorbs about eight and a half liters, and the colon about 400 milliliters. Water and electrolytes cross either through the cells, the transcellular route, or between them, the paracellular route. Tight junctions in the small intestine are leaky. In the colon, they're tight."
+}

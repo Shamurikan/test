@@ -1,0 +1,57 @@
+{
+ "duration": 3.5526875,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "0c7745ce-e194-4211-a27e-3d6e5acd9f27",
+ "segments": [
+  {
+   "end": 0.56,
+   "start": 0.32,
+   "text": "Which"
+  },
+  {
+   "end": 0.64,
+   "start": 0.56,
+   "text": "of"
+  },
+  {
+   "end": 0.96,
+   "start": 0.64,
+   "text": "these"
+  },
+  {
+   "end": 1.12,
+   "start": 0.96,
+   "text": "does"
+  },
+  {
+   "end": 1.36,
+   "start": 1.12,
+   "text": "not"
+  },
+  {
+   "end": 2,
+   "start": 1.36,
+   "text": "stimulate"
+  },
+  {
+   "end": 2.64,
+   "start": 2,
+   "text": "intestinal"
+  },
+  {
+   "end": 3.36,
+   "start": 2.64,
+   "text": "motility"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 3.36,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Which of these does not stimulate intestinal motility?"
+  }
+ ],
+ "text": "Which of these does not stimulate intestinal motility?"
+}

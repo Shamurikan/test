@@ -1,0 +1,27 @@
+{
+ "duration": 1.567375,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "1a1dba80-f158-4600-814e-16517d193d36",
+ "segments": [
+  {
+   "end": 0.8,
+   "start": 0.32,
+   "text": "Pernicious"
+  },
+  {
+   "end": 1.36,
+   "start": 0.8,
+   "text": "anemia"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 1.36,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Pernicious anemia."
+  }
+ ],
+ "text": "Pernicious anemia."
+}

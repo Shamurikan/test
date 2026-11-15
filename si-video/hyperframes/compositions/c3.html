@@ -1,0 +1,62 @@
+<template>
+  <style>
+    
+      @font-face { font-family: "Fraunces"; src: url("assets/fonts/fraunces-latin-full-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "Fraunces"; src: url("assets/fonts/fraunces-latin-full-italic.woff2") format("woff2"); font-weight: 100 900; font-style: italic; }
+      @font-face { font-family: "InterVar"; src: url("assets/fonts/inter-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "JBMono"; src: url("assets/fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; }
+      #root { position: absolute; inset: 0; overflow: hidden; color: #F7EFE9; font-family: "InterVar", sans-serif; }
+      #root .disp { font-family: "Fraunces", serif; font-variation-settings: "opsz" 144, "SOFT" 30; letter-spacing: -0.02em; }
+      #root .mono { font-family: "JBMono", monospace; }
+      #root .kicker { font-size: 28px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #FF9A86; }
+      #root .muted { color: #CDBDB5; }
+      #root .w { display: inline-block; }
+    #c3-num { position: absolute; right: 150px; top: 170px; font-size: 520px; line-height: 1; font-style: italic; font-weight: 300; color: #3FD0BC; opacity: 0.9; font-variation-settings: "opsz" 144, "SOFT" 100; }
+    #c3-col { position: absolute; left: 192px; top: 300px; width: 1100px; display: flex; flex-direction: column; gap: 26px; }
+    #c3-title { font-size: 168px; line-height: 0.95; font-weight: 520; color: #F7EFE9; }
+    #c3-rule { width: 520px; height: 4px; border-radius: 2px; background: #3FD0BC; transform-origin: 0 50%; }
+    #c3-sub { font-size: 30px; line-height: 1.6; color: #CDBDB5; max-width: 1080px; }
+    #c3-sub .dot { color: #3FD0BC; margin: 0 6px; }
+    #c3-track { position: absolute; left: 0; top: 930px; width: 1920px; height: 2px; background: linear-gradient(90deg, transparent, #3FD0BC 20%, #3FD0BC 80%, transparent); opacity: 0.35; transform-origin: 0 50%; }
+  </style>
+  <div id="root" data-composition-id="c3" data-width="1920" data-height="1080">
+    <div id="c3-num" class="disp" data-var-text="number">03</div>
+    <div id="c3-track"></div>
+    <div id="c3-col">
+      <div id="c3-kicker" class="kicker" style="color: #3FD0BC" data-var-text="kicker">Part three</div>
+      <h1 id="c3-title" class="disp">Absorption</h1>
+      <div id="c3-rule"></div>
+      <div id="c3-sub"><span class="w c3-subw">Surface</span><span class="w dot c3-subw">·</span> <span class="w c3-subw">Sugars</span><span class="w dot c3-subw">·</span> <span class="w c3-subw">Amino acids</span><span class="w dot c3-subw">·</span> <span class="w c3-subw">Fats</span><span class="w dot c3-subw">·</span> <span class="w c3-subw">Vitamins</span><span class="w dot c3-subw">·</span> <span class="w c3-subw">Water &amp; ions</span><span class="w dot c3-subw">·</span> <span class="w c3-subw">Destinations</span></div>
+    </div>
+  </div>
+  <script>
+    
+      const __W = [{"t":"Part","s":0.82,"e":1.06},{"t":"three.","s":1.06,"e":1.54},{"t":"Absorption.","s":1.94,"e":2.66}];
+      const __P = [{"key":"c3","start":0.5,"duration":2.246}];
+      const __norm = (x) => x.toLowerCase().replace(/[^a-z0-9]/g, "");
+      function cue(phrase, n = 1, fallback = 0) {
+        const p = phrase.split(/\s+/).map(__norm).filter(Boolean);
+        let c = 0;
+        for (let i = 0; i < __W.length; i++) {
+          let ok = true;
+          for (let j = 0; j < p.length; j++) {
+            const w = __W[i + j];
+            if (!w || !__norm(w.t).startsWith(p[j])) { ok = false; break; }
+          }
+          if (ok && ++c === n) return __W[i].s;
+        }
+        return fallback;
+      }
+      function part(key) { return __P.find((p) => p.key.endsWith(key)); }
+    const DUR = 4.867;
+    const tTitle = __W[2] ? __W[2].s : 1.0;
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#c3-track", { scaleX: 0 }, { scaleX: 1, duration: DUR - 0.2, ease: "power1.inOut" }, 0);
+    tl.fromTo("#c3-num", { opacity: 0, y: 60, filter: "blur(14px)" }, { opacity: 0.9, y: 0, filter: "blur(0px)", duration: 0.9, ease: "expo.out" }, 0.1);
+    tl.fromTo("#c3-kicker", { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out" }, Math.max(0.15, cue("part") - 0.05));
+    tl.fromTo("#c3-title", { opacity: 0, filter: "blur(12px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out" }, tTitle - 0.12);
+    tl.fromTo("#c3-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: "power2.inOut" }, tTitle);
+    tl.fromTo(".c3-subw", { opacity: 0, filter: "blur(6px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.16, ease: "power3.out", stagger: 0.03 }, tTitle + 0.15);
+    window.__timelines["c3"] = tl;
+  </script>
+</template>

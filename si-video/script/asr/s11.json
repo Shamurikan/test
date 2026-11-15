@@ -1,0 +1,282 @@
+{
+ "duration": 20.924125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "56e335e5-0d87-4a31-ada0-8d2472d35991",
+ "segments": [
+  {
+   "end": 0.4,
+   "start": 0.32,
+   "text": "A"
+  },
+  {
+   "end": 0.64,
+   "start": 0.4,
+   "text": "neat"
+  },
+  {
+   "end": 1.28,
+   "start": 0.64,
+   "text": "example"
+  },
+  {
+   "end": 1.6,
+   "start": 1.44,
+   "text": "is"
+  },
+  {
+   "end": 1.6,
+   "start": 1.6,
+   "text": "the"
+  },
+  {
+   "end": 2.32,
+   "start": 1.6,
+   "text": "gastroileal"
+  },
+  {
+   "end": 2.96,
+   "start": 2.32,
+   "text": "reflex"
+  },
+  {
+   "end": 3.84,
+   "start": 3.52,
+   "text": "Food"
+  },
+  {
+   "end": 4.32,
+   "start": 3.84,
+   "text": "stretches"
+  },
+  {
+   "end": 4.4,
+   "start": 4.32,
+   "text": "the"
+  },
+  {
+   "end": 4.88,
+   "start": 4.4,
+   "text": "stomach"
+  },
+  {
+   "end": 5.92,
+   "start": 5.28,
+   "text": "Impulses"
+  },
+  {
+   "end": 6.24,
+   "start": 5.92,
+   "text": "travel"
+  },
+  {
+   "end": 6.48,
+   "start": 6.24,
+   "text": "through"
+  },
+  {
+   "end": 6.48,
+   "start": 6.48,
+   "text": "the"
+  },
+  {
+   "end": 7.12,
+   "start": 6.48,
+   "text": "myenteric"
+  },
+  {
+   "end": 7.68,
+   "start": 7.12,
+   "text": "plexus"
+  },
+  {
+   "end": 8.56,
+   "start": 8,
+   "text": "mediated"
+  },
+  {
+   "end": 8.64,
+   "start": 8.56,
+   "text": "by"
+  },
+  {
+   "end": 8.72,
+   "start": 8.64,
+   "text": "the"
+  },
+  {
+   "end": 9.28,
+   "start": 8.72,
+   "text": "vagus"
+  },
+  {
+   "end": 9.68,
+   "start": 9.6,
+   "text": "and"
+  },
+  {
+   "end": 9.68,
+   "start": 9.68,
+   "text": "a"
+  },
+  {
+   "end": 10.16,
+   "start": 9.68,
+   "text": "fast"
+  },
+  {
+   "end": 10.8,
+   "start": 10.16,
+   "text": "peristaltic"
+  },
+  {
+   "end": 11.2,
+   "start": 10.8,
+   "text": "wave"
+  },
+  {
+   "end": 11.44,
+   "start": 11.2,
+   "text": "runs"
+  },
+  {
+   "end": 11.68,
+   "start": 11.44,
+   "text": "down"
+  },
+  {
+   "end": 11.76,
+   "start": 11.76,
+   "text": "to"
+  },
+  {
+   "end": 11.92,
+   "start": 11.76,
+   "text": "the"
+  },
+  {
+   "end": 12.24,
+   "start": 11.92,
+   "text": "ilium"
+  },
+  {
+   "end": 12.8,
+   "start": 12.64,
+   "text": "The"
+  },
+  {
+   "end": 13.44,
+   "start": 12.8,
+   "text": "ileocecal"
+  },
+  {
+   "end": 13.84,
+   "start": 13.44,
+   "text": "valve"
+  },
+  {
+   "end": 14.48,
+   "start": 13.84,
+   "text": "relaxes"
+  },
+  {
+   "end": 15.04,
+   "start": 14.72,
+   "text": "helped"
+  },
+  {
+   "end": 15.2,
+   "start": 15.04,
+   "text": "by"
+  },
+  {
+   "end": 15.68,
+   "start": 15.2,
+   "text": "gastrin"
+  },
+  {
+   "end": 15.84,
+   "start": 15.68,
+   "text": "and"
+  },
+  {
+   "end": 16.64,
+   "start": 15.84,
+   "text": "CCK"
+  },
+  {
+   "end": 17.04,
+   "start": 16.88,
+   "text": "and"
+  },
+  {
+   "end": 17.36,
+   "start": 17.04,
+   "text": "chyme"
+  },
+  {
+   "end": 17.76,
+   "start": 17.36,
+   "text": "passes"
+  },
+  {
+   "end": 18,
+   "start": 17.76,
+   "text": "into"
+  },
+  {
+   "end": 18.08,
+   "start": 18,
+   "text": "the"
+  },
+  {
+   "end": 18.56,
+   "start": 18.08,
+   "text": "cecum"
+  },
+  {
+   "end": 18.88,
+   "start": 18.8,
+   "text": "A"
+  },
+  {
+   "end": 19.12,
+   "start": 18.88,
+   "text": "new"
+  },
+  {
+   "end": 19.52,
+   "start": 19.12,
+   "text": "meal"
+  },
+  {
+   "end": 20,
+   "start": 19.68,
+   "text": "makes"
+  },
+  {
+   "end": 20.16,
+   "start": 20,
+   "text": "room"
+  },
+  {
+   "end": 20.32,
+   "start": 20.16,
+   "text": "for"
+  },
+  {
+   "end": 20.8,
+   "start": 20.32,
+   "text": "itself"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 20.8,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "A neat example is the gastroileal reflex. Food stretches the stomach. Impulses travel through the myenteric plexus, mediated by the vagus, and a fast peristaltic wave runs down to the ilium. The ileocecal valve relaxes, helped by gastrin and CCK, and chyme passes into the cecum. A new meal makes room for itself."
+  }
+ ],
+ "text": "A neat example is the gastroileal reflex. Food stretches the stomach. Impulses travel through the myenteric plexus, mediated by the vagus, and a fast peristaltic wave runs down to the ilium. The ileocecal valve relaxes, helped by gastrin and CCK, and chyme passes into the cecum. A new meal makes room for itself."
+}

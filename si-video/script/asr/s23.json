@@ -1,0 +1,342 @@
+{
+ "duration": 29.3094375,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "1d3908c8-1a13-4ebb-aa12-1c8fe294cee6",
+ "segments": [
+  {
+   "end": 0.8,
+   "start": 0.24,
+   "text": "Proteins"
+  },
+  {
+   "end": 0.96,
+   "start": 0.8,
+   "text": "are"
+  },
+  {
+   "end": 1.36,
+   "start": 0.96,
+   "text": "absorbed"
+  },
+  {
+   "end": 1.52,
+   "start": 1.36,
+   "text": "as"
+  },
+  {
+   "end": 2.4,
+   "start": 1.52,
+   "text": "dipeptides"
+  },
+  {
+   "end": 3.76,
+   "start": 2.88,
+   "text": "tripeptides"
+  },
+  {
+   "end": 4.16,
+   "start": 4.08,
+   "text": "and"
+  },
+  {
+   "end": 4.24,
+   "start": 4.16,
+   "text": "a"
+  },
+  {
+   "end": 4.48,
+   "start": 4.24,
+   "text": "few"
+  },
+  {
+   "end": 4.72,
+   "start": 4.48,
+   "text": "free"
+  },
+  {
+   "end": 5.04,
+   "start": 4.72,
+   "text": "amino"
+  },
+  {
+   "end": 5.52,
+   "start": 5.04,
+   "text": "acids"
+  },
+  {
+   "end": 6.16,
+   "start": 6,
+   "text": "L"
+  },
+  {
+   "end": 6.48,
+   "start": 6.16,
+   "text": "amino"
+  },
+  {
+   "end": 6.8,
+   "start": 6.48,
+   "text": "acids"
+  },
+  {
+   "end": 7.12,
+   "start": 6.88,
+   "text": "enter"
+  },
+  {
+   "end": 7.28,
+   "start": 7.12,
+   "text": "by"
+  },
+  {
+   "end": 7.76,
+   "start": 7.28,
+   "text": "sodium"
+  },
+  {
+   "end": 8.64,
+   "start": 7.76,
+   "text": "cotransport"
+  },
+  {
+   "end": 9.68,
+   "start": 9.12,
+   "text": "secondary"
+  },
+  {
+   "end": 10,
+   "start": 9.76,
+   "text": "active"
+  },
+  {
+   "end": 10.56,
+   "start": 10,
+   "text": "transport"
+  },
+  {
+   "end": 10.96,
+   "start": 10.56,
+   "text": "again"
+  },
+  {
+   "end": 11.52,
+   "start": 11.36,
+   "text": "D"
+  },
+  {
+   "end": 11.84,
+   "start": 11.52,
+   "text": "amino"
+  },
+  {
+   "end": 12.24,
+   "start": 11.84,
+   "text": "acids"
+  },
+  {
+   "end": 12.64,
+   "start": 12.24,
+   "text": "diffuse"
+  },
+  {
+   "end": 13.28,
+   "start": 12.64,
+   "text": "passively"
+  },
+  {
+   "end": 14.48,
+   "start": 13.76,
+   "text": "Dipeptides"
+  },
+  {
+   "end": 14.64,
+   "start": 14.48,
+   "text": "and"
+  },
+  {
+   "end": 15.36,
+   "start": 14.64,
+   "text": "tripeptides"
+  },
+  {
+   "end": 15.6,
+   "start": 15.36,
+   "text": "use"
+  },
+  {
+   "end": 15.68,
+   "start": 15.6,
+   "text": "a"
+  },
+  {
+   "end": 16.08,
+   "start": 15.68,
+   "text": "hydrogen"
+  },
+  {
+   "end": 16.48,
+   "start": 16.08,
+   "text": "coupled"
+  },
+  {
+   "end": 16.96,
+   "start": 16.48,
+   "text": "carrier"
+  },
+  {
+   "end": 17.84,
+   "start": 17.28,
+   "text": "Inside"
+  },
+  {
+   "end": 18.88,
+   "start": 18.08,
+   "text": "cytoplasmic"
+  },
+  {
+   "end": 19.68,
+   "start": 18.88,
+   "text": "peptidases"
+  },
+  {
+   "end": 20.24,
+   "start": 19.92,
+   "text": "split"
+  },
+  {
+   "end": 20.32,
+   "start": 20.24,
+   "text": "them"
+  },
+  {
+   "end": 20.56,
+   "start": 20.32,
+   "text": "into"
+  },
+  {
+   "end": 20.88,
+   "start": 20.56,
+   "text": "amino"
+  },
+  {
+   "end": 21.36,
+   "start": 20.88,
+   "text": "acids"
+  },
+  {
+   "end": 21.84,
+   "start": 21.68,
+   "text": "which"
+  },
+  {
+   "end": 22.08,
+   "start": 21.84,
+   "text": "leave"
+  },
+  {
+   "end": 22.16,
+   "start": 22.08,
+   "text": "the"
+  },
+  {
+   "end": 22.48,
+   "start": 22.16,
+   "text": "cell"
+  },
+  {
+   "end": 22.56,
+   "start": 22.48,
+   "text": "by"
+  },
+  {
+   "end": 23.28,
+   "start": 22.56,
+   "text": "facilitated"
+  },
+  {
+   "end": 23.84,
+   "start": 23.28,
+   "text": "transport"
+  },
+  {
+   "end": 24.32,
+   "start": 24.16,
+   "text": "In"
+  },
+  {
+   "end": 25.12,
+   "start": 24.32,
+   "text": "cystinuria"
+  },
+  {
+   "end": 25.52,
+   "start": 25.44,
+   "text": "the"
+  },
+  {
+   "end": 25.92,
+   "start": 25.52,
+   "text": "sodium"
+  },
+  {
+   "end": 26.24,
+   "start": 25.92,
+   "text": "amino"
+  },
+  {
+   "end": 26.56,
+   "start": 26.24,
+   "text": "acid"
+  },
+  {
+   "end": 27.2,
+   "start": 26.56,
+   "text": "transporter"
+  },
+  {
+   "end": 27.36,
+   "start": 27.2,
+   "text": "is"
+  },
+  {
+   "end": 27.68,
+   "start": 27.36,
+   "text": "missing"
+  },
+  {
+   "end": 27.84,
+   "start": 27.68,
+   "text": "in"
+  },
+  {
+   "end": 28,
+   "start": 27.84,
+   "text": "both"
+  },
+  {
+   "end": 28.56,
+   "start": 28,
+   "text": "intestine"
+  },
+  {
+   "end": 28.72,
+   "start": 28.56,
+   "text": "and"
+  },
+  {
+   "end": 29.12,
+   "start": 28.72,
+   "text": "kidney"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 29.12,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Proteins are absorbed as dipeptides, tripeptides, and a few free amino acids. L-amino acids enter by sodium cotransport, secondary active transport again. D-amino acids diffuse passively. Dipeptides and tripeptides use a hydrogen-coupled carrier. Inside, cytoplasmic peptidases split them into amino acids, which leave the cell by facilitated transport. In cystinuria, the sodium amino acid transporter is missing in both intestine and kidney."
+  }
+ ],
+ "text": "Proteins are absorbed as dipeptides, tripeptides, and a few free amino acids. L-amino acids enter by sodium cotransport, secondary active transport again. D-amino acids diffuse passively. Dipeptides and tripeptides use a hydrogen-coupled carrier. Inside, cytoplasmic peptidases split them into amino acids, which leave the cell by facilitated transport. In cystinuria, the sodium amino acid transporter is missing in both intestine and kidney."
+}

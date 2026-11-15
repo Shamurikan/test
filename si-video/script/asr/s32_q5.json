@@ -1,0 +1,57 @@
+{
+ "duration": 2.8735,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "19f92616-abc5-4c61-bdc0-1e647bcd6da9",
+ "segments": [
+  {
+   "end": 0.56,
+   "start": 0.32,
+   "text": "Which"
+  },
+  {
+   "end": 1.04,
+   "start": 0.56,
+   "text": "hormone"
+  },
+  {
+   "end": 1.2,
+   "start": 1.04,
+   "text": "is"
+  },
+  {
+   "end": 1.52,
+   "start": 1.2,
+   "text": "released"
+  },
+  {
+   "end": 1.6,
+   "start": 1.52,
+   "text": "in"
+  },
+  {
+   "end": 2.08,
+   "start": 1.6,
+   "text": "response"
+  },
+  {
+   "end": 2.16,
+   "start": 2.16,
+   "text": "to"
+  },
+  {
+   "end": 2.72,
+   "start": 2.24,
+   "text": "acid"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 2.72,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Which hormone is released in response to acid?"
+  }
+ ],
+ "text": "Which hormone is released in response to acid?"
+}

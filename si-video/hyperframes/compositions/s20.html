@@ -1,0 +1,231 @@
+<template>
+  <style>
+    
+      @font-face { font-family: "Fraunces"; src: url("assets/fonts/fraunces-latin-full-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "Fraunces"; src: url("assets/fonts/fraunces-latin-full-italic.woff2") format("woff2"); font-weight: 100 900; font-style: italic; }
+      @font-face { font-family: "InterVar"; src: url("assets/fonts/inter-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "JBMono"; src: url("assets/fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; }
+      #root { position: absolute; inset: 0; overflow: hidden; color: #F7EFE9; font-family: "InterVar", sans-serif; }
+      #root .disp { font-family: "Fraunces", serif; font-variation-settings: "opsz" 144, "SOFT" 30; letter-spacing: -0.02em; }
+      #root .mono { font-family: "JBMono", monospace; }
+      #root .kicker { font-size: 28px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #FF9A86; }
+      #root .muted { color: #CDBDB5; }
+      #root .w { display: inline-block; }
+    #s20-kicker { position: absolute; left: 192px; top: 112px; color: #3FD0BC; }
+    #s20-title { position: absolute; left: 190px; top: 150px; font-size: 66px; font-weight: 520; }
+    #s20-list { position: absolute; left: 192px; top: 300px; width: 560px; }
+    .s20-row { position: relative; display: flex; align-items: baseline; gap: 22px; height: 128px; }
+    .s20-row .n { font-family: "Fraunces", serif; font-variation-settings: "opsz" 144, "SOFT" 30; font-size: 104px; font-weight: 480; color: #F7EFE9; width: 210px; letter-spacing: -0.03em; }
+    .s20-row .l { font-size: 30px; line-height: 1.25; color: #CDBDB5; }
+    .s20-row .hl { position: absolute; left: -24px; top: 6px; width: 600px; height: 118px; border-radius: 18px; background: rgba(63, 208, 188, 0.16); border: 2px solid rgba(63, 208, 188, 0.6); }
+    #s20-sep { width: 560px; height: 2px; background: rgba(247, 239, 233, 0.25); margin: 8px 0 18px; transform-origin: 0 50%; }
+    #s20-total .n { color: #3FD0BC; }
+    #s20-uline { position: absolute; left: 0; top: 116px; width: 200px; height: 5px; border-radius: 3px; background: #3FD0BC; transform-origin: 0 50%; }
+    #s20-unused-tag { position: absolute; left: 236px; top: -18px; font-size: 28px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #3FD0BC; }
+    #s20-stage { position: absolute; left: 820px; top: 250px; width: 908px; height: 660px; overflow: hidden; border-radius: 28px; }
+    #s20-stage svg { position: absolute; left: 0; top: 0; width: 908px; height: 660px; }
+    .s20-slab { position: absolute; font-size: 28px; font-weight: 600; color: #F7EFE9; }
+    .s20-slab small { display: block; font-size: 28px; font-weight: 500; color: #CDBDB5; }
+    #s20-area { position: absolute; left: 0; top: 240px; width: 908px; text-align: center; font-size: 132px; font-weight: 500; color: #F7EFE9; }
+    #s20-area .au { font-size: 74px; color: #3FD0BC; margin-left: 10px; }
+  </style>
+  <div id="root" data-composition-id="s20" data-width="1920" data-height="1080">
+    <div id="s20-kicker" class="kicker">Absorption · surface area</div>
+    <h2 id="s20-title" class="disp">Why the inside is so big</h2>
+
+    <div id="s20-list">
+      <div id="s20-r1" class="s20-row"><span class="n">×3</span><span class="l">circular folds<br>(valvulae conniventes)</span></div>
+      <div id="s20-r2" class="s20-row"><span class="n">×10</span><span class="l">villi</span></div>
+      <div id="s20-r3" class="s20-row"><div id="s20-hl" class="hl"></div><span class="n">×20</span><span class="l">microvilli<br>(up to 1000 per cell)</span><div id="s20-uline"></div></div>
+      <div id="s20-sep"></div>
+      <div id="s20-total" class="s20-row"><span class="n" id="s20-tot">×600</span><span class="l" id="s20-totl">≈ 250 m²<br>a tennis court</span></div>
+    </div>
+
+    <div id="s20-stage" data-layout-allow-overflow>
+      <!-- Layer 1: mucosa strip that folds -->
+      <svg id="s20-L1" viewBox="0 0 908 660">
+        <defs>
+          <linearGradient id="s20-muc" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#F3A99C" />
+            <stop offset="0.5" stop-color="#E07A70" />
+            <stop offset="1" stop-color="#9E3A3B" />
+          </linearGradient>
+          <linearGradient id="s20-vil" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#F6B8AA" />
+            <stop offset="1" stop-color="#D86D64" />
+          </linearGradient>
+        </defs>
+        <path id="s20-fold" fill="url(#s20-muc)" d="M0 470 L908 470 L908 660 L0 660 Z" />
+        <path id="s20-foldEdge" fill="none" stroke="#FFD3C8" stroke-opacity="0.7" stroke-width="3" d="M0 470 L908 470" />
+        <rect x="0" y="610" width="908" height="50" fill="#5A2128" />
+      </svg>
+      <!-- Layer 2: a row of villi -->
+      <svg id="s20-L2" viewBox="0 0 908 660" opacity="0">
+        <rect x="0" y="560" width="908" height="100" fill="#9E3A3B" />
+        <g id="s20-villi"></g>
+      </svg>
+      <!-- Layer 3: epithelial cells with a brush border -->
+      <svg id="s20-L3" viewBox="0 0 908 660" opacity="0">
+        <g id="s20-cells"></g>
+      </svg>
+      <!-- Layer 4: tennis court -->
+      <svg id="s20-L4" viewBox="0 0 908 660" opacity="0">
+        <g fill="none" stroke="#6FD38A" stroke-width="4" stroke-linecap="round">
+          <rect id="s20-court" x="114" y="200" width="680" height="312" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" />
+          <line class="s20-cl" x1="114" y1="234" x2="794" y2="234" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" />
+          <line class="s20-cl" x1="114" y1="478" x2="794" y2="478" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" />
+          <line class="s20-cl" x1="454" y1="200" x2="454" y2="512" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" />
+          <line class="s20-cl" x1="270" y1="234" x2="270" y2="478" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" />
+          <line class="s20-cl" x1="638" y1="234" x2="638" y2="478" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" />
+          <line class="s20-cl" x1="270" y1="356" x2="638" y2="356" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" />
+        </g>
+      </svg>
+      <div id="s20-area" class="disp"><span id="s20-areaN">0</span><span class="au">m²</span></div>
+      <div id="s20-lab1" class="s20-slab" style="left:40px; top:56px">Circular folds <small>valvulae conniventes · ×3</small></div>
+      <div id="s20-lab2" class="s20-slab" style="left:40px; top:56px">Villi <small>finger-like projections · ×10</small></div>
+      <div id="s20-lab3" class="s20-slab" style="left:40px; top:56px">Brush border <small>up to 1000 microvilli per cell · ×20</small></div>
+      <div id="s20-lab4" class="s20-slab" style="left:40px; top:56px">≈ 250 m² <small>about the area of a tennis court</small></div>
+      <div id="s20-lab5" class="s20-slab" style="left:40px; top:56px; color:#3FD0BC">Biggest contributor: microvilli <small>the brush border adds ×20</small></div>
+    </div>
+  </div>
+  <script>
+    
+      const __W = [{"t":"To","s":0.77,"e":0.93},{"t":"absorb","s":0.93,"e":1.33},{"t":"all","s":1.33,"e":1.49},{"t":"this,","s":1.49,"e":1.89},{"t":"you","s":2.13,"e":2.29},{"t":"need","s":2.29,"e":2.53},{"t":"surface.","s":2.53,"e":3.17},{"t":"Circular","s":3.49,"e":4.05},{"t":"folds,","s":4.05,"e":4.61},{"t":"the","s":4.93,"e":4.93},{"t":"valvulae","s":4.93,"e":5.57},{"t":"conniventes,","s":5.57,"e":6.37},{"t":"triple","s":6.77,"e":7.09},{"t":"the","s":7.09,"e":7.33},{"t":"area.","s":7.33,"e":7.73},{"t":"Villi","s":8.05,"e":8.37},{"t":"multiply","s":8.37,"e":8.93},{"t":"it","s":8.93,"e":9.09},{"t":"ten","s":9.09,"e":9.33},{"t":"times","s":9.33,"e":9.73},{"t":"more.","s":9.73,"e":10.13},{"t":"Each","s":10.45,"e":10.69},{"t":"epithelial","s":10.69,"e":11.33},{"t":"cell","s":11.33,"e":11.73},{"t":"adds","s":11.81,"e":12.05},{"t":"a","s":12.05,"e":12.13},{"t":"brush","s":12.13,"e":12.45},{"t":"border","s":12.45,"e":12.85},{"t":"of","s":13.09,"e":13.25},{"t":"up","s":13.25,"e":13.41},{"t":"to","s":13.49,"e":13.57},{"t":"a","s":13.57,"e":13.57},{"t":"thousand","s":13.57,"e":14.13},{"t":"microvilli:","s":14.13,"e":14.93},{"t":"twenty-fold","s":15.33,"e":15.81},{"t":"again.","s":15.81,"e":16.29},{"t":"Together,","s":16.61,"e":17.09},{"t":"that's","s":17.41,"e":17.57},{"t":"about","s":17.57,"e":17.81},{"t":"six","s":17.81,"e":17.97},{"t":"hundred","s":17.97,"e":18.13},{"t":"times.","s":18.45,"e":18.93},{"t":"Roughly","s":19.33,"e":19.65},{"t":"two","s":19.65,"e":19.79},{"t":"hundred","s":19.79,"e":19.93},{"t":"and","s":19.93,"e":20.07},{"t":"fifty","s":20.07,"e":20.21},{"t":"square","s":20.61,"e":20.61},{"t":"meters,","s":20.85,"e":21.33},{"t":"the","s":21.57,"e":21.65},{"t":"size","s":21.65,"e":21.97},{"t":"of","s":21.97,"e":22.05},{"t":"a","s":22.05,"e":22.13},{"t":"tennis","s":22.13,"e":22.45},{"t":"court.","s":22.45,"e":22.77},{"t":"And","s":23.01,"e":23.17},{"t":"the","s":23.17,"e":23.17},{"t":"biggest","s":23.17,"e":23.49},{"t":"contributor?","s":23.49,"e":24.13},{"t":"The","s":24.29,"e":24.37},{"t":"microvilli.","s":24.37,"e":25.09}];
+      const __P = [{"key":"s20","start":0.45,"duration":24.712}];
+      const __norm = (x) => x.toLowerCase().replace(/[^a-z0-9]/g, "");
+      function cue(phrase, n = 1, fallback = 0) {
+        const p = phrase.split(/\s+/).map(__norm).filter(Boolean);
+        let c = 0;
+        for (let i = 0; i < __W.length; i++) {
+          let ok = true;
+          for (let j = 0; j < p.length; j++) {
+            const w = __W[i + j];
+            if (!w || !__norm(w.t).startsWith(p[j])) { ok = false; break; }
+          }
+          if (ok && ++c === n) return __W[i].s;
+        }
+        return fallback;
+      }
+      function part(key) { return __P.find((p) => p.key.endsWith(key)); }
+    const DUR = 26.167;
+    const NS = "http://www.w3.org/2000/svg";
+    // --- build villi (deterministic) ---
+    const vg = document.getElementById("s20-villi");
+    const villi = [];
+    for (let i = 0; i < 11; i++) {
+      const x = 40 + i * 80, h = 330 + ((i * 37) % 5) * 14;
+      const g = document.createElementNS(NS, "g");
+      g.setAttribute("transform", `translate(${x} 560)`);
+      g.innerHTML = `<g class="s20-vg"><rect x="0" y="${-h}" width="56" height="${h + 10}" rx="28" fill="url(#s20-vil)"/>` +
+        `<path d="M28 ${-h + 40} L28 0" stroke="#6FD38A" stroke-width="6" stroke-linecap="round" opacity="0.85"/>` +
+        `<path d="M14 0 C 8 ${-h * 0.4}, 20 ${-h * 0.8}, 28 ${-h + 18} C 36 ${-h * 0.8}, 48 ${-h * 0.4}, 42 0" stroke="#E5484D" stroke-width="3" fill="none" opacity="0.8"/></g>`;
+      vg.appendChild(g);
+      villi.push(g.firstChild);
+    }
+    // --- build epithelial cells with microvilli ---
+    const cg = document.getElementById("s20-cells");
+    const mvs = [];
+    for (let c = 0; c < 3; c++) {
+      const x = 150 + c * 210;
+      const g = document.createElementNS(NS, "g");
+      g.innerHTML = `<rect x="${x}" y="250" width="190" height="380" rx="26" fill="#E8897E" stroke="#FFD3C8" stroke-opacity="0.5" stroke-width="3"/>` +
+        `<ellipse cx="${x + 95}" cy="500" rx="46" ry="58" fill="#8E3A4A"/>`;
+      cg.appendChild(g);
+      for (let m = 0; m < 14; m++) {
+        const r = document.createElementNS(NS, "rect");
+        r.setAttribute("x", x + 8 + m * 12.7);
+        r.setAttribute("y", 170);
+        r.setAttribute("width", 8);
+        r.setAttribute("height", 86);
+        r.setAttribute("rx", 4);
+        r.setAttribute("fill", "#FFC2B5");
+        cg.appendChild(r);
+        mvs.push(r);
+      }
+    }
+    // --- the fold profile, rebuilt from an amplitude so the strip can fold up ---
+    const fold = document.getElementById("s20-fold");
+    const edge = document.getElementById("s20-foldEdge");
+    const amp = { a: 0 };
+    const drawFold = () => {
+      let top = "";
+      for (let x = 0; x <= 908; x += 6) {
+        const ph = (x / 908) * 5 + 0.5;
+        const fr = ph - Math.floor(ph) - 0.5;
+        const k = Math.exp(-Math.pow(fr / 0.2, 2));
+        const y = 470 - amp.a * k;
+        top += (x === 0 ? "M" : " L") + x + " " + y.toFixed(1);
+      }
+      edge.setAttribute("d", top);
+      fold.setAttribute("d", top + " L908 660 L0 660 Z");
+    };
+    drawFold();
+
+    const tCirc = cue("circular folds");
+    const tVilli = cue("villi");
+    const tCell = cue("each epithelial");
+    const tMv = cue("microvilli");
+    const t600 = cue("six hundred");
+    const t250 = cue("two hundred");
+    const tBig = cue("biggest");
+    const tMv2 = cue("microvilli", 2);
+
+    const tl = gsap.timeline({ paused: true });
+    const blurIn = (sel, t, dur = 0.2) => tl.fromTo(sel, { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: dur, ease: "power3.out" }, t);
+    const blurOut = (sel, t, dur = 0.18) => tl.to(sel, { opacity: 0, filter: "blur(8px)", duration: dur, ease: "power2.in" }, t);
+    gsap.set(["#s20-r1", "#s20-r2", "#s20-r3", "#s20-total", "#s20-lab1", "#s20-lab2", "#s20-lab3", "#s20-lab4", "#s20-area", "#s20-hl", "#s20-lab5"], { opacity: 0 });
+    gsap.set("#s20-sep", { scaleX: 0 });
+    gsap.set("#s20-uline", { scaleX: 0 });
+    blurIn("#s20-kicker", 0.2);
+    blurIn("#s20-title", 0.3);
+    tl.fromTo("#s20-L1", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 0.4);
+
+    // 1. circular folds: the flat strip folds up (x3)
+    tl.fromTo(amp, { a: 0 }, { a: 300, duration: 1.4, ease: "power3.inOut", onUpdate: drawFold }, tCirc - 0.1);
+    blurIn("#s20-lab1", tCirc);
+    blurIn("#s20-r1", cue("triple") - 0.1);
+
+    // 2. dive into a fold, villi grow (x10)
+    tl.to("#s20-L1", { scale: 3.2, x: -120, y: 420, transformOrigin: "50% 40%", filter: "blur(10px)", opacity: 0, duration: 0.6, ease: "power3.in" }, tVilli - 0.55);
+    blurOut("#s20-lab1", tVilli - 0.4);
+    tl.fromTo("#s20-L2", { opacity: 0, scale: 0.7, transformOrigin: "50% 80%" }, { opacity: 1, scale: 1, duration: 0.6, ease: "expo.out" }, tVilli - 0.05);
+    tl.fromTo(villi, { scaleY: 0, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.7, ease: "back.out(1.3)", stagger: 0.05 }, tVilli);
+    blurIn("#s20-lab2", tVilli + 0.1);
+    blurIn("#s20-r2", cue("ten") - 0.1);
+
+    // 3. dive into a villus: epithelial cells sprout microvilli (x20)
+    tl.to("#s20-L2", { scale: 4, transformOrigin: "50% 30%", filter: "blur(10px)", opacity: 0, duration: 0.6, ease: "power3.in" }, tCell - 0.5);
+    blurOut("#s20-lab2", tCell - 0.4);
+    tl.fromTo("#s20-L3", { opacity: 0, scale: 0.75, transformOrigin: "50% 60%" }, { opacity: 1, scale: 1, duration: 0.6, ease: "expo.out" }, tCell);
+    tl.fromTo(mvs, { scaleY: 0, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.5, ease: "power3.out", stagger: 0.012 }, tMv - 0.3);
+    blurIn("#s20-lab3", tCell + 0.2);
+    blurIn("#s20-r3", cue("twenty") - 0.1);
+
+    // 4. total: x600
+    tl.fromTo("#s20-sep", { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: "power2.inOut" }, t600 - 0.6);
+    blurIn("#s20-total", t600 - 0.15);
+    const tot = { v: 30 };
+    const totEl = document.getElementById("s20-tot");
+    tl.fromTo(tot, { v: 30 }, { v: 600, duration: 1.0, ease: "power2.out", onUpdate: () => (totEl.textContent = "×" + Math.round(tot.v)) }, t600 - 0.1);
+
+    // 5. 250 m2 = a tennis court
+    tl.to("#s20-L3", { opacity: 0, filter: "blur(8px)", duration: 0.25, ease: "power2.in" }, t250 - 0.35);
+    blurOut("#s20-lab3", t250 - 0.35);
+    tl.fromTo("#s20-L4", { opacity: 0 }, { opacity: 1, duration: 0.2 }, t250 - 0.1);
+    tl.fromTo("#s20-court", { strokeDashoffset: 110 }, { strokeDashoffset: 0, duration: 1.1, ease: "power2.inOut" }, t250 - 0.1);
+    tl.fromTo(".s20-cl", { strokeDashoffset: 110 }, { strokeDashoffset: 0, duration: 0.6, ease: "power2.out", stagger: 0.08 }, t250 + 0.5);
+    blurIn("#s20-area", t250 + 0.2);
+    const area = { v: 0 };
+    const areaEl = document.getElementById("s20-areaN");
+    tl.fromTo(area, { v: 0 }, { v: 250, duration: 1.4, ease: "power2.out", onUpdate: () => (areaEl.textContent = Math.round(area.v)) }, t250 + 0.2);
+    blurIn("#s20-lab4", cue("tennis") - 0.1);
+
+    // 6. the biggest contributor is the microvilli
+    tl.to(["#s20-r1", "#s20-r2", "#s20-total"], { opacity: 0.35, duration: 0.3, ease: "power2.out" }, tBig);
+    tl.fromTo("#s20-hl", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "power2.out" }, tBig);
+    tl.fromTo("#s20-uline", { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: "power3.out" }, tMv2 - 0.05);
+    blurOut("#s20-lab4", tBig - 0.1);
+    blurIn("#s20-lab5", tMv2 - 0.1);
+    window.__timelines["s20"] = tl;
+  </script>
+</template>

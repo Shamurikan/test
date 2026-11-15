@@ -1,0 +1,42 @@
+{
+ "duration": 3.2914375,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "15baa707-20d2-4df6-b501-86c2d35b1723",
+ "segments": [
+  {
+   "end": 0.56,
+   "start": 0.24,
+   "text": "Part"
+  },
+  {
+   "end": 0.96,
+   "start": 0.56,
+   "text": "two"
+  },
+  {
+   "end": 2.16,
+   "start": 1.36,
+   "text": "secretion"
+  },
+  {
+   "end": 2.48,
+   "start": 2.32,
+   "text": "and"
+  },
+  {
+   "end": 3.12,
+   "start": 2.48,
+   "text": "digestion"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 3.12,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Part two, secretion and digestion."
+  }
+ ],
+ "text": "Part two, secretion and digestion."
+}

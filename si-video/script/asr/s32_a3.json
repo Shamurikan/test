@@ -1,0 +1,42 @@
+{
+ "duration": 2.899625,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "b9821a53-595b-4704-b8d8-84a8b3eab71a",
+ "segments": [
+  {
+   "end": 0.88,
+   "start": 0.32,
+   "text": "Secondary"
+  },
+  {
+   "end": 1.2,
+   "start": 0.88,
+   "text": "active"
+  },
+  {
+   "end": 1.84,
+   "start": 1.2,
+   "text": "transport"
+  },
+  {
+   "end": 2.16,
+   "start": 2.08,
+   "text": "with"
+  },
+  {
+   "end": 2.72,
+   "start": 2.16,
+   "text": "sodium"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 2.72,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Secondary active transport with sodium."
+  }
+ ],
+ "text": "Secondary active transport with sodium."
+}

@@ -1,0 +1,42 @@
+<template>
+  <style>
+    __BASE_CSS__
+    #__ID__-stats { position: absolute; left: 192px; top: 190px; display: flex; flex-direction: column; gap: 6px; }
+    .__ID__-stat { display: flex; align-items: baseline; gap: 26px; height: 210px; }
+    .__ID__-stat .num { font-family: "Fraunces", serif; font-variation-settings: "opsz" 144, "SOFT" 30; font-size: 190px; font-weight: 450; letter-spacing: -0.04em; color: #F7EFE9; }
+    .__ID__-stat .unit { font-family: "Fraunces", serif; font-size: 92px; font-weight: 400; margin-left: -14px; }
+    .__ID__-stat .lab { font-size: 36px; color: #CDBDB5; }
+    #__ID__-jobs { position: absolute; left: 0; top: 360px; width: 1920px; text-align: center; font-size: 128px; font-weight: 500; }
+    #__ID__-jobs .dot { color: #8E7C76; margin: 0 26px; }
+    #__ID__-last { position: absolute; left: 0; top: 590px; width: 1920px; text-align: center; font-size: 62px; font-style: italic; font-weight: 400; color: #F7EFE9; }
+    #__ID__-black { position: absolute; inset: 0; background: #000; opacity: 0; }
+  </style>
+  <div id="root" data-composition-id="__ID__" data-width="1920" data-height="1080">
+    <div id="__ID__-stats">
+      <div id="__ID__-st1" class="__ID__-stat"><span class="num">6</span><span class="unit" style="color:#FF7A63">m</span><span class="lab">of tube</span></div>
+      <div id="__ID__-st2" class="__ID__-stat"><span class="num">250</span><span class="unit" style="color:#3FD0BC">m²</span><span class="lab">of absorptive surface</span></div>
+      <div id="__ID__-st3" class="__ID__-stat"><span class="num">9</span><span class="unit" style="color:#5CC8FF">L</span><span class="lab">of fluid handled every day</span></div>
+    </div>
+    <div id="__ID__-jobs" class="disp"><span class="w" id="__ID__-j1" style="color:#FF7A63">Move</span><span class="w dot" id="__ID__-d1">·</span><span class="w" id="__ID__-j2" style="color:#FFC857">Digest</span><span class="w dot" id="__ID__-d2">·</span><span class="w" id="__ID__-j3" style="color:#3FD0BC">Absorb</span></div>
+    <div id="__ID__-last" class="disp"><span class="w __ID__-lw">Almost</span> <span class="w __ID__-lw">nothing</span> <span class="w __ID__-lw">goes</span> <span class="w __ID__-lw">to</span> <span class="w __ID__-lw">waste.</span></div>
+    <div id="__ID__-black"></div>
+  </div>
+  <script>
+    __CUE_LIB__
+    const DUR = __DUR__;
+    const tl = gsap.timeline({ paused: true });
+    const blurIn = (sel, t) => tl.fromTo(sel, { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.22, ease: "power3.out" }, t);
+    blurIn("#__ID__-st1", cue("six") - 0.1);
+    blurIn("#__ID__-st2", cue("two hundred") - 0.1);
+    blurIn("#__ID__-st3", cue("nine") - 0.1);
+    const tMove = cue("move");
+    tl.to(["#__ID__-st1", "#__ID__-st2", "#__ID__-st3"], { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in", stagger: 0.05 }, tMove - 0.45);
+    blurIn("#__ID__-j1", tMove - 0.05);
+    tl.fromTo(["#__ID__-d1", "#__ID__-j2"], { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out", stagger: 0.04 }, cue("digest") - 0.08);
+    tl.fromTo(["#__ID__-d2", "#__ID__-j3"], { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out", stagger: 0.04 }, cue("absorb") - 0.08);
+    // the last line goes from faint to ink, word by word, as it is spoken
+    tl.fromTo(".__ID__-lw", { opacity: 0, color: "#8E7C76" }, { opacity: 1, color: "#F7EFE9", duration: 0.25, ease: "power2.out", stagger: 0.16 }, cue("almost") - 0.05);
+    tl.fromTo("#__ID__-black", { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power2.in" }, DUR - 1.1);
+    window.__timelines["__ID__"] = tl;
+  </script>
+</template>

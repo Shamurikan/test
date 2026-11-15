@@ -1,0 +1,442 @@
+{
+ "duration": 38.791875,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "6bc8a743-65be-4567-9043-617f5648b0e8",
+ "segments": [
+  {
+   "end": 0.56,
+   "start": 0.24,
+   "text": "Fat"
+  },
+  {
+   "end": 1.2,
+   "start": 0.56,
+   "text": "absorption"
+  },
+  {
+   "end": 1.68,
+   "start": 1.36,
+   "text": "takes"
+  },
+  {
+   "end": 2,
+   "start": 1.68,
+   "text": "five"
+  },
+  {
+   "end": 2.48,
+   "start": 2,
+   "text": "steps"
+  },
+  {
+   "end": 3.28,
+   "start": 2.88,
+   "text": "One"
+  },
+  {
+   "end": 3.92,
+   "start": 3.52,
+   "text": "fatty"
+  },
+  {
+   "end": 4.48,
+   "start": 3.92,
+   "text": "acids"
+  },
+  {
+   "end": 4.8,
+   "start": 4.64,
+   "text": "and"
+  },
+  {
+   "end": 5.76,
+   "start": 4.8,
+   "text": "monoglycerides"
+  },
+  {
+   "end": 6.32,
+   "start": 6.08,
+   "text": "leave"
+  },
+  {
+   "end": 6.4,
+   "start": 6.32,
+   "text": "the"
+  },
+  {
+   "end": 6.48,
+   "start": 6.4,
+   "text": "M"
+  },
+  {
+   "end": 6.96,
+   "start": 6.48,
+   "text": "cell"
+  },
+  {
+   "end": 7.28,
+   "start": 7.2,
+   "text": "and"
+  },
+  {
+   "end": 7.76,
+   "start": 7.28,
+   "text": "diffuse"
+  },
+  {
+   "end": 7.92,
+   "start": 7.76,
+   "text": "into"
+  },
+  {
+   "end": 8,
+   "start": 7.92,
+   "text": "the"
+  },
+  {
+   "end": 8.48,
+   "start": 8,
+   "text": "cell"
+  },
+  {
+   "end": 9.2,
+   "start": 8.8,
+   "text": "Two"
+  },
+  {
+   "end": 9.52,
+   "start": 9.44,
+   "text": "the"
+  },
+  {
+   "end": 9.92,
+   "start": 9.52,
+   "text": "smooth"
+  },
+  {
+   "end": 10.64,
+   "start": 9.92,
+   "text": "endoplasmic"
+  },
+  {
+   "end": 11.28,
+   "start": 10.64,
+   "text": "reticulum"
+  },
+  {
+   "end": 12.08,
+   "start": 11.52,
+   "text": "rebuilds"
+  },
+  {
+   "end": 12.24,
+   "start": 12.08,
+   "text": "them"
+  },
+  {
+   "end": 12.4,
+   "start": 12.24,
+   "text": "into"
+  },
+  {
+   "end": 13.36,
+   "start": 12.4,
+   "text": "triglycerides"
+  },
+  {
+   "end": 14.24,
+   "start": 13.68,
+   "text": "Three"
+  },
+  {
+   "end": 14.56,
+   "start": 14.48,
+   "text": "the"
+  },
+  {
+   "end": 15.04,
+   "start": 14.56,
+   "text": "Golgi"
+  },
+  {
+   "end": 15.68,
+   "start": 15.04,
+   "text": "apparatus"
+  },
+  {
+   "end": 16.48,
+   "start": 15.92,
+   "text": "packages"
+  },
+  {
+   "end": 16.56,
+   "start": 16.48,
+   "text": "them"
+  },
+  {
+   "end": 16.72,
+   "start": 16.56,
+   "text": "with"
+  },
+  {
+   "end": 17.36,
+   "start": 16.72,
+   "text": "proteins"
+  },
+  {
+   "end": 17.52,
+   "start": 17.36,
+   "text": "into"
+  },
+  {
+   "end": 18.56,
+   "start": 17.52,
+   "text": "chylomicrons"
+  },
+  {
+   "end": 19.52,
+   "start": 18.96,
+   "text": "Four"
+  },
+  {
+   "end": 20.64,
+   "start": 19.68,
+   "text": "chylomicrons"
+  },
+  {
+   "end": 20.96,
+   "start": 20.64,
+   "text": "leave"
+  },
+  {
+   "end": 21.12,
+   "start": 20.96,
+   "text": "by"
+  },
+  {
+   "end": 22.24,
+   "start": 21.2,
+   "text": "exocytosis"
+  },
+  {
+   "end": 22.56,
+   "start": 22.4,
+   "text": "and"
+  },
+  {
+   "end": 22.88,
+   "start": 22.64,
+   "text": "enter"
+  },
+  {
+   "end": 22.96,
+   "start": 22.88,
+   "text": "the"
+  },
+  {
+   "end": 23.6,
+   "start": 22.96,
+   "text": "lacteal"
+  },
+  {
+   "end": 24.32,
+   "start": 23.84,
+   "text": "Five"
+  },
+  {
+   "end": 24.88,
+   "start": 24.56,
+   "text": "lymph"
+  },
+  {
+   "end": 25.28,
+   "start": 24.88,
+   "text": "carries"
+  },
+  {
+   "end": 25.36,
+   "start": 25.28,
+   "text": "them"
+  },
+  {
+   "end": 25.76,
+   "start": 25.36,
+   "text": "away"
+  },
+  {
+   "end": 26.32,
+   "start": 26.16,
+   "text": "With"
+  },
+  {
+   "end": 26.72,
+   "start": 26.32,
+   "text": "plenty"
+  },
+  {
+   "end": 26.72,
+   "start": 26.72,
+   "text": "of"
+  },
+  {
+   "end": 26.88,
+   "start": 26.72,
+   "text": "M"
+  },
+  {
+   "end": 27.44,
+   "start": 26.88,
+   "text": "cells"
+  },
+  {
+   "end": 27.92,
+   "start": 27.68,
+   "text": "about"
+  },
+  {
+   "end": 28.56,
+   "start": 27.92,
+   "text": "97"
+  },
+  {
+   "end": 28.96,
+   "start": 28.88,
+   "text": "of"
+  },
+  {
+   "end": 29.28,
+   "start": 28.96,
+   "text": "fat"
+  },
+  {
+   "end": 29.44,
+   "start": 29.36,
+   "text": "is"
+  },
+  {
+   "end": 29.92,
+   "start": 29.44,
+   "text": "absorbed"
+  },
+  {
+   "end": 30.56,
+   "start": 30.16,
+   "text": "Without"
+  },
+  {
+   "end": 30.8,
+   "start": 30.56,
+   "text": "them"
+  },
+  {
+   "end": 31.28,
+   "start": 31.04,
+   "text": "only"
+  },
+  {
+   "end": 31.68,
+   "start": 31.28,
+   "text": "40"
+  },
+  {
+   "end": 31.68,
+   "start": 31.68,
+   "text": "to"
+  },
+  {
+   "end": 32.48,
+   "start": 31.68,
+   "text": "50"
+  },
+  {
+   "end": 32.48,
+   "start": 32.48,
+   "text": "Fail"
+  },
+  {
+   "end": 33.12,
+   "start": 33.12,
+   "text": "to"
+  },
+  {
+   "end": 33.44,
+   "start": 33.2,
+   "text": "make"
+  },
+  {
+   "end": 33.76,
+   "start": 33.44,
+   "text": "apo"
+  },
+  {
+   "end": 34.08,
+   "start": 33.76,
+   "text": "B"
+  },
+  {
+   "end": 34.4,
+   "start": 34.24,
+   "text": "and"
+  },
+  {
+   "end": 34.48,
+   "start": 34.4,
+   "text": "you"
+  },
+  {
+   "end": 34.64,
+   "start": 34.48,
+   "text": "get"
+  },
+  {
+   "end": 36.16,
+   "start": 34.64,
+   "text": "abetalipoproteinemia"
+  },
+  {
+   "end": 36.16,
+   "start": 36.16,
+   "text": "A"
+  },
+  {
+   "end": 37.12,
+   "start": 36.64,
+   "text": "defect"
+  },
+  {
+   "end": 37.28,
+   "start": 37.12,
+   "text": "at"
+  },
+  {
+   "end": 37.36,
+   "start": 37.28,
+   "text": "any"
+  },
+  {
+   "end": 37.76,
+   "start": 37.36,
+   "text": "step"
+  },
+  {
+   "end": 38,
+   "start": 37.76,
+   "text": "means"
+  },
+  {
+   "end": 38.64,
+   "start": 38,
+   "text": "steatorrhea"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 38.64,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Fat absorption takes five steps. One, fatty acids and monoglycerides leave the M cell and diffuse into the cell. Two, the smooth endoplasmic reticulum rebuilds them into triglycerides. Three, the Golgi apparatus packages them with proteins into chylomicrons. Four, chylomicrons leave by exocytosis and enter the lacteal. Five, lymph carries them away. With plenty of M cells, about 97% of fat is absorbed. Without them, only 40 to 50%. Fail to make apo B, and you get abetalipoproteinemia. A defect at any step means steatorrhea."
+  }
+ ],
+ "text": "Fat absorption takes five steps. One, fatty acids and monoglycerides leave the M cell and diffuse into the cell. Two, the smooth endoplasmic reticulum rebuilds them into triglycerides. Three, the Golgi apparatus packages them with proteins into chylomicrons. Four, chylomicrons leave by exocytosis and enter the lacteal. Five, lymph carries them away. With plenty of M cells, about 97% of fat is absorbed. Without them, only 40 to 50%. Fail to make apo B, and you get abetalipoproteinemia. A defect at any step means steatorrhea."
+}

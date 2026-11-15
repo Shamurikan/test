@@ -1,0 +1,287 @@
+{
+ "duration": 27.376375,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "de0a381f-cca8-4736-97e6-7227905475d3",
+ "segments": [
+  {
+   "end": 0.96,
+   "start": 0.24,
+   "text": "Surprisingly"
+  },
+  {
+   "end": 1.28,
+   "start": 0.96,
+   "text": "few"
+  },
+  {
+   "end": 1.76,
+   "start": 1.28,
+   "text": "enzymes"
+  },
+  {
+   "end": 1.84,
+   "start": 1.76,
+   "text": "are"
+  },
+  {
+   "end": 2.24,
+   "start": 1.84,
+   "text": "released"
+  },
+  {
+   "end": 2.4,
+   "start": 2.24,
+   "text": "into"
+  },
+  {
+   "end": 2.48,
+   "start": 2.4,
+   "text": "the"
+  },
+  {
+   "end": 2.88,
+   "start": 2.48,
+   "text": "lumen"
+  },
+  {
+   "end": 3.68,
+   "start": 3.36,
+   "text": "Only"
+  },
+  {
+   "end": 4.8,
+   "start": 3.76,
+   "text": "enteropeptidase"
+  },
+  {
+   "end": 4.96,
+   "start": 4.8,
+   "text": "and"
+  },
+  {
+   "end": 5.68,
+   "start": 5.04,
+   "text": "amylase"
+  },
+  {
+   "end": 6.4,
+   "start": 6.08,
+   "text": "Most"
+  },
+  {
+   "end": 6.64,
+   "start": 6.4,
+   "text": "stay"
+  },
+  {
+   "end": 6.72,
+   "start": 6.64,
+   "text": "in"
+  },
+  {
+   "end": 6.8,
+   "start": 6.72,
+   "text": "the"
+  },
+  {
+   "end": 7.12,
+   "start": 6.8,
+   "text": "brush"
+  },
+  {
+   "end": 7.52,
+   "start": 7.12,
+   "text": "border"
+  },
+  {
+   "end": 7.84,
+   "start": 7.68,
+   "text": "or"
+  },
+  {
+   "end": 8.32,
+   "start": 7.84,
+   "text": "inside"
+  },
+  {
+   "end": 8.48,
+   "start": 8.32,
+   "text": "the"
+  },
+  {
+   "end": 9.28,
+   "start": 8.48,
+   "text": "enterocytes"
+  },
+  {
+   "end": 10.24,
+   "start": 9.6,
+   "text": "Peptidase"
+  },
+  {
+   "end": 10.72,
+   "start": 10.24,
+   "text": "finish"
+  },
+  {
+   "end": 11.36,
+   "start": 10.72,
+   "text": "peptides"
+  },
+  {
+   "end": 11.6,
+   "start": 11.36,
+   "text": "into"
+  },
+  {
+   "end": 12,
+   "start": 11.6,
+   "text": "amino"
+  },
+  {
+   "end": 12.48,
+   "start": 12,
+   "text": "acids"
+  },
+  {
+   "end": 13.36,
+   "start": 12.8,
+   "text": "Sucrase"
+  },
+  {
+   "end": 14.56,
+   "start": 13.92,
+   "text": "maltase"
+  },
+  {
+   "end": 15.76,
+   "start": 14.96,
+   "text": "isomaltase"
+  },
+  {
+   "end": 15.84,
+   "start": 15.76,
+   "text": "and"
+  },
+  {
+   "end": 16.48,
+   "start": 15.84,
+   "text": "lactase"
+  },
+  {
+   "end": 17.04,
+   "start": 16.72,
+   "text": "split"
+  },
+  {
+   "end": 17.92,
+   "start": 17.04,
+   "text": "disaccharides"
+  },
+  {
+   "end": 18.08,
+   "start": 17.92,
+   "text": "into"
+  },
+  {
+   "end": 19.12,
+   "start": 18.08,
+   "text": "monosaccharides"
+  },
+  {
+   "end": 19.68,
+   "start": 19.6,
+   "text": "A"
+  },
+  {
+   "end": 19.92,
+   "start": 19.68,
+   "text": "little"
+  },
+  {
+   "end": 20.48,
+   "start": 19.92,
+   "text": "intestinal"
+  },
+  {
+   "end": 20.96,
+   "start": 20.48,
+   "text": "lipase"
+  },
+  {
+   "end": 21.28,
+   "start": 20.96,
+   "text": "splits"
+  },
+  {
+   "end": 21.84,
+   "start": 21.28,
+   "text": "fats"
+  },
+  {
+   "end": 22.32,
+   "start": 22.16,
+   "text": "and"
+  },
+  {
+   "end": 23.28,
+   "start": 22.32,
+   "text": "nucleotidases"
+  },
+  {
+   "end": 23.52,
+   "start": 23.28,
+   "text": "break"
+  },
+  {
+   "end": 24.24,
+   "start": 23.52,
+   "text": "nucleotides"
+  },
+  {
+   "end": 24.4,
+   "start": 24.24,
+   "text": "into"
+  },
+  {
+   "end": 24.96,
+   "start": 24.4,
+   "text": "bases"
+  },
+  {
+   "end": 25.84,
+   "start": 25.2,
+   "text": "phosphoric"
+  },
+  {
+   "end": 26.24,
+   "start": 25.84,
+   "text": "acid"
+  },
+  {
+   "end": 26.4,
+   "start": 26.32,
+   "text": "and"
+  },
+  {
+   "end": 26.8,
+   "start": 26.4,
+   "text": "pentose"
+  },
+  {
+   "end": 27.2,
+   "start": 26.8,
+   "text": "sugar"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 27.2,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Surprisingly few enzymes are released into the lumen. Only enteropeptidase and amylase. Most stay in the brush border or inside the enterocytes. Peptidase finish peptides into amino acids. Sucrase, maltase, isomaltase and lactase split disaccharides into monosaccharides. A little intestinal lipase splits fats, and nucleotidases break nucleotides into bases, phosphoric acid and pentose sugar."
+  }
+ ],
+ "text": "Surprisingly few enzymes are released into the lumen. Only enteropeptidase and amylase. Most stay in the brush border or inside the enterocytes. Peptidase finish peptides into amino acids. Sucrase, maltase, isomaltase and lactase split disaccharides into monosaccharides. A little intestinal lipase splits fats, and nucleotidases break nucleotides into bases, phosphoric acid and pentose sugar."
+}

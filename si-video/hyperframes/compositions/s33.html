@@ -1,0 +1,69 @@
+<template>
+  <style>
+    
+      @font-face { font-family: "Fraunces"; src: url("assets/fonts/fraunces-latin-full-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "Fraunces"; src: url("assets/fonts/fraunces-latin-full-italic.woff2") format("woff2"); font-weight: 100 900; font-style: italic; }
+      @font-face { font-family: "InterVar"; src: url("assets/fonts/inter-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "JBMono"; src: url("assets/fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; }
+      #root { position: absolute; inset: 0; overflow: hidden; color: #F7EFE9; font-family: "InterVar", sans-serif; }
+      #root .disp { font-family: "Fraunces", serif; font-variation-settings: "opsz" 144, "SOFT" 30; letter-spacing: -0.02em; }
+      #root .mono { font-family: "JBMono", monospace; }
+      #root .kicker { font-size: 28px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #FF9A86; }
+      #root .muted { color: #CDBDB5; }
+      #root .w { display: inline-block; }
+    #s33-stats { position: absolute; left: 192px; top: 190px; display: flex; flex-direction: column; gap: 6px; }
+    .s33-stat { display: flex; align-items: baseline; gap: 26px; height: 210px; }
+    .s33-stat .num { font-family: "Fraunces", serif; font-variation-settings: "opsz" 144, "SOFT" 30; font-size: 190px; font-weight: 450; letter-spacing: -0.04em; color: #F7EFE9; }
+    .s33-stat .unit { font-family: "Fraunces", serif; font-size: 92px; font-weight: 400; margin-left: -14px; }
+    .s33-stat .lab { font-size: 36px; color: #CDBDB5; }
+    #s33-jobs { position: absolute; left: 0; top: 360px; width: 1920px; text-align: center; font-size: 128px; font-weight: 500; }
+    #s33-jobs .dot { color: #8E7C76; margin: 0 26px; }
+    #s33-last { position: absolute; left: 0; top: 590px; width: 1920px; text-align: center; font-size: 62px; font-style: italic; font-weight: 400; color: #F7EFE9; }
+    #s33-black { position: absolute; inset: 0; background: #000; opacity: 0; }
+  </style>
+  <div id="root" data-composition-id="s33" data-width="1920" data-height="1080">
+    <div id="s33-stats">
+      <div id="s33-st1" class="s33-stat"><span class="num">6</span><span class="unit" style="color:#FF7A63">m</span><span class="lab">of tube</span></div>
+      <div id="s33-st2" class="s33-stat"><span class="num">250</span><span class="unit" style="color:#3FD0BC">m²</span><span class="lab">of absorptive surface</span></div>
+      <div id="s33-st3" class="s33-stat"><span class="num">9</span><span class="unit" style="color:#5CC8FF">L</span><span class="lab">of fluid handled every day</span></div>
+    </div>
+    <div id="s33-jobs" class="disp"><span class="w" id="s33-j1" style="color:#FF7A63">Move</span><span class="w dot" id="s33-d1">·</span><span class="w" id="s33-j2" style="color:#FFC857">Digest</span><span class="w dot" id="s33-d2">·</span><span class="w" id="s33-j3" style="color:#3FD0BC">Absorb</span></div>
+    <div id="s33-last" class="disp"><span class="w s33-lw">Almost</span> <span class="w s33-lw">nothing</span> <span class="w s33-lw">goes</span> <span class="w s33-lw">to</span> <span class="w s33-lw">waste.</span></div>
+    <div id="s33-black"></div>
+  </div>
+  <script>
+    
+      const __W = [{"t":"Six","s":0.69,"e":1.09},{"t":"meters","s":1.09,"e":1.57},{"t":"of","s":1.57,"e":1.73},{"t":"tube.","s":1.73,"e":2.21},{"t":"Two","s":2.53,"e":2.67},{"t":"hundred","s":2.67,"e":2.81},{"t":"and","s":2.81,"e":2.95},{"t":"fifty","s":2.95,"e":3.09},{"t":"square","s":3.41,"e":3.73},{"t":"meters","s":3.73,"e":4.13},{"t":"of","s":4.13,"e":4.21},{"t":"surface.","s":4.21,"e":4.77},{"t":"Nine","s":5.25,"e":5.65},{"t":"liters","s":5.65,"e":5.97},{"t":"of","s":5.97,"e":6.05},{"t":"fluid","s":6.05,"e":6.37},{"t":"a","s":6.37,"e":6.45},{"t":"day.","s":6.45,"e":6.85},{"t":"Move,","s":7.09,"e":7.65},{"t":"digest,","s":7.97,"e":8.69},{"t":"absorb,","s":8.85,"e":9.41},{"t":"and","s":9.73,"e":9.89},{"t":"almost","s":9.89,"e":10.29},{"t":"nothing","s":10.29,"e":10.61},{"t":"goes","s":10.61,"e":10.77},{"t":"to","s":10.85,"e":10.93},{"t":"waste.","s":10.93,"e":11.33}];
+      const __P = [{"key":"s33","start":0.45,"duration":11.05}];
+      const __norm = (x) => x.toLowerCase().replace(/[^a-z0-9]/g, "");
+      function cue(phrase, n = 1, fallback = 0) {
+        const p = phrase.split(/\s+/).map(__norm).filter(Boolean);
+        let c = 0;
+        for (let i = 0; i < __W.length; i++) {
+          let ok = true;
+          for (let j = 0; j < p.length; j++) {
+            const w = __W[i + j];
+            if (!w || !__norm(w.t).startsWith(p[j])) { ok = false; break; }
+          }
+          if (ok && ++c === n) return __W[i].s;
+        }
+        return fallback;
+      }
+      function part(key) { return __P.find((p) => p.key.endsWith(key)); }
+    const DUR = 14.7;
+    const tl = gsap.timeline({ paused: true });
+    const blurIn = (sel, t) => tl.fromTo(sel, { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.22, ease: "power3.out" }, t);
+    blurIn("#s33-st1", cue("six") - 0.1);
+    blurIn("#s33-st2", cue("two hundred") - 0.1);
+    blurIn("#s33-st3", cue("nine") - 0.1);
+    const tMove = cue("move");
+    tl.to(["#s33-st1", "#s33-st2", "#s33-st3"], { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in", stagger: 0.05 }, tMove - 0.45);
+    blurIn("#s33-j1", tMove - 0.05);
+    tl.fromTo(["#s33-d1", "#s33-j2"], { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out", stagger: 0.04 }, cue("digest") - 0.08);
+    tl.fromTo(["#s33-d2", "#s33-j3"], { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out", stagger: 0.04 }, cue("absorb") - 0.08);
+    // the last line goes from faint to ink, word by word, as it is spoken
+    tl.fromTo(".s33-lw", { opacity: 0, color: "#8E7C76" }, { opacity: 1, color: "#F7EFE9", duration: 0.25, ease: "power2.out", stagger: 0.16 }, cue("almost") - 0.05);
+    tl.fromTo("#s33-black", { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power2.in" }, DUR - 1.1);
+    window.__timelines["s33"] = tl;
+  </script>
+</template>

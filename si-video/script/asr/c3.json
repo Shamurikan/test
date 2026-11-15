@@ -1,0 +1,32 @@
+{
+ "duration": 2.2465625,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "b1d008e5-2d73-4ab2-b2d5-d0009d4de19e",
+ "segments": [
+  {
+   "end": 0.56,
+   "start": 0.32,
+   "text": "Part"
+  },
+  {
+   "end": 1.04,
+   "start": 0.56,
+   "text": "three"
+  },
+  {
+   "end": 2.16,
+   "start": 1.44,
+   "text": "absorption"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 2.16,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Part three, absorption."
+  }
+ ],
+ "text": "Part three, absorption."
+}

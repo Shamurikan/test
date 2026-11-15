@@ -1,0 +1,104 @@
+<template>
+  <style>
+    
+      @font-face { font-family: "Fraunces"; src: url("assets/fonts/fraunces-latin-full-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "Fraunces"; src: url("assets/fonts/fraunces-latin-full-italic.woff2") format("woff2"); font-weight: 100 900; font-style: italic; }
+      @font-face { font-family: "InterVar"; src: url("assets/fonts/inter-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; }
+      @font-face { font-family: "JBMono"; src: url("assets/fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; }
+      #root { position: absolute; inset: 0; overflow: hidden; color: #F7EFE9; font-family: "InterVar", sans-serif; }
+      #root .disp { font-family: "Fraunces", serif; font-variation-settings: "opsz" 144, "SOFT" 30; letter-spacing: -0.02em; }
+      #root .mono { font-family: "JBMono", monospace; }
+      #root .kicker { font-size: 28px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #FF9A86; }
+      #root .muted { color: #CDBDB5; }
+      #root .w { display: inline-block; }
+    #s01-svg { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+    #s01-kicker { position: absolute; left: 192px; top: 236px; }
+    #s01-title { position: absolute; left: 184px; top: 290px; font-size: 150px; line-height: 0.96; font-weight: 520; color: #F7EFE9; }
+    #s01-jobs { position: absolute; left: 192px; top: 640px; font-size: 54px; font-weight: 500; letter-spacing: -0.01em; }
+    #s01-jobs .dot { color: #8E7C76; margin: 0 18px; }
+    #s01-credit { position: absolute; left: 192px; top: 760px; width: 640px; font-size: 28px; line-height: 1.45; color: #CDBDB5; }
+    #s01-len { position: absolute; left: 1196px; top: 174px; font-size: 30px; color: #F7EFE9; }
+    #s01-len span { color: #FF9A86; }
+  </style>
+  <div id="root" data-composition-id="s01" data-width="1920" data-height="1080">
+    <svg id="s01-svg" viewBox="0 0 1920 1080" data-layout-allow-overflow>
+      <defs>
+        <radialGradient id="s01-bolusGlow">
+          <stop offset="0" stop-color="#FFE3A0" stop-opacity="1" />
+          <stop offset="0.45" stop-color="#FFC857" stop-opacity="0.9" />
+          <stop offset="1" stop-color="#FFC857" stop-opacity="0" />
+        </radialGradient>
+      </defs>
+      <path id="s01-coil-shadow" d="M 1010 120 C 1010 220, 1150 210, 1150 290 C 1150 360, 1070 380, 1000 380 L 900 380 A 45 45 0 0 0 900 470 L 1660 470 A 45 45 0 0 1 1660 560 L 900 560 A 45 45 0 0 0 900 650 L 1660 650 A 45 45 0 0 1 1660 740 L 900 740 A 45 45 0 0 0 900 830 L 1660 830 C 1720 830, 1730 900, 1700 930" fill="none" stroke="#000" stroke-opacity="0.35" stroke-width="64" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" transform="translate(0 8)" />
+      <path id="s01-coil-outer" d="M 1010 120 C 1010 220, 1150 210, 1150 290 C 1150 360, 1070 380, 1000 380 L 900 380 A 45 45 0 0 0 900 470 L 1660 470 A 45 45 0 0 1 1660 560 L 900 560 A 45 45 0 0 0 900 650 L 1660 650 A 45 45 0 0 1 1660 740 L 900 740 A 45 45 0 0 0 900 830 L 1660 830 C 1720 830, 1730 900, 1700 930" fill="none" stroke="#A93B3A" stroke-width="58" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" />
+      <path id="s01-coil-mid" d="M 1010 120 C 1010 220, 1150 210, 1150 290 C 1150 360, 1070 380, 1000 380 L 900 380 A 45 45 0 0 0 900 470 L 1660 470 A 45 45 0 0 1 1660 560 L 900 560 A 45 45 0 0 0 900 650 L 1660 650 A 45 45 0 0 1 1660 740 L 900 740 A 45 45 0 0 0 900 830 L 1660 830 C 1720 830, 1730 900, 1700 930" fill="none" stroke="#E07A70" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" />
+      <path id="s01-coil-inner" d="M 1010 120 C 1010 220, 1150 210, 1150 290 C 1150 360, 1070 380, 1000 380 L 900 380 A 45 45 0 0 0 900 470 L 1660 470 A 45 45 0 0 1 1660 560 L 900 560 A 45 45 0 0 0 900 650 L 1660 650 A 45 45 0 0 1 1660 740 L 900 740 A 45 45 0 0 0 900 830 L 1660 830 C 1720 830, 1730 900, 1700 930" fill="none" stroke="#F6B8AA" stroke-opacity="0.55" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100 120" stroke-dashoffset="110" transform="translate(0 -9)" />
+      <line id="s01-lenline" x1="1040" y1="200" x2="1188" y2="196" stroke="#FF9A86" stroke-width="2" opacity="0" />
+      <g id="s01-bolus" opacity="0">
+        <circle r="34" fill="url(#s01-bolusGlow)" />
+        <circle r="11" fill="#FFE7B0" />
+      </g>
+    </svg>
+    <div id="s01-len" class="mono">5–7 <span>meters</span></div>
+    <div id="s01-kicker" class="kicker">Gastrointestinal physiology · Lecture 5</div>
+    <h1 id="s01-title" class="disp"><span class="w" id="s01-t1">The</span> <span class="w" id="s01-t2">small</span><br><span class="w" id="s01-t3">intestine</span></h1>
+    <div id="s01-jobs">
+      <span class="w" id="s01-j1" style="color:#FF7A63">Move</span><span class="w dot" id="s01-d1">·</span><span class="w" id="s01-j2" style="color:#FFC857">Digest</span><span class="w dot" id="s01-d2">·</span><span class="w" id="s01-j3" style="color:#3FD0BC">Absorb</span>
+    </div>
+    <div id="s01-credit">From the lecture by Prof. Mohammed Alzoghaibi &amp; Dr. Hayam Gad</div>
+  </div>
+  <script>
+    
+      const __W = [{"t":"Every","s":1.42,"e":1.66},{"t":"meal","s":1.66,"e":1.98},{"t":"you","s":1.98,"e":2.14},{"t":"eat","s":2.22,"e":2.46},{"t":"ends","s":2.7,"e":2.94},{"t":"up","s":2.94,"e":3.1},{"t":"here:","s":3.1,"e":3.42},{"t":"five","s":3.9,"e":4.3},{"t":"to","s":4.38,"e":4.38},{"t":"seven","s":4.38,"e":4.78},{"t":"meters","s":4.78,"e":5.1},{"t":"of","s":5.1,"e":5.18},{"t":"folded,","s":5.18,"e":5.66},{"t":"moving","s":5.66,"e":6.06},{"t":"tube.","s":6.06,"e":6.38},{"t":"Let's","s":6.86,"e":7.1},{"t":"follow","s":7.1,"e":7.42},{"t":"one","s":7.42,"e":7.74},{"t":"meal","s":7.74,"e":7.98},{"t":"through","s":7.98,"e":8.14},{"t":"the","s":8.14,"e":8.22},{"t":"small","s":8.22,"e":8.62},{"t":"intestine,","s":8.62,"e":9.18},{"t":"and","s":9.34,"e":9.58},{"t":"watch","s":9.58,"e":9.82},{"t":"it","s":9.82,"e":9.9},{"t":"do","s":9.9,"e":10.06},{"t":"three","s":10.06,"e":10.38},{"t":"jobs.","s":10.38,"e":10.86},{"t":"It","s":11.34,"e":11.5},{"t":"moves.","s":11.5,"e":12.06},{"t":"It","s":12.3,"e":12.38},{"t":"digests.","s":12.38,"e":13.18},{"t":"It","s":13.58,"e":13.66},{"t":"absorbs.","s":13.66,"e":14.38}];
+      const __P = [{"key":"s01","start":1.1,"duration":13.427}];
+      const __norm = (x) => x.toLowerCase().replace(/[^a-z0-9]/g, "");
+      function cue(phrase, n = 1, fallback = 0) {
+        const p = phrase.split(/\s+/).map(__norm).filter(Boolean);
+        let c = 0;
+        for (let i = 0; i < __W.length; i++) {
+          let ok = true;
+          for (let j = 0; j < p.length; j++) {
+            const w = __W[i + j];
+            if (!w || !__norm(w.t).startsWith(p[j])) { ok = false; break; }
+          }
+          if (ok && ++c === n) return __W[i].s;
+        }
+        return fallback;
+      }
+      function part(key) { return __P.find((p) => p.key.endsWith(key)); }
+    const DUR = 15.3;
+    const coil = document.getElementById("s01-coil-mid");
+    const L = coil.getTotalLength();
+    const bolus = document.getElementById("s01-bolus");
+
+    const tl = gsap.timeline({ paused: true });
+    const tHere = cue("here");
+    const tFive = cue("five");
+    const tTitle = cue("small intestine");
+    const tFollow = cue("follow");
+    const tJobs = [cue("moves"), cue("digests"), cue("absorbs")];
+
+    tl.fromTo("#s01-kicker", { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.35, ease: "power3.out" }, 0.25);
+    // the coil draws itself while the voice says "ends up here ... folded, moving tube"
+    tl.fromTo(["#s01-coil-shadow", "#s01-coil-outer", "#s01-coil-mid", "#s01-coil-inner"], { strokeDashoffset: 110 }, { strokeDashoffset: 0, duration: Math.max(2.8, cue("tube") + 0.6 - (tHere - 0.9)), ease: "power2.inOut" }, tHere - 0.9);
+    tl.fromTo("#s01-lenline", { opacity: 0 }, { opacity: 0.9, duration: 0.25 }, tFive);
+    tl.fromTo("#s01-len", { opacity: 0, filter: "blur(6px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.25, ease: "power3.out" }, tFive);
+    // title, word by word
+    tl.fromTo(["#s01-t1", "#s01-t2", "#s01-t3"], { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.22, ease: "power3.out", stagger: 0.09 }, tTitle - 0.25);
+    tl.fromTo("#s01-credit", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.out" }, tTitle + 0.9);
+    // one meal travels the whole tube
+    tl.fromTo(bolus, { opacity: 0 }, { opacity: 1, duration: 0.3 }, tFollow);
+    const prog = { p: 0 };
+    const place = () => {
+      const pt = coil.getPointAtLength(prog.p * L);
+      bolus.setAttribute("transform", `translate(${pt.x} ${pt.y})`);
+    };
+    place();
+    tl.fromTo(prog, { p: 0 }, { p: 0.94, duration: DUR - tFollow - 0.6, ease: "none", onUpdate: place }, tFollow);
+    // three jobs land on the words that name them
+    tl.fromTo("#s01-j1", { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.18, ease: "power3.out" }, tJobs[0] - 0.05);
+    tl.fromTo(["#s01-d1", "#s01-j2"], { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.18, ease: "power3.out", stagger: 0.04 }, tJobs[1] - 0.08);
+    tl.fromTo(["#s01-d2", "#s01-j3"], { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.18, ease: "power3.out", stagger: 0.04 }, tJobs[2] - 0.08);
+    window.__timelines["s01"] = tl;
+  </script>
+</template>

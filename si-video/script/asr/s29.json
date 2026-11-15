@@ -1,0 +1,227 @@
+{
+ "duration": 17.267,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "579d57f1-e3e4-43e3-a9d9-1d97369640b4",
+ "segments": [
+  {
+   "end": 0.8,
+   "start": 0.32,
+   "text": "Hormones"
+  },
+  {
+   "end": 1.2,
+   "start": 0.8,
+   "text": "fine"
+  },
+  {
+   "end": 1.44,
+   "start": 1.2,
+   "text": "tune"
+  },
+  {
+   "end": 2,
+   "start": 1.44,
+   "text": "absorption"
+  },
+  {
+   "end": 3.44,
+   "start": 2.48,
+   "text": "Glucocorticoids"
+  },
+  {
+   "end": 3.68,
+   "start": 3.68,
+   "text": "increase"
+  },
+  {
+   "end": 4.64,
+   "start": 4.16,
+   "text": "water"
+  },
+  {
+   "end": 4.8,
+   "start": 4.64,
+   "text": "and"
+  },
+  {
+   "end": 5.12,
+   "start": 4.8,
+   "text": "ion"
+  },
+  {
+   "end": 5.76,
+   "start": 5.12,
+   "text": "absorption"
+  },
+  {
+   "end": 6,
+   "start": 5.92,
+   "text": "in"
+  },
+  {
+   "end": 6.08,
+   "start": 6,
+   "text": "the"
+  },
+  {
+   "end": 6.48,
+   "start": 6.08,
+   "text": "small"
+  },
+  {
+   "end": 6.56,
+   "start": 6.48,
+   "text": "and"
+  },
+  {
+   "end": 6.88,
+   "start": 6.56,
+   "text": "large"
+  },
+  {
+   "end": 7.36,
+   "start": 6.88,
+   "text": "intestine"
+  },
+  {
+   "end": 8.8,
+   "start": 7.76,
+   "text": "Somatostatin"
+  },
+  {
+   "end": 9.12,
+   "start": 8.88,
+   "text": "does"
+  },
+  {
+   "end": 9.2,
+   "start": 9.12,
+   "text": "the"
+  },
+  {
+   "end": 9.6,
+   "start": 9.2,
+   "text": "same"
+  },
+  {
+   "end": 9.68,
+   "start": 9.6,
+   "text": "in"
+  },
+  {
+   "end": 9.76,
+   "start": 9.68,
+   "text": "the"
+  },
+  {
+   "end": 10.08,
+   "start": 9.76,
+   "text": "ileum"
+  },
+  {
+   "end": 10.16,
+   "start": 10.08,
+   "text": "and"
+  },
+  {
+   "end": 10.64,
+   "start": 10.16,
+   "text": "colon"
+  },
+  {
+   "end": 11.68,
+   "start": 11.04,
+   "text": "Epinephrine"
+  },
+  {
+   "end": 12.16,
+   "start": 11.68,
+   "text": "increases"
+  },
+  {
+   "end": 12.64,
+   "start": 12.16,
+   "text": "sodium"
+  },
+  {
+   "end": 13.04,
+   "start": 12.64,
+   "text": "chloride"
+  },
+  {
+   "end": 13.52,
+   "start": 13.04,
+   "text": "absorption"
+  },
+  {
+   "end": 13.6,
+   "start": 13.52,
+   "text": "in"
+  },
+  {
+   "end": 13.76,
+   "start": 13.6,
+   "text": "the"
+  },
+  {
+   "end": 14.08,
+   "start": 13.76,
+   "text": "ileum"
+  },
+  {
+   "end": 14.56,
+   "start": 14.48,
+   "text": "and"
+  },
+  {
+   "end": 15.28,
+   "start": 14.56,
+   "text": "aldosterone"
+  },
+  {
+   "end": 15.52,
+   "start": 15.28,
+   "text": "makes"
+  },
+  {
+   "end": 15.68,
+   "start": 15.52,
+   "text": "more"
+  },
+  {
+   "end": 16.08,
+   "start": 15.68,
+   "text": "sodium"
+  },
+  {
+   "end": 16.56,
+   "start": 16.08,
+   "text": "channels"
+  },
+  {
+   "end": 16.64,
+   "start": 16.56,
+   "text": "in"
+  },
+  {
+   "end": 16.72,
+   "start": 16.64,
+   "text": "the"
+  },
+  {
+   "end": 17.12,
+   "start": 16.72,
+   "text": "colon"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 17.12,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Hormones fine-tune absorption. Glucocorticoids increase water and ion absorption in the small and large intestine. Somatostatin does the same in the ileum and colon. Epinephrine increases sodium chloride absorption in the ileum, and aldosterone makes more sodium channels in the colon."
+  }
+ ],
+ "text": "Hormones fine-tune absorption. Glucocorticoids increase water and ion absorption in the small and large intestine. Somatostatin does the same in the ileum and colon. Epinephrine increases sodium chloride absorption in the ileum, and aldosterone makes more sodium channels in the colon."
+}

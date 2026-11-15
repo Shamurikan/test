@@ -1,0 +1,52 @@
+{
+ "duration": 2.899625,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "339e959a-45d0-48f5-9c0c-460576ea6838",
+ "segments": [
+  {
+   "end": 0.48,
+   "start": 0.32,
+   "text": "Which"
+  },
+  {
+   "end": 0.96,
+   "start": 0.48,
+   "text": "structure"
+  },
+  {
+   "end": 1.28,
+   "start": 0.96,
+   "text": "adds"
+  },
+  {
+   "end": 1.36,
+   "start": 1.28,
+   "text": "the"
+  },
+  {
+   "end": 1.6,
+   "start": 1.36,
+   "text": "most"
+  },
+  {
+   "end": 2.16,
+   "start": 1.6,
+   "text": "absorptive"
+  },
+  {
+   "end": 2.72,
+   "start": 2.16,
+   "text": "surface"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 2.72,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Which structure adds the most absorptive surface?"
+  }
+ ],
+ "text": "Which structure adds the most absorptive surface?"
+}

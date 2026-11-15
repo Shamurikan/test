@@ -1,0 +1,72 @@
+{
+ "duration": 4.31025,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "0a2935c0-42a8-40d3-908d-37c4572c37a4",
+ "segments": [
+  {
+   "end": 0.48,
+   "start": 0.24,
+   "text": "Quick"
+  },
+  {
+   "end": 0.88,
+   "start": 0.48,
+   "text": "check"
+  },
+  {
+   "end": 1.52,
+   "start": 1.44,
+   "text": "How"
+  },
+  {
+   "end": 1.6,
+   "start": 1.52,
+   "text": "do"
+  },
+  {
+   "end": 2,
+   "start": 1.6,
+   "text": "lipid"
+  },
+  {
+   "end": 2.56,
+   "start": 2,
+   "text": "digestion"
+  },
+  {
+   "end": 3.04,
+   "start": 2.56,
+   "text": "products"
+  },
+  {
+   "end": 3.36,
+   "start": 3.04,
+   "text": "cross"
+  },
+  {
+   "end": 3.44,
+   "start": 3.36,
+   "text": "the"
+  },
+  {
+   "end": 3.76,
+   "start": 3.44,
+   "text": "brush"
+  },
+  {
+   "end": 4.16,
+   "start": 3.76,
+   "text": "border"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 4.16,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Quick check. How do lipid digestion products cross the brush border?"
+  }
+ ],
+ "text": "Quick check. How do lipid digestion products cross the brush border?"
+}

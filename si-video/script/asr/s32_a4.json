@@ -1,0 +1,26 @@
+{
+ "duration": 1.43675,
+ "language_code": "en",
+ "request_id": "2d0a3df5-aa66-4629-8a0e-383c09488ff2",
+ "segments": [
+  {
+   "end": 0.4,
+   "start": 0.32,
+   "text": "The"
+  },
+  {
+   "end": 1.28,
+   "start": 0.4,
+   "text": "microvilli"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 1.28,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "The microvilli."
+  }
+ ],
+ "text": "The microvilli."
+}

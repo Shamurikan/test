@@ -1,0 +1,52 @@
+{
+ "duration": 3.004125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "fcbb01ae-5347-40c6-b3ce-8d54977a911d",
+ "segments": [
+  {
+   "end": 0.48,
+   "start": 0.4,
+   "text": "How"
+  },
+  {
+   "end": 0.64,
+   "start": 0.48,
+   "text": "does"
+  },
+  {
+   "end": 1.44,
+   "start": 0.64,
+   "text": "galactose"
+  },
+  {
+   "end": 1.76,
+   "start": 1.44,
+   "text": "cross"
+  },
+  {
+   "end": 1.84,
+   "start": 1.76,
+   "text": "the"
+  },
+  {
+   "end": 2.24,
+   "start": 1.84,
+   "text": "luminal"
+  },
+  {
+   "end": 2.88,
+   "start": 2.24,
+   "text": "membrane"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 2.88,
+   "speaker": "speaker:0",
+   "start": 0.4,
+   "text": "How does galactose cross the luminal membrane?"
+  }
+ ],
+ "text": "How does galactose cross the luminal membrane?"
+}

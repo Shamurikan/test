@@ -1,0 +1,32 @@
+{
+ "duration": 1.9853125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "bc2fbc04-8fdc-4d6a-b9e1-a56e33fae672",
+ "segments": [
+  {
+   "end": 0.48,
+   "start": 0.24,
+   "text": "Part"
+  },
+  {
+   "end": 0.96,
+   "start": 0.48,
+   "text": "one"
+  },
+  {
+   "end": 1.92,
+   "start": 1.2,
+   "text": "motility"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 1.92,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Part one, motility."
+  }
+ ],
+ "text": "Part one, motility."
+}

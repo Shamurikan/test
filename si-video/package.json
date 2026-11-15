@@ -1,0 +1,42 @@
+{
+  "name": "small-intestine-video",
+  "version": "1.0.0",
+  "description": "Explainer video for Lecture 5: Physiology of the small intestine (motility, secretion, absorption), built with HyperFrames + Remotion.",
+  "scripts": {
+    "tts": "NODE_USE_ENV_PROXY=1 node script/tts.mjs",
+    "align": "python3 -I script/align.py",
+    "timeline": "node script/timeline.mjs",
+    "hf:build": "node script/build-hf.mjs",
+    "hf:check": "cd hyperframes && npx hyperframes check",
+    "hf:render": "cd hyperframes && npx hyperframes render --quality delivery --crf 14 --fps 30 -o ../out/hf.mp4 && cp ../out/hf.mp4 ../remotion/public/hf/hf.mp4",
+    "studio": "npx remotion studio",
+    "stills": "node script/stills.mjs",
+    "render": "npx remotion render Main out/main_raw.mp4 --codec=h264 --crf=17 --concurrency=4 --audio-bitrate=192k",
+    "master": "bash script/master.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.543",
+    "@remotion/fonts": "4.0.543",
+    "@remotion/google-fonts": "4.0.543",
+    "@remotion/media": "4.0.543",
+    "@remotion/media-utils": "4.0.543",
+    "@remotion/noise": "4.0.543",
+    "@remotion/paths": "4.0.543",
+    "@remotion/shapes": "4.0.543",
+    "@remotion/transitions": "4.0.543",
+    "@types/react": "^19.3.0",
+    "hyperframes": "0.9.52",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "4.0.543",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "gsap": "^3.15.0"
+  },
+  "private": true,
+  "type": "module"
+}

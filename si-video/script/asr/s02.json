@@ -1,0 +1,282 @@
+{
+ "duration": 19.9053125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "f1243361-bc02-4fe1-b415-8184ccbd79af",
+ "segments": [
+  {
+   "end": 0.32,
+   "start": 0.32,
+   "text": "The"
+  },
+  {
+   "end": 0.72,
+   "start": 0.32,
+   "text": "small"
+  },
+  {
+   "end": 1.36,
+   "start": 0.72,
+   "text": "intestine"
+  },
+  {
+   "end": 1.76,
+   "start": 1.52,
+   "text": "runs"
+  },
+  {
+   "end": 1.92,
+   "start": 1.76,
+   "text": "from"
+  },
+  {
+   "end": 2,
+   "start": 1.92,
+   "text": "the"
+  },
+  {
+   "end": 2.56,
+   "start": 2,
+   "text": "pyloric"
+  },
+  {
+   "end": 3.12,
+   "start": 2.56,
+   "text": "sphincter"
+  },
+  {
+   "end": 3.52,
+   "start": 3.44,
+   "text": "to"
+  },
+  {
+   "end": 3.68,
+   "start": 3.52,
+   "text": "the"
+  },
+  {
+   "end": 4.4,
+   "start": 3.68,
+   "text": "ileocecal"
+  },
+  {
+   "end": 4.8,
+   "start": 4.4,
+   "text": "valve"
+  },
+  {
+   "end": 5.52,
+   "start": 5.12,
+   "text": "First"
+  },
+  {
+   "end": 5.76,
+   "start": 5.52,
+   "text": "comes"
+  },
+  {
+   "end": 5.84,
+   "start": 5.76,
+   "text": "the"
+  },
+  {
+   "end": 6.48,
+   "start": 5.84,
+   "text": "duodenum"
+  },
+  {
+   "end": 7.12,
+   "start": 6.8,
+   "text": "only"
+  },
+  {
+   "end": 7.36,
+   "start": 7.12,
+   "text": "half"
+  },
+  {
+   "end": 7.44,
+   "start": 7.36,
+   "text": "a"
+  },
+  {
+   "end": 7.68,
+   "start": 7.44,
+   "text": "meter"
+  },
+  {
+   "end": 8.08,
+   "start": 7.68,
+   "text": "long"
+  },
+  {
+   "end": 8.8,
+   "start": 8.64,
+   "text": "Then"
+  },
+  {
+   "end": 8.8,
+   "start": 8.8,
+   "text": "the"
+  },
+  {
+   "end": 9.44,
+   "start": 8.8,
+   "text": "jejunum"
+  },
+  {
+   "end": 9.92,
+   "start": 9.76,
+   "text": "two"
+  },
+  {
+   "end": 10,
+   "start": 9.92,
+   "text": "to"
+  },
+  {
+   "end": 10.24,
+   "start": 10,
+   "text": "three"
+  },
+  {
+   "end": 10.72,
+   "start": 10.24,
+   "text": "meters"
+  },
+  {
+   "end": 11.2,
+   "start": 11.04,
+   "text": "and"
+  },
+  {
+   "end": 11.28,
+   "start": 11.2,
+   "text": "the"
+  },
+  {
+   "end": 11.68,
+   "start": 11.28,
+   "text": "ileum"
+  },
+  {
+   "end": 12,
+   "start": 11.84,
+   "text": "three"
+  },
+  {
+   "end": 12.08,
+   "start": 12,
+   "text": "to"
+  },
+  {
+   "end": 12.48,
+   "start": 12.08,
+   "text": "four"
+  },
+  {
+   "end": 13.2,
+   "start": 12.88,
+   "text": "About"
+  },
+  {
+   "end": 13.52,
+   "start": 13.2,
+   "text": "90"
+  },
+  {
+   "end": 13.92,
+   "start": 13.84,
+   "text": "of"
+  },
+  {
+   "end": 14.64,
+   "start": 13.92,
+   "text": "carbohydrate"
+  },
+  {
+   "end": 14.72,
+   "start": 14.64,
+   "text": "and"
+  },
+  {
+   "end": 15.2,
+   "start": 14.72,
+   "text": "protein"
+  },
+  {
+   "end": 15.84,
+   "start": 15.2,
+   "text": "digestion"
+  },
+  {
+   "end": 16.24,
+   "start": 16.08,
+   "text": "and"
+  },
+  {
+   "end": 16.8,
+   "start": 16.24,
+   "text": "essentially"
+  },
+  {
+   "end": 17.04,
+   "start": 16.8,
+   "text": "all"
+  },
+  {
+   "end": 17.36,
+   "start": 17.04,
+   "text": "fat"
+  },
+  {
+   "end": 18,
+   "start": 17.36,
+   "text": "digestion"
+  },
+  {
+   "end": 18.32,
+   "start": 18.16,
+   "text": "is"
+  },
+  {
+   "end": 18.64,
+   "start": 18.32,
+   "text": "finished"
+  },
+  {
+   "end": 18.72,
+   "start": 18.64,
+   "text": "in"
+  },
+  {
+   "end": 18.8,
+   "start": 18.72,
+   "text": "the"
+  },
+  {
+   "end": 19.12,
+   "start": 18.8,
+   "text": "first"
+  },
+  {
+   "end": 19.28,
+   "start": 19.12,
+   "text": "two"
+  },
+  {
+   "end": 19.76,
+   "start": 19.28,
+   "text": "parts"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 19.76,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "The small intestine runs from the pyloric sphincter to the ileocecal valve. First comes the duodenum, only half a meter long. Then the jejunum, two to three meters, and the ileum, three to four. About 90% of carbohydrate and protein digestion, and essentially all fat digestion is finished in the first two parts."
+  }
+ ],
+ "text": "The small intestine runs from the pyloric sphincter to the ileocecal valve. First comes the duodenum, only half a meter long. Then the jejunum, two to three meters, and the ileum, three to four. About 90% of carbohydrate and protein digestion, and essentially all fat digestion is finished in the first two parts."
+}

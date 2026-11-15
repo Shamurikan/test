@@ -1,0 +1,187 @@
+{
+ "duration": 18.07675,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "880ba454-1285-4256-aa2e-d08554b2be72",
+ "segments": [
+  {
+   "end": 0.48,
+   "start": 0.32,
+   "text": "Who's"
+  },
+  {
+   "end": 0.64,
+   "start": 0.48,
+   "text": "in"
+  },
+  {
+   "end": 1.2,
+   "start": 0.64,
+   "text": "control"
+  },
+  {
+   "end": 1.84,
+   "start": 1.44,
+   "text": "Vagal"
+  },
+  {
+   "end": 2.56,
+   "start": 1.84,
+   "text": "stimulation"
+  },
+  {
+   "end": 3.04,
+   "start": 2.64,
+   "text": "speeds"
+  },
+  {
+   "end": 3.68,
+   "start": 3.04,
+   "text": "intestinal"
+  },
+  {
+   "end": 3.92,
+   "start": 3.76,
+   "text": "and"
+  },
+  {
+   "end": 4.24,
+   "start": 3.92,
+   "text": "villus"
+  },
+  {
+   "end": 4.8,
+   "start": 4.24,
+   "text": "movements"
+  },
+  {
+   "end": 5.76,
+   "start": 5.12,
+   "text": "Sympathetic"
+  },
+  {
+   "end": 6.4,
+   "start": 5.76,
+   "text": "stimulation"
+  },
+  {
+   "end": 6.72,
+   "start": 6.4,
+   "text": "slows"
+  },
+  {
+   "end": 6.96,
+   "start": 6.72,
+   "text": "them"
+  },
+  {
+   "end": 7.76,
+   "start": 7.44,
+   "text": "Among"
+  },
+  {
+   "end": 8.32,
+   "start": 7.76,
+   "text": "hormones"
+  },
+  {
+   "end": 9.2,
+   "start": 8.64,
+   "text": "gastrin"
+  },
+  {
+   "end": 10.16,
+   "start": 9.36,
+   "text": "CCK"
+  },
+  {
+   "end": 10.88,
+   "start": 10.48,
+   "text": "insulin"
+  },
+  {
+   "end": 11.04,
+   "start": 10.96,
+   "text": "and"
+  },
+  {
+   "end": 11.76,
+   "start": 11.04,
+   "text": "serotonin"
+  },
+  {
+   "end": 12.32,
+   "start": 11.76,
+   "text": "stimulate"
+  },
+  {
+   "end": 12.88,
+   "start": 12.32,
+   "text": "motility"
+  },
+  {
+   "end": 13.36,
+   "start": 13.2,
+   "text": "and"
+  },
+  {
+   "end": 13.92,
+   "start": 13.36,
+   "text": "motilin"
+  },
+  {
+   "end": 14.24,
+   "start": 13.92,
+   "text": "drives"
+  },
+  {
+   "end": 14.32,
+   "start": 14.24,
+   "text": "the"
+  },
+  {
+   "end": 14.8,
+   "start": 14.32,
+   "text": "migrating"
+  },
+  {
+   "end": 15.52,
+   "start": 14.8,
+   "text": "complex"
+  },
+  {
+   "end": 16.48,
+   "start": 15.84,
+   "text": "Secretin"
+  },
+  {
+   "end": 16.72,
+   "start": 16.56,
+   "text": "and"
+  },
+  {
+   "end": 17.36,
+   "start": 16.72,
+   "text": "glucagon"
+  },
+  {
+   "end": 17.84,
+   "start": 17.36,
+   "text": "inhibit"
+  },
+  {
+   "end": 17.84,
+   "start": 17.84,
+   "text": "it"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 17.84,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Who's in control? Vagal stimulation speeds intestinal and villus movements. Sympathetic stimulation slows them. Among hormones, gastrin, CCK, insulin, and serotonin stimulate motility, and motilin drives the migrating complex. Secretin and glucagon inhibit it."
+  }
+ ],
+ "text": "Who's in control? Vagal stimulation speeds intestinal and villus movements. Sympathetic stimulation slows them. Among hormones, gastrin, CCK, insulin, and serotonin stimulate motility, and motilin drives the migrating complex. Secretin and glucagon inhibit it."
+}

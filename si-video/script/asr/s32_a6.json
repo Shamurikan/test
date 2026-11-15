@@ -1,0 +1,21 @@
+{
+ "duration": 1.2278125,
+ "language_code": "en",
+ "request_id": "c090f6cc-8b26-4406-9019-7ac2a37b0215",
+ "segments": [
+  {
+   "end": 1.04,
+   "start": 0.32,
+   "text": "Glucagon"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 1.04,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Glucagon."
+  }
+ ],
+ "text": "Glucagon."
+}

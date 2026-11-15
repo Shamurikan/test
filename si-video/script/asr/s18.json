@@ -1,0 +1,462 @@
+{
+ "duration": 35.2391875,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "2e5bb5e3-9c20-491a-aaca-3222e07a5003",
+ "segments": [
+  {
+   "end": 0.8,
+   "start": 0.32,
+   "text": "Fat"
+  },
+  {
+   "end": 1.2,
+   "start": 0.96,
+   "text": "is"
+  },
+  {
+   "end": 1.52,
+   "start": 1.2,
+   "text": "harder"
+  },
+  {
+   "end": 2,
+   "start": 1.92,
+   "text": "It"
+  },
+  {
+   "end": 2.32,
+   "start": 2,
+   "text": "doesn't"
+  },
+  {
+   "end": 2.56,
+   "start": 2.32,
+   "text": "mix"
+  },
+  {
+   "end": 2.72,
+   "start": 2.56,
+   "text": "with"
+  },
+  {
+   "end": 3.12,
+   "start": 2.72,
+   "text": "water"
+  },
+  {
+   "end": 3.6,
+   "start": 3.52,
+   "text": "and"
+  },
+  {
+   "end": 4.24,
+   "start": 3.6,
+   "text": "lipase"
+  },
+  {
+   "end": 4.48,
+   "start": 4.24,
+   "text": "only"
+  },
+  {
+   "end": 4.8,
+   "start": 4.48,
+   "text": "works"
+  },
+  {
+   "end": 4.96,
+   "start": 4.8,
+   "text": "at"
+  },
+  {
+   "end": 4.96,
+   "start": 4.96,
+   "text": "the"
+  },
+  {
+   "end": 5.36,
+   "start": 4.96,
+   "text": "surface"
+  },
+  {
+   "end": 5.44,
+   "start": 5.44,
+   "text": "of"
+  },
+  {
+   "end": 5.52,
+   "start": 5.44,
+   "text": "a"
+  },
+  {
+   "end": 6,
+   "start": 5.52,
+   "text": "droplet"
+  },
+  {
+   "end": 6.72,
+   "start": 6.48,
+   "text": "Less"
+  },
+  {
+   "end": 6.88,
+   "start": 6.72,
+   "text": "than"
+  },
+  {
+   "end": 7.12,
+   "start": 6.88,
+   "text": "10"
+  },
+  {
+   "end": 7.6,
+   "start": 7.52,
+   "text": "is"
+  },
+  {
+   "end": 8.16,
+   "start": 7.6,
+   "text": "digested"
+  },
+  {
+   "end": 8.24,
+   "start": 8.16,
+   "text": "in"
+  },
+  {
+   "end": 8.32,
+   "start": 8.24,
+   "text": "the"
+  },
+  {
+   "end": 8.8,
+   "start": 8.32,
+   "text": "stomach"
+  },
+  {
+   "end": 9.44,
+   "start": 9.36,
+   "text": "The"
+  },
+  {
+   "end": 9.92,
+   "start": 9.44,
+   "text": "rest"
+  },
+  {
+   "end": 10.08,
+   "start": 9.92,
+   "text": "in"
+  },
+  {
+   "end": 10.08,
+   "start": 10.08,
+   "text": "the"
+  },
+  {
+   "end": 10.48,
+   "start": 10.08,
+   "text": "small"
+  },
+  {
+   "end": 11.04,
+   "start": 10.48,
+   "text": "intestine"
+  },
+  {
+   "end": 11.84,
+   "start": 11.36,
+   "text": "First"
+  },
+  {
+   "end": 12.24,
+   "start": 11.92,
+   "text": "bile"
+  },
+  {
+   "end": 12.64,
+   "start": 12.24,
+   "text": "salts"
+  },
+  {
+   "end": 12.8,
+   "start": 12.64,
+   "text": "and"
+  },
+  {
+   "end": 13.28,
+   "start": 12.8,
+   "text": "lecithin"
+  },
+  {
+   "end": 13.52,
+   "start": 13.28,
+   "text": "coat"
+  },
+  {
+   "end": 13.6,
+   "start": 13.52,
+   "text": "the"
+  },
+  {
+   "end": 14,
+   "start": 13.6,
+   "text": "fat"
+  },
+  {
+   "end": 14.56,
+   "start": 14.4,
+   "text": "They're"
+  },
+  {
+   "end": 15.36,
+   "start": 14.56,
+   "text": "amphipathic"
+  },
+  {
+   "end": 15.92,
+   "start": 15.68,
+   "text": "One"
+  },
+  {
+   "end": 16.24,
+   "start": 15.92,
+   "text": "side"
+  },
+  {
+   "end": 16.56,
+   "start": 16.24,
+   "text": "fat"
+  },
+  {
+   "end": 17.12,
+   "start": 16.56,
+   "text": "soluble"
+  },
+  {
+   "end": 17.36,
+   "start": 17.2,
+   "text": "one"
+  },
+  {
+   "end": 17.68,
+   "start": 17.36,
+   "text": "side"
+  },
+  {
+   "end": 18,
+   "start": 17.68,
+   "text": "water"
+  },
+  {
+   "end": 18.56,
+   "start": 18,
+   "text": "soluble"
+  },
+  {
+   "end": 19.12,
+   "start": 18.96,
+   "text": "With"
+  },
+  {
+   "end": 19.2,
+   "start": 19.12,
+   "text": "the"
+  },
+  {
+   "end": 19.52,
+   "start": 19.2,
+   "text": "gut's"
+  },
+  {
+   "end": 20,
+   "start": 19.52,
+   "text": "churning"
+  },
+  {
+   "end": 20.32,
+   "start": 20.16,
+   "text": "big"
+  },
+  {
+   "end": 20.8,
+   "start": 20.32,
+   "text": "globules"
+  },
+  {
+   "end": 21.12,
+   "start": 20.8,
+   "text": "break"
+  },
+  {
+   "end": 21.28,
+   "start": 21.12,
+   "text": "into"
+  },
+  {
+   "end": 21.6,
+   "start": 21.28,
+   "text": "tiny"
+  },
+  {
+   "end": 22.24,
+   "start": 21.6,
+   "text": "droplets"
+  },
+  {
+   "end": 22.88,
+   "start": 22.72,
+   "text": "This"
+  },
+  {
+   "end": 22.96,
+   "start": 22.88,
+   "text": "is"
+  },
+  {
+   "end": 24,
+   "start": 22.96,
+   "text": "emulsification"
+  },
+  {
+   "end": 24.48,
+   "start": 24.32,
+   "text": "Now"
+  },
+  {
+   "end": 25.12,
+   "start": 24.48,
+   "text": "pancreatic"
+  },
+  {
+   "end": 25.76,
+   "start": 25.12,
+   "text": "lipase"
+  },
+  {
+   "end": 25.92,
+   "start": 25.84,
+   "text": "the"
+  },
+  {
+   "end": 26.24,
+   "start": 25.92,
+   "text": "key"
+  },
+  {
+   "end": 26.72,
+   "start": 26.24,
+   "text": "enzyme"
+  },
+  {
+   "end": 27.28,
+   "start": 26.88,
+   "text": "splits"
+  },
+  {
+   "end": 28.08,
+   "start": 27.28,
+   "text": "triglycerides"
+  },
+  {
+   "end": 28.24,
+   "start": 28.08,
+   "text": "into"
+  },
+  {
+   "end": 28.48,
+   "start": 28.24,
+   "text": "free"
+  },
+  {
+   "end": 28.8,
+   "start": 28.48,
+   "text": "fatty"
+  },
+  {
+   "end": 29.28,
+   "start": 28.8,
+   "text": "acids"
+  },
+  {
+   "end": 29.44,
+   "start": 29.36,
+   "text": "and"
+  },
+  {
+   "end": 29.6,
+   "start": 29.44,
+   "text": "two"
+  },
+  {
+   "end": 30.56,
+   "start": 29.6,
+   "text": "monoglycerides"
+  },
+  {
+   "end": 31.2,
+   "start": 30.88,
+   "text": "Without"
+  },
+  {
+   "end": 31.44,
+   "start": 31.2,
+   "text": "enough"
+  },
+  {
+   "end": 32,
+   "start": 31.44,
+   "text": "pancreatic"
+  },
+  {
+   "end": 32.48,
+   "start": 32,
+   "text": "juice"
+  },
+  {
+   "end": 32.96,
+   "start": 32.64,
+   "text": "fat"
+  },
+  {
+   "end": 33.12,
+   "start": 32.96,
+   "text": "is"
+  },
+  {
+   "end": 33.44,
+   "start": 33.12,
+   "text": "lost"
+  },
+  {
+   "end": 33.52,
+   "start": 33.44,
+   "text": "in"
+  },
+  {
+   "end": 33.6,
+   "start": 33.52,
+   "text": "the"
+  },
+  {
+   "end": 34.08,
+   "start": 33.6,
+   "text": "stool"
+  },
+  {
+   "end": 35.04,
+   "start": 34.32,
+   "text": "Steatorrhea"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 35.04,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Fat is harder. It doesn't mix with water, and lipase only works at the surface of a droplet. Less than 10% is digested in the stomach. The rest in the small intestine. First, bile salts and lecithin coat the fat. They're amphipathic. One side fat-soluble, one side water-soluble. With the gut's churning, big globules break into tiny droplets. This is emulsification. Now, pancreatic lipase, the key enzyme, splits triglycerides into free fatty acids and two monoglycerides. Without enough pancreatic juice, fat is lost in the stool. Steatorrhea."
+  }
+ ],
+ "text": "Fat is harder. It doesn't mix with water, and lipase only works at the surface of a droplet. Less than 10% is digested in the stomach. The rest in the small intestine. First, bile salts and lecithin coat the fat. They're amphipathic. One side fat-soluble, one side water-soluble. With the gut's churning, big globules break into tiny droplets. This is emulsification. Now, pancreatic lipase, the key enzyme, splits triglycerides into free fatty acids and two monoglycerides. Without enough pancreatic juice, fat is lost in the stool. Steatorrhea."
+}

@@ -1,0 +1,152 @@
+{
+ "duration": 10.684125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "9cda094e-8e84-4d61-b856-d4457bd915c8",
+ "segments": [
+  {
+   "end": 0.4,
+   "start": 0.32,
+   "text": "The"
+  },
+  {
+   "end": 0.8,
+   "start": 0.4,
+   "text": "small"
+  },
+  {
+   "end": 1.28,
+   "start": 0.8,
+   "text": "intestine"
+  },
+  {
+   "end": 1.52,
+   "start": 1.44,
+   "text": "has"
+  },
+  {
+   "end": 1.76,
+   "start": 1.52,
+   "text": "two"
+  },
+  {
+   "end": 2.24,
+   "start": 1.84,
+   "text": "everyday"
+  },
+  {
+   "end": 2.8,
+   "start": 2.24,
+   "text": "movements"
+  },
+  {
+   "end": 3.68,
+   "start": 3.12,
+   "text": "mixing"
+  },
+  {
+   "end": 3.92,
+   "start": 3.76,
+   "text": "and"
+  },
+  {
+   "end": 4.48,
+   "start": 3.92,
+   "text": "propelling"
+  },
+  {
+   "end": 5.36,
+   "start": 4.96,
+   "text": "Between"
+  },
+  {
+   "end": 5.84,
+   "start": 5.36,
+   "text": "meals"
+  },
+  {
+   "end": 6.16,
+   "start": 6,
+   "text": "it"
+  },
+  {
+   "end": 6.4,
+   "start": 6.16,
+   "text": "runs"
+  },
+  {
+   "end": 6.48,
+   "start": 6.4,
+   "text": "a"
+  },
+  {
+   "end": 6.88,
+   "start": 6.48,
+   "text": "cleaning"
+  },
+  {
+   "end": 7.28,
+   "start": 6.88,
+   "text": "wave"
+  },
+  {
+   "end": 7.84,
+   "start": 7.68,
+   "text": "and"
+  },
+  {
+   "end": 8,
+   "start": 7.84,
+   "text": "it"
+  },
+  {
+   "end": 8.16,
+   "start": 8,
+   "text": "has"
+  },
+  {
+   "end": 8.16,
+   "start": 8.16,
+   "text": "a"
+  },
+  {
+   "end": 8.64,
+   "start": 8.16,
+   "text": "reverse"
+  },
+  {
+   "end": 8.96,
+   "start": 8.64,
+   "text": "gear"
+  },
+  {
+   "end": 9.44,
+   "start": 9.28,
+   "text": "and"
+  },
+  {
+   "end": 9.52,
+   "start": 9.44,
+   "text": "an"
+  },
+  {
+   "end": 10.08,
+   "start": 9.52,
+   "text": "emergency"
+  },
+  {
+   "end": 10.56,
+   "start": 10.08,
+   "text": "flush"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 10.56,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "The small intestine has two everyday movements, mixing and propelling. Between meals, it runs a cleaning wave, and it has a reverse gear and an emergency flush."
+  }
+ ],
+ "text": "The small intestine has two everyday movements, mixing and propelling. Between meals, it runs a cleaning wave, and it has a reverse gear and an emergency flush."
+}

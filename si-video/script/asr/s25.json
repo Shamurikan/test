@@ -1,0 +1,452 @@
+{
+ "duration": 29.831875,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "c6ee680b-2f8b-40db-8d36-b0693d6654bb",
+ "segments": [
+  {
+   "end": 0.72,
+   "start": 0.32,
+   "text": "Vitamins"
+  },
+  {
+   "end": 0.8,
+   "start": 0.72,
+   "text": "are"
+  },
+  {
+   "end": 1.28,
+   "start": 0.8,
+   "text": "absorbed"
+  },
+  {
+   "end": 1.68,
+   "start": 1.28,
+   "text": "mainly"
+  },
+  {
+   "end": 1.76,
+   "start": 1.68,
+   "text": "in"
+  },
+  {
+   "end": 1.84,
+   "start": 1.76,
+   "text": "the"
+  },
+  {
+   "end": 2.4,
+   "start": 1.84,
+   "text": "jejunum"
+  },
+  {
+   "end": 2.56,
+   "start": 2.4,
+   "text": "and"
+  },
+  {
+   "end": 3.04,
+   "start": 2.56,
+   "text": "ileum"
+  },
+  {
+   "end": 3.52,
+   "start": 3.28,
+   "text": "A"
+  },
+  {
+   "end": 3.92,
+   "start": 3.52,
+   "text": "D"
+  },
+  {
+   "end": 4.16,
+   "start": 3.92,
+   "text": "E"
+  },
+  {
+   "end": 4.24,
+   "start": 4.16,
+   "text": "and"
+  },
+  {
+   "end": 4.64,
+   "start": 4.24,
+   "text": "K"
+  },
+  {
+   "end": 4.8,
+   "start": 4.72,
+   "text": "are"
+  },
+  {
+   "end": 5.12,
+   "start": 4.8,
+   "text": "fat"
+  },
+  {
+   "end": 5.6,
+   "start": 5.12,
+   "text": "soluble"
+  },
+  {
+   "end": 6.08,
+   "start": 6,
+   "text": "They"
+  },
+  {
+   "end": 6.4,
+   "start": 6.08,
+   "text": "ride"
+  },
+  {
+   "end": 6.48,
+   "start": 6.4,
+   "text": "in"
+  },
+  {
+   "end": 7.12,
+   "start": 6.48,
+   "text": "micelles"
+  },
+  {
+   "end": 7.36,
+   "start": 7.2,
+   "text": "so"
+  },
+  {
+   "end": 7.44,
+   "start": 7.36,
+   "text": "they"
+  },
+  {
+   "end": 7.68,
+   "start": 7.44,
+   "text": "need"
+  },
+  {
+   "end": 8,
+   "start": 7.68,
+   "text": "bile"
+  },
+  {
+   "end": 8.48,
+   "start": 8,
+   "text": "salts"
+  },
+  {
+   "end": 9.04,
+   "start": 8.8,
+   "text": "Water"
+  },
+  {
+   "end": 9.44,
+   "start": 9.04,
+   "text": "soluble"
+  },
+  {
+   "end": 10,
+   "start": 9.44,
+   "text": "vitamins"
+  },
+  {
+   "end": 10.64,
+   "start": 10.32,
+   "text": "C"
+  },
+  {
+   "end": 10.72,
+   "start": 10.64,
+   "text": "and"
+  },
+  {
+   "end": 10.8,
+   "start": 10.72,
+   "text": "the"
+  },
+  {
+   "end": 10.96,
+   "start": 10.8,
+   "text": "B"
+  },
+  {
+   "end": 11.28,
+   "start": 10.96,
+   "text": "group"
+  },
+  {
+   "end": 11.68,
+   "start": 11.6,
+   "text": "are"
+  },
+  {
+   "end": 12.08,
+   "start": 11.68,
+   "text": "absorbed"
+  },
+  {
+   "end": 12.16,
+   "start": 12.08,
+   "text": "in"
+  },
+  {
+   "end": 12.24,
+   "start": 12.16,
+   "text": "the"
+  },
+  {
+   "end": 12.72,
+   "start": 12.24,
+   "text": "jejunum"
+  },
+  {
+   "end": 12.88,
+   "start": 12.72,
+   "text": "and"
+  },
+  {
+   "end": 13.12,
+   "start": 12.88,
+   "text": "upper"
+  },
+  {
+   "end": 13.6,
+   "start": 13.12,
+   "text": "ileum"
+  },
+  {
+   "end": 14,
+   "start": 13.68,
+   "text": "mostly"
+  },
+  {
+   "end": 14.16,
+   "start": 14,
+   "text": "by"
+  },
+  {
+   "end": 14.64,
+   "start": 14.16,
+   "text": "sodium"
+  },
+  {
+   "end": 15.04,
+   "start": 14.64,
+   "text": "dependent"
+  },
+  {
+   "end": 15.76,
+   "start": 15.04,
+   "text": "cotransport"
+  },
+  {
+   "end": 16.48,
+   "start": 16.16,
+   "text": "Vitamin"
+  },
+  {
+   "end": 17.12,
+   "start": 16.48,
+   "text": "B12"
+  },
+  {
+   "end": 17.28,
+   "start": 17.12,
+   "text": "is"
+  },
+  {
+   "end": 17.36,
+   "start": 17.28,
+   "text": "the"
+  },
+  {
+   "end": 17.92,
+   "start": 17.36,
+   "text": "exception"
+  },
+  {
+   "end": 18.32,
+   "start": 18.24,
+   "text": "It"
+  },
+  {
+   "end": 18.56,
+   "start": 18.32,
+   "text": "needs"
+  },
+  {
+   "end": 19.04,
+   "start": 18.56,
+   "text": "intrinsic"
+  },
+  {
+   "end": 19.44,
+   "start": 19.04,
+   "text": "factor"
+  },
+  {
+   "end": 19.6,
+   "start": 19.44,
+   "text": "from"
+  },
+  {
+   "end": 19.68,
+   "start": 19.6,
+   "text": "the"
+  },
+  {
+   "end": 20.16,
+   "start": 19.68,
+   "text": "stomach"
+  },
+  {
+   "end": 20.56,
+   "start": 20.4,
+   "text": "and"
+  },
+  {
+   "end": 20.64,
+   "start": 20.56,
+   "text": "it"
+  },
+  {
+   "end": 20.72,
+   "start": 20.64,
+   "text": "is"
+  },
+  {
+   "end": 21.2,
+   "start": 20.72,
+   "text": "absorbed"
+  },
+  {
+   "end": 21.6,
+   "start": 21.28,
+   "text": "only"
+  },
+  {
+   "end": 21.68,
+   "start": 21.6,
+   "text": "in"
+  },
+  {
+   "end": 21.68,
+   "start": 21.68,
+   "text": "the"
+  },
+  {
+   "end": 22.08,
+   "start": 21.68,
+   "text": "terminal"
+  },
+  {
+   "end": 22.64,
+   "start": 22.16,
+   "text": "ileum"
+  },
+  {
+   "end": 23.36,
+   "start": 23.04,
+   "text": "Lose"
+  },
+  {
+   "end": 23.36,
+   "start": 23.36,
+   "text": "the"
+  },
+  {
+   "end": 23.76,
+   "start": 23.36,
+   "text": "terminal"
+  },
+  {
+   "end": 24.32,
+   "start": 23.84,
+   "text": "ileum"
+  },
+  {
+   "end": 24.56,
+   "start": 24.48,
+   "text": "or"
+  },
+  {
+   "end": 24.64,
+   "start": 24.56,
+   "text": "the"
+  },
+  {
+   "end": 25.12,
+   "start": 24.64,
+   "text": "parietal"
+  },
+  {
+   "end": 25.6,
+   "start": 25.12,
+   "text": "cells"
+  },
+  {
+   "end": 25.92,
+   "start": 25.68,
+   "text": "after"
+  },
+  {
+   "end": 26.64,
+   "start": 25.92,
+   "text": "gastrectomy"
+  },
+  {
+   "end": 26.8,
+   "start": 26.72,
+   "text": "or"
+  },
+  {
+   "end": 27.28,
+   "start": 26.8,
+   "text": "gastric"
+  },
+  {
+   "end": 27.84,
+   "start": 27.28,
+   "text": "atrophy"
+  },
+  {
+   "end": 28.16,
+   "start": 28.08,
+   "text": "and"
+  },
+  {
+   "end": 28.24,
+   "start": 28.16,
+   "text": "the"
+  },
+  {
+   "end": 28.64,
+   "start": 28.24,
+   "text": "result"
+  },
+  {
+   "end": 28.72,
+   "start": 28.64,
+   "text": "is"
+  },
+  {
+   "end": 29.2,
+   "start": 28.72,
+   "text": "pernicious"
+  },
+  {
+   "end": 29.68,
+   "start": 29.2,
+   "text": "anemia"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 29.68,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Vitamins are absorbed mainly in the jejunum and ileum. A, D, E, and K are fat soluble. They ride in micelles, so they need bile salts. Water soluble vitamins, C and the B group, are absorbed in the jejunum and upper ileum, mostly by sodium dependent cotransport. Vitamin B12 is the exception. It needs intrinsic factor from the stomach, and it is absorbed only in the terminal ileum. Lose the terminal ileum or the parietal cells after gastrectomy or gastric atrophy, and the result is pernicious anemia."
+  }
+ ],
+ "text": "Vitamins are absorbed mainly in the jejunum and ileum. A, D, E, and K are fat soluble. They ride in micelles, so they need bile salts. Water soluble vitamins, C and the B group, are absorbed in the jejunum and upper ileum, mostly by sodium dependent cotransport. Vitamin B12 is the exception. It needs intrinsic factor from the stomach, and it is absorbed only in the terminal ileum. Lose the terminal ileum or the parietal cells after gastrectomy or gastric atrophy, and the result is pernicious anemia."
+}

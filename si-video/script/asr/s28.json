@@ -1,0 +1,417 @@
+{
+ "duration": 34.2204375,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "1957b23d-0c7a-4829-978e-9423090af590",
+ "segments": [
+  {
+   "end": 0.8,
+   "start": 0.32,
+   "text": "Chloride"
+  },
+  {
+   "end": 1.2,
+   "start": 0.8,
+   "text": "follows"
+  },
+  {
+   "end": 1.76,
+   "start": 1.2,
+   "text": "sodium"
+  },
+  {
+   "end": 2.08,
+   "start": 1.92,
+   "text": "by"
+  },
+  {
+   "end": 2.48,
+   "start": 2.08,
+   "text": "passive"
+  },
+  {
+   "end": 3.04,
+   "start": 2.48,
+   "text": "diffusion"
+  },
+  {
+   "end": 3.92,
+   "start": 3.44,
+   "text": "Sodium"
+  },
+  {
+   "end": 4.4,
+   "start": 3.92,
+   "text": "chloride"
+  },
+  {
+   "end": 4.56,
+   "start": 4.4,
+   "text": "co"
+  },
+  {
+   "end": 5.12,
+   "start": 4.56,
+   "text": "transport"
+  },
+  {
+   "end": 5.6,
+   "start": 5.44,
+   "text": "or"
+  },
+  {
+   "end": 6.08,
+   "start": 5.6,
+   "text": "exchange"
+  },
+  {
+   "end": 6.16,
+   "start": 6.08,
+   "text": "for"
+  },
+  {
+   "end": 6.88,
+   "start": 6.16,
+   "text": "bicarbonate"
+  },
+  {
+   "end": 7.84,
+   "start": 7.28,
+   "text": "Potassium"
+  },
+  {
+   "end": 8,
+   "start": 7.84,
+   "text": "is"
+  },
+  {
+   "end": 8.4,
+   "start": 8,
+   "text": "absorbed"
+  },
+  {
+   "end": 8.96,
+   "start": 8.4,
+   "text": "passively"
+  },
+  {
+   "end": 9.04,
+   "start": 8.96,
+   "text": "in"
+  },
+  {
+   "end": 9.12,
+   "start": 9.04,
+   "text": "the"
+  },
+  {
+   "end": 9.44,
+   "start": 9.12,
+   "text": "small"
+  },
+  {
+   "end": 9.92,
+   "start": 9.44,
+   "text": "intestine"
+  },
+  {
+   "end": 10.32,
+   "start": 10.16,
+   "text": "but"
+  },
+  {
+   "end": 10.8,
+   "start": 10.32,
+   "text": "secreted"
+  },
+  {
+   "end": 10.88,
+   "start": 10.8,
+   "text": "in"
+  },
+  {
+   "end": 10.96,
+   "start": 10.88,
+   "text": "the"
+  },
+  {
+   "end": 11.36,
+   "start": 10.96,
+   "text": "colon"
+  },
+  {
+   "end": 11.52,
+   "start": 11.36,
+   "text": "under"
+  },
+  {
+   "end": 12.24,
+   "start": 11.52,
+   "text": "aldosterone"
+  },
+  {
+   "end": 12.8,
+   "start": 12.56,
+   "text": "So"
+  },
+  {
+   "end": 13.12,
+   "start": 12.8,
+   "text": "severe"
+  },
+  {
+   "end": 13.6,
+   "start": 13.12,
+   "text": "diarrhea"
+  },
+  {
+   "end": 13.76,
+   "start": 13.6,
+   "text": "can"
+  },
+  {
+   "end": 14.08,
+   "start": 13.76,
+   "text": "cause"
+  },
+  {
+   "end": 14.88,
+   "start": 14.08,
+   "text": "hypokalemia"
+  },
+  {
+   "end": 15.36,
+   "start": 15.36,
+   "text": "The"
+  },
+  {
+   "end": 15.92,
+   "start": 15.52,
+   "text": "ileum"
+  },
+  {
+   "end": 16.08,
+   "start": 15.92,
+   "text": "and"
+  },
+  {
+   "end": 16.32,
+   "start": 16.08,
+   "text": "large"
+  },
+  {
+   "end": 16.88,
+   "start": 16.32,
+   "text": "intestine"
+  },
+  {
+   "end": 17.28,
+   "start": 16.88,
+   "text": "secrete"
+  },
+  {
+   "end": 17.92,
+   "start": 17.28,
+   "text": "bicarbonate"
+  },
+  {
+   "end": 18,
+   "start": 17.92,
+   "text": "in"
+  },
+  {
+   "end": 18.48,
+   "start": 18,
+   "text": "exchange"
+  },
+  {
+   "end": 18.56,
+   "start": 18.48,
+   "text": "for"
+  },
+  {
+   "end": 19.12,
+   "start": 18.56,
+   "text": "chloride"
+  },
+  {
+   "end": 20.08,
+   "start": 19.36,
+   "text": "neutralizing"
+  },
+  {
+   "end": 20.48,
+   "start": 20.08,
+   "text": "acids"
+  },
+  {
+   "end": 20.64,
+   "start": 20.48,
+   "text": "made"
+  },
+  {
+   "end": 20.8,
+   "start": 20.64,
+   "text": "by"
+  },
+  {
+   "end": 21.44,
+   "start": 20.8,
+   "text": "bacteria"
+  },
+  {
+   "end": 21.92,
+   "start": 21.76,
+   "text": "And"
+  },
+  {
+   "end": 22.4,
+   "start": 21.92,
+   "text": "calcium"
+  },
+  {
+   "end": 22.96,
+   "start": 22.4,
+   "text": "absorption"
+  },
+  {
+   "end": 23.36,
+   "start": 22.96,
+   "text": "depends"
+  },
+  {
+   "end": 23.52,
+   "start": 23.36,
+   "text": "on"
+  },
+  {
+   "end": 23.68,
+   "start": 23.52,
+   "text": "1"
+  },
+  {
+   "end": 24.24,
+   "start": 23.68,
+   "text": "25"
+  },
+  {
+   "end": 24.96,
+   "start": 24.24,
+   "text": "dihydroxy"
+  },
+  {
+   "end": 25.36,
+   "start": 24.96,
+   "text": "vitamin"
+  },
+  {
+   "end": 25.92,
+   "start": 25.36,
+   "text": "D3"
+  },
+  {
+   "end": 26.24,
+   "start": 26.08,
+   "text": "which"
+  },
+  {
+   "end": 26.56,
+   "start": 26.24,
+   "text": "builds"
+  },
+  {
+   "end": 27.04,
+   "start": 26.56,
+   "text": "calcium"
+  },
+  {
+   "end": 27.36,
+   "start": 27.04,
+   "text": "binding"
+  },
+  {
+   "end": 27.84,
+   "start": 27.36,
+   "text": "protein"
+  },
+  {
+   "end": 28.16,
+   "start": 28.08,
+   "text": "and"
+  },
+  {
+   "end": 28.64,
+   "start": 28.16,
+   "text": "calcium"
+  },
+  {
+   "end": 28.96,
+   "start": 28.64,
+   "text": "pumps"
+  },
+  {
+   "end": 29.04,
+   "start": 28.96,
+   "text": "in"
+  },
+  {
+   "end": 29.76,
+   "start": 29.04,
+   "text": "enterocytes"
+  },
+  {
+   "end": 30.4,
+   "start": 30.24,
+   "text": "When"
+  },
+  {
+   "end": 30.8,
+   "start": 30.4,
+   "text": "plasma"
+  },
+  {
+   "end": 31.2,
+   "start": 30.8,
+   "text": "calcium"
+  },
+  {
+   "end": 31.68,
+   "start": 31.2,
+   "text": "falls"
+  },
+  {
+   "end": 32.64,
+   "start": 31.92,
+   "text": "parathyroid"
+  },
+  {
+   "end": 32.96,
+   "start": 32.64,
+   "text": "hormone"
+  },
+  {
+   "end": 33.44,
+   "start": 32.96,
+   "text": "increases"
+  },
+  {
+   "end": 33.52,
+   "start": 33.44,
+   "text": "its"
+  },
+  {
+   "end": 34.08,
+   "start": 33.52,
+   "text": "production"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 34.08,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Chloride follows sodium by passive diffusion. Sodium chloride co-transport or exchange for bicarbonate. Potassium is absorbed passively in the small intestine, but secreted in the colon under aldosterone. So severe diarrhea can cause hypokalemia. The ileum and large intestine secrete bicarbonate in exchange for chloride, neutralizing acids made by bacteria. And calcium absorption depends on 1,25-dihydroxy vitamin D3, which builds calcium-binding protein and calcium pumps in enterocytes. When plasma calcium falls, parathyroid hormone increases its production."
+  }
+ ],
+ "text": "Chloride follows sodium by passive diffusion. Sodium chloride co-transport or exchange for bicarbonate. Potassium is absorbed passively in the small intestine, but secreted in the colon under aldosterone. So severe diarrhea can cause hypokalemia. The ileum and large intestine secrete bicarbonate in exchange for chloride, neutralizing acids made by bacteria. And calcium absorption depends on 1,25-dihydroxy vitamin D3, which builds calcium-binding protein and calcium pumps in enterocytes. When plasma calcium falls, parathyroid hormone increases its production."
+}

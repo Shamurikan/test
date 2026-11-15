@@ -1,0 +1,257 @@
+{
+ "duration": 17.97225,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "cc5212d1-c4dc-4752-94e5-2d41bed6ceea",
+ "segments": [
+  {
+   "end": 0.56,
+   "start": 0.32,
+   "text": "Even"
+  },
+  {
+   "end": 0.64,
+   "start": 0.56,
+   "text": "the"
+  },
+  {
+   "end": 0.96,
+   "start": 0.64,
+   "text": "villi"
+  },
+  {
+   "end": 1.44,
+   "start": 0.96,
+   "text": "move"
+  },
+  {
+   "end": 1.84,
+   "start": 1.76,
+   "text": "They"
+  },
+  {
+   "end": 2.32,
+   "start": 1.84,
+   "text": "shorten"
+  },
+  {
+   "end": 2.8,
+   "start": 2.32,
+   "text": "quickly"
+  },
+  {
+   "end": 3.6,
+   "start": 3.2,
+   "text": "lengthen"
+  },
+  {
+   "end": 4.16,
+   "start": 3.6,
+   "text": "slowly"
+  },
+  {
+   "end": 4.64,
+   "start": 4.48,
+   "text": "and"
+  },
+  {
+   "end": 4.96,
+   "start": 4.64,
+   "text": "sway"
+  },
+  {
+   "end": 5.12,
+   "start": 4.96,
+   "text": "from"
+  },
+  {
+   "end": 5.44,
+   "start": 5.12,
+   "text": "side"
+  },
+  {
+   "end": 5.52,
+   "start": 5.52,
+   "text": "to"
+  },
+  {
+   "end": 6,
+   "start": 5.52,
+   "text": "side"
+  },
+  {
+   "end": 6.64,
+   "start": 6.32,
+   "text": "Local"
+  },
+  {
+   "end": 7.28,
+   "start": 6.64,
+   "text": "reflexes"
+  },
+  {
+   "end": 7.52,
+   "start": 7.28,
+   "text": "trigger"
+  },
+  {
+   "end": 7.84,
+   "start": 7.52,
+   "text": "this"
+  },
+  {
+   "end": 8.24,
+   "start": 8.08,
+   "text": "when"
+  },
+  {
+   "end": 8.48,
+   "start": 8.24,
+   "text": "chyme"
+  },
+  {
+   "end": 8.88,
+   "start": 8.48,
+   "text": "touches"
+  },
+  {
+   "end": 9.04,
+   "start": 8.88,
+   "text": "them"
+  },
+  {
+   "end": 9.52,
+   "start": 9.36,
+   "text": "and"
+  },
+  {
+   "end": 9.68,
+   "start": 9.52,
+   "text": "so"
+  },
+  {
+   "end": 9.84,
+   "start": 9.68,
+   "text": "does"
+  },
+  {
+   "end": 10.4,
+   "start": 9.84,
+   "text": "villikinin"
+  },
+  {
+   "end": 10.88,
+   "start": 10.72,
+   "text": "a"
+  },
+  {
+   "end": 11.2,
+   "start": 10.88,
+   "text": "hormone"
+  },
+  {
+   "end": 11.68,
+   "start": 11.2,
+   "text": "released"
+  },
+  {
+   "end": 11.76,
+   "start": 11.68,
+   "text": "when"
+  },
+  {
+   "end": 12.32,
+   "start": 11.76,
+   "text": "digestive"
+  },
+  {
+   "end": 12.72,
+   "start": 12.32,
+   "text": "products"
+  },
+  {
+   "end": 13.2,
+   "start": 12.72,
+   "text": "contact"
+  },
+  {
+   "end": 13.2,
+   "start": 13.2,
+   "text": "the"
+  },
+  {
+   "end": 13.84,
+   "start": 13.28,
+   "text": "mucosa"
+  },
+  {
+   "end": 14.4,
+   "start": 14.16,
+   "text": "Each"
+  },
+  {
+   "end": 14.88,
+   "start": 14.4,
+   "text": "squeeze"
+  },
+  {
+   "end": 15.12,
+   "start": 14.88,
+   "text": "helps"
+  },
+  {
+   "end": 15.68,
+   "start": 15.12,
+   "text": "absorption"
+  },
+  {
+   "end": 16,
+   "start": 15.92,
+   "text": "and"
+  },
+  {
+   "end": 16.32,
+   "start": 16,
+   "text": "pumps"
+  },
+  {
+   "end": 16.64,
+   "start": 16.32,
+   "text": "lymph"
+  },
+  {
+   "end": 16.72,
+   "start": 16.64,
+   "text": "out"
+  },
+  {
+   "end": 16.8,
+   "start": 16.72,
+   "text": "of"
+  },
+  {
+   "end": 16.88,
+   "start": 16.8,
+   "text": "the"
+  },
+  {
+   "end": 17.28,
+   "start": 16.88,
+   "text": "central"
+  },
+  {
+   "end": 17.92,
+   "start": 17.28,
+   "text": "lacteal"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 17.92,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Even the villi move. They shorten quickly, lengthen slowly, and sway from side to side. Local reflexes trigger this when chyme touches them, and so does villikinin, a hormone released when digestive products contact the mucosa. Each squeeze helps absorption and pumps lymph out of the central lacteal."
+  }
+ ],
+ "text": "Even the villi move. They shorten quickly, lengthen slowly, and sway from side to side. Local reflexes trigger this when chyme touches them, and so does villikinin, a hormone released when digestive products contact the mucosa. Each squeeze helps absorption and pumps lymph out of the central lacteal."
+}

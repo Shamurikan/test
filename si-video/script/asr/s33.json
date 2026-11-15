@@ -1,0 +1,137 @@
+{
+ "duration": 11.0498125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "a2aa3dcb-e509-42f9-a1f1-2a0d1e2aef95",
+ "segments": [
+  {
+   "end": 0.64,
+   "start": 0.24,
+   "text": "Six"
+  },
+  {
+   "end": 1.12,
+   "start": 0.64,
+   "text": "meters"
+  },
+  {
+   "end": 1.28,
+   "start": 1.12,
+   "text": "of"
+  },
+  {
+   "end": 1.76,
+   "start": 1.28,
+   "text": "tube"
+  },
+  {
+   "end": 2.64,
+   "start": 2.08,
+   "text": "250"
+  },
+  {
+   "end": 3.28,
+   "start": 2.96,
+   "text": "square"
+  },
+  {
+   "end": 3.68,
+   "start": 3.28,
+   "text": "meters"
+  },
+  {
+   "end": 3.76,
+   "start": 3.68,
+   "text": "of"
+  },
+  {
+   "end": 4.32,
+   "start": 3.76,
+   "text": "surface"
+  },
+  {
+   "end": 5.2,
+   "start": 4.8,
+   "text": "nine"
+  },
+  {
+   "end": 5.52,
+   "start": 5.2,
+   "text": "liters"
+  },
+  {
+   "end": 5.6,
+   "start": 5.52,
+   "text": "of"
+  },
+  {
+   "end": 5.92,
+   "start": 5.6,
+   "text": "fluid"
+  },
+  {
+   "end": 6,
+   "start": 5.92,
+   "text": "a"
+  },
+  {
+   "end": 6.4,
+   "start": 6,
+   "text": "day"
+  },
+  {
+   "end": 7.2,
+   "start": 6.64,
+   "text": "move"
+  },
+  {
+   "end": 8.24,
+   "start": 7.52,
+   "text": "digest"
+  },
+  {
+   "end": 8.96,
+   "start": 8.4,
+   "text": "absorb"
+  },
+  {
+   "end": 9.44,
+   "start": 9.28,
+   "text": "and"
+  },
+  {
+   "end": 9.84,
+   "start": 9.44,
+   "text": "almost"
+  },
+  {
+   "end": 10.16,
+   "start": 9.84,
+   "text": "nothing"
+  },
+  {
+   "end": 10.32,
+   "start": 10.16,
+   "text": "goes"
+  },
+  {
+   "end": 10.48,
+   "start": 10.4,
+   "text": "to"
+  },
+  {
+   "end": 10.88,
+   "start": 10.48,
+   "text": "waste"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 10.88,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Six meters of tube, 250 square meters of surface, nine liters of fluid a day, move, digest, absorb, and almost nothing goes to waste."
+  }
+ ],
+ "text": "Six meters of tube, 250 square meters of surface, nine liters of fluid a day, move, digest, absorb, and almost nothing goes to waste."
+}

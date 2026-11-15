@@ -1,0 +1,599 @@
+{
+ "fps": 30,
+ "transition": 12,
+ "totalFrames": 26604,
+ "hfTotal": 140.9333,
+ "scenes": [
+  {
+   "id": "s01",
+   "engine": "hf",
+   "title": "Cold open",
+   "durationInFrames": 459,
+   "from": 0,
+   "parts": [
+    {
+     "key": "s01",
+     "start": 1.1,
+     "duration": 13.427
+    }
+   ],
+   "hfStart": 0
+  },
+  {
+   "id": "s02",
+   "engine": "rm",
+   "title": "The tube",
+   "durationInFrames": 634,
+   "from": 447,
+   "parts": [
+    {
+     "key": "s02",
+     "start": 0.45,
+     "duration": 19.905
+    }
+   ]
+  },
+  {
+   "id": "c1",
+   "engine": "hf",
+   "title": "Part one",
+   "durationInFrames": 138,
+   "from": 1069,
+   "parts": [
+    {
+     "key": "c1",
+     "start": 0.5,
+     "duration": 1.985
+    }
+   ],
+   "hfStart": 15.3
+  },
+  {
+   "id": "s03",
+   "engine": "rm",
+   "title": "Five patterns",
+   "durationInFrames": 357,
+   "from": 1195,
+   "parts": [
+    {
+     "key": "s03",
+     "start": 0.45,
+     "duration": 10.684
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "engine": "rm",
+   "title": "Segmentation",
+   "durationInFrames": 775,
+   "from": 1540,
+   "parts": [
+    {
+     "key": "s04",
+     "start": 0.45,
+     "duration": 24.633
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "engine": "rm",
+   "title": "Peristalsis",
+   "durationInFrames": 737,
+   "from": 2303,
+   "parts": [
+    {
+     "key": "s05",
+     "start": 0.45,
+     "duration": 23.353
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "engine": "rm",
+   "title": "Peristalsis: speed",
+   "durationInFrames": 786,
+   "from": 3028,
+   "parts": [
+    {
+     "key": "s06",
+     "start": 0.45,
+     "duration": 24.973
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "engine": "rm",
+   "title": "Migrating motor complex",
+   "durationInFrames": 918,
+   "from": 3802,
+   "parts": [
+    {
+     "key": "s07",
+     "start": 0.45,
+     "duration": 29.388
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "engine": "rm",
+   "title": "Antiperistalsis & peristaltic rush",
+   "durationInFrames": 878,
+   "from": 4708,
+   "parts": [
+    {
+     "key": "s08",
+     "start": 0.45,
+     "duration": 28.055
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "engine": "rm",
+   "title": "Movement of the villi",
+   "durationInFrames": 576,
+   "from": 5574,
+   "parts": [
+    {
+     "key": "s09",
+     "start": 0.45,
+     "duration": 17.972
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "engine": "rm",
+   "title": "Control of motility",
+   "durationInFrames": 579,
+   "from": 6138,
+   "parts": [
+    {
+     "key": "s10",
+     "start": 0.45,
+     "duration": 18.077
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "engine": "rm",
+   "title": "Gastroileal reflex",
+   "durationInFrames": 664,
+   "from": 6705,
+   "parts": [
+    {
+     "key": "s11",
+     "start": 0.45,
+     "duration": 20.924
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "engine": "hf",
+   "title": "Part two",
+   "durationInFrames": 177,
+   "from": 7357,
+   "parts": [
+    {
+     "key": "c2",
+     "start": 0.5,
+     "duration": 3.291
+    }
+   ],
+   "hfStart": 19.9
+  },
+  {
+   "id": "s12",
+   "engine": "rm",
+   "title": "Crypts of Lieberkühn",
+   "durationInFrames": 764,
+   "from": 7522,
+   "parts": [
+    {
+     "key": "s12",
+     "start": 0.45,
+     "duration": 24.242
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "engine": "rm",
+   "title": "Control of secretion & Brunner's glands",
+   "durationInFrames": 819,
+   "from": 8274,
+   "parts": [
+    {
+     "key": "s13",
+     "start": 0.45,
+     "duration": 26.07
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "engine": "rm",
+   "title": "Brush-border enzymes",
+   "durationInFrames": 858,
+   "from": 9081,
+   "parts": [
+    {
+     "key": "s14",
+     "start": 0.45,
+     "duration": 27.376
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "engine": "rm",
+   "title": "Carbohydrate digestion",
+   "durationInFrames": 1009,
+   "from": 9927,
+   "parts": [
+    {
+     "key": "s15_0",
+     "start": 0.45,
+     "duration": 18.939
+    },
+    {
+     "key": "s15_1",
+     "start": 19.689,
+     "duration": 13.166
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "engine": "rm",
+   "title": "Protein digestion: activation",
+   "durationInFrames": 897,
+   "from": 10924,
+   "parts": [
+    {
+     "key": "s16",
+     "start": 0.45,
+     "duration": 28.682
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "engine": "rm",
+   "title": "Protein digestion: cutting",
+   "durationInFrames": 687,
+   "from": 11809,
+   "parts": [
+    {
+     "key": "s17",
+     "start": 0.45,
+     "duration": 21.682
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "engine": "rm",
+   "title": "Fat digestion",
+   "durationInFrames": 1094,
+   "from": 12484,
+   "parts": [
+    {
+     "key": "s18",
+     "start": 0.45,
+     "duration": 35.239
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "engine": "rm",
+   "title": "Micelles",
+   "durationInFrames": 873,
+   "from": 13566,
+   "parts": [
+    {
+     "key": "s19",
+     "start": 0.45,
+     "duration": 27.873
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "engine": "hf",
+   "title": "Part three",
+   "durationInFrames": 146,
+   "from": 14427,
+   "parts": [
+    {
+     "key": "c3",
+     "start": 0.5,
+     "duration": 2.246
+    }
+   ],
+   "hfStart": 25.8
+  },
+  {
+   "id": "s20",
+   "engine": "hf",
+   "title": "Absorptive surface",
+   "durationInFrames": 785,
+   "from": 14561,
+   "parts": [
+    {
+     "key": "s20",
+     "start": 0.45,
+     "duration": 24.712
+    }
+   ],
+   "hfStart": 30.6667
+  },
+  {
+   "id": "s21",
+   "engine": "rm",
+   "title": "End products",
+   "durationInFrames": 382,
+   "from": 15334,
+   "parts": [
+    {
+     "key": "s21",
+     "start": 0.45,
+     "duration": 11.52
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "engine": "rm",
+   "title": "Carbohydrate absorption",
+   "durationInFrames": 942,
+   "from": 15704,
+   "parts": [
+    {
+     "key": "s22",
+     "start": 0.45,
+     "duration": 30.198
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "engine": "rm",
+   "title": "Protein absorption",
+   "durationInFrames": 916,
+   "from": 16634,
+   "parts": [
+    {
+     "key": "s23",
+     "start": 0.45,
+     "duration": 29.309
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "engine": "rm",
+   "title": "Fat absorption",
+   "durationInFrames": 1200,
+   "from": 17538,
+   "parts": [
+    {
+     "key": "s24",
+     "start": 0.45,
+     "duration": 38.792
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "engine": "rm",
+   "title": "Vitamins",
+   "durationInFrames": 931,
+   "from": 18726,
+   "parts": [
+    {
+     "key": "s25",
+     "start": 0.45,
+     "duration": 29.832
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "engine": "rm",
+   "title": "Fluid budget & routes",
+   "durationInFrames": 737,
+   "from": 19645,
+   "parts": [
+    {
+     "key": "s26",
+     "start": 0.45,
+     "duration": 23.353
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "engine": "rm",
+   "title": "Sodium & water",
+   "durationInFrames": 949,
+   "from": 20370,
+   "parts": [
+    {
+     "key": "s27",
+     "start": 0.45,
+     "duration": 30.406
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "engine": "rm",
+   "title": "Chloride, potassium, bicarbonate, calcium",
+   "durationInFrames": 1063,
+   "from": 21307,
+   "parts": [
+    {
+     "key": "s28",
+     "start": 0.45,
+     "duration": 34.22
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "engine": "rm",
+   "title": "Hormonal control of absorption",
+   "durationInFrames": 555,
+   "from": 22358,
+   "parts": [
+    {
+     "key": "s29",
+     "start": 0.45,
+     "duration": 17.267
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "engine": "rm",
+   "title": "Where nutrients go",
+   "durationInFrames": 673,
+   "from": 22901,
+   "parts": [
+    {
+     "key": "s30",
+     "start": 0.45,
+     "duration": 21.211
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "engine": "rm",
+   "title": "Absorption sites",
+   "durationInFrames": 543,
+   "from": 23562,
+   "parts": [
+    {
+     "key": "s31",
+     "start": 0.45,
+     "duration": 16.875
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "engine": "hf",
+   "title": "Quiz",
+   "durationInFrames": 2082,
+   "from": 24093,
+   "parts": [
+    {
+     "key": "s32_q1",
+     "start": 0.6,
+     "duration": 4.31
+    },
+    {
+     "key": "s32_a1",
+     "start": 7.51,
+     "duration": 1.437
+    },
+    {
+     "key": "s32_q2",
+     "start": 9.947,
+     "duration": 1.933
+    },
+    {
+     "key": "s32_a2",
+     "start": 14.28,
+     "duration": 1.724
+    },
+    {
+     "key": "s32_q3",
+     "start": 17.004,
+     "duration": 3.004
+    },
+    {
+     "key": "s32_a3",
+     "start": 22.408,
+     "duration": 2.9
+    },
+    {
+     "key": "s32_q4",
+     "start": 26.308,
+     "duration": 2.9
+    },
+    {
+     "key": "s32_a4",
+     "start": 31.608,
+     "duration": 1.437
+    },
+    {
+     "key": "s32_q5",
+     "start": 34.045,
+     "duration": 2.873
+    },
+    {
+     "key": "s32_a5",
+     "start": 39.318,
+     "duration": 1.149
+    },
+    {
+     "key": "s32_q6",
+     "start": 41.467,
+     "duration": 3.553
+    },
+    {
+     "key": "s32_a6",
+     "start": 47.62,
+     "duration": 1.228
+    },
+    {
+     "key": "s32_q7",
+     "start": 49.848,
+     "duration": 2.9
+    },
+    {
+     "key": "s32_a7",
+     "start": 55.148,
+     "duration": 3.37
+    },
+    {
+     "key": "s32_q8",
+     "start": 59.518,
+     "duration": 3.683
+    },
+    {
+     "key": "s32_a8",
+     "start": 65.601,
+     "duration": 1.567
+    }
+   ],
+   "hfStart": 56.8333
+  },
+  {
+   "id": "s33",
+   "engine": "hf",
+   "title": "Outro",
+   "durationInFrames": 441,
+   "from": 26163,
+   "parts": [
+    {
+     "key": "s33",
+     "start": 0.45,
+     "duration": 11.05
+    }
+   ],
+   "hfStart": 126.2333
+  }
+ ]
+}

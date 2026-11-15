@@ -1,0 +1,147 @@
+{
+ "duration": 13.16575,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "361484d0-2a63-43a6-82ae-a350b346ac89",
+ "segments": [
+  {
+   "end": 0.4,
+   "start": 0.32,
+   "text": "The"
+  },
+  {
+   "end": 0.8,
+   "start": 0.4,
+   "text": "brush"
+  },
+  {
+   "end": 1.2,
+   "start": 0.8,
+   "text": "border"
+  },
+  {
+   "end": 1.68,
+   "start": 1.2,
+   "text": "finishes"
+  },
+  {
+   "end": 1.76,
+   "start": 1.68,
+   "text": "the"
+  },
+  {
+   "end": 2.24,
+   "start": 1.76,
+   "text": "job"
+  },
+  {
+   "end": 3.2,
+   "start": 2.56,
+   "text": "Maltose"
+  },
+  {
+   "end": 3.36,
+   "start": 3.2,
+   "text": "and"
+  },
+  {
+   "end": 3.68,
+   "start": 3.36,
+   "text": "alpha"
+  },
+  {
+   "end": 4.4,
+   "start": 3.68,
+   "text": "dextrinase"
+  },
+  {
+   "end": 4.72,
+   "start": 4.4,
+   "text": "release"
+  },
+  {
+   "end": 5.36,
+   "start": 4.72,
+   "text": "glucose"
+  },
+  {
+   "end": 6.32,
+   "start": 5.76,
+   "text": "Sucrase"
+  },
+  {
+   "end": 6.72,
+   "start": 6.32,
+   "text": "splits"
+  },
+  {
+   "end": 7.6,
+   "start": 6.96,
+   "text": "sucrose"
+  },
+  {
+   "end": 7.76,
+   "start": 7.6,
+   "text": "into"
+  },
+  {
+   "end": 8.32,
+   "start": 7.76,
+   "text": "glucose"
+  },
+  {
+   "end": 8.4,
+   "start": 8.32,
+   "text": "and"
+  },
+  {
+   "end": 9.04,
+   "start": 8.4,
+   "text": "fructose"
+  },
+  {
+   "end": 10.08,
+   "start": 9.36,
+   "text": "Lactase"
+  },
+  {
+   "end": 10.88,
+   "start": 10.4,
+   "text": "splits"
+  },
+  {
+   "end": 11.44,
+   "start": 10.88,
+   "text": "lactose"
+  },
+  {
+   "end": 11.68,
+   "start": 11.44,
+   "text": "into"
+  },
+  {
+   "end": 12.24,
+   "start": 11.68,
+   "text": "glucose"
+  },
+  {
+   "end": 12.32,
+   "start": 12.24,
+   "text": "and"
+  },
+  {
+   "end": 13.12,
+   "start": 12.32,
+   "text": "galactose"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 13.12,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "The brush border finishes the job. Maltose and alpha-dextrinase release glucose. Sucrase splits sucrose into glucose and fructose. Lactase splits lactose into glucose and galactose."
+  }
+ ],
+ "text": "The brush border finishes the job. Maltose and alpha-dextrinase release glucose. Sucrase splits sucrose into glucose and fructose. Lactase splits lactose into glucose and galactose."
+}

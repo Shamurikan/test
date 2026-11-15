@@ -1,0 +1,387 @@
+{
+ "duration": 30.4065625,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "58810601-fabe-4ba0-ac16-5b89937ce09d",
+ "segments": [
+  {
+   "end": 0.8,
+   "start": 0.24,
+   "text": "Sodium"
+  },
+  {
+   "end": 1.2,
+   "start": 0.8,
+   "text": "drives"
+  },
+  {
+   "end": 1.52,
+   "start": 1.2,
+   "text": "water"
+  },
+  {
+   "end": 2.08,
+   "start": 1.52,
+   "text": "absorption"
+  },
+  {
+   "end": 2.64,
+   "start": 2.48,
+   "text": "It"
+  },
+  {
+   "end": 2.96,
+   "start": 2.64,
+   "text": "enters"
+  },
+  {
+   "end": 3.04,
+   "start": 2.96,
+   "text": "the"
+  },
+  {
+   "end": 3.36,
+   "start": 3.04,
+   "text": "cell"
+  },
+  {
+   "end": 3.52,
+   "start": 3.36,
+   "text": "by"
+  },
+  {
+   "end": 3.92,
+   "start": 3.52,
+   "text": "passive"
+  },
+  {
+   "end": 4.56,
+   "start": 3.92,
+   "text": "diffusion"
+  },
+  {
+   "end": 4.88,
+   "start": 4.72,
+   "text": "with"
+  },
+  {
+   "end": 5.44,
+   "start": 4.88,
+   "text": "glucose"
+  },
+  {
+   "end": 5.6,
+   "start": 5.44,
+   "text": "or"
+  },
+  {
+   "end": 5.92,
+   "start": 5.6,
+   "text": "amino"
+  },
+  {
+   "end": 6.48,
+   "start": 5.92,
+   "text": "acids"
+  },
+  {
+   "end": 6.96,
+   "start": 6.8,
+   "text": "with"
+  },
+  {
+   "end": 7.6,
+   "start": 6.96,
+   "text": "chloride"
+  },
+  {
+   "end": 7.92,
+   "start": 7.84,
+   "text": "or"
+  },
+  {
+   "end": 8,
+   "start": 7.92,
+   "text": "in"
+  },
+  {
+   "end": 8.48,
+   "start": 8,
+   "text": "exchange"
+  },
+  {
+   "end": 8.64,
+   "start": 8.48,
+   "text": "for"
+  },
+  {
+   "end": 9.12,
+   "start": 8.64,
+   "text": "hydrogen"
+  },
+  {
+   "end": 9.6,
+   "start": 9.12,
+   "text": "ions"
+  },
+  {
+   "end": 10.08,
+   "start": 10,
+   "text": "The"
+  },
+  {
+   "end": 10.8,
+   "start": 10.08,
+   "text": "basolateral"
+  },
+  {
+   "end": 11.12,
+   "start": 10.8,
+   "text": "pump"
+  },
+  {
+   "end": 11.44,
+   "start": 11.28,
+   "text": "then"
+  },
+  {
+   "end": 11.84,
+   "start": 11.44,
+   "text": "pushes"
+  },
+  {
+   "end": 11.92,
+   "start": 11.84,
+   "text": "it"
+  },
+  {
+   "end": 12.08,
+   "start": 11.92,
+   "text": "into"
+  },
+  {
+   "end": 12.16,
+   "start": 12.08,
+   "text": "the"
+  },
+  {
+   "end": 12.64,
+   "start": 12.16,
+   "text": "spaces"
+  },
+  {
+   "end": 13.04,
+   "start": 12.64,
+   "text": "between"
+  },
+  {
+   "end": 13.52,
+   "start": 13.04,
+   "text": "cells"
+  },
+  {
+   "end": 14.4,
+   "start": 13.92,
+   "text": "Ions"
+  },
+  {
+   "end": 14.8,
+   "start": 14.4,
+   "text": "pile"
+  },
+  {
+   "end": 14.96,
+   "start": 14.8,
+   "text": "up"
+  },
+  {
+   "end": 15.28,
+   "start": 14.96,
+   "text": "there"
+  },
+  {
+   "end": 15.84,
+   "start": 15.44,
+   "text": "creating"
+  },
+  {
+   "end": 15.92,
+   "start": 15.84,
+   "text": "an"
+  },
+  {
+   "end": 16.4,
+   "start": 15.92,
+   "text": "osmotic"
+  },
+  {
+   "end": 16.88,
+   "start": 16.4,
+   "text": "gradient"
+  },
+  {
+   "end": 17.28,
+   "start": 17.12,
+   "text": "and"
+  },
+  {
+   "end": 17.52,
+   "start": 17.28,
+   "text": "water"
+  },
+  {
+   "end": 18.08,
+   "start": 17.52,
+   "text": "follows"
+  },
+  {
+   "end": 18.64,
+   "start": 18.56,
+   "text": "The"
+  },
+  {
+   "end": 19.04,
+   "start": 18.64,
+   "text": "jejunum"
+  },
+  {
+   "end": 19.6,
+   "start": 19.04,
+   "text": "absorbs"
+  },
+  {
+   "end": 19.92,
+   "start": 19.6,
+   "text": "mainly"
+  },
+  {
+   "end": 20.32,
+   "start": 19.92,
+   "text": "sodium"
+  },
+  {
+   "end": 20.96,
+   "start": 20.32,
+   "text": "bicarbonate"
+  },
+  {
+   "end": 21.44,
+   "start": 21.36,
+   "text": "the"
+  },
+  {
+   "end": 21.92,
+   "start": 21.52,
+   "text": "ileum"
+  },
+  {
+   "end": 22.4,
+   "start": 22.08,
+   "text": "mainly"
+  },
+  {
+   "end": 22.8,
+   "start": 22.4,
+   "text": "sodium"
+  },
+  {
+   "end": 23.36,
+   "start": 22.8,
+   "text": "chloride"
+  },
+  {
+   "end": 24.4,
+   "start": 23.68,
+   "text": "Aldosterone"
+  },
+  {
+   "end": 24.88,
+   "start": 24.4,
+   "text": "strongly"
+  },
+  {
+   "end": 25.36,
+   "start": 24.88,
+   "text": "enhances"
+  },
+  {
+   "end": 25.76,
+   "start": 25.36,
+   "text": "sodium"
+  },
+  {
+   "end": 26.32,
+   "start": 25.76,
+   "text": "absorption"
+  },
+  {
+   "end": 27.12,
+   "start": 26.64,
+   "text": "especially"
+  },
+  {
+   "end": 27.28,
+   "start": 27.12,
+   "text": "in"
+  },
+  {
+   "end": 27.28,
+   "start": 27.28,
+   "text": "the"
+  },
+  {
+   "end": 27.76,
+   "start": 27.28,
+   "text": "colon"
+  },
+  {
+   "end": 28.24,
+   "start": 28,
+   "text": "so"
+  },
+  {
+   "end": 28.64,
+   "start": 28.24,
+   "text": "almost"
+  },
+  {
+   "end": 28.88,
+   "start": 28.64,
+   "text": "no"
+  },
+  {
+   "end": 29.2,
+   "start": 28.88,
+   "text": "salt"
+  },
+  {
+   "end": 29.28,
+   "start": 29.2,
+   "text": "or"
+  },
+  {
+   "end": 29.6,
+   "start": 29.28,
+   "text": "water"
+  },
+  {
+   "end": 29.76,
+   "start": 29.6,
+   "text": "is"
+  },
+  {
+   "end": 30.24,
+   "start": 29.76,
+   "text": "lost"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 30.24,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Sodium drives water absorption. It enters the cell by passive diffusion, with glucose or amino acids, with chloride, or in exchange for hydrogen ions. The basolateral pump then pushes it into the spaces between cells. Ions pile up there, creating an osmotic gradient, and water follows. The jejunum absorbs mainly sodium bicarbonate, the ileum mainly sodium chloride. Aldosterone strongly enhances sodium absorption, especially in the colon, so almost no salt or water is lost."
+  }
+ ],
+ "text": "Sodium drives water absorption. It enters the cell by passive diffusion, with glucose or amino acids, with chloride, or in exchange for hydrogen ions. The basolateral pump then pushes it into the spaces between cells. Ions pile up there, creating an osmotic gradient, and water follows. The jejunum absorbs mainly sodium bicarbonate, the ileum mainly sodium chloride. Aldosterone strongly enhances sodium absorption, especially in the colon, so almost no salt or water is lost."
+}

@@ -1,0 +1,51 @@
+{
+ "duration": 3.3698125,
+ "language_code": "en",
+ "request_id": "7dad1f74-435f-4b1e-9072-b5465edb309d",
+ "segments": [
+  {
+   "end": 0.88,
+   "start": 0.32,
+   "text": "Absorption"
+  },
+  {
+   "end": 0.96,
+   "start": 0.88,
+   "text": "of"
+  },
+  {
+   "end": 1.36,
+   "start": 0.96,
+   "text": "fat"
+  },
+  {
+   "end": 1.84,
+   "start": 1.68,
+   "text": "and"
+  },
+  {
+   "end": 2.16,
+   "start": 1.84,
+   "text": "fat"
+  },
+  {
+   "end": 2.64,
+   "start": 2.16,
+   "text": "soluble"
+  },
+  {
+   "end": 3.28,
+   "start": 2.64,
+   "text": "vitamins"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 3.28,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Absorption of fat and fat-soluble vitamins."
+  }
+ ],
+ "text": "Absorption of fat and fat-soluble vitamins."
+}

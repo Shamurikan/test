@@ -1,0 +1,407 @@
+{
+ "duration": 29.3878125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "b0557bdf-9ebb-48b4-9f48-08fc84c353ec",
+ "segments": [
+  {
+   "end": 0.64,
+   "start": 0.32,
+   "text": "Between"
+  },
+  {
+   "end": 1.12,
+   "start": 0.64,
+   "text": "meals"
+  },
+  {
+   "end": 1.36,
+   "start": 1.28,
+   "text": "a"
+  },
+  {
+   "end": 1.76,
+   "start": 1.36,
+   "text": "different"
+  },
+  {
+   "end": 2.08,
+   "start": 1.76,
+   "text": "pattern"
+  },
+  {
+   "end": 2.4,
+   "start": 2.08,
+   "text": "takes"
+  },
+  {
+   "end": 2.72,
+   "start": 2.4,
+   "text": "over"
+  },
+  {
+   "end": 3.28,
+   "start": 3.2,
+   "text": "The"
+  },
+  {
+   "end": 3.84,
+   "start": 3.28,
+   "text": "migrating"
+  },
+  {
+   "end": 4,
+   "start": 3.84,
+   "text": "motor"
+  },
+  {
+   "end": 4.72,
+   "start": 4,
+   "text": "complex"
+  },
+  {
+   "end": 5.28,
+   "start": 5.2,
+   "text": "In"
+  },
+  {
+   "end": 5.44,
+   "start": 5.28,
+   "text": "the"
+  },
+  {
+   "end": 5.6,
+   "start": 5.44,
+   "text": "empty"
+  },
+  {
+   "end": 6.08,
+   "start": 5.6,
+   "text": "stomach"
+  },
+  {
+   "end": 6.72,
+   "start": 6.4,
+   "text": "bursts"
+  },
+  {
+   "end": 6.88,
+   "start": 6.72,
+   "text": "of"
+  },
+  {
+   "end": 7.84,
+   "start": 6.88,
+   "text": "depolarization"
+  },
+  {
+   "end": 8.24,
+   "start": 8,
+   "text": "launch"
+  },
+  {
+   "end": 8.64,
+   "start": 8.24,
+   "text": "strong"
+  },
+  {
+   "end": 9.28,
+   "start": 8.64,
+   "text": "peristaltic"
+  },
+  {
+   "end": 10,
+   "start": 9.28,
+   "text": "contractions"
+  },
+  {
+   "end": 10.32,
+   "start": 10.24,
+   "text": "that"
+  },
+  {
+   "end": 10.72,
+   "start": 10.32,
+   "text": "sweep"
+  },
+  {
+   "end": 10.8,
+   "start": 10.72,
+   "text": "the"
+  },
+  {
+   "end": 11.28,
+   "start": 10.8,
+   "text": "entire"
+  },
+  {
+   "end": 11.6,
+   "start": 11.28,
+   "text": "small"
+  },
+  {
+   "end": 12.16,
+   "start": 11.6,
+   "text": "intestine"
+  },
+  {
+   "end": 12.72,
+   "start": 12.32,
+   "text": "reaching"
+  },
+  {
+   "end": 12.8,
+   "start": 12.72,
+   "text": "the"
+  },
+  {
+   "end": 13.44,
+   "start": 12.8,
+   "text": "ileocecal"
+  },
+  {
+   "end": 13.84,
+   "start": 13.44,
+   "text": "valve"
+  },
+  {
+   "end": 14.4,
+   "start": 14.08,
+   "text": "after"
+  },
+  {
+   "end": 14.56,
+   "start": 14.4,
+   "text": "one"
+  },
+  {
+   "end": 14.64,
+   "start": 14.56,
+   "text": "and"
+  },
+  {
+   "end": 14.72,
+   "start": 14.64,
+   "text": "a"
+  },
+  {
+   "end": 15.04,
+   "start": 14.72,
+   "text": "half"
+  },
+  {
+   "end": 15.12,
+   "start": 15.04,
+   "text": "to"
+  },
+  {
+   "end": 15.36,
+   "start": 15.12,
+   "text": "two"
+  },
+  {
+   "end": 15.84,
+   "start": 15.36,
+   "text": "hours"
+  },
+  {
+   "end": 16.32,
+   "start": 16.16,
+   "text": "Then"
+  },
+  {
+   "end": 16.4,
+   "start": 16.32,
+   "text": "a"
+  },
+  {
+   "end": 16.64,
+   "start": 16.4,
+   "text": "new"
+  },
+  {
+   "end": 16.96,
+   "start": 16.64,
+   "text": "wave"
+  },
+  {
+   "end": 17.44,
+   "start": 16.96,
+   "text": "starts"
+  },
+  {
+   "end": 18.08,
+   "start": 17.84,
+   "text": "This"
+  },
+  {
+   "end": 18.24,
+   "start": 18.08,
+   "text": "is"
+  },
+  {
+   "end": 18.4,
+   "start": 18.24,
+   "text": "the"
+  },
+  {
+   "end": 19.04,
+   "start": 18.4,
+   "text": "housekeeper"
+  },
+  {
+   "end": 19.44,
+   "start": 19.28,
+   "text": "It"
+  },
+  {
+   "end": 19.76,
+   "start": 19.44,
+   "text": "clears"
+  },
+  {
+   "end": 20.56,
+   "start": 19.84,
+   "text": "undigested"
+  },
+  {
+   "end": 21.04,
+   "start": 20.56,
+   "text": "residue"
+  },
+  {
+   "end": 21.44,
+   "start": 21.2,
+   "text": "dead"
+  },
+  {
+   "end": 21.92,
+   "start": 21.44,
+   "text": "mucosal"
+  },
+  {
+   "end": 22.4,
+   "start": 21.92,
+   "text": "cells"
+  },
+  {
+   "end": 22.64,
+   "start": 22.48,
+   "text": "and"
+  },
+  {
+   "end": 23.28,
+   "start": 22.64,
+   "text": "bacteria"
+  },
+  {
+   "end": 23.52,
+   "start": 23.36,
+   "text": "into"
+  },
+  {
+   "end": 23.6,
+   "start": 23.52,
+   "text": "the"
+  },
+  {
+   "end": 24.08,
+   "start": 23.6,
+   "text": "colon"
+  },
+  {
+   "end": 24.56,
+   "start": 24.32,
+   "text": "It's"
+  },
+  {
+   "end": 25.12,
+   "start": 24.56,
+   "text": "regulated"
+  },
+  {
+   "end": 25.28,
+   "start": 25.12,
+   "text": "by"
+  },
+  {
+   "end": 25.84,
+   "start": 25.28,
+   "text": "autonomic"
+  },
+  {
+   "end": 26.24,
+   "start": 25.84,
+   "text": "nerves"
+  },
+  {
+   "end": 26.56,
+   "start": 26.4,
+   "text": "and"
+  },
+  {
+   "end": 26.72,
+   "start": 26.56,
+   "text": "the"
+  },
+  {
+   "end": 27.04,
+   "start": 26.72,
+   "text": "hormone"
+  },
+  {
+   "end": 27.52,
+   "start": 27.04,
+   "text": "motilin"
+  },
+  {
+   "end": 27.92,
+   "start": 27.84,
+   "text": "and"
+  },
+  {
+   "end": 28,
+   "start": 27.92,
+   "text": "it"
+  },
+  {
+   "end": 28.4,
+   "start": 28,
+   "text": "stops"
+  },
+  {
+   "end": 28.48,
+   "start": 28.48,
+   "text": "as"
+  },
+  {
+   "end": 28.72,
+   "start": 28.48,
+   "text": "soon"
+  },
+  {
+   "end": 28.8,
+   "start": 28.72,
+   "text": "as"
+  },
+  {
+   "end": 28.96,
+   "start": 28.8,
+   "text": "you"
+  },
+  {
+   "end": 29.2,
+   "start": 28.96,
+   "text": "eat"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 29.2,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Between meals, a different pattern takes over. The migrating motor complex. In the empty stomach, bursts of depolarization launch strong peristaltic contractions that sweep the entire small intestine, reaching the ileocecal valve after one and a half to two hours. Then a new wave starts. This is the housekeeper. It clears undigested residue, dead mucosal cells, and bacteria into the colon. It's regulated by autonomic nerves and the hormone motilin, and it stops as soon as you eat."
+  }
+ ],
+ "text": "Between meals, a different pattern takes over. The migrating motor complex. In the empty stomach, bursts of depolarization launch strong peristaltic contractions that sweep the entire small intestine, reaching the ileocecal valve after one and a half to two hours. Then a new wave starts. This is the housekeeper. It clears undigested residue, dead mucosal cells, and bacteria into the colon. It's regulated by autonomic nerves and the hormone motilin, and it stops as soon as you eat."
+}

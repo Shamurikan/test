@@ -1,0 +1,352 @@
+{
+ "duration": 27.8726875,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "bb7f64fc-47cd-4720-8388-5971f41f6a7c",
+ "segments": [
+  {
+   "end": 0.56,
+   "start": 0.32,
+   "text": "Bile"
+  },
+  {
+   "end": 0.96,
+   "start": 0.56,
+   "text": "salts"
+  },
+  {
+   "end": 1.12,
+   "start": 1.04,
+   "text": "have"
+  },
+  {
+   "end": 1.12,
+   "start": 1.12,
+   "text": "a"
+  },
+  {
+   "end": 1.52,
+   "start": 1.12,
+   "text": "second"
+  },
+  {
+   "end": 1.84,
+   "start": 1.52,
+   "text": "job"
+  },
+  {
+   "end": 2.48,
+   "start": 2.4,
+   "text": "They"
+  },
+  {
+   "end": 2.88,
+   "start": 2.48,
+   "text": "form"
+  },
+  {
+   "end": 3.52,
+   "start": 2.88,
+   "text": "micelles"
+  },
+  {
+   "end": 4.16,
+   "start": 3.92,
+   "text": "Each"
+  },
+  {
+   "end": 4.32,
+   "start": 4.16,
+   "text": "is"
+  },
+  {
+   "end": 4.56,
+   "start": 4.32,
+   "text": "just"
+  },
+  {
+   "end": 4.88,
+   "start": 4.56,
+   "text": "three"
+  },
+  {
+   "end": 4.96,
+   "start": 4.88,
+   "text": "to"
+  },
+  {
+   "end": 5.28,
+   "start": 4.96,
+   "text": "six"
+  },
+  {
+   "end": 5.84,
+   "start": 5.28,
+   "text": "nanometers"
+  },
+  {
+   "end": 6.4,
+   "start": 5.84,
+   "text": "across"
+  },
+  {
+   "end": 6.96,
+   "start": 6.8,
+   "text": "built"
+  },
+  {
+   "end": 7.2,
+   "start": 6.96,
+   "text": "from"
+  },
+  {
+   "end": 7.52,
+   "start": 7.2,
+   "text": "twenty"
+  },
+  {
+   "end": 7.6,
+   "start": 7.52,
+   "text": "to"
+  },
+  {
+   "end": 8,
+   "start": 7.6,
+   "text": "forty"
+  },
+  {
+   "end": 8.32,
+   "start": 8,
+   "text": "bile"
+  },
+  {
+   "end": 8.64,
+   "start": 8.32,
+   "text": "salt"
+  },
+  {
+   "end": 9.36,
+   "start": 8.64,
+   "text": "molecules"
+  },
+  {
+   "end": 9.92,
+   "start": 9.76,
+   "text": "Their"
+  },
+  {
+   "end": 10.4,
+   "start": 9.92,
+   "text": "negatively"
+  },
+  {
+   "end": 10.88,
+   "start": 10.4,
+   "text": "charged"
+  },
+  {
+   "end": 11.2,
+   "start": 10.88,
+   "text": "polar"
+  },
+  {
+   "end": 11.6,
+   "start": 11.2,
+   "text": "groups"
+  },
+  {
+   "end": 11.92,
+   "start": 11.6,
+   "text": "face"
+  },
+  {
+   "end": 12.32,
+   "start": 11.92,
+   "text": "outward"
+  },
+  {
+   "end": 12.72,
+   "start": 12.56,
+   "text": "so"
+  },
+  {
+   "end": 12.8,
+   "start": 12.72,
+   "text": "the"
+  },
+  {
+   "end": 13.28,
+   "start": 12.8,
+   "text": "micelle"
+  },
+  {
+   "end": 13.6,
+   "start": 13.28,
+   "text": "stays"
+  },
+  {
+   "end": 14.08,
+   "start": 13.6,
+   "text": "dissolved"
+  },
+  {
+   "end": 14.24,
+   "start": 14.08,
+   "text": "in"
+  },
+  {
+   "end": 14.64,
+   "start": 14.24,
+   "text": "water"
+  },
+  {
+   "end": 15.44,
+   "start": 15.04,
+   "text": "Fatty"
+  },
+  {
+   "end": 15.92,
+   "start": 15.44,
+   "text": "acids"
+  },
+  {
+   "end": 17.2,
+   "start": 16.24,
+   "text": "monoglycerides"
+  },
+  {
+   "end": 18,
+   "start": 17.44,
+   "text": "cholesterol"
+  },
+  {
+   "end": 18.16,
+   "start": 18,
+   "text": "and"
+  },
+  {
+   "end": 18.4,
+   "start": 18.16,
+   "text": "fat"
+  },
+  {
+   "end": 18.8,
+   "start": 18.4,
+   "text": "soluble"
+  },
+  {
+   "end": 19.36,
+   "start": 18.8,
+   "text": "vitamins"
+  },
+  {
+   "end": 19.52,
+   "start": 19.36,
+   "text": "hide"
+  },
+  {
+   "end": 20.08,
+   "start": 19.52,
+   "text": "inside"
+  },
+  {
+   "end": 20.96,
+   "start": 20.4,
+   "text": "Micelles"
+  },
+  {
+   "end": 21.28,
+   "start": 20.96,
+   "text": "ferry"
+  },
+  {
+   "end": 21.44,
+   "start": 21.28,
+   "text": "this"
+  },
+  {
+   "end": 21.84,
+   "start": 21.44,
+   "text": "cargo"
+  },
+  {
+   "end": 21.92,
+   "start": 21.84,
+   "text": "to"
+  },
+  {
+   "end": 22,
+   "start": 21.92,
+   "text": "the"
+  },
+  {
+   "end": 22.32,
+   "start": 22,
+   "text": "brush"
+  },
+  {
+   "end": 22.72,
+   "start": 22.32,
+   "text": "border"
+  },
+  {
+   "end": 23.52,
+   "start": 23.04,
+   "text": "Remember"
+  },
+  {
+   "end": 24.08,
+   "start": 23.84,
+   "text": "bile"
+  },
+  {
+   "end": 24.48,
+   "start": 24.08,
+   "text": "salts"
+  },
+  {
+   "end": 24.96,
+   "start": 24.48,
+   "text": "digest"
+  },
+  {
+   "end": 25.28,
+   "start": 24.96,
+   "text": "nothing"
+  },
+  {
+   "end": 25.84,
+   "start": 25.68,
+   "text": "They"
+  },
+  {
+   "end": 26.56,
+   "start": 25.84,
+   "text": "emulsify"
+  },
+  {
+   "end": 26.88,
+   "start": 26.8,
+   "text": "and"
+  },
+  {
+   "end": 27.04,
+   "start": 26.88,
+   "text": "they"
+  },
+  {
+   "end": 27.68,
+   "start": 27.04,
+   "text": "transport"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 27.68,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Bile salts have a second job. They form micelles. Each is just three to six nanometers across, built from twenty to forty bile salt molecules. Their negatively charged polar groups face outward, so the micelle stays dissolved in water. Fatty acids, monoglycerides, cholesterol, and fat-soluble vitamins hide inside. Micelles ferry this cargo to the brush border. Remember, bile salts digest nothing. They emulsify and they transport."
+  }
+ ],
+ "text": "Bile salts have a second job. They form micelles. Each is just three to six nanometers across, built from twenty to forty bile salt molecules. Their negatively charged polar groups face outward, so the micelle stays dissolved in water. Fatty acids, monoglycerides, cholesterol, and fat-soluble vitamins hide inside. Micelles ferry this cargo to the brush border. Remember, bile salts digest nothing. They emulsify and they transport."
+}

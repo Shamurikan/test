@@ -1,0 +1,282 @@
+{
+ "duration": 21.2114375,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "c90011b9-c716-4e24-8c1c-1008708b18f8",
+ "segments": [
+  {
+   "end": 0.4,
+   "start": 0.24,
+   "text": "So"
+  },
+  {
+   "end": 0.64,
+   "start": 0.4,
+   "text": "where"
+  },
+  {
+   "end": 0.8,
+   "start": 0.64,
+   "text": "does"
+  },
+  {
+   "end": 0.88,
+   "start": 0.8,
+   "text": "it"
+  },
+  {
+   "end": 1.04,
+   "start": 0.88,
+   "text": "all"
+  },
+  {
+   "end": 1.44,
+   "start": 1.04,
+   "text": "go"
+  },
+  {
+   "end": 2.24,
+   "start": 1.84,
+   "text": "Amino"
+  },
+  {
+   "end": 2.8,
+   "start": 2.24,
+   "text": "acids"
+  },
+  {
+   "end": 4.16,
+   "start": 3.2,
+   "text": "monosaccharides"
+  },
+  {
+   "end": 4.32,
+   "start": 4.16,
+   "text": "and"
+  },
+  {
+   "end": 4.64,
+   "start": 4.32,
+   "text": "short"
+  },
+  {
+   "end": 4.96,
+   "start": 4.64,
+   "text": "chain"
+  },
+  {
+   "end": 5.28,
+   "start": 4.96,
+   "text": "fatty"
+  },
+  {
+   "end": 5.76,
+   "start": 5.28,
+   "text": "acids"
+  },
+  {
+   "end": 6.08,
+   "start": 5.84,
+   "text": "enter"
+  },
+  {
+   "end": 6.16,
+   "start": 6.08,
+   "text": "the"
+  },
+  {
+   "end": 6.48,
+   "start": 6.16,
+   "text": "blood"
+  },
+  {
+   "end": 7.2,
+   "start": 6.48,
+   "text": "capillaries"
+  },
+  {
+   "end": 7.76,
+   "start": 7.68,
+   "text": "and"
+  },
+  {
+   "end": 8.16,
+   "start": 7.76,
+   "text": "travel"
+  },
+  {
+   "end": 8.4,
+   "start": 8.16,
+   "text": "through"
+  },
+  {
+   "end": 8.48,
+   "start": 8.4,
+   "text": "the"
+  },
+  {
+   "end": 8.96,
+   "start": 8.48,
+   "text": "hepatic"
+  },
+  {
+   "end": 9.28,
+   "start": 8.96,
+   "text": "portal"
+  },
+  {
+   "end": 9.6,
+   "start": 9.28,
+   "text": "vein"
+  },
+  {
+   "end": 9.68,
+   "start": 9.6,
+   "text": "to"
+  },
+  {
+   "end": 9.76,
+   "start": 9.68,
+   "text": "the"
+  },
+  {
+   "end": 10.16,
+   "start": 9.76,
+   "text": "liver"
+  },
+  {
+   "end": 10.88,
+   "start": 10.56,
+   "text": "Long"
+  },
+  {
+   "end": 11.2,
+   "start": 10.88,
+   "text": "chain"
+  },
+  {
+   "end": 11.6,
+   "start": 11.2,
+   "text": "fatty"
+  },
+  {
+   "end": 12.08,
+   "start": 11.6,
+   "text": "acids"
+  },
+  {
+   "end": 12.72,
+   "start": 12.4,
+   "text": "packed"
+  },
+  {
+   "end": 12.88,
+   "start": 12.72,
+   "text": "into"
+  },
+  {
+   "end": 13.84,
+   "start": 12.88,
+   "text": "chylomicrons"
+  },
+  {
+   "end": 14.4,
+   "start": 14.24,
+   "text": "take"
+  },
+  {
+   "end": 14.48,
+   "start": 14.4,
+   "text": "the"
+  },
+  {
+   "end": 15.04,
+   "start": 14.48,
+   "text": "lymphatic"
+  },
+  {
+   "end": 15.2,
+   "start": 15.04,
+   "text": "route"
+  },
+  {
+   "end": 16.24,
+   "start": 15.6,
+   "text": "lacteal"
+  },
+  {
+   "end": 17.04,
+   "start": 16.56,
+   "text": "lymphatic"
+  },
+  {
+   "end": 17.52,
+   "start": 17.04,
+   "text": "vessels"
+  },
+  {
+   "end": 18.32,
+   "start": 17.84,
+   "text": "thoracic"
+  },
+  {
+   "end": 18.72,
+   "start": 18.32,
+   "text": "duct"
+  },
+  {
+   "end": 19.04,
+   "start": 18.96,
+   "text": "and"
+  },
+  {
+   "end": 19.28,
+   "start": 19.04,
+   "text": "into"
+  },
+  {
+   "end": 19.36,
+   "start": 19.28,
+   "text": "the"
+  },
+  {
+   "end": 19.68,
+   "start": 19.36,
+   "text": "blood"
+  },
+  {
+   "end": 19.76,
+   "start": 19.68,
+   "text": "at"
+  },
+  {
+   "end": 19.84,
+   "start": 19.76,
+   "text": "the"
+  },
+  {
+   "end": 20.08,
+   "start": 19.84,
+   "text": "left"
+  },
+  {
+   "end": 20.8,
+   "start": 20.08,
+   "text": "subclavian"
+  },
+  {
+   "end": 21.12,
+   "start": 20.8,
+   "text": "vein"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 21.12,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "So where does it all go? Amino acids, monosaccharides and short-chain fatty acids enter the blood capillaries and travel through the hepatic portal vein to the liver. Long-chain fatty acids, packed into chylomicrons, take the lymphatic route, lacteal, lymphatic vessels, thoracic duct, and into the blood at the left subclavian vein."
+  }
+ ],
+ "text": "So where does it all go? Amino acids, monosaccharides and short-chain fatty acids enter the blood capillaries and travel through the hepatic portal vein to the liver. Long-chain fatty acids, packed into chylomicrons, take the lymphatic route, lacteal, lymphatic vessels, thoracic duct, and into the blood at the left subclavian vein."
+}

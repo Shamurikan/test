@@ -1,0 +1,52 @@
+{
+ "duration": 2.899625,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "5c91dd37-21ed-457f-9fc9-88436c37c5b9",
+ "segments": [
+  {
+   "end": 0.48,
+   "start": 0.32,
+   "text": "If"
+  },
+  {
+   "end": 0.8,
+   "start": 0.56,
+   "text": "bile"
+  },
+  {
+   "end": 1.28,
+   "start": 0.8,
+   "text": "salts"
+  },
+  {
+   "end": 1.28,
+   "start": 1.28,
+   "text": "are"
+  },
+  {
+   "end": 1.76,
+   "start": 1.28,
+   "text": "missing"
+  },
+  {
+   "end": 2.24,
+   "start": 2.08,
+   "text": "what"
+  },
+  {
+   "end": 2.8,
+   "start": 2.24,
+   "text": "fails"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 2.8,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "If bile salts are missing, what fails?"
+  }
+ ],
+ "text": "If bile salts are missing, what fails?"
+}

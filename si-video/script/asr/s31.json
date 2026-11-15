@@ -1,0 +1,242 @@
+{
+ "duration": 16.875125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "1e51145e-7e5a-453a-ace3-e8df6b1d5c19",
+ "segments": [
+  {
+   "end": 0.56,
+   "start": 0.24,
+   "text": "Along"
+  },
+  {
+   "end": 0.64,
+   "start": 0.56,
+   "text": "the"
+  },
+  {
+   "end": 1.04,
+   "start": 0.64,
+   "text": "tube"
+  },
+  {
+   "end": 1.76,
+   "start": 1.44,
+   "text": "most"
+  },
+  {
+   "end": 2.32,
+   "start": 1.76,
+   "text": "minerals"
+  },
+  {
+   "end": 2.72,
+   "start": 2.56,
+   "text": "like"
+  },
+  {
+   "end": 3.12,
+   "start": 2.8,
+   "text": "iron"
+  },
+  {
+   "end": 3.2,
+   "start": 3.12,
+   "text": "and"
+  },
+  {
+   "end": 3.76,
+   "start": 3.2,
+   "text": "calcium"
+  },
+  {
+   "end": 4.08,
+   "start": 4,
+   "text": "are"
+  },
+  {
+   "end": 4.56,
+   "start": 4.08,
+   "text": "absorbed"
+  },
+  {
+   "end": 4.64,
+   "start": 4.56,
+   "text": "in"
+  },
+  {
+   "end": 4.72,
+   "start": 4.64,
+   "text": "the"
+  },
+  {
+   "end": 5.36,
+   "start": 4.72,
+   "text": "duodenum"
+  },
+  {
+   "end": 5.44,
+   "start": 5.36,
+   "text": "and"
+  },
+  {
+   "end": 5.76,
+   "start": 5.52,
+   "text": "upper"
+  },
+  {
+   "end": 6.32,
+   "start": 5.76,
+   "text": "jejunum"
+  },
+  {
+   "end": 7.6,
+   "start": 6.72,
+   "text": "Carbohydrates"
+  },
+  {
+   "end": 8.24,
+   "start": 7.84,
+   "text": "amino"
+  },
+  {
+   "end": 8.64,
+   "start": 8.24,
+   "text": "acids"
+  },
+  {
+   "end": 8.8,
+   "start": 8.64,
+   "text": "and"
+  },
+  {
+   "end": 8.96,
+   "start": 8.8,
+   "text": "water"
+  },
+  {
+   "end": 9.44,
+   "start": 8.96,
+   "text": "soluble"
+  },
+  {
+   "end": 10,
+   "start": 9.44,
+   "text": "vitamins"
+  },
+  {
+   "end": 10.4,
+   "start": 10.24,
+   "text": "in"
+  },
+  {
+   "end": 10.4,
+   "start": 10.4,
+   "text": "the"
+  },
+  {
+   "end": 10.88,
+   "start": 10.4,
+   "text": "jejunum"
+  },
+  {
+   "end": 11.04,
+   "start": 10.88,
+   "text": "and"
+  },
+  {
+   "end": 11.28,
+   "start": 11.04,
+   "text": "upper"
+  },
+  {
+   "end": 11.68,
+   "start": 11.28,
+   "text": "ileum"
+  },
+  {
+   "end": 12.24,
+   "start": 11.84,
+   "text": "Lipids"
+  },
+  {
+   "end": 12.4,
+   "start": 12.24,
+   "text": "and"
+  },
+  {
+   "end": 12.64,
+   "start": 12.4,
+   "text": "fat"
+  },
+  {
+   "end": 13.04,
+   "start": 12.64,
+   "text": "soluble"
+  },
+  {
+   "end": 13.6,
+   "start": 13.04,
+   "text": "vitamins"
+  },
+  {
+   "end": 14,
+   "start": 13.84,
+   "text": "in"
+  },
+  {
+   "end": 14,
+   "start": 14,
+   "text": "the"
+  },
+  {
+   "end": 14.64,
+   "start": 14,
+   "text": "jejunum"
+  },
+  {
+   "end": 14.88,
+   "start": 14.8,
+   "text": "and"
+  },
+  {
+   "end": 15.28,
+   "start": 14.88,
+   "text": "vitamin"
+  },
+  {
+   "end": 15.84,
+   "start": 15.28,
+   "text": "B12"
+  },
+  {
+   "end": 15.92,
+   "start": 15.84,
+   "text": "in"
+  },
+  {
+   "end": 15.92,
+   "start": 15.92,
+   "text": "the"
+  },
+  {
+   "end": 16.32,
+   "start": 15.92,
+   "text": "terminal"
+  },
+  {
+   "end": 16.8,
+   "start": 16.32,
+   "text": "ileum"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 16.8,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Along the tube, most minerals, like iron and calcium, are absorbed in the duodenum and upper jejunum. Carbohydrates, amino acids and water-soluble vitamins in the jejunum and upper ileum. Lipids and fat-soluble vitamins in the jejunum and vitamin B12 in the terminal ileum."
+  }
+ ],
+ "text": "Along the tube, most minerals, like iron and calcium, are absorbed in the duodenum and upper jejunum. Carbohydrates, amino acids and water-soluble vitamins in the jejunum and upper ileum. Lipids and fat-soluble vitamins in the jejunum and vitamin B12 in the terminal ileum."
+}
