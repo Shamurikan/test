@@ -7,6 +7,8 @@ import { makeCue } from "../lib/timing";
 import { Bead, Drop, Enzyme, Hex, Ion, Transporter } from "../lib/shapes";
 import { Tube } from "../lib/tube";
 import { Stream } from "../lib/cell";
+import { StomachAt } from "../lib/gutmap";
+import { Raw, cellVerticalArt, villusArt } from "../lib/histo";
 import { Svg } from "./motility1";
 
 /* shared straight gut (to scale): duodenum 0.5 m, jejunum 2.5 m, ileum 3.5 m */
@@ -14,8 +16,8 @@ const GX0 = 400, GX1 = 1640, GPXM = (GX1 - GX0) / 6.5;
 const gm = (m: number) => GX0 + m * GPXM;
 const StraightGut: React.FC<{ t: number; cy: number; t0?: number; cut?: number }> = ({ t, cy, t0 = 0.2, cut = 0 }) => (
   <g opacity={prog(t, t0, 0.5)}>
-    <path d={`M ${GX0 - 2} ${cy - 40} C ${GX0 - 70} ${cy - 54}, ${GX0 - 150} ${cy - 140}, ${GX0 - 200} ${cy - 110} C ${GX0 - 250} ${cy - 80}, ${GX0 - 240} ${cy + 40}, ${GX0 - 160} ${cy + 74} C ${GX0 - 100} ${cy + 100}, ${GX0 - 50} ${cy + 64}, ${GX0 - 2} ${cy + 40} Z`} fill="#7E2A2F" />
-    <text x={GX0 - 150} y={cy + 8} textAnchor="middle" fontFamily={F.body} fontSize={26} fill={C.ink2}>stomach</text>
+    <StomachAt id={`sgst${cy}`} px={GX0 - 2} py={cy} scale={0.6} />
+    <text x={GX0 - 96} y={cy - 38} textAnchor="middle" fontFamily={F.body} fontSize={26} fontWeight={600} fill={C.ink} stroke="#0B0608" strokeWidth={6} paintOrder="stroke">stomach</text>
     <Tube id={`sg${cy}`} x0={GX0} x1={GX1} cy={cy} r={() => 30} wall={20} />
     <circle cx={GX1 + 44} cy={cy + 10} r={48} fill="#5E2026" />
     <text x={GX1 + 44} y={cy + 100} textAnchor="middle" fontFamily={F.body} fontSize={26} fill={C.ink2}>colon</text>
@@ -91,7 +93,7 @@ export const S25: React.FC = () => {
         </g>
         {/* stomach cross-out (gastrectomy / atrophy) */}
         <g opacity={stomachX}>
-          <path d={`M ${GX0 - 230} ${cy - 120} L ${GX0 - 70} ${cy + 80} M ${GX0 - 70} ${cy - 120} L ${GX0 - 230} ${cy + 80}`} stroke={C.blood} strokeWidth={7} strokeLinecap="round" />
+          <path d={`M ${GX0 - 180} ${cy - 120} L ${GX0 - 20} ${cy + 50} M ${GX0 - 20} ${cy - 120} L ${GX0 - 180} ${cy + 50}`} stroke={C.blood} strokeWidth={7} strokeLinecap="round" />
         </g>
         <SLabel t={t} t0={T.if} x={GX0 - 150} y={cy - 150} size={28} color={C.pink} anchor="middle" weight={600}>intrinsic factor (parietal cells)</SLabel>
       </Svg>
@@ -181,10 +183,7 @@ export const S26: React.FC = () => {
             const x = 560 + k * 240;
             return (
               <g key={k}>
-                {Array.from({ length: 8 }, (_, i) => (
-                  <rect key={i} x={x + 10 + i * 26} y={392} width={12} height={40} rx={6} fill="#F6B8AA" />
-                ))}
-                <rect x={x} y={430} width={224} height={340} rx={24} fill="url(#cellFill)" />
+                <Raw svg={cellVerticalArt({ x0: x, x1: x + 224, top: 430, bottom: 770, id: `s26c${k}`, seed: 11 + k, detail: 0.8, mvLen: 36 })} />
               </g>
             );
           })}
@@ -253,10 +252,7 @@ export const S27: React.FC = () => {
         {/* two cells with the lateral space between them */}
         {[LC0, RC0].map((x0, i) => (
           <g key={i}>
-            {Array.from({ length: 13 }, (_, k) => (
-              <rect key={k} x={x0 + 10 + k * 26} y={CT - 40} width={12} height={44} rx={6} fill="#F6B8AA" />
-            ))}
-            <rect x={x0} y={CT} width={360} height={CB - CT} rx={28} fill="url(#cellFill)" />
+            <Raw svg={cellVerticalArt({ x0, x1: x0 + 360, top: CT, bottom: CB, id: `s27c${i}`, seed: 21 + i, detail: 0.9, mvLen: 40 })} />
           </g>
         ))}
         <rect x={LC1 - 2} y={CT - 6} width={84} height={20} rx={6} fill="#3A1418" />
@@ -430,45 +426,69 @@ const S30T = {
   duct: c30("thoracic"),
   subclavian: c30("subclavian"),
 };
-const ROAD_A = "M 470 640 C 470 520, 640 460, 760 430 C 900 396, 1000 380, 1040 360";
-const ROAD_B = "M 430 780 C 430 860, 700 880, 1000 860 C 1280 840, 1460 800, 1460 600 L 1460 330 C 1460 300, 1500 290, 1560 290";
+// Routes follow the lecture's figure and standard anatomy (anterior view: patient's right on screen left).
+// Blood: villus venules → mesenteric veins → hepatic portal vein → liver (porta hepatis).
+// Lymph: lacteal → lymphatic vessels → cisterna chyli → thoracic duct → left venous angle (left subclavian vein).
+const VB30 = 860; // villus base
+const ROAD_A = "M 506 860 C 600 930, 760 880, 880 800 C 980 744, 1096 748, 1166 716 C 1166 660, 1146 596, 1120 548";
+const ROAD_B = "M 450 860 C 520 940, 760 930, 900 856 C 1040 790, 1176 750, 1250 676 C 1246 600, 1262 520, 1256 440 C 1250 360, 1262 300, 1290 268 C 1310 248, 1330 244, 1346 252";
 const LA = getLength(ROAD_A), LB = getLength(ROAD_B);
 const pa = (u: number) => getPointAtLength(ROAD_A, clamp(u) * LA) as { x: number; y: number };
 const pb = (u: number) => getPointAtLength(ROAD_B, clamp(u) * LB) as { x: number; y: number };
+const TORSO =
+  "M1220 112 L1218 162 C1150 172 1062 188 1012 218 C982 238 976 300 990 380 C1000 480 1012 640 1030 910 L1478 910 C1496 640 1508 480 1518 380 C1532 300 1528 240 1498 218 C1450 188 1360 172 1302 162 L1300 112 Z";
+const LIVER =
+  "M992 430C1004 398 1066 386 1134 390C1204 394 1262 402 1322 418C1352 426 1358 444 1332 452C1282 468 1222 488 1172 512C1122 536 1062 560 1020 552C990 544 978 500 984 466C986 452 986 440 992 430Z";
+const HEART = "M1262 304C1240 300 1226 322 1236 346C1248 374 1290 392 1312 380C1338 366 1346 330 1330 312C1316 296 1290 302 1278 314C1274 306 1270 304 1262 304Z";
+const LOOPS =
+  "M1090 700C1120 660 1180 664 1200 700C1220 736 1280 740 1300 700C1320 660 1380 664 1396 704C1410 744 1380 780 1340 776C1300 772 1270 800 1290 836C1300 860 1250 880 1210 860C1170 840 1130 868 1100 840C1070 812 1076 760 1110 750C1140 742 1150 720 1120 712";
 
 export const S30: React.FC = () => {
   const t = useT();
   const T = S30T;
   const drawA = prog(t, T.portal - 0.4, 1.0, E.inOut);
   const drawB = prog(t, T.lacteal - 0.2, 2.6, E.inOut);
+  const torso = prog(t, 0.4, 0.8);
   return (
     <AbsoluteFill>
       <Header kicker="Absorption · destinations" title="Where does it all go?" color={C.teal} t={t} />
       <Svg>
-        {/* villus */}
+        {/* body context: torso, small-intestine loops, heart and great veins (anterior view) */}
+        <g opacity={torso}>
+          <path d={TORSO} fill="#3A1A20" opacity={0.6} stroke="#6E3A40" strokeWidth={2} />
+          <path d={LOOPS} fill="none" stroke="#E48C7E" strokeWidth={22} strokeLinecap="round" opacity={0.28} />
+          <path d={LOOPS} fill="none" stroke="#F8C3B6" strokeWidth={6} strokeLinecap="round" opacity={0.18} transform="translate(-3 -5)" />
+          <path d={HEART} fill="#B4474B" stroke="#6E2429" strokeWidth={2} opacity={0.85} />
+          {/* SVC / brachiocephalic vein / internal jugular (blue) */}
+          <path d="M1346 252 C1320 272 1300 288 1288 306" stroke="#26386E" strokeWidth={13} fill="none" strokeLinecap="round" />
+          <path d="M1346 252 C1320 272 1300 288 1288 306" stroke={C.bloodBlue} strokeWidth={9} fill="none" strokeLinecap="round" />
+          <path d="M1346 252 C1344 220 1340 190 1336 160" stroke="#26386E" strokeWidth={11} fill="none" strokeLinecap="round" />
+          <path d="M1346 252 C1344 220 1340 190 1336 160" stroke={C.bloodBlue} strokeWidth={7} fill="none" strokeLinecap="round" />
+          <text x={1276} y={420} textAnchor="middle" fontFamily={F.body} fontSize={24} fill={C.ink2} opacity={0.9}>heart</text>
+        </g>
+        {/* detailed villus (art/histo.mjs) */}
         <g opacity={prog(t, 0.3, 0.5)}>
-          <path d="M 340 900 L 340 380 A 110 110 0 0 1 560 380 L 560 900 Z" fill="url(#mucosaV)" />
-          <path d="M 400 900 L 400 400 A 50 50 0 0 1 500 400 L 500 900" stroke={C.blood} strokeWidth={8} fill="none" />
-          <path d="M 450 880 L 450 420" stroke={C.lymph} strokeWidth={26} strokeLinecap="round" />
-          <text x={450} y={960} textAnchor="middle" fontFamily={F.body} fontSize={26} fill={C.ink2}>villus</text>
+          <Raw svg={villusArt({ cx: 450, base: VB30, h: 600, w: 230, seed: 13, id: "s30v" })} />
+          <text x={250} y={590} textAnchor="middle" fontFamily={F.body} fontSize={26} fill={C.ink2}>villus</text>
+          <text x={250} y={622} textAnchor="middle" fontFamily={F.body} fontSize={24} fill={C.ink3}>(enlarged)</text>
         </g>
         {/* road A: blood → hepatic portal vein → liver */}
-        <path d={ROAD_A} stroke={C.blood} strokeWidth={14} fill="none" strokeLinecap="round" strokeDasharray={`${LA * drawA} ${LA}`} />
-        <g opacity={prog(t, T.liver - 0.4, 0.5)}>
-          <path d="M 1010 300 C 1060 240, 1240 230, 1320 270 C 1380 300, 1360 380, 1290 410 C 1200 450, 1060 440, 1020 400 C 990 370, 990 330, 1010 300 Z" fill="#8A3A2E" stroke="#B5574A" strokeWidth={5} />
-          <text x={1170} y={348} textAnchor="middle" fontFamily={F.body} fontWeight={600} fontSize={30} fill={C.ink}>liver</text>
-        </g>
+        <path d={ROAD_A} stroke="#26386E" strokeWidth={17} fill="none" strokeLinecap="round" strokeDasharray={`${LA * drawA} ${LA}`} />
+        <path d={ROAD_A} stroke={C.bloodBlue} strokeWidth={12} fill="none" strokeLinecap="round" strokeDasharray={`${LA * drawA} ${LA}`} />
         {drawA > 0.9 &&
           Array.from({ length: 6 }, (_, k) => {
             const u = ((t - T.portal) * 0.3 + k / 6) % 1;
             const p = pa(u);
-            return k % 3 === 0 ? <Hex key={k} x={p.x} y={p.y} r={12} /> : k % 3 === 1 ? <Bead key={k} x={p.x} y={p.y} r={11} /> : <circle key={k} cx={p.x} cy={p.y} r={8} fill={C.gold} />;
+            return k % 3 === 0 ? <Hex key={k} x={p.x} y={p.y} r={11} /> : k % 3 === 1 ? <Bead key={k} x={p.x} y={p.y} r={10} /> : <circle key={k} cx={p.x} cy={p.y} r={7} fill={C.gold} />;
           })}
-        {/* road B: lacteal → lymphatics → thoracic duct → left subclavian vein */}
-        <path d={ROAD_B} stroke={C.lymph} strokeWidth={16} fill="none" strokeLinecap="round" strokeDasharray={`${LB * drawB} ${LB}`} />
+        {/* road B: lacteal → lymphatics → cisterna chyli → thoracic duct → left subclavian vein */}
+        <path d={ROAD_B} stroke="#2E7A45" strokeWidth={18} fill="none" strokeLinecap="round" strokeDasharray={`${LB * drawB} ${LB}`} />
+        <path d={ROAD_B} stroke={C.lymph} strokeWidth={12} fill="none" strokeLinecap="round" strokeDasharray={`${LB * drawB} ${LB}`} />
+        <ellipse cx={1250} cy={684} rx={16} ry={26} fill={C.lymph} stroke="#2E7A45" strokeWidth={3} opacity={prog(t, T.duct - 0.6, 0.4)} />
         <g opacity={prog(t, T.subclavian - 0.3, 0.5)}>
-          <rect x={1380} y={270} width={340} height={40} rx={20} fill={C.bloodBlue} />
-          <text x={1720} y={250} textAnchor="end" fontFamily={F.body} fontWeight={600} fontSize={28} fill={C.bloodBlue}>left subclavian vein</text>
+          <path d="M1346 252 C1400 246 1460 238 1530 236" stroke="#26386E" strokeWidth={22} fill="none" strokeLinecap="round" />
+          <path d="M1346 252 C1400 246 1460 238 1530 236" stroke={C.bloodBlue} strokeWidth={16} fill="none" strokeLinecap="round" />
+          <text x={1540} y={212} textAnchor="end" fontFamily={F.body} fontWeight={600} fontSize={28} fill={C.bloodBlue} stroke="#0B0608" strokeWidth={5} paintOrder="stroke">left subclavian vein</text>
         </g>
         {drawB > 0.95 &&
           Array.from({ length: 5 }, (_, k) => {
@@ -476,29 +496,44 @@ export const S30: React.FC = () => {
             const p = pb(u);
             return (
               <g key={k}>
-                <circle cx={p.x} cy={p.y} r={14} fill={C.gold} />
-                <circle cx={p.x + 4} cy={p.y - 3} r={3.5} fill={C.teal} />
+                <circle cx={p.x} cy={p.y} r={12} fill={C.gold} stroke="#9C7448" strokeWidth={1} />
+                <circle cx={p.x + 3.5} cy={p.y - 2.5} r={3} fill={C.teal} />
               </g>
             );
           })}
-        {/* entering the villus vessels */}
+        {/* liver with portal vein entering the porta hepatis */}
+        <g opacity={prog(t, T.liver - 0.6, 0.5)}>
+          <defs>
+            <radialGradient id="s30-liver" cx="0.35" cy="0.3" r="0.8">
+              <stop offset="0" stopColor="#C46A5A" />
+              <stop offset="0.6" stopColor="#8A3A2E" />
+              <stop offset="1" stopColor="#5E2420" />
+            </radialGradient>
+          </defs>
+          <path d={LIVER} fill="url(#s30-liver)" stroke="#3E1614" strokeWidth={2.5} />
+          <path d="M1182 394 C1172 440 1160 486 1150 522" stroke="#E6B8A8" strokeWidth={2} fill="none" opacity={0.6} />
+          <path d="M1066 548 C1060 566 1074 580 1090 574 C1102 568 1100 552 1090 544" fill="#6E9A4A" stroke="#3E5A2A" strokeWidth={1.6} />
+          <path d="M1120 548 C1100 520 1070 500 1040 492 M1120 548 C1140 516 1180 494 1230 480 M1120 548 C1110 510 1112 470 1120 440" stroke="#5B7BE0" strokeWidth={3} fill="none" opacity={0.55} />
+          <text x={1060} y={474} textAnchor="middle" fontFamily={F.body} fontWeight={700} fontSize={30} fill={C.ink} stroke="#0B0608" strokeWidth={5} paintOrder="stroke">liver</text>
+        </g>
+        {/* entering the villus: monosaccharides and amino acids into capillaries, chylomicrons into the lacteal */}
         {Array.from({ length: 4 }, (_, k) => {
           const f = ((t - T.aa) * 0.4 + k / 4) % 1;
           const o = prog(t, T.aa, 0.4);
-          return k % 2 === 0 ? <Hex key={k} x={400} y={lerp(300, 640, f)} r={11} o={o * (1 - f)} /> : <Bead key={k} x={500} y={lerp(300, 640, f)} r={10} o={o * (1 - f)} />;
+          return k % 2 === 0 ? <Hex key={k} x={392} y={lerp(300, 620, f)} r={10} o={o * (1 - f)} /> : <Bead key={k} x={508} y={lerp(300, 620, f)} r={9} o={o * (1 - f)} />;
         })}
         {Array.from({ length: 3 }, (_, k) => {
           const f = ((t - T.long) * 0.35 + k / 3) % 1;
-          return <circle key={`c${k}`} cx={450} cy={lerp(300, 760, f)} r={13} fill={C.gold} opacity={prog(t, T.long, 0.4) * (1 - f)} />;
+          return <circle key={`c${k}`} cx={450} cy={lerp(400, 820, f)} r={11} fill={C.gold} stroke="#9C7448" strokeWidth={1} opacity={prog(t, T.long, 0.4) * (1 - f)} />;
         })}
-        <SLabel t={t} t0={T.portal} x={590} y={400} size={30} weight={600} color={C.blood}>hepatic portal vein</SLabel>
-        <SLabel t={t} t0={T.vessels} x={760} y={920} size={30} weight={600} color={C.lymph}>lymphatic vessels</SLabel>
-        <SLabel t={t} t0={T.duct} x={1490} y={620} size={30} weight={600} color={C.lymph}>thoracic duct</SLabel>
+        <SLabel t={t} t0={T.portal} x={1150} y={606} size={28} weight={600} color="#9DB2F2" anchor="end">hepatic portal vein</SLabel>
+        <SLabel t={t} t0={T.vessels} x={640} y={830} size={28} weight={600} color={C.lymph}>lymphatic vessels</SLabel>
+        <SLabel t={t} t0={T.duct} x={1276} y={540} size={28} weight={600} color={C.lymph} anchor="start">thoracic duct</SLabel>
       </Svg>
-      <Text t={t} t0={T.aa - 0.1} x={640} y={530} w={620} size={30} color={C.ink}>
-        <b style={{ color: C.blood }}>to blood:</b> amino acids, monosaccharides, short-chain fatty acids
+      <Text t={t} t0={T.aa - 0.1} x={620} y={300} w={330} size={29} color={C.ink}>
+        <b style={{ color: "#9DB2F2" }}>to blood:</b> amino acids, monosaccharides, short-chain fatty acids
       </Text>
-      <Text t={t} t0={T.long - 0.1} x={640} y={680} w={620} size={30} color={C.ink}>
+      <Text t={t} t0={T.long - 0.1} x={620} y={500} w={330} size={29} color={C.ink}>
         <b style={{ color: C.lymph }}>to lymph:</b> long-chain fatty acids, as chylomicrons
       </Text>
     </AbsoluteFill>

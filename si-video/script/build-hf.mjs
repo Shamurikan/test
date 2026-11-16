@@ -3,6 +3,9 @@
 // spoken word. Run after script/timeline.mjs.
 import fs from "node:fs";
 import path from "node:path";
+import * as HI from "../art/histo.mjs";
+import * as CA from "../art/cell.mjs";
+import * as GM from "../art/gutmap.mjs";
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const HF = path.join(ROOT, "hyperframes");
@@ -132,6 +135,20 @@ for (const s of hfScenes) {
       .replaceAll("__TITLE__", c.title)
       .replaceAll("__SUB__", c.sub.map((x, i) => `<span class="w __ID__-subw">${x}</span>${i < c.sub.length - 1 ? '<span class="w dot __ID__-subw">·</span>' : ""}`).join(" "));
   }
+  if (s.id === "s20") {
+    // surface-area zoom: literal villi (with lacteal, capillary basket, goblet cells) and enterocytes with a brush border
+    const villi = Array.from({ length: 11 }, (_, i) => {
+      const x = 68 + i * 78, h = 330 + ((i * 37) % 5) * 14;
+      return `<g class="s20-vg">${HI.villusSvg({ cx: x, base: 560, h, w: 64, seed: 60 + i, id: `s20v${i}`, thick: 12, cellW: 7, detail: 0.7 })}</g>`;
+    }).join("");
+    const floor = HI.mucosaSvg({ x0: -10, x1: 918, base: 560, items: Array.from({ length: 10 }, (_, i) => ({ x: 107 + i * 78, kind: "c" })), vh: 0, cd: 90, vw: 0, cw: 26, bottom: 670, mmY: 650, id: "s20f", thick: 12, cellW: 7, lacteals: false }).svg;
+    // three neighbouring enterocytes share lateral membranes (junctional complexes at the apex), resting on a basement membrane
+    const cells = [0, 1, 2].map((c) => CA.enterocyteVertical({ x0: 146 + c * 205, x1: 351 + c * 205, top: 256, bottom: 640, id: `s20c${c}`, seed: 70 + c, detail: 0.9, noMv: true })).join("") +
+      `<path d="M138 641.5 L768 641.5" stroke="#F3D3C2" stroke-width="2.6" opacity="0.85"/>`;
+    const mv = CA.microvilliRow({ x0: 146, x1: 761, y: 256, mvLen: 84, seed: 9 });
+    src = src.replace("__S20_FLOOR__", floor).replace("__S20_VILLI__", villi).replace("__S20_CELLS__", cells).replace("__S20_MV__", mv);
+  }
+  if (s.id === "s01") src = src.replace("__GUT_MAP__", GM.gutMapSvg({})).replaceAll("__SI_PATH__", GM.SI_PATH_D);
   if (s.id === "s32") src = src.replace("__QUIZ__", quizMarkup()).replace("__QUIZ_DATA__", JSON.stringify(QUIZ.map((q) => ({ a: q.a ?? -1, saq: !!q.saq }))));
   src = src
     .replaceAll("__COIL_D__", coilPath())

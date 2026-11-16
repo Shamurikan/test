@@ -5,6 +5,7 @@ import { E, Header, Leader, SLabel, Text, blurIn, clamp, fadeOut, lerp, prog, us
 import { makeCue } from "../lib/timing";
 import { Defs } from "../lib/shapes";
 import { Particles, Tube, g, makeParticles } from "../lib/tube";
+import { StomachAt } from "../lib/gutmap";
 
 const Svg: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }> = ({ children, style }) => (
   <svg viewBox="0 0 1920 1080" width={1920} height={1080} style={{ position: "absolute", inset: 0, ...style }}>
@@ -63,8 +64,8 @@ export const S02: React.FC = () => {
         </defs>
         {/* stomach antrum + pyloric sphincter */}
         <g opacity={prog(t, 0.3, 0.6)}>
-          <path d={`M ${X0 - 4} ${cy - 46} C ${X0 - 70} ${cy - 60}, ${X0 - 150} ${cy - 150}, ${X0 - 210} ${cy - 120} C ${X0 - 260} ${cy - 90}, ${X0 - 250} ${cy + 40}, ${X0 - 170} ${cy + 80} C ${X0 - 110} ${cy + 110}, ${X0 - 50} ${cy + 70}, ${X0 - 4} ${cy + 46} Z`} fill="#7E2A2F" opacity={0.85} />
-          <text x={X0 - 150} y={cy + 4} textAnchor="middle" fontFamily={F.body} fontSize={28} fill={C.ink2}>stomach</text>
+          <StomachAt id="s02st" px={X0 - 2} py={cy} scale={0.62} />
+          <text x={X0 - 100} y={cy - 40} textAnchor="middle" fontFamily={F.body} fontSize={28} fontWeight={600} fill={C.ink} stroke="#0B0608" strokeWidth={6} paintOrder="stroke">stomach</text>
         </g>
         <g clipPath="url(#s02clip)">
           <Tube id="s02" x0={X0} x1={X1} cy={cy} r={() => R} wall={26} />

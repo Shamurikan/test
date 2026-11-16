@@ -5,7 +5,8 @@ import { C, F } from "../lib/theme";
 import { Arrow, Chip, E, Header, Leader, SLabel, Text, clamp, fadeOut, lerp, prog, rng, useT } from "../lib/anim";
 import { makeCue } from "../lib/timing";
 import { Particles, Tube, g, makeParticles } from "../lib/tube";
-import { CECUM, GutMap, SIBand, VALVE, siPoint } from "../lib/gutmap";
+import { CECUM, GutScene, STOMACH, StomachAt, VALVE, siPoint } from "../lib/gutmap";
+import { Raw, floorArt, villusArt } from "../lib/histo";
 import { Svg } from "./motility1";
 
 /* ───────────────────────────── s07 · Migrating motor complex ───────────────────────────── */
@@ -52,13 +53,13 @@ export const S07: React.FC = () => {
     <AbsoluteFill>
       <Header kicker="Motility · between meals" title="Migrating motor complex" color={C.teal} t={t} />
       <Svg>
-        <g transform="translate(80 34)">
-        <GutMap food={stop} />
-        {/* the MMC band(s) */}
-        <g opacity={bandO}>
-          <SIBand a={head1 - BAND} b={head1} color={C.teal} width={34} opacity={head1 <= 1 + BAND ? 0.95 : 0} />
-          <SIBand a={head2 - BAND} b={head2} color={C.teal} width={34} opacity={t > T.newWave ? 0.95 : 0} />
-        </g>
+        <GutScene
+          food={stop}
+          bands={[
+            { a: head1 - BAND, b: head1, color: "teal", opacity: head1 <= 1 + BAND ? 0.95 * bandO : 0 },
+            { a: head2 - BAND, b: head2, color: "teal", opacity: t > T.newWave ? 0.95 * bandO : 0 },
+          ]}
+        />
         {/* debris swept ahead of the first band, into the colon */}
         <g opacity={debrisO}>
           {DEBRIS.map((d, i) => {
@@ -70,9 +71,10 @@ export const S07: React.FC = () => {
               if (front >= 1) inColon = true;
             }
             if (inColon) {
+              // into the cecum, then up the ascending colon
               const k = clamp((head1 - 1) / BAND);
-              const y = lerp(CECUM.y, CECUM.y - 40 - (i % 7) * 40, k);
-              return icon(d.kind, CECUM.x + ((i % 3) - 1) * 12, y, i);
+              const y = lerp(CECUM.y - 6, CECUM.y - 60 - (i % 7) * 44, k);
+              return icon(d.kind, CECUM.x - 8 + ((i % 3) - 1) * 10, y, i);
             }
             const p = siPoint(f);
             return icon(d.kind, p.x + d.off * 0.6, p.y + d.off, i);
@@ -81,7 +83,7 @@ export const S07: React.FC = () => {
         {/* electrical bursts in the empty stomach */}
         <g opacity={prog(t, T.bursts - 0.1, 0.3) * fadeOut(t, T.reach + 1, 0.5)}>
           <path
-            d={Array.from({ length: 12 }, (_, i) => `${i ? "L" : "M"}${120 + i * 30} ${486 + (i % 3 === 1 ? -44 : 0)}`).join(" ")}
+            d={Array.from({ length: 12 }, (_, i) => `${i ? "L" : "M"}${200 + i * 30} ${520 + (i % 3 === 1 ? -44 : 0)}`).join(" ")}
             stroke={C.teal}
             strokeWidth={4}
             fill="none"
@@ -89,13 +91,12 @@ export const S07: React.FC = () => {
             strokeDashoffset={600 * (1 - prog(t, T.bursts, 1.2, E.linear))}
           />
         </g>
-        <SLabel t={t} t0={T.bursts} x={116} y={546} size={28} color={C.ink2} out={T.reach + 1}>
+        <SLabel t={t} t0={T.bursts} x={196} y={580} size={28} color={C.ink2} out={T.reach + 1}>
           bursts of depolarization
         </SLabel>
         {/* stop on eating */}
         <g opacity={stop}>
-          <circle cx={1010} cy={330} r={110} fill="none" stroke={C.coral} strokeWidth={5} />
-        </g>
+          <circle cx={STOMACH.x - 20} cy={STOMACH.y} r={150} fill="none" stroke={C.coral} strokeWidth={5} />
         </g>
       </Svg>
       <Text t={t} t0={T.empty - 0.1} x={192} y={300} w={600} size={32} weight={600} color={C.ink} out={T.house - 0.3}>
@@ -188,7 +189,7 @@ export const S08: React.FC = () => {
           <text x={192} y={400} fontFamily={F.body} fontSize={28} fill={C.ink2}>waves run orad (toward the mouth)</text>
         </g>
         <g opacity={prog(t, T.st - 0.2, 0.5)}>
-          <path d="M 360 470 C 330 440, 250 420, 220 470 C 200 520, 280 540, 360 500 Z" fill="#7E2A2F" />
+          <StomachAt id="s08st" px={358} py={490} scale={0.38} />
           <Tube id="s08a" x0={360} x1={860} cy={490} r={prof1} wall={14} />
           <Particles ps={p08a} cy={490} r={prof1} t={t} x0={360} x1={860} margin={3} wobble={1.5} dx={(bx) => -(((bx - 360 + (t - T.st) * 60) % 500) - (bx - 360)) * 0} />
           <text x={240} y={560} fontFamily={F.body} fontSize={26} fill={C.ink2}>stomach</text>
@@ -283,29 +284,18 @@ const villusCycle = (t: number, t0: number, ph: number) => {
   return u < 0.28 ? 1 - 0.3 * E.out(u / 0.28) : 0.7 + 0.3 * E.inOut((u - 0.28) / (P - 0.28));
 };
 
-const Villus: React.FC<{ x: number; base: number; h: number; w: number; k: number; rot: number; lymphT: number; detail?: boolean }> = ({ x, base, h, w, k, rot, lymphT, detail }) => {
-  const hh = h * k;
-  const r = w / 2;
-  const top = base - hh;
-  const body = `M ${x - r} ${base} L ${x - r} ${top + r} A ${r} ${r} 0 0 1 ${x + r} ${top + r} L ${x + r} ${base} Z`;
+const Villus: React.FC<{ x: number; base: number; h: number; w: number; k: number; rot: number; lymphT: number; idx: number }> = ({ x, base, h, w, k, rot, lymphT, idx }) => {
+  // detailed longitudinal-section villus (art/histo.mjs); shortening keeps volume: narrower when long, wider when short
+  const sx = 1 + (1 - k) * 0.22;
+  const lTop = base - h * 0.78;
   return (
-    <g transform={`rotate(${rot} ${x} ${base})`}>
-      <path d={body} fill="url(#mucosaV)" />
-      <path d={body} fill="none" stroke="#FFD3C8" strokeOpacity={0.55} strokeWidth={8} />
-      {/* capillary loop */}
-      <path d={`M ${x - r * 0.55} ${base} L ${x - r * 0.55} ${top + r} A ${r * 0.55} ${r * 0.55} 0 0 1 ${x + r * 0.55} ${top + r} L ${x + r * 0.55} ${base}`} fill="none" stroke={C.blood} strokeWidth={6} opacity={0.85} />
-      <path d={`M ${x + r * 0.55} ${base} L ${x + r * 0.55} ${top + r}`} stroke={C.bloodBlue} strokeWidth={6} opacity={0.85} />
-      {detail &&
-        Array.from({ length: 6 }, (_, i) => {
-          const y = base - ((i + 1) * (hh - r)) / 7;
-          return <path key={i} d={`M ${x - r * 0.55} ${y} C ${x - 10} ${y - 18}, ${x + 10} ${y + 10}, ${x + r * 0.55} ${y - 8}`} stroke={C.blood} strokeWidth={2.5} fill="none" opacity={0.6} />;
-        })}
-      {/* central lacteal */}
-      <path d={`M ${x} ${base} L ${x} ${top + r * 0.9}`} stroke={C.lymph} strokeWidth={22} strokeLinecap="round" opacity={0.9} />
-      {Array.from({ length: 5 }, (_, i) => {
-        const f = (lymphT * 0.6 + i / 5) % 1;
-        const y = lerp(top + r, base, f);
-        return <circle key={i} cx={x} cy={y} r={6} fill="#D9FFE3" opacity={0.9} />;
+    <g transform={`rotate(${rot} ${x} ${base}) translate(${x} ${base}) scale(${sx} ${k}) translate(${-x} ${-base})`}>
+      <Raw svg={villusArt({ cx: x, base, h, w, seed: 5 + idx * 3, id: `s09v${idx}` })} />
+      {/* lymph moving down the central lacteal */}
+      {Array.from({ length: 6 }, (_, i) => {
+        const f = (lymphT * 0.6 + i / 6) % 1;
+        const y = lerp(lTop + 6, base - 6, f);
+        return <ellipse key={i} cx={x} cy={y} rx={Math.max(3, w * 0.03)} ry={6} fill="#E9FFEF" opacity={0.85 * Math.min(1, f * 6, (1 - f) * 6)} />;
       })}
     </g>
   );
@@ -322,11 +312,11 @@ export const S09: React.FC = () => {
     <AbsoluteFill>
       <Header kicker="Motility · villi" title="Even the villi move" t={t} />
       <Svg>
-        <rect x={0} y={base - 6} width={1920} height={200} fill="#8E2F33" />
+        <Raw svg={floorArt({ x0: -20, x1: 1940, base, bottom: 1090, crypts: [60, 390, 730, 1070, 1410, 1750], id: "s09f" })} />
         {/* chyme in the lumen */}
         <Particles ps={p09} cy={330} r={() => 120} t={t} x0={300} x1={1600} margin={0} wobble={10} dx={(bx) => Math.sin(t * 0.4 + bx) * 40} opacity={0.8} />
         {VILLI.map((v, i) => (
-          <Villus key={i} x={v.x} base={base} h={v.h} w={v.w} k={villusCycle(t, T.shorten - 0.1, v.ph)} rot={Math.sin(t * 1.3 + i * 1.7) * swayA} lymphT={lymphT + i} detail={i === 1} />
+          <Villus key={i} x={v.x} base={base} h={v.h} w={v.w} k={villusCycle(t, T.shorten - 0.1, v.ph)} rot={Math.sin(t * 1.3 + i * 1.7) * swayA} lymphT={lymphT + i} idx={i} />
         ))}
         {/* villikinin molecules rising from the mucosa */}
         {prog(t, T.villikinin, 0.3) > 0 &&
@@ -447,7 +437,7 @@ const S11T = {
   cecum: c11("cecum"),
   meal: c11("new meal"),
 };
-const vagusPath = "M 1010 250 C 1080 120, 1590 120, 1600 420 C 1605 620, 1540 780, 1446 790";
+const vagusPath = "M 1352 250 C 1180 150, 936 230, 936 470 C 936 700, 940 840, 1030 878";
 const vagusLen = getLength(vagusPath);
 const r11 = rng(11);
 const CHYME11 = Array.from({ length: 16 }, () => ({ f: 0.82 + r11() * 0.17, o: (r11() - 0.5) * 10, d: r11() }));
@@ -465,16 +455,16 @@ export const S11: React.FC = () => {
     <AbsoluteFill>
       <Header kicker="Motility · control" title="The gastroileal reflex" t={t} />
       <Svg>
-        <g transform="translate(80 34)">
-        <GutMap food={food} stomachScale={1 + 0.06 * food} valveOpen={valve} />
-        {/* myenteric spread along the gut wall */}
-        <SIBand a={0} b={vag} color={C.nerve} width={6} opacity={0.9} />
+        <GutScene
+          food={food}
+          nerve={vag}
+          valveOpen={valve}
+          bands={[{ a: 0.62 + wave * 0.36, b: 0.68 + wave * 0.36, color: "coral", opacity: wave > 0 && wave < 1 ? 1 : 0 }]}
+        />
         {/* vagal arc */}
         <path d={vagusPath} fill="none" stroke={C.nerve} strokeWidth={4} strokeDasharray="10 9" opacity={prog(t, T.vagus - 0.4, 0.5)} />
         {prog(t, T.vagus - 0.4, 0.5) > 0 && pulses.map((p, i) => <circle key={i} cx={p.x} cy={p.y} r={9} fill={C.nerve} />)}
-        <SLabel t={t} t0={T.vagus - 0.3} x={1540} y={196} size={30} weight={600} color={C.nerve} anchor="end">vagus</SLabel>
-        {/* fast wave along the ileum */}
-        <SIBand a={0.62 + wave * 0.36} b={0.68 + wave * 0.36} color={C.coral} width={36} opacity={wave > 0 && wave < 1 ? 1 : 0} />
+        <SLabel t={t} t0={T.vagus - 0.3} x={1010} y={232} size={30} weight={600} color={C.nerve} anchor="end">vagus</SLabel>
         {/* chyme moving into the cecum */}
         {CHYME11.map((c, i) => {
           const k = clamp(pass * 1.3 - c.d * 0.3);
@@ -487,7 +477,6 @@ export const S11: React.FC = () => {
           const y = k < 1 ? p.y + c.o * (1 - k) : CECUM.y + c.o;
           return <circle key={i} cx={x} cy={y} r={7} fill={C.chyme} />;
         })}
-        </g>
       </Svg>
       <Text t={t} t0={T.food - 0.1} x={192} y={300} w={600} size={32} weight={600} color={C.ink}>
         1 · food distends the stomach

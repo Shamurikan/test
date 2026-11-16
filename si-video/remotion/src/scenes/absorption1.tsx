@@ -6,6 +6,7 @@ import { makeCue } from "../lib/timing";
 import { Bead, Drop, Enzyme, FattyAcid, Hex, Ion, Pent, Transporter, Triglyceride } from "../lib/shapes";
 import { AP, BL, CAP, CY0, CY1, CellStage, MemLabel, Stream } from "../lib/cell";
 import { Svg } from "./motility1";
+import { Raw, cellVerticalArt } from "../lib/histo";
 
 /* ───────────────────────────── s21 · End products ───────────────────────────── */
 const c21 = makeCue("s21");
@@ -273,21 +274,10 @@ export const S24: React.FC = () => {
             })}
           </g>
         ))}
-        {/* brush border + cell */}
-        {Array.from({ length: 30 }, (_, i) => (
-          <rect key={i} x={VX0 + 6 + i * 24} y={VT - 50} width={12} height={56} rx={6} fill="#F6B8AA" />
-        ))}
-        <rect x={VX0} y={VT} width={VX1 - VX0} height={VB - VT} rx={30} fill="url(#cellFill)" />
-        {/* smooth ER */}
-        {[0, 1, 2].map((k) => (
-          <path key={k} d={`M ${VX0 + 90} ${505 + k * 18} C ${VX0 + 200} ${485 + k * 18}, ${VX0 + 300} ${525 + k * 18}, ${VX0 + 420} ${505 + k * 18} S ${VX0 + 600} ${485 + k * 18}, ${VX0 + 640} ${505 + k * 18}`} stroke="#7B5BD6" strokeWidth={7} fill="none" opacity={0.75} />
-        ))}
-        {/* Golgi */}
-        {[0, 1, 2, 3].map((k) => (
-          <path key={k} d={`M ${VX0 + 220 - k * 8} ${650 + k * 16} Q ${VX0 + 360} ${600 + k * 16}, ${VX0 + 500 + k * 8} ${650 + k * 16}`} stroke="#4BAF7A" strokeWidth={9} fill="none" strokeLinecap="round" opacity={0.85} />
-        ))}
-        <text x={VX1 - 20} y={470} textAnchor="end" fontFamily={F.body} fontSize={26} fill="#E9E0FF" opacity={prog(t, T.s2, 0.4)}>smooth ER</text>
-        <text x={VX1 - 20} y={700} textAnchor="end" fontFamily={F.body} fontSize={26} fill="#CFF5DD" opacity={prog(t, T.s3, 0.4)}>Golgi</text>
+        {/* detailed enterocyte (lumen up): microvilli, apical SER, supranuclear Golgi, basal nucleus (art/cell.mjs) */}
+        <Raw svg={cellVerticalArt({ x0: VX0, x1: VX1, top: VT, bottom: VB, id: "s24c", fat: true, mvLen: 46 })} />
+        <text x={VX1 - 20} y={476} textAnchor="end" fontFamily={F.body} fontSize={26} fontWeight={700} fill="#E9E0FF" stroke="#0B0608" strokeWidth={5} paintOrder="stroke" opacity={prog(t, T.s2, 0.4)}>smooth ER</text>
+        <text x={VX1 - 20} y={700} textAnchor="end" fontFamily={F.body} fontSize={26} fontWeight={700} fill="#CFF5DD" stroke="#0B0608" strokeWidth={5} paintOrder="stroke" opacity={prog(t, T.s3, 0.4)}>Golgi</text>
         {/* lacteal */}
         <rect x={820} y={830} width={908} height={70} rx={35} fill={C.lymph} opacity={0.25} />
         <rect x={820} y={830} width={908} height={70} rx={35} fill="none" stroke={C.lymph} strokeWidth={4} />

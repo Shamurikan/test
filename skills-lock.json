@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "skills": {
+    "anima": {
+      "source": "Garinmckayl/anima",
+      "commit": "f0249c4fdc94cc854abcff8bf34a087e37145714",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "06a45ec9756b91796b6433975fcaea96c6c0f9948b5a3c04bfb2cbb501dbd3a9"
+    }
+  }
+}

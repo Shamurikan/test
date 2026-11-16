@@ -47,16 +47,18 @@
         </defs>
         <path id="__ID__-fold" fill="url(#__ID__-muc)" d="M0 470 L908 470 L908 660 L0 660 Z" />
         <path id="__ID__-foldEdge" fill="none" stroke="#FFD3C8" stroke-opacity="0.7" stroke-width="3" d="M0 470 L908 470" />
+        <path id="__ID__-foldFringe" fill="none" stroke="#F3A99C" stroke-width="9" stroke-dasharray="2.2 2.6" d="M0 470 L908 470" />
         <rect x="0" y="610" width="908" height="50" fill="#5A2128" />
       </svg>
       <!-- Layer 2: a row of villi -->
       <svg id="__ID__-L2" viewBox="0 0 908 660" opacity="0">
-        <rect x="0" y="560" width="908" height="100" fill="#9E3A3B" />
-        <g id="__ID__-villi"></g>
+        __S20_FLOOR__
+        __S20_VILLI__
       </svg>
       <!-- Layer 3: epithelial cells with a brush border -->
       <svg id="__ID__-L3" viewBox="0 0 908 660" opacity="0">
-        <g id="__ID__-cells"></g>
+        __S20_CELLS__
+        <g id="__ID__-mv">__S20_MV__</g>
       </svg>
       <!-- Layer 4: tennis court -->
       <svg id="__ID__-L4" viewBox="0 0 908 660" opacity="0">
@@ -82,40 +84,9 @@
     __CUE_LIB__
     const DUR = __DUR__;
     const NS = "http://www.w3.org/2000/svg";
-    // --- build villi (deterministic) ---
-    const vg = document.getElementById("__ID__-villi");
-    const villi = [];
-    for (let i = 0; i < 11; i++) {
-      const x = 40 + i * 80, h = 330 + ((i * 37) % 5) * 14;
-      const g = document.createElementNS(NS, "g");
-      g.setAttribute("transform", `translate(${x} 560)`);
-      g.innerHTML = `<g class="__ID__-vg"><rect x="0" y="${-h}" width="56" height="${h + 10}" rx="28" fill="url(#__ID__-vil)"/>` +
-        `<path d="M28 ${-h + 40} L28 0" stroke="#6FD38A" stroke-width="6" stroke-linecap="round" opacity="0.85"/>` +
-        `<path d="M14 0 C 8 ${-h * 0.4}, 20 ${-h * 0.8}, 28 ${-h + 18} C 36 ${-h * 0.8}, 48 ${-h * 0.4}, 42 0" stroke="#E5484D" stroke-width="3" fill="none" opacity="0.8"/></g>`;
-      vg.appendChild(g);
-      villi.push(g.firstChild);
-    }
-    // --- build epithelial cells with microvilli ---
-    const cg = document.getElementById("__ID__-cells");
-    const mvs = [];
-    for (let c = 0; c < 3; c++) {
-      const x = 150 + c * 210;
-      const g = document.createElementNS(NS, "g");
-      g.innerHTML = `<rect x="${x}" y="250" width="190" height="380" rx="26" fill="#E8897E" stroke="#FFD3C8" stroke-opacity="0.5" stroke-width="3"/>` +
-        `<ellipse cx="${x + 95}" cy="500" rx="46" ry="58" fill="#8E3A4A"/>`;
-      cg.appendChild(g);
-      for (let m = 0; m < 14; m++) {
-        const r = document.createElementNS(NS, "rect");
-        r.setAttribute("x", x + 8 + m * 12.7);
-        r.setAttribute("y", 170);
-        r.setAttribute("width", 8);
-        r.setAttribute("height", 86);
-        r.setAttribute("rx", 4);
-        r.setAttribute("fill", "#FFC2B5");
-        cg.appendChild(r);
-        mvs.push(r);
-      }
-    }
+    // villi and cells are static markup (one group per villus so they can grow in turn)
+    const villi = Array.from(document.querySelectorAll(".__ID__-vg"));
+    const mvs = [document.getElementById("__ID__-mv")];
     // --- the fold profile, rebuilt from an amplitude so the strip can fold up ---
     const fold = document.getElementById("__ID__-fold");
     const edge = document.getElementById("__ID__-foldEdge");
@@ -130,6 +101,7 @@
         top += (x === 0 ? "M" : " L") + x + " " + y.toFixed(1);
       }
       edge.setAttribute("d", top);
+      document.getElementById("__ID__-foldFringe").setAttribute("d", top);
       fold.setAttribute("d", top + " L908 660 L0 660 Z");
     };
     drawFold();
@@ -170,7 +142,7 @@
     tl.to("#__ID__-L2", { scale: 4, transformOrigin: "50% 30%", filter: "blur(10px)", opacity: 0, duration: 0.6, ease: "power3.in" }, tCell - 0.5);
     blurOut("#__ID__-lab2", tCell - 0.4);
     tl.fromTo("#__ID__-L3", { opacity: 0, scale: 0.75, transformOrigin: "50% 60%" }, { opacity: 1, scale: 1, duration: 0.6, ease: "expo.out" }, tCell);
-    tl.fromTo(mvs, { scaleY: 0, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.5, ease: "power3.out", stagger: 0.012 }, tMv - 0.3);
+    tl.fromTo(mvs, { scaleY: 0, transformOrigin: "50% 100%" }, { scaleY: 1, duration: 0.7, ease: "power3.out" }, tMv - 0.3);
     blurIn("#__ID__-lab3", tCell + 0.2);
     blurIn("#__ID__-r3", cue("twenty") - 0.1);
 

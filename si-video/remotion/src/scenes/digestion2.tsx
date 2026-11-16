@@ -5,6 +5,7 @@ import { Chip, E, Header, SLabel, Text, clamp, fadeOut, lerp, prog, rng, useT } 
 import { makeCue } from "../lib/timing";
 import { Bead, BileSalt, Enzyme, FattyAcid, Triglyceride } from "../lib/shapes";
 import { Svg } from "./motility1";
+import { Raw, brushArt } from "../lib/histo";
 
 /* ───────────────────────────── s16 · Protein digestion: activation ───────────────────────────── */
 const c16 = makeCue("s16");
@@ -217,10 +218,7 @@ export const S17: React.FC = () => {
         })}
         {/* brush border */}
         <g opacity={bbO}>
-          {Array.from({ length: 60 }, (_, i) => (
-            <rect key={i} x={200 + i * 26} y={790} width={14} height={70} rx={7} fill="#F6B8AA" />
-          ))}
-          <rect x={180} y={850} width={1560} height={60} fill="url(#cellFill)" />
+          <Raw svg={brushArt({ x0: 192, x1: 1728, y: 860, depth: 90, cellW: 96, id: "s17bb", mvLen: 70 })} />
         </g>
         {/* elastin vignette */}
         <g opacity={prog(t, T.elast - 0.2, 0.4) * fadeOut(t, T.di - 0.3, 0.4)} transform="translate(1340 780)">
@@ -407,10 +405,7 @@ export const S19: React.FC = () => {
       <Svg>
         {/* brush border (destination) */}
         <g opacity={prog(t, T.ferry - 0.4, 0.5)}>
-          {Array.from({ length: 28 }, (_, i) => (
-            <rect key={i} x={1060 + i * 24} y={790} width={13} height={64} rx={6} fill="#F6B8AA" />
-          ))}
-          <rect x={1040} y={846} width={700} height={70} fill="url(#cellFill)" />
+          <Raw svg={brushArt({ x0: 1050, x1: 1740, y: 850, depth: 90, cellW: 96, id: "s19bb", mvLen: 60 })} />
           <text x={1740} y={776} textAnchor="end" fontFamily={F.body} fontSize={28} fill={C.ink2}>brush border</text>
         </g>
         {/* bile salts gathering into a micelle */}

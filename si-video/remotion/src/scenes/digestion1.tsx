@@ -5,6 +5,7 @@ import { Chip, E, Header, Leader, SLabel, Text, clamp, fadeOut, lerp, prog, rng,
 import { makeCue } from "../lib/timing";
 import { Bead, Drop, Enzyme, FattyAcid, Hex, Ion, Pent, Triglyceride } from "../lib/shapes";
 import { Svg } from "./motility1";
+import { Raw, brunnerArt, brushArt, mucosaArt } from "../lib/histo";
 
 /* ───────────────────────── shared: a mucosal surface with villi and crypts ───────────────────────── */
 type VC = { x: number; kind: "v" | "c" };
@@ -63,16 +64,8 @@ export const S12: React.FC = () => {
     <AbsoluteFill>
       <Header kicker="Secretion · intestinal juice" title="Crypts of Lieberkühn" color={C.gold} t={t} />
       <Svg>
-        {/* lamina propria under the surface */}
-        <path d={`${SURF12} L 1728 900 L 740 900 Z`} fill="#6E2429" />
-        <path d={SURF12} fill="none" stroke="#F0A296" strokeWidth={26} strokeLinejoin="round" strokeDasharray="20 3" />
-        <path d={SURF12} fill="none" stroke="#FFD3C8" strokeWidth={3} strokeOpacity={0.6} transform="translate(0 -13)" />
-        {/* goblet cells in crypt walls */}
-        {CRYPTS.flatMap((x, k) =>
-          [0, 1].map((side) => (
-            <ellipse key={`${k}${side}`} cx={x + (side ? 32 : -32)} cy={B12 + 90 + side * 60} rx={11} ry={20} fill="#FFF3EC" opacity={0.55 + 0.45 * prog(t, T.goblet - 0.2, 0.4)} />
-          )),
-        )}
+        {/* detailed mucosa: villi + crypts of Lieberkühn (art/histo.mjs) */}
+        <Raw svg={mucosaArt({ x0: 740, x1: 1728, base: B12, items: ITEMS12, vh: VH12, cd: CD12, vw: 110, cw: 64, bottom: 900, mmY: 872, id: "s12m" })} />
         {/* mucus rising */}
         {mucus > 0 &&
           CRYPTS.flatMap((x, k) =>
@@ -213,33 +206,17 @@ export const S13: React.FC = () => {
       </div>
       <div style={{ opacity: phB }}>
         <Svg>
-          {/* lumen with acid */}
-          <rect x={860} y={300} width={868} height={130} rx={0} fill="rgba(255,94,94,0.06)" />
+          {/* duodenal wall: villi + crypts, muscularis mucosae, submucosa with Brunner's glands, muscularis externa (art/histo.mjs) */}
+          <Raw svg={brunnerArt({ x0: 860, x1: 1728, lumenTop: 300, base: 470, mmY: 568, smTop: 580, smBottom: 790, glands: GLANDS, id: "s13b" })} />
+          {/* lumen acid */}
           {H13.map((h, i) => (
-            <Ion key={i} x={h.x} y={h.y + Math.sin(t * 1.2 + i) * 6} label="H⁺" fill="#FF5E5E" r={14} o={phB * (1 - prog(t, T.protects + h.d * 1.5, 0.6))} />
+            <Ion key={i} x={h.x} y={h.y - 20 + Math.sin(t * 1.2 + i) * 6} label="H⁺" fill="#FF5E5E" r={14} o={phB * (1 - prog(t, T.protects + h.d * 1.5, 0.6))} />
           ))}
-          {/* mucus blanket */}
-          <rect x={860} y={420 - 34 * flow} width={868} height={34 * flow + 4} fill="#CFEFFF" opacity={0.35} />
-          {/* mucosa with short villi */}
-          <path
-            d={surfacePath(860, 1728, 470, [920, 1040, 1160, 1280, 1400, 1520, 1640].map((x) => ({ x, kind: "v" as const })), 40, 0, 70)}
-            fill="none"
-            stroke="#F0A296"
-            strokeWidth={18}
-          />
-          <rect x={860} y={478} width={868} height={110} fill="#8E2F33" />
-          <text x={872} y={540} fontFamily={F.body} fontSize={24} fill={C.ink2}>mucosa</text>
-          {/* submucosa with Brunner's glands */}
-          <rect x={860} y={588} width={868} height={230} fill="#5A2128" />
-          <text x={872} y={806} fontFamily={F.body} fontSize={24} fill={C.ink2}>submucosa</text>
-          {GLANDS.map((x, k) => (
-            <g key={k} opacity={prog(t, T.brunner - 0.2 + k * 0.1, 0.5)}>
-              <path d={`M ${x} 700 C ${x - 30} 640, ${x + 30} 560, ${x} 470`} stroke="#CFEFFF" strokeWidth={8} fill="none" opacity={0.8} />
-              {[0, 1, 2, 3, 4].map((j) => (
-                <circle key={j} cx={x - 44 + j * 22} cy={720 + (j % 2) * 26} r={20} fill="#BFE6FA" stroke="#7FC7EA" strokeWidth={3} />
-              ))}
-            </g>
-          ))}
+          {/* alkaline mucus blanket over the villi */}
+          <path d="M860 474 L860 360 Q1294 330 1728 360 L1728 474 Z" fill="#CFEFFF" opacity={0.28 * flow} />
+          <text x={872} y={548} fontFamily={F.body} fontSize={24} fontWeight={600} fill={C.ink} stroke="#0B0608" strokeWidth={5} paintOrder="stroke">mucosa</text>
+          <text x={872} y={612} fontFamily={F.body} fontSize={24} fontWeight={600} fill={C.ink} stroke="#0B0608" strokeWidth={5} paintOrder="stroke">submucosa</text>
+          <text x={872} y={826} fontFamily={F.body} fontSize={22} fontWeight={600} fill={C.ink} stroke="#0B0608" strokeWidth={5} paintOrder="stroke">muscularis externa</text>
           {/* bicarbonate rising */}
           {flow > 0 &&
             GLANDS.flatMap((x, k) =>
@@ -315,7 +292,7 @@ export const S14: React.FC = () => {
     <AbsoluteFill>
       <Header kicker="Secretion · enzymes" title="Digestion finishes on the brush border" color={C.gold} t={t} />
       <Svg>
-        <Microvilli y={BB} />
+        <Raw svg={brushArt({ x0: 192, x1: 1728, y: BB + 70, depth: 150, cellW: 96, id: "s14bb", mvLen: 70 })} />
         {/* released enzymes */}
         {[
           { t0: T.ep, x: 700, label: "enteropeptidase" },

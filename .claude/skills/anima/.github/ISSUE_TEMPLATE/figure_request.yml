@@ -1,0 +1,58 @@
+name: Figure or feature request
+description: Ask for a new example figure, a new part or helper in the kit, a new check, or a change to how the skill works.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Anima makes interactive, sourced biology figures. It is not a chart library, a validated anatomy atlas or a medical tool. Drug figures explain mechanism only.
+  - type: dropdown
+    id: request
+    attributes:
+      label: What are you asking for?
+      options:
+        - A new example figure
+        - A new part or helper in the kit
+        - A new check or script
+        - A change to the skill's instructions
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: For a figure, name the biological subject, the mechanism to explain and any numbers you want cited (with their sources, if you have them). For anything else, describe the change.
+      placeholder: How CRISPR-Cas9 finds and cuts a target sequence, with a guide-mismatch toggle.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of figure
+      options:
+        - SVG
+        - SVG + WebGL
+        - 3D (beta)
+        - Not sure
+        - Not about a figure
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it is worth adding
+      description: What it would teach, or what you could not do without it.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you tried instead
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched the existing issues.
+          required: true
+        - label: I read the Limits section of the README.
+          required: true

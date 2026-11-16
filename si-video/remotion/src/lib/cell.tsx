@@ -1,6 +1,7 @@
 import React from "react";
 import { C, F } from "./theme";
 import { clamp, lerp, prog } from "./anim";
+import * as CA from "../../../art/cell.mjs";
 
 // Horizontal enterocyte stage: lumen (left) | apical membrane | cell | basolateral membrane | interstitium | capillary (right)
 export const AP = 700; // apical membrane x
@@ -8,30 +9,26 @@ export const BL = 1220; // basolateral membrane x
 export const CAP = 1520; // capillary centre x
 export const CY0 = 300, CY1 = 860;
 
+const STAGE: Record<string, string> = {};
+const stageSvg = (cap: string) => (STAGE[cap] ??= CA.enterocyteStage({ AP, BL, CAP, CY0, CY1, cap: cap === C.blood ? "blood" : "lymph", id: `es${cap === C.blood ? "b" : "l"}` }));
+
 export const CellStage: React.FC<{ t: number; t0?: number; capColor?: string; capLabel?: string }> = ({ t, t0 = 0.2, capColor = C.blood, capLabel = "BLOOD" }) => {
   const o = prog(t, t0, 0.5);
   return (
     <g opacity={o}>
-      {/* microvilli (brush border) */}
-      {Array.from({ length: 22 }, (_, i) => (
-        <rect key={i} x={AP - 54} y={CY0 + 14 + i * 25} width={60} height={12} rx={6} fill="#F6B8AA" />
-      ))}
-      <rect x={AP} y={CY0} width={BL - AP} height={CY1 - CY0} rx={36} fill="url(#cellFill)" />
-      <rect x={AP} y={CY0} width={BL - AP} height={CY1 - CY0} rx={36} fill="none" stroke="#FFD3C8" strokeOpacity={0.5} strokeWidth={4} />
-      <ellipse cx={(AP + BL) / 2 + 120} cy={(CY0 + CY1) / 2 + 80} rx={80} ry={64} fill={C.nucleus} opacity={0.8} />
-      {/* tight junctions */}
-      <rect x={AP - 6} y={CY0 - 10} width={60} height={14} rx={7} fill="#3A1418" />
-      <rect x={AP - 6} y={CY1 - 4} width={60} height={14} rx={7} fill="#3A1418" />
-      {/* capillary */}
-      <rect x={CAP - 60} y={CY0 - 20} width={120} height={CY1 - CY0 + 40} rx={60} fill={capColor} opacity={0.22} />
-      <rect x={CAP - 60} y={CY0 - 20} width={120} height={CY1 - CY0 + 40} rx={60} fill="none" stroke={capColor} strokeWidth={4} />
-      {Array.from({ length: 5 }, (_, i) => {
-        const y = CY0 + (((t * 60 + i * 120) % (CY1 - CY0)) + (CY1 - CY0)) % (CY1 - CY0);
-        return <ellipse key={i} cx={CAP} cy={y} rx={30} ry={14} fill={capColor} opacity={0.55} />;
-      })}
+      {/* detailed enterocyte, neighbours, basal lamina, lamina propria and a fenestrated capillary (art/cell.mjs) */}
+      <g dangerouslySetInnerHTML={{ __html: stageSvg(capColor) }} />
+      {/* red blood cells drifting through the capillary */}
+      <g>
+        {Array.from({ length: 6 }, (_, i) => {
+          const span = CY1 - CY0 + 260;
+          const y = CY0 - 130 + ((((t * 70 + i * 113) % span) + span) % span);
+          return <g key={i} dangerouslySetInnerHTML={{ __html: CA.rbcSvg(CAP + ((i % 3) - 1) * 16, y, 90 + (i % 2 ? 12 : -10), 0.95) }} />;
+        })}
+      </g>
       <text x={420} y={CY0 - 30} textAnchor="middle" fontFamily={F.body} fontWeight={700} fontSize={26} fill={C.ink3} letterSpacing="0.16em">LUMEN</text>
-      <text x={(AP + BL) / 2} y={CY0 - 30} textAnchor="middle" fontFamily={F.body} fontWeight={700} fontSize={26} fill={C.ink3} letterSpacing="0.16em">ENTEROCYTE</text>
-      <text x={CAP} y={CY0 - 30} textAnchor="middle" fontFamily={F.body} fontWeight={700} fontSize={26} fill={C.ink3} letterSpacing="0.16em">{capLabel}</text>
+      <text x={(AP + BL) / 2} y={CY0 - 30} textAnchor="middle" fontFamily={F.body} fontWeight={700} fontSize={26} fill={C.ink} letterSpacing="0.16em" stroke="#0B0608" strokeWidth={5} paintOrder="stroke">ENTEROCYTE</text>
+      <text x={CAP} y={CY0 - 30} textAnchor="middle" fontFamily={F.body} fontWeight={700} fontSize={26} fill={C.ink} letterSpacing="0.16em" stroke="#0B0608" strokeWidth={5} paintOrder="stroke">{capLabel}</text>
     </g>
   );
 };

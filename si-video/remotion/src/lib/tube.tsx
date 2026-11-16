@@ -14,9 +14,11 @@ const edge = (x0: number, x1: number, f: (x: number) => number, step = 5) => {
 };
 
 /**
- * Longitudinal section of the gut: muscular wall (outer), mucosa lining (inner), dark lumen.
- * `circ(x)` 0..1 marks circular-muscle contraction (glows coral, band thickens);
- * `long(x)` 0..1 marks longitudinal-muscle contraction (outer stripes brighten).
+ * Longitudinal section of the gut wall (literal histology, schematic thickness). From the lumen outward:
+ * villi fringing the lumen, mucosa (with crypt hints), submucosa (collagen, vessel profiles), inner circular
+ * muscle (fibres cut across: striations perpendicular to the axis; thickens where it contracts), myenteric
+ * plexus, outer longitudinal muscle (spindle fibres along the axis) and serosa.
+ * `circ(x)` 0..1 marks circular-muscle contraction (glows coral); `long(x)` 0..1 longitudinal contraction (gold).
  */
 export const Tube: React.FC<{
   x0: number;
@@ -31,63 +33,107 @@ export const Tube: React.FC<{
   opacity?: number;
   id: string;
   capRound?: boolean;
-}> = ({ x0, x1, cy, r, wall = 34, layers = false, circ, long, lumen = "#2A1310", opacity = 1, id }) => {
-  const step = 5;
-  const lumTop = edge(x0, x1, (x) => cy - r(x), step);
-  const lumBot = edge(x0, x1, (x) => cy + r(x), step);
-  const outTop = edge(x0, x1, (x) => cy - r(x) - wall, step);
-  const outBot = edge(x0, x1, (x) => cy + r(x) + wall, step);
-  const lumenPath = `M${lumTop.join(" L")} L${[...lumBot].reverse().join(" L")} Z`;
-  const wallTop = `M${outTop.join(" L")} L${[...lumTop].reverse().join(" L")} Z`;
-  const wallBot = `M${lumBot.join(" L")} L${[...outBot].reverse().join(" L")} Z`;
-  const mucT = edge(x0, x1, (x) => cy - r(x) - 9, step);
-  const mucB = edge(x0, x1, (x) => cy + r(x) + 9, step);
-  const mucTop = `M${mucT.join(" L")} L${[...lumTop].reverse().join(" L")} Z`;
-  const mucBot = `M${lumBot.join(" L")} L${[...mucB].reverse().join(" L")} Z`;
-
-  const hatch: React.ReactNode[] = [];
-  if (layers) {
-    // circular muscle: short strokes across the inner part of the wall
-    for (let x = x0 + 6; x < x1 - 4; x += 12) {
-      const c = circ ? circ(x) : 0;
-      const rr = r(x);
-      const col = c > 0.05 ? mix(C.muscle, C.coral, c) : C.muscle;
-      const w = 2.5 + c * 2.5;
-      hatch.push(
-        <line key={`ct${x}`} x1={x} y1={cy - rr - 11} x2={x} y2={cy - rr - wall * 0.62} stroke={col} strokeWidth={w} strokeLinecap="round" opacity={0.9} />,
-        <line key={`cb${x}`} x1={x} y1={cy + rr + 11} x2={x} y2={cy + rr + wall * 0.62} stroke={col} strokeWidth={w} strokeLinecap="round" opacity={0.9} />,
-      );
+  plexus?: boolean;
+}> = ({ x0, x1, cy, r, wall = 34, layers = false, circ, long, lumen = "#2A1310", opacity = 1, plexus = false }) => {
+  const step = wall < 20 ? 6 : 4;
+  const xs: number[] = [];
+  for (let x = x0; x <= x1 + 0.01; x += step) xs.push(Math.min(x, x1));
+  const fine = wall >= 24;
+  // layer thicknesses (fractions of the wall)
+  const fM = fine ? 0.24 : 0.36, fS = fine ? 0.18 : 0.14, fC = fine ? 0.32 : 0.3, fL = fine ? 0.2 : 0.16;
+  const R = xs.map((x) => r(x));
+  const Cc = xs.map((x) => (circ ? circ(x) : 0));
+  const off = (i: number, k: number) => {
+    // cumulative offset from the lumen edge at layer boundary k (0 = lumen edge … 5 = outer surface)
+    const w = wall;
+    const c = fC * w * (1 + 0.45 * Cc[i]);
+    const b = [0, fM * w, fM * w + fS * w, fM * w + fS * w + c, fM * w + fS * w + c + fL * w, fM * w + fS * w + c + fL * w + 0.04 * w];
+    return R[i] + b[k];
+  };
+  const band = (k0: number, k1: number, side: 1 | -1) => {
+    const a = xs.map((x, i) => `${x.toFixed(1)} ${(cy + side * off(i, k0)).toFixed(1)}`);
+    const b = xs.map((x, i) => `${x.toFixed(1)} ${(cy + side * off(i, k1)).toFixed(1)}`);
+    return `M${a.join(" L")} L${b.reverse().join(" L")} Z`;
+  };
+  const lumenPath = `M${xs.map((x, i) => `${x.toFixed(1)} ${(cy - R[i]).toFixed(1)}`).join(" L")} L${xs.map((x, i) => `${x.toFixed(1)} ${(cy + R[i]).toFixed(1)}`).reverse().join(" L")} Z`;
+  // villi fringe projecting into the lumen
+  const vh = Math.max(4, Math.min(14, wall * 0.34));
+  const vgap = fine ? 9 : 8;
+  let villi = "";
+  for (const side of [-1, 1] as const) {
+    let d = "";
+    for (let x = x0 + vgap / 2; x < x1 - 2; x += vgap) {
+      const e = r(x);
+      const base = cy + side * e;
+      const tip = cy + side * Math.max(2, e - vh);
+      d += `M${(x - vgap * 0.42).toFixed(1)} ${base.toFixed(1)}L${(x - vgap * 0.3).toFixed(1)} ${(tip - side * 1.5).toFixed(1)}Q${x.toFixed(1)} ${(tip - side * 3.2).toFixed(1)} ${(x + vgap * 0.3).toFixed(1)} ${(tip - side * 1.5).toFixed(1)}L${(x + vgap * 0.42).toFixed(1)} ${base.toFixed(1)}Z`;
     }
-    // longitudinal muscle: dashes along the outer edge
-    for (let x = x0; x < x1 - 20; x += 26) {
-      const l = long ? long(x + 10) : 0;
-      const rr = r(x + 10);
-      const len = 20 - l * 8;
-      const col = mix("#7A2A30", C.gold, l);
-      hatch.push(
-        <line key={`lt${x}`} x1={x + 3 + l * 4} y1={cy - rr - wall + 6} x2={x + 3 + l * 4 + len} y2={cy - rr - wall + 6} stroke={col} strokeWidth={4 + l * 2} strokeLinecap="round" />,
-        <line key={`lb${x}`} x1={x + 3 + l * 4} y1={cy + rr + wall - 6} x2={x + 3 + l * 4 + len} y2={cy + rr + wall - 6} stroke={col} strokeWidth={4 + l * 2} strokeLinecap="round" />,
-      );
+    villi += d;
+  }
+  // textures
+  let striae = "", hot = "", spindles = "", spHot = "", coll = "", vessels = "";
+  xs.forEach((x, i) => {
+    if (i % (fine ? 2 : 3) !== 0) return;
+    for (const side of [-1, 1] as const) {
+      const a = cy + side * (off(i, 2) + 1.5), b = cy + side * (off(i, 3) - 1.5);
+      const seg = `M${x.toFixed(1)} ${a.toFixed(1)}L${x.toFixed(1)} ${b.toFixed(1)}`;
+      if (Cc[i] > 0.08) hot += seg;
+      else striae += seg;
+    }
+  });
+  for (let x = x0 + 6; x < x1 - 16; x += fine ? 16 : 22) {
+    const i = Math.min(xs.length - 1, Math.round((x - x0) / step));
+    const l = long ? long(x + 8) : 0;
+    const len = (fine ? 12 : 9) - l * 4;
+    for (const side of [-1, 1] as const) {
+      const y = cy + side * ((off(i, 3) + off(i, 4)) / 2);
+      const sp = `M${(x + l * 3).toFixed(1)} ${y.toFixed(1)}l${len.toFixed(1)} 0`;
+      if (l > 0.08) spHot += sp;
+      else spindles += sp;
+      if (fine) {
+        const ys = cy + side * ((off(i, 1) + off(i, 2)) / 2);
+        coll += `M${x.toFixed(1)} ${(ys - 1.5).toFixed(1)}q4 3 8 0t8 0`;
+        if (((x - x0) / 16) % 7 < 1) vessels += `<circle cx="${(x + 4).toFixed(1)}" cy="${ys.toFixed(1)}" r="2.2" fill="${side < 0 ? C.blood : C.bloodBlue}" />`;
+      }
     }
   }
+  // crypt hints in the mucosa
+  let crypts = "";
+  if (fine)
+    xs.forEach((x, i) => {
+      if (i % 3 !== 1) return;
+      for (const side of [-1, 1] as const) crypts += `M${x.toFixed(1)} ${(cy + side * (off(i, 0) + 2)).toFixed(1)}L${x.toFixed(1)} ${(cy + side * (off(i, 1) - 2)).toFixed(1)}`;
+    });
+  let ganglia = "";
+  if (plexus || layers)
+    for (let x = x0 + 30; x < x1 - 20; x += 90) {
+      const i = Math.min(xs.length - 1, Math.round((x - x0) / step));
+      for (const side of [-1, 1] as const) ganglia += `<ellipse cx="${x.toFixed(1)}" cy="${(cy + side * off(i, 3)).toFixed(1)}" rx="7" ry="2.6" fill="${C.nerve}" opacity="0.85" />`;
+    }
+  const sides = [-1, 1] as const;
   return (
     <g opacity={opacity}>
-      <defs>
-        <linearGradient id={`${id}-wall`} x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#7E2A2F" />
-          <stop offset="1" stopColor="#A63A3B" />
-        </linearGradient>
-        <linearGradient id={`${id}-wallB`} x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#A63A3B" />
-          <stop offset="1" stopColor="#6E2429" />
-        </linearGradient>
-      </defs>
       <path d={lumenPath} fill={lumen} />
-      <path d={wallTop} fill={`url(#${id}-wall)`} />
-      <path d={wallBot} fill={`url(#${id}-wallB)`} />
-      {hatch}
-      <path d={mucTop} fill={C.mucosa} />
-      <path d={mucBot} fill={C.mucosa} />
+      {sides.map((sd) => (
+        <g key={sd}>
+          <path d={band(0, 1, sd)} fill="#D9887E" />
+          <path d={band(1, 2, sd)} fill={fine ? "#B1625F" : "#A9565A"} />
+          <path d={band(2, 3, sd)} fill="#C0473F" />
+          <path d={band(3, 4, sd)} fill="#8E3036" />
+          <path d={band(4, 5, sd)} fill="#D59A8E" />
+        </g>
+      ))}
+      {crypts && <path d={crypts} stroke="#B9655E" strokeWidth={1.4} opacity={0.7} />}
+      {coll && <path d={coll} fill="none" stroke="#CF8A86" strokeWidth={1} opacity={0.55} />}
+      <g dangerouslySetInnerHTML={{ __html: vessels + ganglia }} />
+      <path d={striae} stroke="#7E2A30" strokeWidth={fine ? 1.6 : 1.2} opacity={0.75} />
+      {hot && <path d={hot} stroke={C.coral} strokeWidth={fine ? 3 : 2} />}
+      <path d={spindles} stroke="#5E1F25" strokeWidth={fine ? 2.6 : 1.8} strokeLinecap="round" opacity={0.85} />
+      {spHot && <path d={spHot} stroke={C.gold} strokeWidth={fine ? 3.6 : 2.4} strokeLinecap="round" />}
+      <path d={villi} fill="#F0A090" stroke="#B9655E" strokeWidth={0.7} />
+      {sides.map((sd) => (
+        <path key={`e${sd}`} d={`M${xs.map((x, i) => `${x.toFixed(1)} ${(cy + sd * R[i]).toFixed(1)}`).join(" L")}`} fill="none" stroke="#FFD3C8" strokeWidth={1.1} opacity={0.6} />
+      ))}
     </g>
   );
 };
