@@ -1,0 +1,98 @@
+#separator:Tab
+#html:true
+#tags column:5
+#columns:Front	Back	Layer	Topic	Tags
+What type of protein is hemoglobin, and where is it found?	A hemeprotein found only in red blood cells.	L1 · Recall	Hemoglobin Overview	STEM Biochemistry Haemoglobin L1-Recall Hb::HemoglobinOverview
+What are the two parts of the hemoglobin molecule?	• Protein part: globin chains<br>• Non-protein part: heme group	L1 · Recall	Hemoglobin Overview	STEM Biochemistry Haemoglobin L1-Recall Hb::HemoglobinOverview
+What is a prosthetic group?	A non-polypeptide unit tightly attached to a protein (heme is hemoglobin's prosthetic group).	L1 · Recall	Hemoglobin Overview	STEM Biochemistry Haemoglobin L1-Recall Hb::HemoglobinOverview
+Why must heme bind \(\mathrm{O_2}\) <i>reversibly</i> rather than permanently?	So hemoglobin can load \(\mathrm{O_2}\) in the lungs and then unload it in the tissues.	L2 · Understanding	Hemoglobin Overview	STEM Biochemistry Haemoglobin L2-Understanding Hb::HemoglobinOverview
+What is the heme group composed of?	Protoporphyrin IX complexed with ferrous iron (\(\mathrm{Fe^{2+}}\)).	L1 · Recall	Heme Group	STEM Biochemistry Haemoglobin L1-Recall Hb::HemeGroup
+What ion sits at the centre of the heme group?	\(\mathrm{Fe^{2+}}\) (ferrous iron).	L1 · Recall	Heme Group	STEM Biochemistry Haemoglobin L1-Recall Hb::HemeGroup
+How many nitrogen atoms of the porphyrin ring does \(\mathrm{Fe^{2+}}\) bind?	Four.	L1 · Recall	Heme Group	STEM Biochemistry Haemoglobin L1-Recall Hb::HemeGroup
+Besides the four porphyrin nitrogens, which two additional bonds does heme \(\mathrm{Fe^{2+}}\) form?	• A histidine residue of the globin chain<br>• \(\mathrm{O_2}\)	L1 · Recall	Heme Group	STEM Biochemistry Haemoglobin L1-Recall Hb::HemeGroup
+How many bonds in total does heme \(\mathrm{Fe^{2+}}\) form when oxygenated?	Six (4 porphyrin N + 1 histidine + 1 O₂).	L1 · Recall	Heme Group	STEM Biochemistry Haemoglobin L1-Recall Hb::HemeGroup
+What happens to heme iron's ability to carry oxygen if it is oxidised from the ferrous state?	\(\mathrm{Fe^{3+}}\) (methemoglobin) cannot bind \(\mathrm{O_2}\), so that heme no longer transports oxygen.	L3 · Boundaries	Heme Group	STEM Biochemistry Haemoglobin L3-Boundaries Hb::HemeGroup
+What is the chain composition of HbA?	\(\alpha_2\beta_2\)	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+What is the chain composition of HbF?	\(\alpha_2\gamma_2\)	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+What is the chain composition of HbA2?	\(\alpha_2\delta_2\)	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+What is the chain composition of HbA1c?	\(\alpha_2\beta_2\)–glucose (glycosylated HbA)	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+What fraction of total adult hemoglobin is HbA?	~90%	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+What fraction of total adult hemoglobin is HbF?	&lt;2%	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+What fraction of total adult hemoglobin is HbA2?	2–5% (~2%)	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+What fraction of total adult hemoglobin is HbA1c?	3–9%	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+Which hemoglobin is the major type in healthy adults?	HbA	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+Which hemoglobin is the major type in the fetus and newborn?	HbF (fetal hemoglobin)	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+When does HbA2 first appear?	Shortly before birth.	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+How does HbF's oxygen affinity compare with HbA's?	HbF has a <b>higher</b> O₂ affinity than HbA.	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+Why does HbF's higher oxygen affinity matter in pregnancy?	It lets fetal blood pull O₂ from maternal HbA across the placenta.	L2 · Understanding	Hb Types	STEM Biochemistry Haemoglobin L2-Understanding Hb::HbTypes
+How is HbA1c formed?	Non-enzymatic glycosylation of HbA.	L1 · Recall	Hb Types	STEM Biochemistry Haemoglobin L1-Recall Hb::HbTypes
+Why are HbA1c levels high in diabetes mellitus?	Glycosylation of HbA depends on plasma glucose level, so chronically high glucose produces more HbA1c.	L2 · Understanding	Hb Types	STEM Biochemistry Haemoglobin L2-Understanding Hb::HbTypes
+How many polypeptide chains make up HbA, and of what types?	Four: two α and two β chains.	L1 · Recall	HbA Structure	STEM Biochemistry Haemoglobin L1-Recall Hb::HbAStructure
+How many amino acids are in an α-globin chain?	141	L1 · Recall	HbA Structure	STEM Biochemistry Haemoglobin L1-Recall Hb::HbAStructure
+How many amino acids are in a β-globin chain?	146	L1 · Recall	HbA Structure	STEM Biochemistry Haemoglobin L1-Recall Hb::HbAStructure
+How are the chains of HbA organised into larger units?	As two αβ dimers held together by non-covalent interactions.	L1 · Recall	HbA Structure	STEM Biochemistry Haemoglobin L1-Recall Hb::HbAStructure
+How many heme groups and O₂ molecules can one Hb molecule carry?	4 heme groups → 4 O₂ molecules (one per subunit).	L1 · Recall	HbA Structure	STEM Biochemistry Haemoglobin L1-Recall Hb::HbAStructure
+What type of interaction holds the α and β chains together <i>within</i> an αβ dimer?	Strong, primarily hydrophobic interactions.	L1 · Recall	HbA Structure	STEM Biochemistry Haemoglobin L1-Recall Hb::HbAStructure
+What type of interaction holds the two αβ dimers together in deoxyhemoglobin?	Weak ionic and hydrogen bonds.	L1 · Recall	HbA Structure	STEM Biochemistry Haemoglobin L1-Recall Hb::HbAStructure
+What happens to the bonds between αβ dimers when hemoglobin becomes oxygenated?	Some of the ionic and hydrogen bonds between the dimers break, giving the dimers more freedom of movement (R form).	L2 · Understanding	HbA Structure	STEM Biochemistry Haemoglobin L2-Understanding Hb::HbAStructure
+What does the "T" in T-form hemoglobin stand for?	Taut (tense).	L1 · Recall	T and R Forms	STEM Biochemistry Haemoglobin L1-Recall Hb::TAndRForms
+What does the "R" in R-form hemoglobin stand for?	Relaxed.	L1 · Recall	T and R Forms	STEM Biochemistry Haemoglobin L1-Recall Hb::TAndRForms
+Is the T form the oxygenated or deoxygenated form of Hb?	Deoxygenated (deoxy-Hb).	L1 · Recall	T and R Forms	STEM Biochemistry Haemoglobin L1-Recall Hb::TAndRForms
+Where does the T form predominate: lungs or tissues?	Tissues.	L1 · Recall	T and R Forms	STEM Biochemistry Haemoglobin L1-Recall Hb::TAndRForms
+Where does the R form predominate: lungs or tissues?	Lungs.	L1 · Recall	T and R Forms	STEM Biochemistry Haemoglobin L1-Recall Hb::TAndRForms
+Which form of Hb has high oxygen affinity: T or R?	R (relaxed) form.	L1 · Recall	T and R Forms	STEM Biochemistry Haemoglobin L1-Recall Hb::TAndRForms
+How does dimer movement differ between the T and R forms?	In the T form dimer movement is constrained; in the R form the dimers have more freedom of movement.	L2 · Understanding	T and R Forms	STEM Biochemistry Haemoglobin L2-Understanding Hb::TAndRForms
+Why is it useful for hemoglobin to be in the low-affinity T form in the tissues?	Low affinity favours O₂ release, so oxygen is unloaded where it is needed.	L2 · Understanding	T and R Forms	STEM Biochemistry Haemoglobin L2-Understanding Hb::TAndRForms
+In what form does hemoglobin carry CO₂ from tissues to the lungs?	Carbaminohemoglobin.	L1 · Recall	Hb Function	STEM Biochemistry Haemoglobin L1-Recall Hb::HbFunction
+What is the normal hemoglobin level in adult males?	14–16 g/dL	L1 · Recall	Hb Function	STEM Biochemistry Haemoglobin L1-Recall Hb::HbFunction
+What is the normal hemoglobin level in adult females?	13–15 g/dL	L1 · Recall	Hb Function	STEM Biochemistry Haemoglobin L1-Recall Hb::HbFunction
+Why do females normally have a lower hemoglobin level than males?	Blood loss through the menstrual cycle.	L2 · Understanding	Hb Function	STEM Biochemistry Haemoglobin L2-Understanding Hb::HbFunction
+What are the four allosteric effectors of oxygen binding to Hb?	• \(p\mathrm{O_2}\)<br>• pH<br>• \(p\mathrm{CO_2}\)<br>• availability of 2,3-BPG	L1 · Recall	Hb Function	STEM Biochemistry Haemoglobin L1-Recall Hb::HbFunction
+What is the shape of hemoglobin's oxygen dissociation curve?	Sigmoidal.	L1 · Recall	O2 Dissociation Curve	STEM Biochemistry Haemoglobin L1-Recall Hb::O2DissociationCurve
+What is the shape of myoglobin's oxygen dissociation curve?	Hyperbolic.	L1 · Recall	O2 Dissociation Curve	STEM Biochemistry Haemoglobin L1-Recall Hb::O2DissociationCurve
+Why is hemoglobin's oxygen dissociation curve sigmoidal?	Cooperative (heme–heme) binding: O₂ binding to one heme increases the O₂ affinity of the remaining hemes.	L2 · Understanding	O2 Dissociation Curve	STEM Biochemistry Haemoglobin L2-Understanding Hb::O2DissociationCurve
+What is the term for cooperative O₂ binding among the four subunits of Hb?	Heme–heme interaction.	L1 · Recall	O2 Dissociation Curve	STEM Biochemistry Haemoglobin L1-Recall Hb::O2DissociationCurve
+Per the lecture, how much more strongly does the 4th O₂ bind compared with the 1st?	About 400× stronger.	L1 · Recall	O2 Dissociation Curve	STEM Biochemistry Haemoglobin L1-Recall Hb::O2DissociationCurve
+Why is it advantageous that the Hb curve is steepest at tissue O₂ levels?	Small drops in \(p\mathrm{O_2}\) cause large O₂ release, so delivery responds sensitively to tissue demand.	L2 · Understanding	O2 Dissociation Curve	STEM Biochemistry Haemoglobin L2-Understanding Hb::O2DissociationCurve
+Why does myoglobin show no cooperativity?	It has only a single O₂-binding site, so there are no other subunits to influence.	L2 · Understanding	O2 Dissociation Curve	STEM Biochemistry Haemoglobin L2-Understanding Hb::O2DissociationCurve
+Under what conditions does myoglobin release its oxygen?	Only at very low tissue \(p\mathrm{O_2}\) (extreme demand), because its affinity is so high.	L3 · Boundaries	O2 Dissociation Curve	STEM Biochemistry Haemoglobin L3-Boundaries Hb::O2DissociationCurve
+Define \(P_{50}\).	The pO₂ (mmHg) at which hemoglobin is 50% saturated with O₂.	L1 · Recall	P50	STEM Biochemistry Haemoglobin L1-Recall Hb::P50
+What is the normal \(P_{50}\) of hemoglobin?	~26–28 mmHg	L1 · Recall	P50	STEM Biochemistry Haemoglobin L1-Recall Hb::P50
+What is the \(P_{50}\) of myoglobin?	~1 mmHg	L1 · Recall	P50	STEM Biochemistry Haemoglobin L1-Recall Hb::P50
+What does a <b>low</b> \(P_{50}\) indicate about hemoglobin's O₂ affinity?	High affinity (less O₂ pressure needed to reach 50% saturation).	L2 · Understanding	P50	STEM Biochemistry Haemoglobin L2-Understanding Hb::P50
+Does <b>high</b> O₂ affinity cause fast or slow O₂ unloading, and at which site is it favoured?	Slow unloading — favoured in the lungs (O₂ loading).	L2 · Understanding	P50	STEM Biochemistry Haemoglobin L2-Understanding Hb::P50
+Does <b>low</b> O₂ affinity cause fast or slow O₂ unloading, and at which site is it favoured?	Fast unloading — favoured in the tissues (O₂ delivery).	L2 · Understanding	P50	STEM Biochemistry Haemoglobin L2-Understanding Hb::P50
+What is the pO₂ in the lungs?	~100 mmHg (Hb ≈ 100% saturated).	L1 · Recall	P50	STEM Biochemistry Haemoglobin L1-Recall Hb::P50
+What is the pO₂ in the tissues?	~40 mmHg (Hb saturation falls, so O₂ is delivered).	L1 · Recall	P50	STEM Biochemistry Haemoglobin L1-Recall Hb::P50
+Define the Bohr effect.	A shift of the oxygen dissociation curve to the <b>right</b> in response to ↑\(p\mathrm{CO_2}\) or ↓pH.	L1 · Recall	Bohr Effect	STEM Biochemistry Haemoglobin L1-Recall Hb::BohrEffect
+Which two reactions generate protons in the tissues (Bohr effect)?	\[\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3}\]\[\mathrm{H_2CO_3 \rightleftharpoons HCO_3^- + H^+}\]	L1 · Recall	Bohr Effect	STEM Biochemistry Haemoglobin L1-Recall Hb::BohrEffect
+Why do tissues have a lower pH than the lungs?	Tissue metabolism produces \(\mathrm{CO_2}\), which is converted to carbonic acid and releases \(\mathrm{H^+}\).	L2 · Understanding	Bohr Effect	STEM Biochemistry Haemoglobin L2-Understanding Hb::BohrEffect
+How do protons in the tissues promote \(\mathrm{O_2}\) delivery?	Protons bind Hb and reduce its \(\mathrm{O_2}\) affinity, causing easier \(\mathrm{O_2}\) release.	L2 · Understanding	Bohr Effect	STEM Biochemistry Haemoglobin L2-Understanding Hb::BohrEffect
+How many protons does deoxy (free) Hb bind?	Two.	L1 · Recall	Bohr Effect	STEM Biochemistry Haemoglobin L1-Recall Hb::BohrEffect
+What happens to the protons carried by Hb when it reaches the lungs?	They are released and react with \(\mathrm{HCO_3^-}\) to form \(\mathrm{CO_2}\) gas: \(\mathrm{HCO_3^- + H^+ \rightarrow CO_2 + H_2O}\), which is exhaled.	L2 · Understanding	Bohr Effect	STEM Biochemistry Haemoglobin L2-Understanding Hb::BohrEffect
+Why does Hb's O₂ affinity increase in the lungs (Bohr effect)?	Hb releases its protons there; proton-poor Hb has greater O₂ affinity.	L2 · Understanding	Bohr Effect	STEM Biochemistry Haemoglobin L2-Understanding Hb::BohrEffect
+What does the Bohr effect accomplish for CO₂ transport?	It removes CO₂ from the bloodstream by converting it into soluble bicarbonate.	L2 · Understanding	Bohr Effect	STEM Biochemistry Haemoglobin L2-Understanding Hb::BohrEffect
+At a lower pH, what is required to reach any given Hb O₂ saturation?	A higher pO₂ (curve shifted right).	L2 · Understanding	Bohr Effect	STEM Biochemistry Haemoglobin L2-Understanding Hb::BohrEffect
+Which form of Hb does 2,3-BPG bind and stabilise?	Deoxy-Hb — it stabilises the T form.	L1 · Recall	2,3-BPG	STEM Biochemistry Haemoglobin L1-Recall Hb::23BPG
+Where on hemoglobin does 2,3-BPG bind?	A positively charged cavity formed by the two β chains of deoxy-Hb.	L1 · Recall	2,3-BPG	STEM Biochemistry Haemoglobin L1-Recall Hb::23BPG
+What happens to bound 2,3-BPG when O₂ binds Hb?	2,3-BPG is released.	L1 · Recall	2,3-BPG	STEM Biochemistry Haemoglobin L1-Recall Hb::23BPG
+How does increased 2,3-BPG affect Hb's O₂ affinity and the dissociation curve?	Decreases affinity → curve shifts right → easier O₂ unloading in tissues.	L2 · Understanding	2,3-BPG	STEM Biochemistry Haemoglobin L2-Understanding Hb::23BPG
+What is the 2,3-BPG concentration in normal blood vs. a high-altitude-adapted person?	Normal ≈ 5 mmol/L; high altitude ≈ 8 mmol/L	L1 · Recall	2,3-BPG	STEM Biochemistry Haemoglobin L1-Recall Hb::23BPG
+What happens to the dissociation curve of Hb stripped of all 2,3-BPG?	It shifts far left (very high O₂ affinity), so Hb would release little O₂ to tissues.	L3 · Boundaries	2,3-BPG	STEM Biochemistry Haemoglobin L3-Boundaries Hb::23BPG
+What three blood changes occur as compensation at high altitude?	• ↑ RBC number<br>• ↑ Hb concentration<br>• ↑ 2,3-BPG	L1 · Recall	High Altitude	STEM Biochemistry Haemoglobin L1-Recall Hb::HighAltitude
+Why do 2,3-BPG levels rise in hypoxia/high altitude?	Raised BPG lowers Hb's O₂ affinity, increasing O₂ delivery to tissues.	L2 · Understanding	High Altitude	STEM Biochemistry Haemoglobin L2-Understanding Hb::HighAltitude
+List the three causes of high O₂ affinity given in the lecture.	• Alkalosis<br>• High levels of HbF<br>• Multiple transfusions of 2,3-DPG-depleted blood	L1 · Recall	Curve Shifts	STEM Biochemistry Haemoglobin L1-Recall Hb::CurveShifts
+Why does transfusion of stored (banked) blood increase O₂ affinity?	Banked blood loses 2,3-DPG over time → less T-state stabilisation → Hb stays in R state → higher affinity.	L2 · Understanding	Curve Shifts	STEM Biochemistry Haemoglobin L2-Understanding Hb::CurveShifts
+Which changes in pH, DPG, temperature, and P50 shift the curve to the <b>left</b>?	↑pH, ↓DPG, ↓temperature, ↓\(P_{50}\) (also abnormal Hb)	L1 · Recall	Curve Shifts	STEM Biochemistry Haemoglobin L1-Recall Hb::CurveShifts
+Which changes in pH, DPG, temperature, and P50 shift the curve to the <b>right</b>?	↓pH, ↑DPG, ↑temperature, ↑\(P_{50}\)	L1 · Recall	Curve Shifts	STEM Biochemistry Haemoglobin L1-Recall Hb::CurveShifts
+What does a left shift of the O₂ dissociation curve mean for oxygen delivery?	Higher O₂ affinity → Hb holds O₂ more tightly → less O₂ released to tissues.	L2 · Understanding	Curve Shifts	STEM Biochemistry Haemoglobin L2-Understanding Hb::CurveShifts
+Does acidosis or alkalosis cause high O₂ affinity?	Alkalosis (↑pH shifts the curve left). Acidosis lowers affinity.	L3 · Boundaries	Curve Shifts	STEM Biochemistry Haemoglobin L3-Boundaries Hb::CurveShifts
+Name the three abnormal hemoglobins covered in the lecture.	• Carboxy-Hb<br>• Met-Hb<br>• Sulf-Hb	L1 · Recall	Abnormal Hb	STEM Biochemistry Haemoglobin L1-Recall Hb::AbnormalHb
+Why can abnormal hemoglobins not transport O₂ normally?	Their abnormal structure prevents normal O₂ binding.	L2 · Understanding	Abnormal Hb	STEM Biochemistry Haemoglobin L2-Understanding Hb::AbnormalHb
+What is carboxyhemoglobin?	Hb in which CO replaces O₂ at the heme (seen in smokers).	L1 · Recall	Abnormal Hb	STEM Biochemistry Haemoglobin L1-Recall Hb::AbnormalHb
+How much more tightly does CO bind Hb than O₂?	~220×	L1 · Recall	Abnormal Hb	STEM Biochemistry Haemoglobin L1-Recall Hb::AbnormalHb
+What is methemoglobin?	Hb containing oxidised \(\mathrm{Fe^{3+}}\) instead of \(\mathrm{Fe^{2+}}\), which cannot carry \(\mathrm{O_2}\).	L1 · Recall	Abnormal Hb	STEM Biochemistry Haemoglobin L1-Recall Hb::AbnormalHb
+What proportion of Hb is normally methemoglobin?	~2%	L1 · Recall	Abnormal Hb	STEM Biochemistry Haemoglobin L1-Recall Hb::AbnormalHb
+What causes sulfhemoglobin to form?	High sulfur levels in the blood.	L1 · Recall	Abnormal Hb	STEM Biochemistry Haemoglobin L1-Recall Hb::AbnormalHb
+Which abnormal hemoglobin forms irreversibly?	Sulf-Hb.	L3 · Boundaries	Abnormal Hb	STEM Biochemistry Haemoglobin L3-Boundaries Hb::AbnormalHb
+Why is carbon monoxide so dangerous even at low concentrations?	It binds Hb ~220× tighter than O₂, so it displaces O₂ and blocks transport even when scarce.	L3 · Boundaries	Abnormal Hb	STEM Biochemistry Haemoglobin L3-Boundaries Hb::AbnormalHb
