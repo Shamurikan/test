@@ -510,9 +510,12 @@ export const BeatsLayer: React.FC<{ beats: Shot[]; children: React.ReactNode }> 
   const t = useT();
   let k = 0;
   for (const b of beats) k = Math.max(k, prog(t, b.t0 - 0.1, 0.45) * (1 - prog(t, b.t1 - 0.1, 0.45, E.in)));
+  // The scene is never re-composited with group opacity (very slow over heavy SVG on CPU rendering): the ground plate
+  // fades in on top of it instead, and once it fully covers the scene the scene is not drawn at all.
   return (
     <AbsoluteFill>
-      <AbsoluteFill style={{ opacity: 1 - 0.86 * k, transform: `scale(${1 - 0.025 * k})` }}>{children}</AbsoluteFill>
+      {k < 0.999 && <AbsoluteFill>{children}</AbsoluteFill>}
+      {k > 0.001 && <Img src={staticFile("ground.png")} style={{ position: "absolute", inset: 0, width: 1920, height: 1080, opacity: k }} />}
       {beats.map((b, i) => (
         <ShotView key={i} s={{ ...b, region: b.region ?? fitRegion(b.plate, b.keys[0].f) }} t={t} />
       ))}
