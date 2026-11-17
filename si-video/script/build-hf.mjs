@@ -72,6 +72,8 @@ function validate(id, src, words) {
 }
 
 const CHAPTERS = {
+  c0: { num: "00", kicker: "Before the physiology", title: "Location<br>anatomy", accent: "#F3D3C2", cue0: "first",
+        sub: ["Position", "Peritoneum", "Duodenum", "Jejunum &amp; ileum", "Vessels", "Lymph &amp; nerves", "Wall"] },
   c1: { num: "01", kicker: "Part one", title: "Motility", accent: "#FF7A63",
         sub: ["Segmentation", "Peristalsis", "Migrating motor complex", "Antiperistalsis", "Peristaltic rush", "Control"] },
   c2: { num: "02", kicker: "Part two", title: "Secretion<br>&amp; Digestion", accent: "#FFC857",
@@ -133,6 +135,7 @@ for (const s of hfScenes) {
       .replaceAll("__NUM__", c.num)
       .replaceAll("__KICKER__", c.kicker)
       .replaceAll("__TITLE__", c.title)
+      .replaceAll("__CUE0__", c.cue0 || "part")
       .replaceAll("__SUB__", c.sub.map((x, i) => `<span class="w __ID__-subw">${x}</span>${i < c.sub.length - 1 ? '<span class="w dot __ID__-subw">·</span>' : ""}`).join(" "));
   }
   if (s.id === "s20") {

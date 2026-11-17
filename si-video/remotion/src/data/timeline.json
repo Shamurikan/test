@@ -1,8 +1,8 @@
 {
  "fps": 30,
  "transition": 12,
- "totalFrames": 26604,
- "hfTotal": 140.9333,
+ "totalFrames": 37510,
+ "hfTotal": 148.4,
  "scenes": [
   {
    "id": "s01",
@@ -34,11 +34,152 @@
    ]
   },
   {
+   "id": "c0",
+   "engine": "hf",
+   "title": "Location anatomy",
+   "durationInFrames": 224,
+   "from": 1069,
+   "parts": [
+    {
+     "key": "c0",
+     "start": 0.5,
+     "duration": 4.859
+    }
+   ],
+   "hfStart": 15.3
+  },
+  {
+   "id": "a01",
+   "engine": "rm",
+   "title": "Where it lies",
+   "durationInFrames": 1279,
+   "from": 1281,
+   "parts": [
+    {
+     "key": "a01",
+     "start": 0.45,
+     "duration": 41.43
+    }
+   ]
+  },
+  {
+   "id": "a02",
+   "engine": "rm",
+   "title": "Peritoneum & mesentery",
+   "durationInFrames": 1157,
+   "from": 2548,
+   "parts": [
+    {
+     "key": "a02",
+     "start": 0.45,
+     "duration": 37.355
+    }
+   ]
+  },
+  {
+   "id": "a03",
+   "engine": "rm",
+   "title": "Duodenum",
+   "durationInFrames": 1534,
+   "from": 3693,
+   "parts": [
+    {
+     "key": "a03",
+     "start": 0.45,
+     "duration": 49.92
+    }
+   ]
+  },
+  {
+   "id": "a04",
+   "engine": "rm",
+   "title": "Duodenum: relations & supply",
+   "durationInFrames": 1182,
+   "from": 5215,
+   "parts": [
+    {
+     "key": "a04",
+     "start": 0.45,
+     "duration": 38.191
+    }
+   ]
+  },
+  {
+   "id": "a05",
+   "engine": "rm",
+   "title": "Jejunum & ileum",
+   "durationInFrames": 1232,
+   "from": 6385,
+   "parts": [
+    {
+     "key": "a05",
+     "start": 0.45,
+     "duration": 39.837
+    }
+   ]
+  },
+  {
+   "id": "a06",
+   "engine": "rm",
+   "title": "Superior mesenteric vessels",
+   "durationInFrames": 1188,
+   "from": 7605,
+   "parts": [
+    {
+     "key": "a06",
+     "start": 0.45,
+     "duration": 38.374
+    }
+   ]
+  },
+  {
+   "id": "a07",
+   "engine": "rm",
+   "title": "Lymph & nerves",
+   "durationInFrames": 1145,
+   "from": 8781,
+   "parts": [
+    {
+     "key": "a07",
+     "start": 0.45,
+     "duration": 36.963
+    }
+   ]
+  },
+  {
+   "id": "a08",
+   "engine": "rm",
+   "title": "Ileocecal junction",
+   "durationInFrames": 976,
+   "from": 9914,
+   "parts": [
+    {
+     "key": "a08",
+     "start": 0.45,
+     "duration": 31.321
+    }
+   ]
+  },
+  {
+   "id": "a09",
+   "engine": "rm",
+   "title": "Layers of the wall",
+   "durationInFrames": 1109,
+   "from": 10878,
+   "parts": [
+    {
+     "key": "a09",
+     "start": 0.45,
+     "duration": 35.762
+    }
+   ]
+  },
+  {
    "id": "c1",
    "engine": "hf",
    "title": "Part one",
    "durationInFrames": 138,
-   "from": 1069,
+   "from": 11975,
    "parts": [
     {
      "key": "c1",
@@ -46,14 +187,14 @@
      "duration": 1.985
     }
    ],
-   "hfStart": 15.3
+   "hfStart": 22.7667
   },
   {
    "id": "s03",
    "engine": "rm",
    "title": "Five patterns",
    "durationInFrames": 357,
-   "from": 1195,
+   "from": 12101,
    "parts": [
     {
      "key": "s03",
@@ -67,7 +208,7 @@
    "engine": "rm",
    "title": "Segmentation",
    "durationInFrames": 775,
-   "from": 1540,
+   "from": 12446,
    "parts": [
     {
      "key": "s04",
@@ -81,7 +222,7 @@
    "engine": "rm",
    "title": "Peristalsis",
    "durationInFrames": 737,
-   "from": 2303,
+   "from": 13209,
    "parts": [
     {
      "key": "s05",
@@ -95,7 +236,7 @@
    "engine": "rm",
    "title": "Peristalsis: speed",
    "durationInFrames": 786,
-   "from": 3028,
+   "from": 13934,
    "parts": [
     {
      "key": "s06",
@@ -109,7 +250,7 @@
    "engine": "rm",
    "title": "Migrating motor complex",
    "durationInFrames": 918,
-   "from": 3802,
+   "from": 14708,
    "parts": [
     {
      "key": "s07",
@@ -123,7 +264,7 @@
    "engine": "rm",
    "title": "Antiperistalsis & peristaltic rush",
    "durationInFrames": 878,
-   "from": 4708,
+   "from": 15614,
    "parts": [
     {
      "key": "s08",
@@ -137,7 +278,7 @@
    "engine": "rm",
    "title": "Movement of the villi",
    "durationInFrames": 576,
-   "from": 5574,
+   "from": 16480,
    "parts": [
     {
      "key": "s09",
@@ -151,7 +292,7 @@
    "engine": "rm",
    "title": "Control of motility",
    "durationInFrames": 579,
-   "from": 6138,
+   "from": 17044,
    "parts": [
     {
      "key": "s10",
@@ -165,7 +306,7 @@
    "engine": "rm",
    "title": "Gastroileal reflex",
    "durationInFrames": 664,
-   "from": 6705,
+   "from": 17611,
    "parts": [
     {
      "key": "s11",
@@ -179,7 +320,7 @@
    "engine": "hf",
    "title": "Part two",
    "durationInFrames": 177,
-   "from": 7357,
+   "from": 18263,
    "parts": [
     {
      "key": "c2",
@@ -187,14 +328,14 @@
      "duration": 3.291
     }
    ],
-   "hfStart": 19.9
+   "hfStart": 27.3667
   },
   {
    "id": "s12",
    "engine": "rm",
    "title": "Crypts of Lieberkühn",
    "durationInFrames": 764,
-   "from": 7522,
+   "from": 18428,
    "parts": [
     {
      "key": "s12",
@@ -208,7 +349,7 @@
    "engine": "rm",
    "title": "Control of secretion & Brunner's glands",
    "durationInFrames": 819,
-   "from": 8274,
+   "from": 19180,
    "parts": [
     {
      "key": "s13",
@@ -222,7 +363,7 @@
    "engine": "rm",
    "title": "Brush-border enzymes",
    "durationInFrames": 858,
-   "from": 9081,
+   "from": 19987,
    "parts": [
     {
      "key": "s14",
@@ -236,7 +377,7 @@
    "engine": "rm",
    "title": "Carbohydrate digestion",
    "durationInFrames": 1009,
-   "from": 9927,
+   "from": 20833,
    "parts": [
     {
      "key": "s15_0",
@@ -255,7 +396,7 @@
    "engine": "rm",
    "title": "Protein digestion: activation",
    "durationInFrames": 897,
-   "from": 10924,
+   "from": 21830,
    "parts": [
     {
      "key": "s16",
@@ -269,7 +410,7 @@
    "engine": "rm",
    "title": "Protein digestion: cutting",
    "durationInFrames": 687,
-   "from": 11809,
+   "from": 22715,
    "parts": [
     {
      "key": "s17",
@@ -283,7 +424,7 @@
    "engine": "rm",
    "title": "Fat digestion",
    "durationInFrames": 1094,
-   "from": 12484,
+   "from": 23390,
    "parts": [
     {
      "key": "s18",
@@ -297,7 +438,7 @@
    "engine": "rm",
    "title": "Micelles",
    "durationInFrames": 873,
-   "from": 13566,
+   "from": 24472,
    "parts": [
     {
      "key": "s19",
@@ -311,7 +452,7 @@
    "engine": "hf",
    "title": "Part three",
    "durationInFrames": 146,
-   "from": 14427,
+   "from": 25333,
    "parts": [
     {
      "key": "c3",
@@ -319,14 +460,14 @@
      "duration": 2.246
     }
    ],
-   "hfStart": 25.8
+   "hfStart": 33.2667
   },
   {
    "id": "s20",
    "engine": "hf",
    "title": "Absorptive surface",
    "durationInFrames": 785,
-   "from": 14561,
+   "from": 25467,
    "parts": [
     {
      "key": "s20",
@@ -334,14 +475,14 @@
      "duration": 24.712
     }
    ],
-   "hfStart": 30.6667
+   "hfStart": 38.1333
   },
   {
    "id": "s21",
    "engine": "rm",
    "title": "End products",
    "durationInFrames": 382,
-   "from": 15334,
+   "from": 26240,
    "parts": [
     {
      "key": "s21",
@@ -355,7 +496,7 @@
    "engine": "rm",
    "title": "Carbohydrate absorption",
    "durationInFrames": 942,
-   "from": 15704,
+   "from": 26610,
    "parts": [
     {
      "key": "s22",
@@ -369,7 +510,7 @@
    "engine": "rm",
    "title": "Protein absorption",
    "durationInFrames": 916,
-   "from": 16634,
+   "from": 27540,
    "parts": [
     {
      "key": "s23",
@@ -383,7 +524,7 @@
    "engine": "rm",
    "title": "Fat absorption",
    "durationInFrames": 1200,
-   "from": 17538,
+   "from": 28444,
    "parts": [
     {
      "key": "s24",
@@ -397,7 +538,7 @@
    "engine": "rm",
    "title": "Vitamins",
    "durationInFrames": 931,
-   "from": 18726,
+   "from": 29632,
    "parts": [
     {
      "key": "s25",
@@ -411,7 +552,7 @@
    "engine": "rm",
    "title": "Fluid budget & routes",
    "durationInFrames": 737,
-   "from": 19645,
+   "from": 30551,
    "parts": [
     {
      "key": "s26",
@@ -425,7 +566,7 @@
    "engine": "rm",
    "title": "Sodium & water",
    "durationInFrames": 949,
-   "from": 20370,
+   "from": 31276,
    "parts": [
     {
      "key": "s27",
@@ -439,7 +580,7 @@
    "engine": "rm",
    "title": "Chloride, potassium, bicarbonate, calcium",
    "durationInFrames": 1063,
-   "from": 21307,
+   "from": 32213,
    "parts": [
     {
      "key": "s28",
@@ -453,7 +594,7 @@
    "engine": "rm",
    "title": "Hormonal control of absorption",
    "durationInFrames": 555,
-   "from": 22358,
+   "from": 33264,
    "parts": [
     {
      "key": "s29",
@@ -467,7 +608,7 @@
    "engine": "rm",
    "title": "Where nutrients go",
    "durationInFrames": 673,
-   "from": 22901,
+   "from": 33807,
    "parts": [
     {
      "key": "s30",
@@ -481,7 +622,7 @@
    "engine": "rm",
    "title": "Absorption sites",
    "durationInFrames": 543,
-   "from": 23562,
+   "from": 34468,
    "parts": [
     {
      "key": "s31",
@@ -495,7 +636,7 @@
    "engine": "hf",
    "title": "Quiz",
    "durationInFrames": 2082,
-   "from": 24093,
+   "from": 34999,
    "parts": [
     {
      "key": "s32_q1",
@@ -578,14 +719,14 @@
      "duration": 1.567
     }
    ],
-   "hfStart": 56.8333
+   "hfStart": 64.3
   },
   {
    "id": "s33",
    "engine": "hf",
    "title": "Outro",
    "durationInFrames": 441,
-   "from": 26163,
+   "from": 37069,
    "parts": [
     {
      "key": "s33",
@@ -593,7 +734,7 @@
      "duration": 11.05
     }
    ],
-   "hfStart": 126.2333
+   "hfStart": 133.7
   }
  ]
 }

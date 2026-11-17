@@ -2,3 +2,13 @@ node_modules/
 out/
 .hyperframes/
 *.log
+# copyrighted textbook sources and extracts: regenerate locally with script/fig_*.py (see FIGURES.md)
+figlib/src/
+figlib/raw/
+figlib/work/
+figlib/plates/
+figlib/index/*.txt
+remotion/public/fig/
+figlib/index/index.json
+figlib/index/captions_all.json
+figlib/index/manifest_pages_v1.json

@@ -1,0 +1,577 @@
+{
+ "duration": 37.355125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "c90c008d-8f59-426a-bc54-df460b40dac6",
+ "segments": [
+  {
+   "end": 0.4,
+   "start": 0.32,
+   "text": "The"
+  },
+  {
+   "end": 0.64,
+   "start": 0.4,
+   "text": "gut"
+  },
+  {
+   "end": 1.12,
+   "start": 0.64,
+   "text": "develops"
+  },
+  {
+   "end": 1.2,
+   "start": 1.12,
+   "text": "as"
+  },
+  {
+   "end": 1.28,
+   "start": 1.2,
+   "text": "a"
+  },
+  {
+   "end": 1.76,
+   "start": 1.28,
+   "text": "tube"
+  },
+  {
+   "end": 1.92,
+   "start": 1.76,
+   "text": "hung"
+  },
+  {
+   "end": 2.08,
+   "start": 1.92,
+   "text": "from"
+  },
+  {
+   "end": 2.16,
+   "start": 2.08,
+   "text": "the"
+  },
+  {
+   "end": 2.4,
+   "start": 2.16,
+   "text": "back"
+  },
+  {
+   "end": 2.64,
+   "start": 2.4,
+   "text": "wall"
+  },
+  {
+   "end": 2.8,
+   "start": 2.64,
+   "text": "by"
+  },
+  {
+   "end": 2.88,
+   "start": 2.8,
+   "text": "a"
+  },
+  {
+   "end": 3.28,
+   "start": 2.88,
+   "text": "dorsal"
+  },
+  {
+   "end": 4,
+   "start": 3.28,
+   "text": "mesentery"
+  },
+  {
+   "end": 4.4,
+   "start": 4.32,
+   "text": "Where"
+  },
+  {
+   "end": 4.56,
+   "start": 4.48,
+   "text": "that"
+  },
+  {
+   "end": 5.12,
+   "start": 4.56,
+   "text": "mesentery"
+  },
+  {
+   "end": 5.76,
+   "start": 5.12,
+   "text": "survives"
+  },
+  {
+   "end": 6.08,
+   "start": 6.08,
+   "text": "the"
+  },
+  {
+   "end": 6.4,
+   "start": 6.08,
+   "text": "bowel"
+  },
+  {
+   "end": 6.8,
+   "start": 6.4,
+   "text": "stays"
+  },
+  {
+   "end": 7.6,
+   "start": 6.8,
+   "text": "intraperitoneal"
+  },
+  {
+   "end": 7.68,
+   "start": 7.6,
+   "text": "and"
+  },
+  {
+   "end": 8.08,
+   "start": 7.68,
+   "text": "mobile"
+  },
+  {
+   "end": 8.4,
+   "start": 8.32,
+   "text": "The"
+  },
+  {
+   "end": 8.96,
+   "start": 8.4,
+   "text": "jejunum"
+  },
+  {
+   "end": 9.12,
+   "start": 9.04,
+   "text": "the"
+  },
+  {
+   "end": 9.6,
+   "start": 9.12,
+   "text": "ileum"
+  },
+  {
+   "end": 9.76,
+   "start": 9.6,
+   "text": "and"
+  },
+  {
+   "end": 9.76,
+   "start": 9.76,
+   "text": "the"
+  },
+  {
+   "end": 10.08,
+   "start": 9.76,
+   "text": "first"
+  },
+  {
+   "end": 10.24,
+   "start": 10.08,
+   "text": "two"
+  },
+  {
+   "end": 10.8,
+   "start": 10.24,
+   "text": "centimeters"
+  },
+  {
+   "end": 10.88,
+   "start": 10.8,
+   "text": "of"
+  },
+  {
+   "end": 10.96,
+   "start": 10.88,
+   "text": "the"
+  },
+  {
+   "end": 11.6,
+   "start": 10.96,
+   "text": "duodenum"
+  },
+  {
+   "end": 12,
+   "start": 11.84,
+   "text": "Where"
+  },
+  {
+   "end": 12.08,
+   "start": 12,
+   "text": "it"
+  },
+  {
+   "end": 12.56,
+   "start": 12.08,
+   "text": "fuses"
+  },
+  {
+   "end": 12.64,
+   "start": 12.56,
+   "text": "with"
+  },
+  {
+   "end": 12.72,
+   "start": 12.64,
+   "text": "the"
+  },
+  {
+   "end": 13.36,
+   "start": 12.72,
+   "text": "posterior"
+  },
+  {
+   "end": 13.76,
+   "start": 13.36,
+   "text": "wall"
+  },
+  {
+   "end": 14.08,
+   "start": 14,
+   "text": "the"
+  },
+  {
+   "end": 14.4,
+   "start": 14.08,
+   "text": "organ"
+  },
+  {
+   "end": 14.72,
+   "start": 14.4,
+   "text": "becomes"
+  },
+  {
+   "end": 15.36,
+   "start": 14.72,
+   "text": "secondarily"
+  },
+  {
+   "end": 16.4,
+   "start": 15.36,
+   "text": "retroperitoneal"
+  },
+  {
+   "end": 16.64,
+   "start": 16.48,
+   "text": "and"
+  },
+  {
+   "end": 17.12,
+   "start": 16.64,
+   "text": "fixed"
+  },
+  {
+   "end": 17.28,
+   "start": 17.2,
+   "text": "The"
+  },
+  {
+   "end": 17.6,
+   "start": 17.28,
+   "text": "rest"
+  },
+  {
+   "end": 17.68,
+   "start": 17.6,
+   "text": "of"
+  },
+  {
+   "end": 17.76,
+   "start": 17.68,
+   "text": "the"
+  },
+  {
+   "end": 18.4,
+   "start": 17.76,
+   "text": "duodenum"
+  },
+  {
+   "end": 18.8,
+   "start": 18.72,
+   "text": "The"
+  },
+  {
+   "end": 19.28,
+   "start": 18.8,
+   "text": "jejunum"
+  },
+  {
+   "end": 19.44,
+   "start": 19.28,
+   "text": "and"
+  },
+  {
+   "end": 19.84,
+   "start": 19.52,
+   "text": "ileum"
+  },
+  {
+   "end": 20.16,
+   "start": 19.84,
+   "text": "hang"
+  },
+  {
+   "end": 20.32,
+   "start": 20.16,
+   "text": "from"
+  },
+  {
+   "end": 20.32,
+   "start": 20.32,
+   "text": "the"
+  },
+  {
+   "end": 20.96,
+   "start": 20.32,
+   "text": "mesentery"
+  },
+  {
+   "end": 21.28,
+   "start": 21.2,
+   "text": "a"
+  },
+  {
+   "end": 21.6,
+   "start": 21.28,
+   "text": "fan"
+  },
+  {
+   "end": 22,
+   "start": 21.6,
+   "text": "shaped"
+  },
+  {
+   "end": 22.24,
+   "start": 22,
+   "text": "double"
+  },
+  {
+   "end": 22.56,
+   "start": 22.24,
+   "text": "fold"
+  },
+  {
+   "end": 22.72,
+   "start": 22.56,
+   "text": "of"
+  },
+  {
+   "end": 23.36,
+   "start": 22.72,
+   "text": "peritoneum"
+  },
+  {
+   "end": 23.84,
+   "start": 23.68,
+   "text": "Its"
+  },
+  {
+   "end": 24.08,
+   "start": 23.84,
+   "text": "root"
+  },
+  {
+   "end": 24.16,
+   "start": 24.08,
+   "text": "is"
+  },
+  {
+   "end": 24.4,
+   "start": 24.16,
+   "text": "only"
+  },
+  {
+   "end": 24.64,
+   "start": 24.4,
+   "text": "about"
+  },
+  {
+   "end": 25.12,
+   "start": 24.64,
+   "text": "15"
+  },
+  {
+   "end": 25.6,
+   "start": 25.12,
+   "text": "centimeters"
+  },
+  {
+   "end": 26,
+   "start": 25.6,
+   "text": "long"
+  },
+  {
+   "end": 26.56,
+   "start": 26.32,
+   "text": "running"
+  },
+  {
+   "end": 27.04,
+   "start": 26.56,
+   "text": "obliquely"
+  },
+  {
+   "end": 27.2,
+   "start": 27.04,
+   "text": "from"
+  },
+  {
+   "end": 27.28,
+   "start": 27.2,
+   "text": "the"
+  },
+  {
+   "end": 28.32,
+   "start": 27.28,
+   "text": "duodenojejunal"
+  },
+  {
+   "end": 28.88,
+   "start": 28.32,
+   "text": "flexure"
+  },
+  {
+   "end": 29.36,
+   "start": 29.12,
+   "text": "left"
+  },
+  {
+   "end": 29.44,
+   "start": 29.36,
+   "text": "of"
+  },
+  {
+   "end": 29.84,
+   "start": 29.44,
+   "text": "vertebra"
+  },
+  {
+   "end": 30.4,
+   "start": 29.84,
+   "text": "L2"
+  },
+  {
+   "end": 30.96,
+   "start": 30.72,
+   "text": "down"
+  },
+  {
+   "end": 31.04,
+   "start": 30.96,
+   "text": "to"
+  },
+  {
+   "end": 31.2,
+   "start": 31.04,
+   "text": "the"
+  },
+  {
+   "end": 31.36,
+   "start": 31.2,
+   "text": "right"
+  },
+  {
+   "end": 32.16,
+   "start": 31.36,
+   "text": "sacroiliac"
+  },
+  {
+   "end": 32.56,
+   "start": 32.16,
+   "text": "joint"
+  },
+  {
+   "end": 33.04,
+   "start": 32.96,
+   "text": "But"
+  },
+  {
+   "end": 33.2,
+   "start": 33.04,
+   "text": "its"
+  },
+  {
+   "end": 33.44,
+   "start": 33.2,
+   "text": "free"
+  },
+  {
+   "end": 33.76,
+   "start": 33.44,
+   "text": "border"
+  },
+  {
+   "end": 33.92,
+   "start": 33.76,
+   "text": "is"
+  },
+  {
+   "end": 34.24,
+   "start": 33.92,
+   "text": "six"
+  },
+  {
+   "end": 34.56,
+   "start": 34.24,
+   "text": "meters"
+  },
+  {
+   "end": 34.96,
+   "start": 34.56,
+   "text": "long"
+  },
+  {
+   "end": 35.28,
+   "start": 35.12,
+   "text": "which"
+  },
+  {
+   "end": 35.44,
+   "start": 35.28,
+   "text": "is"
+  },
+  {
+   "end": 35.6,
+   "start": 35.44,
+   "text": "why"
+  },
+  {
+   "end": 35.68,
+   "start": 35.6,
+   "text": "the"
+  },
+  {
+   "end": 36,
+   "start": 35.68,
+   "text": "bowel"
+  },
+  {
+   "end": 36.16,
+   "start": 36,
+   "text": "is"
+  },
+  {
+   "end": 36.48,
+   "start": 36.16,
+   "text": "pleated"
+  },
+  {
+   "end": 36.64,
+   "start": 36.48,
+   "text": "into"
+  },
+  {
+   "end": 37.2,
+   "start": 36.64,
+   "text": "coils"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 37.2,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "The gut develops as a tube hung from the back wall by a dorsal mesentery. Where that mesentery survives, the bowel stays intraperitoneal and mobile. The jejunum, the ileum, and the first two centimeters of the duodenum. Where it fuses with the posterior wall, the organ becomes secondarily retroperitoneal and fixed. The rest of the duodenum. The jejunum and ileum hang from the mesentery, a fan-shaped double fold of peritoneum. Its root is only about 15 centimeters long, running obliquely from the duodenojejunal flexure, left of vertebra L2, down to the right sacroiliac joint. But its free border is six meters long, which is why the bowel is pleated into coils."
+  }
+ ],
+ "text": "The gut develops as a tube hung from the back wall by a dorsal mesentery. Where that mesentery survives, the bowel stays intraperitoneal and mobile. The jejunum, the ileum, and the first two centimeters of the duodenum. Where it fuses with the posterior wall, the organ becomes secondarily retroperitoneal and fixed. The rest of the duodenum. The jejunum and ileum hang from the mesentery, a fan-shaped double fold of peritoneum. Its root is only about 15 centimeters long, running obliquely from the duodenojejunal flexure, left of vertebra L2, down to the right sacroiliac joint. But its free border is six meters long, which is why the bowel is pleated into coils."
+}

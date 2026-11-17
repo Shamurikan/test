@@ -1,0 +1,457 @@
+{
+ "duration": 35.7616875,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "8d79784d-3fb8-4eb5-81c9-5347af9c0119",
+ "segments": [
+  {
+   "end": 0.8,
+   "start": 0.24,
+   "text": "Finally"
+  },
+  {
+   "end": 1.12,
+   "start": 1.12,
+   "text": "the"
+  },
+  {
+   "end": 1.44,
+   "start": 1.12,
+   "text": "wall"
+  },
+  {
+   "end": 2,
+   "start": 1.44,
+   "text": "itself"
+  },
+  {
+   "end": 2.48,
+   "start": 2.32,
+   "text": "From"
+  },
+  {
+   "end": 2.56,
+   "start": 2.48,
+   "text": "the"
+  },
+  {
+   "end": 2.88,
+   "start": 2.56,
+   "text": "lumen"
+  },
+  {
+   "end": 3.36,
+   "start": 2.88,
+   "text": "outward"
+  },
+  {
+   "end": 3.6,
+   "start": 3.52,
+   "text": "the"
+  },
+  {
+   "end": 4.16,
+   "start": 3.6,
+   "text": "mucosa"
+  },
+  {
+   "end": 4.64,
+   "start": 4.48,
+   "text": "with"
+  },
+  {
+   "end": 4.72,
+   "start": 4.64,
+   "text": "its"
+  },
+  {
+   "end": 5.44,
+   "start": 4.72,
+   "text": "epithelium"
+  },
+  {
+   "end": 6.08,
+   "start": 5.76,
+   "text": "lamina"
+  },
+  {
+   "end": 6.72,
+   "start": 6.08,
+   "text": "propria"
+  },
+  {
+   "end": 6.96,
+   "start": 6.88,
+   "text": "and"
+  },
+  {
+   "end": 6.96,
+   "start": 6.96,
+   "text": "a"
+  },
+  {
+   "end": 7.36,
+   "start": 6.96,
+   "text": "thin"
+  },
+  {
+   "end": 8.16,
+   "start": 7.36,
+   "text": "muscularis"
+  },
+  {
+   "end": 8.88,
+   "start": 8.16,
+   "text": "mucosae"
+  },
+  {
+   "end": 9.2,
+   "start": 9.2,
+   "text": "The"
+  },
+  {
+   "end": 10.08,
+   "start": 9.28,
+   "text": "submucosa"
+  },
+  {
+   "end": 10.72,
+   "start": 10.4,
+   "text": "holding"
+  },
+  {
+   "end": 11.2,
+   "start": 10.72,
+   "text": "vessels"
+  },
+  {
+   "end": 11.6,
+   "start": 11.52,
+   "text": "the"
+  },
+  {
+   "end": 12.32,
+   "start": 11.6,
+   "text": "submucosal"
+  },
+  {
+   "end": 12.88,
+   "start": 12.32,
+   "text": "plexus"
+  },
+  {
+   "end": 13.36,
+   "start": 13.2,
+   "text": "and"
+  },
+  {
+   "end": 13.44,
+   "start": 13.36,
+   "text": "in"
+  },
+  {
+   "end": 13.52,
+   "start": 13.44,
+   "text": "the"
+  },
+  {
+   "end": 14.24,
+   "start": 13.52,
+   "text": "duodenum"
+  },
+  {
+   "end": 14.8,
+   "start": 14.48,
+   "text": "Brunner's"
+  },
+  {
+   "end": 15.36,
+   "start": 14.8,
+   "text": "glands"
+  },
+  {
+   "end": 15.76,
+   "start": 15.76,
+   "text": "The"
+  },
+  {
+   "end": 16.48,
+   "start": 15.76,
+   "text": "muscularis"
+  },
+  {
+   "end": 16.96,
+   "start": 16.48,
+   "text": "externa"
+  },
+  {
+   "end": 17.36,
+   "start": 17.2,
+   "text": "an"
+  },
+  {
+   "end": 17.6,
+   "start": 17.36,
+   "text": "inner"
+  },
+  {
+   "end": 18.08,
+   "start": 17.6,
+   "text": "circular"
+  },
+  {
+   "end": 18.24,
+   "start": 18.08,
+   "text": "and"
+  },
+  {
+   "end": 18.32,
+   "start": 18.24,
+   "text": "an"
+  },
+  {
+   "end": 18.64,
+   "start": 18.4,
+   "text": "outer"
+  },
+  {
+   "end": 19.36,
+   "start": 18.64,
+   "text": "longitudinal"
+  },
+  {
+   "end": 19.76,
+   "start": 19.36,
+   "text": "layer"
+  },
+  {
+   "end": 20.08,
+   "start": 19.92,
+   "text": "with"
+  },
+  {
+   "end": 20.16,
+   "start": 20.08,
+   "text": "the"
+  },
+  {
+   "end": 20.8,
+   "start": 20.16,
+   "text": "myenteric"
+  },
+  {
+   "end": 21.2,
+   "start": 20.8,
+   "text": "plexus"
+  },
+  {
+   "end": 21.6,
+   "start": 21.2,
+   "text": "between"
+  },
+  {
+   "end": 21.84,
+   "start": 21.6,
+   "text": "them"
+  },
+  {
+   "end": 22.24,
+   "start": 22.08,
+   "text": "and"
+  },
+  {
+   "end": 22.32,
+   "start": 22.24,
+   "text": "the"
+  },
+  {
+   "end": 22.88,
+   "start": 22.32,
+   "text": "serosa"
+  },
+  {
+   "end": 23.12,
+   "start": 23.04,
+   "text": "the"
+  },
+  {
+   "end": 23.52,
+   "start": 23.12,
+   "text": "visceral"
+  },
+  {
+   "end": 24.24,
+   "start": 23.52,
+   "text": "peritoneum"
+  },
+  {
+   "end": 24.56,
+   "start": 24.48,
+   "text": "The"
+  },
+  {
+   "end": 25.04,
+   "start": 24.56,
+   "text": "mucosa"
+  },
+  {
+   "end": 25.2,
+   "start": 25.04,
+   "text": "and"
+  },
+  {
+   "end": 25.84,
+   "start": 25.2,
+   "text": "submucosa"
+  },
+  {
+   "end": 26.24,
+   "start": 25.84,
+   "text": "rise"
+  },
+  {
+   "end": 26.4,
+   "start": 26.24,
+   "text": "into"
+  },
+  {
+   "end": 26.8,
+   "start": 26.4,
+   "text": "circular"
+  },
+  {
+   "end": 27.36,
+   "start": 26.8,
+   "text": "folds"
+  },
+  {
+   "end": 27.84,
+   "start": 27.6,
+   "text": "which"
+  },
+  {
+   "end": 28.08,
+   "start": 27.84,
+   "text": "carry"
+  },
+  {
+   "end": 28.48,
+   "start": 28.08,
+   "text": "villi"
+  },
+  {
+   "end": 28.8,
+   "start": 28.64,
+   "text": "which"
+  },
+  {
+   "end": 29.04,
+   "start": 28.8,
+   "text": "carry"
+  },
+  {
+   "end": 29.76,
+   "start": 29.04,
+   "text": "microvilli"
+  },
+  {
+   "end": 30.24,
+   "start": 30.08,
+   "text": "Hold"
+  },
+  {
+   "end": 30.48,
+   "start": 30.24,
+   "text": "on"
+  },
+  {
+   "end": 30.56,
+   "start": 30.48,
+   "text": "to"
+  },
+  {
+   "end": 30.72,
+   "start": 30.56,
+   "text": "this"
+  },
+  {
+   "end": 31.2,
+   "start": 30.72,
+   "text": "layout"
+  },
+  {
+   "end": 31.68,
+   "start": 31.44,
+   "text": "Every"
+  },
+  {
+   "end": 32.08,
+   "start": 31.68,
+   "text": "movement"
+  },
+  {
+   "end": 32.8,
+   "start": 32.24,
+   "text": "secretion"
+  },
+  {
+   "end": 32.88,
+   "start": 32.8,
+   "text": "and"
+  },
+  {
+   "end": 33.44,
+   "start": 32.88,
+   "text": "absorption"
+  },
+  {
+   "end": 33.52,
+   "start": 33.44,
+   "text": "that"
+  },
+  {
+   "end": 34.08,
+   "start": 33.52,
+   "text": "follows"
+  },
+  {
+   "end": 34.56,
+   "start": 34.24,
+   "text": "happens"
+  },
+  {
+   "end": 34.72,
+   "start": 34.56,
+   "text": "in"
+  },
+  {
+   "end": 34.88,
+   "start": 34.72,
+   "text": "one"
+  },
+  {
+   "end": 34.96,
+   "start": 34.88,
+   "text": "of"
+  },
+  {
+   "end": 35.12,
+   "start": 34.96,
+   "text": "these"
+  },
+  {
+   "end": 35.6,
+   "start": 35.12,
+   "text": "layers"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 35.6,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "Finally, the wall itself. From the lumen outward, the mucosa, with its epithelium, lamina propria, and a thin muscularis mucosae. The submucosa, holding vessels, the submucosal plexus, and in the duodenum, Brunner's glands. The muscularis externa, an inner circular and an outer longitudinal layer, with the myenteric plexus between them, and the serosa, the visceral peritoneum. The mucosa and submucosa rise into circular folds, which carry villi, which carry microvilli. Hold on to this layout. Every movement, secretion, and absorption that follows happens in one of these layers."
+  }
+ ],
+ "text": "Finally, the wall itself. From the lumen outward, the mucosa, with its epithelium, lamina propria, and a thin muscularis mucosae. The submucosa, holding vessels, the submucosal plexus, and in the duodenum, Brunner's glands. The muscularis externa, an inner circular and an outer longitudinal layer, with the myenteric plexus between them, and the serosa, the visceral peritoneum. The mucosa and submucosa rise into circular folds, which carry villi, which carry microvilli. Hold on to this layout. Every movement, secretion, and absorption that follows happens in one of these layers."
+}

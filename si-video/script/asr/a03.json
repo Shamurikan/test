@@ -1,0 +1,717 @@
+{
+ "duration": 49.92,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "a1cbcb57-85b6-4de2-8da9-7e43a7376841",
+ "segments": [
+  {
+   "end": 0.48,
+   "start": 0.32,
+   "text": "The"
+  },
+  {
+   "end": 1.12,
+   "start": 0.48,
+   "text": "duodenum"
+  },
+  {
+   "end": 1.28,
+   "start": 1.12,
+   "text": "is"
+  },
+  {
+   "end": 1.36,
+   "start": 1.28,
+   "text": "the"
+  },
+  {
+   "end": 1.92,
+   "start": 1.36,
+   "text": "first"
+  },
+  {
+   "end": 2.72,
+   "start": 2.16,
+   "text": "widest"
+  },
+  {
+   "end": 2.8,
+   "start": 2.72,
+   "text": "and"
+  },
+  {
+   "end": 3.04,
+   "start": 2.8,
+   "text": "most"
+  },
+  {
+   "end": 3.44,
+   "start": 3.04,
+   "text": "fixed"
+  },
+  {
+   "end": 3.84,
+   "start": 3.44,
+   "text": "part"
+  },
+  {
+   "end": 4.32,
+   "start": 4.24,
+   "text": "A"
+  },
+  {
+   "end": 4.64,
+   "start": 4.32,
+   "text": "C"
+  },
+  {
+   "end": 5.04,
+   "start": 4.64,
+   "text": "shaped"
+  },
+  {
+   "end": 5.44,
+   "start": 5.04,
+   "text": "tube"
+  },
+  {
+   "end": 6.08,
+   "start": 5.76,
+   "text": "20"
+  },
+  {
+   "end": 6.16,
+   "start": 6.08,
+   "text": "to"
+  },
+  {
+   "end": 6.64,
+   "start": 6.16,
+   "text": "25"
+  },
+  {
+   "end": 7.12,
+   "start": 6.64,
+   "text": "centimeters"
+  },
+  {
+   "end": 7.52,
+   "start": 7.12,
+   "text": "long"
+  },
+  {
+   "end": 8.08,
+   "start": 7.84,
+   "text": "curled"
+  },
+  {
+   "end": 8.4,
+   "start": 8.08,
+   "text": "around"
+  },
+  {
+   "end": 8.48,
+   "start": 8.4,
+   "text": "the"
+  },
+  {
+   "end": 8.64,
+   "start": 8.48,
+   "text": "head"
+  },
+  {
+   "end": 8.72,
+   "start": 8.64,
+   "text": "of"
+  },
+  {
+   "end": 8.8,
+   "start": 8.72,
+   "text": "the"
+  },
+  {
+   "end": 9.36,
+   "start": 8.8,
+   "text": "pancreas"
+  },
+  {
+   "end": 9.6,
+   "start": 9.36,
+   "text": "from"
+  },
+  {
+   "end": 9.92,
+   "start": 9.6,
+   "text": "L1"
+  },
+  {
+   "end": 10.24,
+   "start": 10.16,
+   "text": "to"
+  },
+  {
+   "end": 10.88,
+   "start": 10.24,
+   "text": "L3"
+  },
+  {
+   "end": 11.36,
+   "start": 11.2,
+   "text": "Its"
+  },
+  {
+   "end": 11.84,
+   "start": 11.36,
+   "text": "superior"
+  },
+  {
+   "end": 12.16,
+   "start": 11.84,
+   "text": "part"
+  },
+  {
+   "end": 12.56,
+   "start": 12.16,
+   "text": "begins"
+  },
+  {
+   "end": 12.72,
+   "start": 12.56,
+   "text": "at"
+  },
+  {
+   "end": 12.72,
+   "start": 12.72,
+   "text": "the"
+  },
+  {
+   "end": 13.52,
+   "start": 12.72,
+   "text": "pylorus"
+  },
+  {
+   "end": 13.92,
+   "start": 13.76,
+   "text": "on"
+  },
+  {
+   "end": 13.92,
+   "start": 13.92,
+   "text": "the"
+  },
+  {
+   "end": 14.8,
+   "start": 13.92,
+   "text": "transpyloric"
+  },
+  {
+   "end": 15.2,
+   "start": 14.8,
+   "text": "plane"
+  },
+  {
+   "end": 15.68,
+   "start": 15.52,
+   "text": "Its"
+  },
+  {
+   "end": 16,
+   "start": 15.68,
+   "text": "first"
+  },
+  {
+   "end": 16.16,
+   "start": 16,
+   "text": "two"
+  },
+  {
+   "end": 16.8,
+   "start": 16.16,
+   "text": "centimeters"
+  },
+  {
+   "end": 17.04,
+   "start": 16.96,
+   "text": "the"
+  },
+  {
+   "end": 17.52,
+   "start": 17.04,
+   "text": "duodenal"
+  },
+  {
+   "end": 17.92,
+   "start": 17.52,
+   "text": "cap"
+  },
+  {
+   "end": 18.24,
+   "start": 18.16,
+   "text": "are"
+  },
+  {
+   "end": 18.8,
+   "start": 18.24,
+   "text": "mobile"
+  },
+  {
+   "end": 19.12,
+   "start": 19.04,
+   "text": "and"
+  },
+  {
+   "end": 19.2,
+   "start": 19.12,
+   "text": "are"
+  },
+  {
+   "end": 19.44,
+   "start": 19.2,
+   "text": "where"
+  },
+  {
+   "end": 19.76,
+   "start": 19.44,
+   "text": "most"
+  },
+  {
+   "end": 20.32,
+   "start": 19.76,
+   "text": "duodenal"
+  },
+  {
+   "end": 20.72,
+   "start": 20.32,
+   "text": "ulcers"
+  },
+  {
+   "end": 21.12,
+   "start": 20.72,
+   "text": "occur"
+  },
+  {
+   "end": 21.6,
+   "start": 21.52,
+   "text": "The"
+  },
+  {
+   "end": 22.08,
+   "start": 21.6,
+   "text": "descending"
+  },
+  {
+   "end": 22.32,
+   "start": 22.08,
+   "text": "part"
+  },
+  {
+   "end": 22.56,
+   "start": 22.32,
+   "text": "runs"
+  },
+  {
+   "end": 22.88,
+   "start": 22.56,
+   "text": "down"
+  },
+  {
+   "end": 23.2,
+   "start": 22.88,
+   "text": "beside"
+  },
+  {
+   "end": 23.28,
+   "start": 23.2,
+   "text": "the"
+  },
+  {
+   "end": 23.44,
+   "start": 23.28,
+   "text": "head"
+  },
+  {
+   "end": 23.52,
+   "start": 23.44,
+   "text": "of"
+  },
+  {
+   "end": 23.6,
+   "start": 23.52,
+   "text": "the"
+  },
+  {
+   "end": 24.24,
+   "start": 23.6,
+   "text": "pancreas"
+  },
+  {
+   "end": 24.8,
+   "start": 24.64,
+   "text": "On"
+  },
+  {
+   "end": 24.96,
+   "start": 24.8,
+   "text": "its"
+  },
+  {
+   "end": 25.76,
+   "start": 24.96,
+   "text": "posteromedial"
+  },
+  {
+   "end": 26.16,
+   "start": 25.76,
+   "text": "wall"
+  },
+  {
+   "end": 26.32,
+   "start": 26.16,
+   "text": "is"
+  },
+  {
+   "end": 26.4,
+   "start": 26.32,
+   "text": "the"
+  },
+  {
+   "end": 26.8,
+   "start": 26.4,
+   "text": "major"
+  },
+  {
+   "end": 27.36,
+   "start": 26.8,
+   "text": "duodenal"
+  },
+  {
+   "end": 27.84,
+   "start": 27.36,
+   "text": "papilla"
+  },
+  {
+   "end": 28.24,
+   "start": 28.08,
+   "text": "where"
+  },
+  {
+   "end": 28.32,
+   "start": 28.24,
+   "text": "the"
+  },
+  {
+   "end": 28.64,
+   "start": 28.32,
+   "text": "bile"
+  },
+  {
+   "end": 29.04,
+   "start": 28.64,
+   "text": "duct"
+  },
+  {
+   "end": 29.2,
+   "start": 29.04,
+   "text": "and"
+  },
+  {
+   "end": 29.2,
+   "start": 29.2,
+   "text": "the"
+  },
+  {
+   "end": 29.52,
+   "start": 29.2,
+   "text": "main"
+  },
+  {
+   "end": 30.24,
+   "start": 29.52,
+   "text": "pancreatic"
+  },
+  {
+   "end": 30.56,
+   "start": 30.24,
+   "text": "duct"
+  },
+  {
+   "end": 31.12,
+   "start": 30.88,
+   "text": "open"
+  },
+  {
+   "end": 31.52,
+   "start": 31.12,
+   "text": "together"
+  },
+  {
+   "end": 31.76,
+   "start": 31.52,
+   "text": "through"
+  },
+  {
+   "end": 31.84,
+   "start": 31.76,
+   "text": "the"
+  },
+  {
+   "end": 32.72,
+   "start": 31.84,
+   "text": "hepatopancreatic"
+  },
+  {
+   "end": 33.2,
+   "start": 32.72,
+   "text": "ampulla"
+  },
+  {
+   "end": 33.76,
+   "start": 33.44,
+   "text": "guarded"
+  },
+  {
+   "end": 33.92,
+   "start": 33.76,
+   "text": "by"
+  },
+  {
+   "end": 34,
+   "start": 33.92,
+   "text": "the"
+  },
+  {
+   "end": 34.48,
+   "start": 34,
+   "text": "sphincter"
+  },
+  {
+   "end": 34.56,
+   "start": 34.48,
+   "text": "of"
+  },
+  {
+   "end": 34.96,
+   "start": 34.56,
+   "text": "Oddi"
+  },
+  {
+   "end": 35.2,
+   "start": 35.2,
+   "text": "A"
+  },
+  {
+   "end": 35.6,
+   "start": 35.2,
+   "text": "little"
+  },
+  {
+   "end": 36,
+   "start": 35.6,
+   "text": "higher"
+  },
+  {
+   "end": 36.16,
+   "start": 36.08,
+   "text": "the"
+  },
+  {
+   "end": 36.56,
+   "start": 36.16,
+   "text": "minor"
+  },
+  {
+   "end": 37.04,
+   "start": 36.56,
+   "text": "papilla"
+  },
+  {
+   "end": 37.44,
+   "start": 37.04,
+   "text": "drains"
+  },
+  {
+   "end": 37.52,
+   "start": 37.44,
+   "text": "the"
+  },
+  {
+   "end": 38,
+   "start": 37.52,
+   "text": "accessory"
+  },
+  {
+   "end": 38.64,
+   "start": 38,
+   "text": "pancreatic"
+  },
+  {
+   "end": 39.04,
+   "start": 38.64,
+   "text": "duct"
+  },
+  {
+   "end": 39.6,
+   "start": 39.44,
+   "text": "The"
+  },
+  {
+   "end": 40.08,
+   "start": 39.6,
+   "text": "inferior"
+  },
+  {
+   "end": 40.48,
+   "start": 40.08,
+   "text": "part"
+  },
+  {
+   "end": 40.88,
+   "start": 40.48,
+   "text": "crosses"
+  },
+  {
+   "end": 40.96,
+   "start": 40.88,
+   "text": "the"
+  },
+  {
+   "end": 41.2,
+   "start": 40.96,
+   "text": "vena"
+  },
+  {
+   "end": 41.6,
+   "start": 41.2,
+   "text": "cava"
+  },
+  {
+   "end": 42,
+   "start": 41.84,
+   "text": "the"
+  },
+  {
+   "end": 42.4,
+   "start": 42,
+   "text": "aorta"
+  },
+  {
+   "end": 42.56,
+   "start": 42.4,
+   "text": "and"
+  },
+  {
+   "end": 42.56,
+   "start": 42.56,
+   "text": "the"
+  },
+  {
+   "end": 43.12,
+   "start": 42.56,
+   "text": "spine"
+  },
+  {
+   "end": 43.52,
+   "start": 43.44,
+   "text": "and"
+  },
+  {
+   "end": 43.68,
+   "start": 43.52,
+   "text": "the"
+  },
+  {
+   "end": 44.16,
+   "start": 43.68,
+   "text": "ascending"
+  },
+  {
+   "end": 44.4,
+   "start": 44.16,
+   "text": "part"
+  },
+  {
+   "end": 44.8,
+   "start": 44.4,
+   "text": "rises"
+  },
+  {
+   "end": 44.88,
+   "start": 44.88,
+   "text": "to"
+  },
+  {
+   "end": 45.04,
+   "start": 44.88,
+   "text": "the"
+  },
+  {
+   "end": 45.92,
+   "start": 45.04,
+   "text": "duodenojejunal"
+  },
+  {
+   "end": 46.4,
+   "start": 45.92,
+   "text": "flexure"
+  },
+  {
+   "end": 46.96,
+   "start": 46.72,
+   "text": "held"
+  },
+  {
+   "end": 47.12,
+   "start": 46.96,
+   "text": "up"
+  },
+  {
+   "end": 47.2,
+   "start": 47.12,
+   "text": "by"
+  },
+  {
+   "end": 47.28,
+   "start": 47.2,
+   "text": "the"
+  },
+  {
+   "end": 47.92,
+   "start": 47.28,
+   "text": "suspensory"
+  },
+  {
+   "end": 48.4,
+   "start": 47.92,
+   "text": "muscle"
+  },
+  {
+   "end": 48.64,
+   "start": 48.56,
+   "text": "the"
+  },
+  {
+   "end": 49.04,
+   "start": 48.64,
+   "text": "ligament"
+  },
+  {
+   "end": 49.2,
+   "start": 49.04,
+   "text": "of"
+  },
+  {
+   "end": 49.76,
+   "start": 49.2,
+   "text": "Treitz"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 49.76,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "The duodenum is the first, widest, and most fixed part. A C-shaped tube, 20 to 25 centimeters long, curled around the head of the pancreas from L1 to L3. Its superior part begins at the pylorus, on the transpyloric plane. Its first two centimeters, the duodenal cap, are mobile, and are where most duodenal ulcers occur. The descending part runs down beside the head of the pancreas. On its posteromedial wall is the major duodenal papilla, where the bile duct and the main pancreatic duct open together through the hepatopancreatic ampulla, guarded by the sphincter of Oddi. A little higher, the minor papilla drains the accessory pancreatic duct. The inferior part crosses the vena cava, the aorta, and the spine, and the ascending part rises to the duodenojejunal flexure, held up by the suspensory muscle, the ligament of Treitz."
+  }
+ ],
+ "text": "The duodenum is the first, widest, and most fixed part. A C-shaped tube, 20 to 25 centimeters long, curled around the head of the pancreas from L1 to L3. Its superior part begins at the pylorus, on the transpyloric plane. Its first two centimeters, the duodenal cap, are mobile, and are where most duodenal ulcers occur. The descending part runs down beside the head of the pancreas. On its posteromedial wall is the major duodenal papilla, where the bile duct and the main pancreatic duct open together through the hepatopancreatic ampulla, guarded by the sphincter of Oddi. A little higher, the minor papilla drains the accessory pancreatic duct. The inferior part crosses the vena cava, the aorta, and the spine, and the ascending part rises to the duodenojejunal flexure, held up by the suspensory muscle, the ligament of Treitz."
+}

@@ -1,0 +1,527 @@
+{
+ "duration": 38.1910625,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "37bb9879-f84a-4ce9-a07c-61a6b5206e97",
+ "segments": [
+  {
+   "end": 0.48,
+   "start": 0.32,
+   "text": "Its"
+  },
+  {
+   "end": 1.04,
+   "start": 0.48,
+   "text": "relations"
+  },
+  {
+   "end": 1.52,
+   "start": 1.04,
+   "text": "explain"
+  },
+  {
+   "end": 1.68,
+   "start": 1.52,
+   "text": "its"
+  },
+  {
+   "end": 2.08,
+   "start": 1.68,
+   "text": "clinical"
+  },
+  {
+   "end": 2.72,
+   "start": 2.08,
+   "text": "importance"
+  },
+  {
+   "end": 3.44,
+   "start": 3.12,
+   "text": "Behind"
+  },
+  {
+   "end": 3.52,
+   "start": 3.44,
+   "text": "the"
+  },
+  {
+   "end": 3.84,
+   "start": 3.52,
+   "text": "first"
+  },
+  {
+   "end": 4.16,
+   "start": 3.84,
+   "text": "part"
+  },
+  {
+   "end": 4.32,
+   "start": 4.16,
+   "text": "lie"
+  },
+  {
+   "end": 4.48,
+   "start": 4.32,
+   "text": "the"
+  },
+  {
+   "end": 4.8,
+   "start": 4.48,
+   "text": "bile"
+  },
+  {
+   "end": 5.12,
+   "start": 4.8,
+   "text": "duct"
+  },
+  {
+   "end": 5.52,
+   "start": 5.52,
+   "text": "the"
+  },
+  {
+   "end": 6.56,
+   "start": 5.52,
+   "text": "gastroduodenal"
+  },
+  {
+   "end": 7.04,
+   "start": 6.56,
+   "text": "artery"
+  },
+  {
+   "end": 7.28,
+   "start": 7.12,
+   "text": "and"
+  },
+  {
+   "end": 7.28,
+   "start": 7.28,
+   "text": "the"
+  },
+  {
+   "end": 7.68,
+   "start": 7.28,
+   "text": "portal"
+  },
+  {
+   "end": 8,
+   "start": 7.68,
+   "text": "vein"
+  },
+  {
+   "end": 8.8,
+   "start": 8.4,
+   "text": "Behind"
+  },
+  {
+   "end": 8.8,
+   "start": 8.8,
+   "text": "the"
+  },
+  {
+   "end": 9.2,
+   "start": 8.8,
+   "text": "second"
+  },
+  {
+   "end": 9.44,
+   "start": 9.2,
+   "text": "part"
+  },
+  {
+   "end": 10,
+   "start": 9.68,
+   "text": "lies"
+  },
+  {
+   "end": 10.08,
+   "start": 10,
+   "text": "the"
+  },
+  {
+   "end": 10.24,
+   "start": 10.08,
+   "text": "right"
+  },
+  {
+   "end": 10.72,
+   "start": 10.32,
+   "text": "kidney"
+  },
+  {
+   "end": 11.2,
+   "start": 11.12,
+   "text": "The"
+  },
+  {
+   "end": 11.52,
+   "start": 11.2,
+   "text": "third"
+  },
+  {
+   "end": 11.84,
+   "start": 11.52,
+   "text": "part"
+  },
+  {
+   "end": 12,
+   "start": 11.84,
+   "text": "is"
+  },
+  {
+   "end": 12.4,
+   "start": 12,
+   "text": "pinched"
+  },
+  {
+   "end": 12.72,
+   "start": 12.4,
+   "text": "between"
+  },
+  {
+   "end": 12.88,
+   "start": 12.72,
+   "text": "the"
+  },
+  {
+   "end": 13.2,
+   "start": 12.88,
+   "text": "aorta"
+  },
+  {
+   "end": 13.76,
+   "start": 13.2,
+   "text": "behind"
+  },
+  {
+   "end": 14.08,
+   "start": 14,
+   "text": "and"
+  },
+  {
+   "end": 14.16,
+   "start": 14.08,
+   "text": "the"
+  },
+  {
+   "end": 14.72,
+   "start": 14.16,
+   "text": "superior"
+  },
+  {
+   "end": 15.44,
+   "start": 14.72,
+   "text": "mesenteric"
+  },
+  {
+   "end": 15.76,
+   "start": 15.44,
+   "text": "artery"
+  },
+  {
+   "end": 15.92,
+   "start": 15.76,
+   "text": "and"
+  },
+  {
+   "end": 16.16,
+   "start": 15.92,
+   "text": "vein"
+  },
+  {
+   "end": 16.24,
+   "start": 16.16,
+   "text": "in"
+  },
+  {
+   "end": 16.64,
+   "start": 16.24,
+   "text": "front"
+  },
+  {
+   "end": 17.2,
+   "start": 17.12,
+   "text": "The"
+  },
+  {
+   "end": 17.76,
+   "start": 17.2,
+   "text": "duodenum"
+  },
+  {
+   "end": 18.08,
+   "start": 17.84,
+   "text": "also"
+  },
+  {
+   "end": 18.56,
+   "start": 18.08,
+   "text": "straddles"
+  },
+  {
+   "end": 18.8,
+   "start": 18.56,
+   "text": "two"
+  },
+  {
+   "end": 19.04,
+   "start": 18.8,
+   "text": "blood"
+  },
+  {
+   "end": 19.68,
+   "start": 19.04,
+   "text": "supplies"
+  },
+  {
+   "end": 20.32,
+   "start": 20,
+   "text": "Above"
+  },
+  {
+   "end": 20.4,
+   "start": 20.32,
+   "text": "the"
+  },
+  {
+   "end": 20.72,
+   "start": 20.4,
+   "text": "major"
+  },
+  {
+   "end": 21.28,
+   "start": 20.72,
+   "text": "papilla"
+  },
+  {
+   "end": 21.52,
+   "start": 21.44,
+   "text": "it"
+  },
+  {
+   "end": 21.6,
+   "start": 21.52,
+   "text": "is"
+  },
+  {
+   "end": 22.16,
+   "start": 21.6,
+   "text": "foregut"
+  },
+  {
+   "end": 22.8,
+   "start": 22.48,
+   "text": "fed"
+  },
+  {
+   "end": 22.96,
+   "start": 22.8,
+   "text": "by"
+  },
+  {
+   "end": 23.04,
+   "start": 22.96,
+   "text": "the"
+  },
+  {
+   "end": 23.52,
+   "start": 23.04,
+   "text": "celiac"
+  },
+  {
+   "end": 23.92,
+   "start": 23.52,
+   "text": "trunk"
+  },
+  {
+   "end": 24.08,
+   "start": 23.92,
+   "text": "through"
+  },
+  {
+   "end": 24.16,
+   "start": 24.08,
+   "text": "the"
+  },
+  {
+   "end": 25.12,
+   "start": 24.16,
+   "text": "gastroduodenal"
+  },
+  {
+   "end": 25.2,
+   "start": 25.12,
+   "text": "and"
+  },
+  {
+   "end": 25.68,
+   "start": 25.2,
+   "text": "superior"
+  },
+  {
+   "end": 26.88,
+   "start": 25.68,
+   "text": "pancreaticoduodenal"
+  },
+  {
+   "end": 27.36,
+   "start": 26.88,
+   "text": "arteries"
+  },
+  {
+   "end": 28.16,
+   "start": 27.84,
+   "text": "Below"
+  },
+  {
+   "end": 28.24,
+   "start": 28.16,
+   "text": "it"
+  },
+  {
+   "end": 28.4,
+   "start": 28.32,
+   "text": "it"
+  },
+  {
+   "end": 28.48,
+   "start": 28.4,
+   "text": "is"
+  },
+  {
+   "end": 29.04,
+   "start": 28.48,
+   "text": "midgut"
+  },
+  {
+   "end": 29.52,
+   "start": 29.28,
+   "text": "fed"
+  },
+  {
+   "end": 29.68,
+   "start": 29.52,
+   "text": "by"
+  },
+  {
+   "end": 29.76,
+   "start": 29.68,
+   "text": "the"
+  },
+  {
+   "end": 30.32,
+   "start": 29.76,
+   "text": "superior"
+  },
+  {
+   "end": 30.88,
+   "start": 30.32,
+   "text": "mesenteric"
+  },
+  {
+   "end": 31.36,
+   "start": 30.88,
+   "text": "artery"
+  },
+  {
+   "end": 31.6,
+   "start": 31.44,
+   "text": "through"
+  },
+  {
+   "end": 31.76,
+   "start": 31.6,
+   "text": "the"
+  },
+  {
+   "end": 32.24,
+   "start": 31.76,
+   "text": "inferior"
+  },
+  {
+   "end": 33.52,
+   "start": 32.24,
+   "text": "pancreaticoduodenal"
+  },
+  {
+   "end": 33.92,
+   "start": 33.52,
+   "text": "artery"
+  },
+  {
+   "end": 34.4,
+   "start": 34.32,
+   "text": "The"
+  },
+  {
+   "end": 34.64,
+   "start": 34.4,
+   "text": "two"
+  },
+  {
+   "end": 35.2,
+   "start": 34.64,
+   "text": "arcades"
+  },
+  {
+   "end": 35.44,
+   "start": 35.2,
+   "text": "meet"
+  },
+  {
+   "end": 35.52,
+   "start": 35.44,
+   "text": "on"
+  },
+  {
+   "end": 35.6,
+   "start": 35.52,
+   "text": "the"
+  },
+  {
+   "end": 35.76,
+   "start": 35.6,
+   "text": "head"
+  },
+  {
+   "end": 35.84,
+   "start": 35.76,
+   "text": "of"
+  },
+  {
+   "end": 35.92,
+   "start": 35.84,
+   "text": "the"
+  },
+  {
+   "end": 36.56,
+   "start": 35.92,
+   "text": "pancreas"
+  },
+  {
+   "end": 37.2,
+   "start": 36.88,
+   "text": "linking"
+  },
+  {
+   "end": 37.44,
+   "start": 37.2,
+   "text": "both"
+  },
+  {
+   "end": 38.08,
+   "start": 37.44,
+   "text": "systems"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 38.08,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Its relations explain its clinical importance. Behind the first part lie the bile duct, the gastroduodenal artery, and the portal vein. Behind the second part lies the right kidney. The third part is pinched between the aorta behind and the superior mesenteric artery and vein in front. The duodenum also straddles two blood supplies. Above the major papilla, it is foregut, fed by the celiac trunk through the gastroduodenal and superior pancreaticoduodenal arteries. Below it, it is midgut, fed by the superior mesenteric artery through the inferior pancreaticoduodenal artery. The two arcades meet on the head of the pancreas, linking both systems."
+  }
+ ],
+ "text": "Its relations explain its clinical importance. Behind the first part lie the bile duct, the gastroduodenal artery, and the portal vein. Behind the second part lies the right kidney. The third part is pinched between the aorta behind and the superior mesenteric artery and vein in front. The duodenum also straddles two blood supplies. Above the major papilla, it is foregut, fed by the celiac trunk through the gastroduodenal and superior pancreaticoduodenal arteries. Below it, it is midgut, fed by the superior mesenteric artery through the inferior pancreaticoduodenal artery. The two arcades meet on the head of the pancreas, linking both systems."
+}

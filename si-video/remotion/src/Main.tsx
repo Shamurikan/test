@@ -7,6 +7,8 @@ import { C } from "./lib/theme";
 import { blurSwap } from "./lib/blurSwap";
 import { Captions } from "./Captions";
 import { SCENES } from "./scenes";
+import { BEATS } from "./scenes/beats";
+import { BeatsLayer } from "./lib/figure";
 
 /** A HyperFrames-rendered scene, cut out of the single HyperFrames render. */
 const HfClip: React.FC<{ start: number }> = ({ start }) => {
@@ -18,12 +20,23 @@ const HfClip: React.FC<{ start: number }> = ({ start }) => {
   );
 };
 
-const SceneById: React.FC<{ id: string }> = ({ id }) => {
+const SceneBody: React.FC<{ id: string }> = ({ id }) => {
   const s = sceneOf(id);
   if (s.engine === "hf") return <HfClip start={s.hfStart ?? 0} />;
   const Comp = SCENES[id];
   if (!Comp) return null;
   return <Comp />;
+};
+
+/** A scene, plus any textbook beats that cut into it. */
+const SceneById: React.FC<{ id: string }> = ({ id }) => {
+  const beats = BEATS[id];
+  if (!beats) return <SceneBody id={id} />;
+  return (
+    <BeatsLayer beats={beats}>
+      <SceneBody id={id} />
+    </BeatsLayer>
+  );
 };
 
 const Ground: React.FC = () => <Img src={staticFile("ground.png")} style={{ position: "absolute", inset: 0, width: 1920, height: 1080 }} />;

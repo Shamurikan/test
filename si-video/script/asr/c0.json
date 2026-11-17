@@ -1,0 +1,82 @@
+{
+ "duration": 4.8588125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "e0f78313-2986-4515-ad4b-b0a9b9ca2578",
+ "segments": [
+  {
+   "end": 0.72,
+   "start": 0.24,
+   "text": "First"
+  },
+  {
+   "end": 1.04,
+   "start": 0.96,
+   "text": "the"
+  },
+  {
+   "end": 1.6,
+   "start": 1.04,
+   "text": "anatomy"
+  },
+  {
+   "end": 1.92,
+   "start": 1.76,
+   "text": "where"
+  },
+  {
+   "end": 2.08,
+   "start": 1.92,
+   "text": "it"
+  },
+  {
+   "end": 2.56,
+   "start": 2.08,
+   "text": "lies"
+  },
+  {
+   "end": 2.88,
+   "start": 2.72,
+   "text": "what"
+  },
+  {
+   "end": 3.04,
+   "start": 2.88,
+   "text": "it"
+  },
+  {
+   "end": 3.6,
+   "start": 3.04,
+   "text": "touches"
+  },
+  {
+   "end": 3.84,
+   "start": 3.76,
+   "text": "and"
+  },
+  {
+   "end": 4,
+   "start": 3.84,
+   "text": "what"
+  },
+  {
+   "end": 4.48,
+   "start": 4,
+   "text": "supplies"
+  },
+  {
+   "end": 4.64,
+   "start": 4.48,
+   "text": "it"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 4.64,
+   "speaker": "speaker:0",
+   "start": 0.24,
+   "text": "First, the anatomy, where it lies, what it touches, and what supplies it."
+  }
+ ],
+ "text": "First, the anatomy, where it lies, what it touches, and what supplies it."
+}

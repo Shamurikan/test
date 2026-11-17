@@ -9,8 +9,8 @@ const TRANSITION = 12; // frames of overlap between consecutive scenes
 const scenes = JSON.parse(fs.readFileSync(path.join(ROOT, "script/scenes.json"), "utf8"));
 const vo = JSON.parse(fs.readFileSync(path.join(ROOT, "remotion/src/data/vo.json"), "utf8"));
 
-const LEAD = { default: 0.45, s01: 1.1, c1: 0.5, c2: 0.5, c3: 0.5, s32: 0.6 };
-const TAIL = { default: 0.75, c1: 2.1, c2: 2.1, c3: 2.1, s33: 3.2, s20: 1.0, s32: 2.2 };
+const LEAD = { default: 0.45, s01: 1.1, c0: 0.5, c1: 0.5, c2: 0.5, c3: 0.5, s32: 0.6 };
+const TAIL = { default: 0.75, c0: 2.1, c1: 2.1, c2: 2.1, c3: 2.1, s33: 3.2, s20: 1.0, s32: 2.2 };
 const GAP = 0.3;
 
 let absFrame = 0;

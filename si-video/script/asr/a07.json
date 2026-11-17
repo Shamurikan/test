@@ -1,0 +1,562 @@
+{
+ "duration": 36.9633125,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "5a671e70-0a36-402d-bdb8-3187365cb64c",
+ "segments": [
+  {
+   "end": 0.72,
+   "start": 0.32,
+   "text": "Lymph"
+  },
+  {
+   "end": 0.96,
+   "start": 0.72,
+   "text": "takes"
+  },
+  {
+   "end": 1.04,
+   "start": 0.96,
+   "text": "a"
+  },
+  {
+   "end": 1.36,
+   "start": 1.04,
+   "text": "different"
+  },
+  {
+   "end": 1.76,
+   "start": 1.36,
+   "text": "road"
+  },
+  {
+   "end": 2.16,
+   "start": 2.08,
+   "text": "It"
+  },
+  {
+   "end": 2.64,
+   "start": 2.16,
+   "text": "starts"
+  },
+  {
+   "end": 2.72,
+   "start": 2.64,
+   "text": "in"
+  },
+  {
+   "end": 2.8,
+   "start": 2.72,
+   "text": "the"
+  },
+  {
+   "end": 3.44,
+   "start": 2.8,
+   "text": "lacteal"
+  },
+  {
+   "end": 3.52,
+   "start": 3.44,
+   "text": "of"
+  },
+  {
+   "end": 3.76,
+   "start": 3.52,
+   "text": "each"
+  },
+  {
+   "end": 4.16,
+   "start": 3.76,
+   "text": "villus"
+  },
+  {
+   "end": 4.96,
+   "start": 4.56,
+   "text": "drains"
+  },
+  {
+   "end": 5.2,
+   "start": 4.96,
+   "text": "through"
+  },
+  {
+   "end": 5.76,
+   "start": 5.2,
+   "text": "mesenteric"
+  },
+  {
+   "end": 6.24,
+   "start": 5.76,
+   "text": "nodes"
+  },
+  {
+   "end": 6.32,
+   "start": 6.24,
+   "text": "to"
+  },
+  {
+   "end": 6.4,
+   "start": 6.32,
+   "text": "the"
+  },
+  {
+   "end": 7.04,
+   "start": 6.4,
+   "text": "superior"
+  },
+  {
+   "end": 7.6,
+   "start": 7.04,
+   "text": "mesenteric"
+  },
+  {
+   "end": 8,
+   "start": 7.6,
+   "text": "nodes"
+  },
+  {
+   "end": 8.08,
+   "start": 8,
+   "text": "at"
+  },
+  {
+   "end": 8.16,
+   "start": 8.08,
+   "text": "the"
+  },
+  {
+   "end": 8.32,
+   "start": 8.16,
+   "text": "root"
+  },
+  {
+   "end": 8.48,
+   "start": 8.32,
+   "text": "of"
+  },
+  {
+   "end": 8.56,
+   "start": 8.48,
+   "text": "the"
+  },
+  {
+   "end": 8.96,
+   "start": 8.56,
+   "text": "artery"
+  },
+  {
+   "end": 9.76,
+   "start": 9.52,
+   "text": "then"
+  },
+  {
+   "end": 9.92,
+   "start": 9.76,
+   "text": "through"
+  },
+  {
+   "end": 10,
+   "start": 9.92,
+   "text": "the"
+  },
+  {
+   "end": 10.56,
+   "start": 10,
+   "text": "intestinal"
+  },
+  {
+   "end": 10.88,
+   "start": 10.56,
+   "text": "trunk"
+  },
+  {
+   "end": 11.04,
+   "start": 10.96,
+   "text": "to"
+  },
+  {
+   "end": 11.12,
+   "start": 11.04,
+   "text": "the"
+  },
+  {
+   "end": 11.6,
+   "start": 11.12,
+   "text": "cisterna"
+  },
+  {
+   "end": 12.16,
+   "start": 11.6,
+   "text": "chyli"
+  },
+  {
+   "end": 12.48,
+   "start": 12.4,
+   "text": "in"
+  },
+  {
+   "end": 12.72,
+   "start": 12.48,
+   "text": "front"
+  },
+  {
+   "end": 12.8,
+   "start": 12.72,
+   "text": "of"
+  },
+  {
+   "end": 13.12,
+   "start": 12.8,
+   "text": "L1"
+  },
+  {
+   "end": 13.68,
+   "start": 13.52,
+   "text": "and"
+  },
+  {
+   "end": 14.32,
+   "start": 13.76,
+   "text": "L2"
+  },
+  {
+   "end": 14.56,
+   "start": 14.4,
+   "text": "and"
+  },
+  {
+   "end": 14.8,
+   "start": 14.56,
+   "text": "up"
+  },
+  {
+   "end": 14.88,
+   "start": 14.8,
+   "text": "the"
+  },
+  {
+   "end": 15.36,
+   "start": 14.88,
+   "text": "thoracic"
+  },
+  {
+   "end": 15.76,
+   "start": 15.36,
+   "text": "duct"
+  },
+  {
+   "end": 16.16,
+   "start": 16.08,
+   "text": "The"
+  },
+  {
+   "end": 16.56,
+   "start": 16.16,
+   "text": "nerves"
+  },
+  {
+   "end": 16.88,
+   "start": 16.56,
+   "text": "ride"
+  },
+  {
+   "end": 16.96,
+   "start": 16.88,
+   "text": "the"
+  },
+  {
+   "end": 17.52,
+   "start": 16.96,
+   "text": "arteries"
+  },
+  {
+   "end": 18.4,
+   "start": 17.84,
+   "text": "Sympathetic"
+  },
+  {
+   "end": 18.88,
+   "start": 18.4,
+   "text": "fibers"
+  },
+  {
+   "end": 19.04,
+   "start": 18.88,
+   "text": "from"
+  },
+  {
+   "end": 19.52,
+   "start": 19.04,
+   "text": "T8"
+  },
+  {
+   "end": 19.6,
+   "start": 19.6,
+   "text": "to"
+  },
+  {
+   "end": 20.24,
+   "start": 19.6,
+   "text": "T10"
+  },
+  {
+   "end": 20.72,
+   "start": 20.24,
+   "text": "travel"
+  },
+  {
+   "end": 20.8,
+   "start": 20.72,
+   "text": "in"
+  },
+  {
+   "end": 20.8,
+   "start": 20.8,
+   "text": "the"
+  },
+  {
+   "end": 21.12,
+   "start": 20.8,
+   "text": "lesser"
+  },
+  {
+   "end": 21.76,
+   "start": 21.12,
+   "text": "splanchnic"
+  },
+  {
+   "end": 22.08,
+   "start": 21.76,
+   "text": "nerve"
+  },
+  {
+   "end": 22.96,
+   "start": 22.48,
+   "text": "synapse"
+  },
+  {
+   "end": 23.04,
+   "start": 22.96,
+   "text": "in"
+  },
+  {
+   "end": 23.12,
+   "start": 23.04,
+   "text": "the"
+  },
+  {
+   "end": 23.68,
+   "start": 23.12,
+   "text": "superior"
+  },
+  {
+   "end": 24.24,
+   "start": 23.68,
+   "text": "mesenteric"
+  },
+  {
+   "end": 24.8,
+   "start": 24.24,
+   "text": "ganglion"
+  },
+  {
+   "end": 25.04,
+   "start": 24.96,
+   "text": "and"
+  },
+  {
+   "end": 25.36,
+   "start": 25.04,
+   "text": "slow"
+  },
+  {
+   "end": 25.44,
+   "start": 25.36,
+   "text": "the"
+  },
+  {
+   "end": 25.76,
+   "start": 25.44,
+   "text": "gut"
+  },
+  {
+   "end": 26.88,
+   "start": 26.08,
+   "text": "Parasympathetic"
+  },
+  {
+   "end": 27.36,
+   "start": 26.88,
+   "text": "fibers"
+  },
+  {
+   "end": 27.52,
+   "start": 27.36,
+   "text": "come"
+  },
+  {
+   "end": 27.68,
+   "start": 27.52,
+   "text": "from"
+  },
+  {
+   "end": 27.76,
+   "start": 27.68,
+   "text": "the"
+  },
+  {
+   "end": 28.24,
+   "start": 27.76,
+   "text": "vagus"
+  },
+  {
+   "end": 28.64,
+   "start": 28.48,
+   "text": "and"
+  },
+  {
+   "end": 29.04,
+   "start": 28.64,
+   "text": "synapse"
+  },
+  {
+   "end": 29.28,
+   "start": 29.04,
+   "text": "on"
+  },
+  {
+   "end": 29.68,
+   "start": 29.28,
+   "text": "neurons"
+  },
+  {
+   "end": 29.76,
+   "start": 29.68,
+   "text": "in"
+  },
+  {
+   "end": 29.84,
+   "start": 29.76,
+   "text": "the"
+  },
+  {
+   "end": 30.08,
+   "start": 29.84,
+   "text": "gut"
+  },
+  {
+   "end": 30.48,
+   "start": 30.08,
+   "text": "wall"
+  },
+  {
+   "end": 30.96,
+   "start": 30.72,
+   "text": "Pain"
+  },
+  {
+   "end": 31.36,
+   "start": 30.96,
+   "text": "fibers"
+  },
+  {
+   "end": 31.68,
+   "start": 31.36,
+   "text": "follow"
+  },
+  {
+   "end": 31.76,
+   "start": 31.68,
+   "text": "the"
+  },
+  {
+   "end": 32.32,
+   "start": 31.76,
+   "text": "sympathetic"
+  },
+  {
+   "end": 32.64,
+   "start": 32.32,
+   "text": "route"
+  },
+  {
+   "end": 32.88,
+   "start": 32.64,
+   "text": "back"
+  },
+  {
+   "end": 32.96,
+   "start": 32.88,
+   "text": "to"
+  },
+  {
+   "end": 33.28,
+   "start": 32.96,
+   "text": "T9"
+  },
+  {
+   "end": 33.6,
+   "start": 33.52,
+   "text": "and"
+  },
+  {
+   "end": 34.32,
+   "start": 33.6,
+   "text": "T10"
+  },
+  {
+   "end": 34.8,
+   "start": 34.56,
+   "text": "So"
+  },
+  {
+   "end": 35.04,
+   "start": 34.8,
+   "text": "mid"
+  },
+  {
+   "end": 35.28,
+   "start": 35.04,
+   "text": "gut"
+  },
+  {
+   "end": 35.52,
+   "start": 35.28,
+   "text": "pain"
+  },
+  {
+   "end": 35.6,
+   "start": 35.52,
+   "text": "is"
+  },
+  {
+   "end": 35.92,
+   "start": 35.6,
+   "text": "felt"
+  },
+  {
+   "end": 36.16,
+   "start": 35.92,
+   "text": "around"
+  },
+  {
+   "end": 36.24,
+   "start": 36.16,
+   "text": "the"
+  },
+  {
+   "end": 36.88,
+   "start": 36.24,
+   "text": "umbilicus"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 36.88,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "Lymph takes a different road. It starts in the lacteal of each villus, drains through mesenteric nodes to the superior mesenteric nodes at the root of the artery, then through the intestinal trunk to the cisterna chyli in front of L1 and L2, and up the thoracic duct. The nerves ride the arteries. Sympathetic fibers from T8 to T10 travel in the lesser splanchnic nerve, synapse in the superior mesenteric ganglion, and slow the gut. Parasympathetic fibers come from the vagus and synapse on neurons in the gut wall. Pain fibers follow the sympathetic route back to T9 and T10. So mid-gut pain is felt around the umbilicus."
+  }
+ ],
+ "text": "Lymph takes a different road. It starts in the lacteal of each villus, drains through mesenteric nodes to the superior mesenteric nodes at the root of the artery, then through the intestinal trunk to the cisterna chyli in front of L1 and L2, and up the thoracic duct. The nerves ride the arteries. Sympathetic fibers from T8 to T10 travel in the lesser splanchnic nerve, synapse in the superior mesenteric ganglion, and slow the gut. Parasympathetic fibers come from the vagus and synapse on neurons in the gut wall. Pain fibers follow the sympathetic route back to T9 and T10. So mid-gut pain is felt around the umbilicus."
+}

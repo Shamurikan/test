@@ -1,0 +1,632 @@
+{
+ "duration": 38.3739375,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "98beef17-9f19-4636-bab2-9097b1e4f75e",
+ "segments": [
+  {
+   "end": 0.48,
+   "start": 0.32,
+   "text": "The"
+  },
+  {
+   "end": 0.88,
+   "start": 0.48,
+   "text": "artery"
+  },
+  {
+   "end": 1.04,
+   "start": 0.88,
+   "text": "of"
+  },
+  {
+   "end": 1.12,
+   "start": 1.04,
+   "text": "the"
+  },
+  {
+   "end": 1.6,
+   "start": 1.12,
+   "text": "midgut"
+  },
+  {
+   "end": 2,
+   "start": 1.84,
+   "text": "is"
+  },
+  {
+   "end": 2.08,
+   "start": 2,
+   "text": "the"
+  },
+  {
+   "end": 2.64,
+   "start": 2.08,
+   "text": "superior"
+  },
+  {
+   "end": 3.36,
+   "start": 2.64,
+   "text": "mesenteric"
+  },
+  {
+   "end": 3.76,
+   "start": 3.36,
+   "text": "artery"
+  },
+  {
+   "end": 4.4,
+   "start": 4.24,
+   "text": "It"
+  },
+  {
+   "end": 4.72,
+   "start": 4.4,
+   "text": "leaves"
+  },
+  {
+   "end": 4.8,
+   "start": 4.72,
+   "text": "the"
+  },
+  {
+   "end": 5.28,
+   "start": 4.8,
+   "text": "aorta"
+  },
+  {
+   "end": 5.36,
+   "start": 5.28,
+   "text": "at"
+  },
+  {
+   "end": 5.68,
+   "start": 5.44,
+   "text": "L1"
+  },
+  {
+   "end": 6.48,
+   "start": 6.24,
+   "text": "just"
+  },
+  {
+   "end": 6.72,
+   "start": 6.48,
+   "text": "below"
+  },
+  {
+   "end": 6.8,
+   "start": 6.72,
+   "text": "the"
+  },
+  {
+   "end": 7.28,
+   "start": 6.8,
+   "text": "celiac"
+  },
+  {
+   "end": 7.68,
+   "start": 7.28,
+   "text": "trunk"
+  },
+  {
+   "end": 8.24,
+   "start": 8.08,
+   "text": "It"
+  },
+  {
+   "end": 8.64,
+   "start": 8.24,
+   "text": "passes"
+  },
+  {
+   "end": 9.04,
+   "start": 8.64,
+   "text": "behind"
+  },
+  {
+   "end": 9.04,
+   "start": 9.04,
+   "text": "the"
+  },
+  {
+   "end": 9.28,
+   "start": 9.04,
+   "text": "neck"
+  },
+  {
+   "end": 9.36,
+   "start": 9.28,
+   "text": "of"
+  },
+  {
+   "end": 9.44,
+   "start": 9.36,
+   "text": "the"
+  },
+  {
+   "end": 10.08,
+   "start": 9.44,
+   "text": "pancreas"
+  },
+  {
+   "end": 10.56,
+   "start": 10.4,
+   "text": "then"
+  },
+  {
+   "end": 10.64,
+   "start": 10.56,
+   "text": "in"
+  },
+  {
+   "end": 10.88,
+   "start": 10.64,
+   "text": "front"
+  },
+  {
+   "end": 10.96,
+   "start": 10.88,
+   "text": "of"
+  },
+  {
+   "end": 11.04,
+   "start": 10.96,
+   "text": "the"
+  },
+  {
+   "end": 11.36,
+   "start": 11.04,
+   "text": "left"
+  },
+  {
+   "end": 11.6,
+   "start": 11.36,
+   "text": "renal"
+  },
+  {
+   "end": 12,
+   "start": 11.6,
+   "text": "vein"
+  },
+  {
+   "end": 12.32,
+   "start": 12.16,
+   "text": "the"
+  },
+  {
+   "end": 12.72,
+   "start": 12.32,
+   "text": "uncinate"
+  },
+  {
+   "end": 13.28,
+   "start": 12.72,
+   "text": "process"
+  },
+  {
+   "end": 13.44,
+   "start": 13.36,
+   "text": "and"
+  },
+  {
+   "end": 13.52,
+   "start": 13.44,
+   "text": "the"
+  },
+  {
+   "end": 13.84,
+   "start": 13.52,
+   "text": "third"
+  },
+  {
+   "end": 14.08,
+   "start": 13.84,
+   "text": "part"
+  },
+  {
+   "end": 14.16,
+   "start": 14.08,
+   "text": "of"
+  },
+  {
+   "end": 14.24,
+   "start": 14.16,
+   "text": "the"
+  },
+  {
+   "end": 14.8,
+   "start": 14.24,
+   "text": "duodenum"
+  },
+  {
+   "end": 15.28,
+   "start": 15.12,
+   "text": "and"
+  },
+  {
+   "end": 15.68,
+   "start": 15.28,
+   "text": "enters"
+  },
+  {
+   "end": 15.76,
+   "start": 15.68,
+   "text": "the"
+  },
+  {
+   "end": 15.92,
+   "start": 15.76,
+   "text": "root"
+  },
+  {
+   "end": 16.08,
+   "start": 15.92,
+   "text": "of"
+  },
+  {
+   "end": 16.08,
+   "start": 16.08,
+   "text": "the"
+  },
+  {
+   "end": 16.8,
+   "start": 16.08,
+   "text": "mesentery"
+  },
+  {
+   "end": 17.36,
+   "start": 17.12,
+   "text": "From"
+  },
+  {
+   "end": 17.44,
+   "start": 17.36,
+   "text": "its"
+  },
+  {
+   "end": 17.68,
+   "start": 17.44,
+   "text": "left"
+  },
+  {
+   "end": 18.08,
+   "start": 17.68,
+   "text": "side"
+  },
+  {
+   "end": 18.24,
+   "start": 18.08,
+   "text": "come"
+  },
+  {
+   "end": 18.8,
+   "start": 18.24,
+   "text": "15"
+  },
+  {
+   "end": 18.8,
+   "start": 18.8,
+   "text": "to"
+  },
+  {
+   "end": 19.28,
+   "start": 18.88,
+   "text": "18"
+  },
+  {
+   "end": 19.84,
+   "start": 19.28,
+   "text": "jejunal"
+  },
+  {
+   "end": 20,
+   "start": 19.84,
+   "text": "and"
+  },
+  {
+   "end": 20.32,
+   "start": 20,
+   "text": "ileal"
+  },
+  {
+   "end": 20.96,
+   "start": 20.4,
+   "text": "arteries"
+  },
+  {
+   "end": 21.2,
+   "start": 20.96,
+   "text": "which"
+  },
+  {
+   "end": 21.44,
+   "start": 21.2,
+   "text": "loop"
+  },
+  {
+   "end": 21.6,
+   "start": 21.44,
+   "text": "into"
+  },
+  {
+   "end": 22.16,
+   "start": 21.6,
+   "text": "arcades"
+  },
+  {
+   "end": 22.24,
+   "start": 22.16,
+   "text": "and"
+  },
+  {
+   "end": 22.56,
+   "start": 22.32,
+   "text": "end"
+  },
+  {
+   "end": 22.64,
+   "start": 22.56,
+   "text": "as"
+  },
+  {
+   "end": 22.96,
+   "start": 22.64,
+   "text": "straight"
+  },
+  {
+   "end": 23.28,
+   "start": 22.96,
+   "text": "vasa"
+  },
+  {
+   "end": 23.68,
+   "start": 23.28,
+   "text": "recta"
+  },
+  {
+   "end": 24.16,
+   "start": 24,
+   "text": "From"
+  },
+  {
+   "end": 24.32,
+   "start": 24.16,
+   "text": "its"
+  },
+  {
+   "end": 24.56,
+   "start": 24.32,
+   "text": "right"
+  },
+  {
+   "end": 24.96,
+   "start": 24.56,
+   "text": "side"
+  },
+  {
+   "end": 25.12,
+   "start": 24.96,
+   "text": "come"
+  },
+  {
+   "end": 25.12,
+   "start": 25.12,
+   "text": "the"
+  },
+  {
+   "end": 25.36,
+   "start": 25.12,
+   "text": "middle"
+  },
+  {
+   "end": 25.84,
+   "start": 25.36,
+   "text": "colic"
+  },
+  {
+   "end": 26.32,
+   "start": 26.08,
+   "text": "right"
+  },
+  {
+   "end": 26.72,
+   "start": 26.32,
+   "text": "colic"
+  },
+  {
+   "end": 26.88,
+   "start": 26.72,
+   "text": "and"
+  },
+  {
+   "end": 27.6,
+   "start": 26.88,
+   "text": "ileocolic"
+  },
+  {
+   "end": 28.08,
+   "start": 27.6,
+   "text": "arteries"
+  },
+  {
+   "end": 28.56,
+   "start": 28.48,
+   "text": "The"
+  },
+  {
+   "end": 29.12,
+   "start": 28.56,
+   "text": "superior"
+  },
+  {
+   "end": 29.68,
+   "start": 29.12,
+   "text": "mesenteric"
+  },
+  {
+   "end": 30,
+   "start": 29.68,
+   "text": "vein"
+  },
+  {
+   "end": 30.24,
+   "start": 30,
+   "text": "runs"
+  },
+  {
+   "end": 30.4,
+   "start": 30.32,
+   "text": "to"
+  },
+  {
+   "end": 30.56,
+   "start": 30.4,
+   "text": "its"
+  },
+  {
+   "end": 30.8,
+   "start": 30.56,
+   "text": "right"
+  },
+  {
+   "end": 31.28,
+   "start": 31.2,
+   "text": "and"
+  },
+  {
+   "end": 31.68,
+   "start": 31.28,
+   "text": "joins"
+  },
+  {
+   "end": 31.68,
+   "start": 31.68,
+   "text": "the"
+  },
+  {
+   "end": 32.08,
+   "start": 31.68,
+   "text": "splenic"
+  },
+  {
+   "end": 32.4,
+   "start": 32.08,
+   "text": "vein"
+  },
+  {
+   "end": 32.72,
+   "start": 32.4,
+   "text": "behind"
+  },
+  {
+   "end": 32.72,
+   "start": 32.72,
+   "text": "the"
+  },
+  {
+   "end": 32.96,
+   "start": 32.72,
+   "text": "neck"
+  },
+  {
+   "end": 33.04,
+   "start": 32.96,
+   "text": "of"
+  },
+  {
+   "end": 33.12,
+   "start": 33.04,
+   "text": "the"
+  },
+  {
+   "end": 33.76,
+   "start": 33.12,
+   "text": "pancreas"
+  },
+  {
+   "end": 33.92,
+   "start": 33.84,
+   "text": "to"
+  },
+  {
+   "end": 34.24,
+   "start": 33.92,
+   "text": "form"
+  },
+  {
+   "end": 34.24,
+   "start": 34.24,
+   "text": "the"
+  },
+  {
+   "end": 34.56,
+   "start": 34.24,
+   "text": "portal"
+  },
+  {
+   "end": 34.96,
+   "start": 34.56,
+   "text": "vein"
+  },
+  {
+   "end": 35.44,
+   "start": 35.28,
+   "text": "So"
+  },
+  {
+   "end": 35.92,
+   "start": 35.52,
+   "text": "everything"
+  },
+  {
+   "end": 36.32,
+   "start": 35.92,
+   "text": "absorbed"
+  },
+  {
+   "end": 36.48,
+   "start": 36.32,
+   "text": "into"
+  },
+  {
+   "end": 36.56,
+   "start": 36.48,
+   "text": "the"
+  },
+  {
+   "end": 36.96,
+   "start": 36.56,
+   "text": "blood"
+  },
+  {
+   "end": 37.52,
+   "start": 37.2,
+   "text": "reaches"
+  },
+  {
+   "end": 37.6,
+   "start": 37.52,
+   "text": "the"
+  },
+  {
+   "end": 37.84,
+   "start": 37.6,
+   "text": "liver"
+  },
+  {
+   "end": 38.32,
+   "start": 37.84,
+   "text": "first"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 38.32,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "The artery of the midgut is the superior mesenteric artery. It leaves the aorta at L1, just below the celiac trunk. It passes behind the neck of the pancreas, then in front of the left renal vein, the uncinate process, and the third part of the duodenum, and enters the root of the mesentery. From its left side come 15 to 18 jejunal and ileal arteries, which loop into arcades and end as straight vasa recta. From its right side come the middle colic, right colic, and ileocolic arteries. The superior mesenteric vein runs to its right and joins the splenic vein behind the neck of the pancreas to form the portal vein. So everything absorbed into the blood reaches the liver first."
+  }
+ ],
+ "text": "The artery of the midgut is the superior mesenteric artery. It leaves the aorta at L1, just below the celiac trunk. It passes behind the neck of the pancreas, then in front of the left renal vein, the uncinate process, and the third part of the duodenum, and enters the root of the mesentery. From its left side come 15 to 18 jejunal and ileal arteries, which loop into arcades and end as straight vasa recta. From its right side come the middle colic, right colic, and ileocolic arteries. The superior mesenteric vein runs to its right and joins the splenic vein behind the neck of the pancreas to form the portal vein. So everything absorbed into the blood reaches the liver first."
+}

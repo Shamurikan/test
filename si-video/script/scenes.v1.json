@@ -1,0 +1,442 @@
+[
+  {
+    "id": "s01",
+    "engine": "hf",
+    "title": "Cold open",
+    "parts": [
+      {
+        "text": "Every meal you eat ends up here: five to seven meters of folded, moving tube. Let's follow one meal through the small intestine, and watch it do three jobs. It moves. It digests. It absorbs."
+      }
+    ]
+  },
+  {
+    "id": "s02",
+    "engine": "rm",
+    "title": "The tube",
+    "parts": [
+      {
+        "text": "The small intestine runs from the pyloric sphincter to the ileocecal valve. First comes the duodenum, only half a meter long. Then the jejunum, two to three meters, and the ileum, three to four. About ninety percent of carbohydrate and protein digestion, and essentially all fat digestion, is finished in the first two parts."
+      }
+    ]
+  },
+  {
+    "id": "c1",
+    "engine": "hf",
+    "title": "Part one",
+    "parts": [
+      {
+        "text": "Part one. Motility."
+      }
+    ]
+  },
+  {
+    "id": "s03",
+    "engine": "rm",
+    "title": "Five patterns",
+    "parts": [
+      {
+        "text": "The small intestine has two everyday movements: mixing, and propelling. Between meals, it runs a cleaning wave. And it has a reverse gear, and an emergency flush."
+      }
+    ]
+  },
+  {
+    "id": "s04",
+    "engine": "rm",
+    "title": "Segmentation",
+    "parts": [
+      {
+        "text": "Mixing first. When chyme stretches the wall, the enteric nervous system triggers segmentation. Rings of circular muscle squeeze at spaced points, dividing the gut into a chain of sausages. Each set lasts a fraction of a minute. As it relaxes, a new set forms in between. Chyme barely moves forward. Instead, it's churned, blended with digestive juices, and pressed against the absorptive surface."
+      }
+    ]
+  },
+  {
+    "id": "s05",
+    "engine": "rm",
+    "title": "Peristalsis",
+    "parts": [
+      {
+        "text": "Peristalsis propels. Distension is again the stimulus. A contraction ring forms behind the chyme. Here, circular muscle contracts and longitudinal muscle relaxes: this is the propulsive segment. Just ahead, the pattern reverses. Longitudinal muscle contracts, circular muscle relaxes, and a receiving segment opens. The ring moves forward, pushing the chyme along."
+      }
+    ]
+  },
+  {
+    "id": "s06",
+    "engine": "rm",
+    "title": "Peristalsis: speed",
+    "parts": [
+      {
+        "text": "These waves travel at half a centimeter to two centimeters per second, faster in the upper intestine and slower near the end. But most fade after three to five centimeters, so the net advance is only about one centimeter per minute. That's why chyme needs three to five hours to get from the pylorus to the ileocecal valve. Both peristalsis and segmentation depend on the myenteric plexus. Block it with atropine, and they weaken."
+      }
+    ]
+  },
+  {
+    "id": "s07",
+    "engine": "rm",
+    "title": "Migrating motor complex",
+    "parts": [
+      {
+        "text": "Between meals, a different pattern takes over: the migrating motor complex. In the empty stomach, bursts of depolarization launch strong peristaltic contractions that sweep the entire small intestine, reaching the ileocecal valve after one and a half to two hours. Then a new wave starts. This is the housekeeper. It clears undigested residue, dead mucosal cells and bacteria into the colon. It's regulated by autonomic nerves and the hormone motilin, and it stops as soon as you eat."
+      }
+    ]
+  },
+  {
+    "id": "s08",
+    "engine": "rm",
+    "title": "Antiperistalsis & peristaltic rush",
+    "parts": [
+      {
+        "text": "Antiperistalsis runs the other way, toward the mouth. Between stomach and duodenum, it buys time to neutralize acid chyme. Between ileum and cecum, it buys time for absorption. Peristaltic rush is the emergency flush: a powerful, rapid wave set off by intense irritation, as in infectious diarrhea. Driven mainly by extrinsic reflexes through the brainstem, it sweeps everything into the colon before it can be absorbed. The result is diarrhea, but the irritant is gone."
+      }
+    ]
+  },
+  {
+    "id": "s09",
+    "engine": "rm",
+    "title": "Movement of the villi",
+    "parts": [
+      {
+        "text": "Even the villi move. They shorten quickly, lengthen slowly, and sway from side to side. Local reflexes trigger this when chyme touches them, and so does villikinin, a hormone released when digestive products contact the mucosa. Each squeeze helps absorption, and pumps lymph out of the central lacteal."
+      }
+    ]
+  },
+  {
+    "id": "s10",
+    "engine": "rm",
+    "title": "Control of motility",
+    "parts": [
+      {
+        "text": "Who's in control? Vagal stimulation speeds intestinal and villous movements. Sympathetic stimulation slows them. Among hormones, gastrin, {CCK|C C K}, insulin and serotonin stimulate motility, and motilin drives the migrating complex. Secretin and glucagon inhibit it."
+      }
+    ]
+  },
+  {
+    "id": "s11",
+    "engine": "rm",
+    "title": "Gastroileal reflex",
+    "parts": [
+      {
+        "text": "A neat example is the gastroileal reflex. Food stretches the stomach. Impulses travel through the myenteric plexus, mediated by the vagus, and a fast peristaltic wave runs down to the ileum. The ileocecal valve relaxes, helped by gastrin and {CCK|C C K}, and chyme passes into the cecum. A new meal makes room for itself."
+      }
+    ]
+  },
+  {
+    "id": "c2",
+    "engine": "hf",
+    "title": "Part two",
+    "parts": [
+      {
+        "text": "Part two. Secretion and digestion."
+      }
+    ]
+  },
+  {
+    "id": "s12",
+    "engine": "rm",
+    "title": "Crypts of Lieberkühn",
+    "parts": [
+      {
+        "text": "Between the villi lie small pits: the crypts of {Lieberkühn|Leeber-koon}. Two cell types line them. Goblet cells secrete mucus. Enterocytes secrete water and electrolytes: about eighteen hundred milliliters a day, at a {pH|P H} of seven and a half to eight, helping neutralize acid from the stomach. Up on the villi, enterocytes do the reverse, reabsorbing water, electrolytes and the end products of digestion."
+      }
+    ]
+  },
+  {
+    "id": "s13",
+    "engine": "rm",
+    "title": "Control of secretion & Brunner's glands",
+    "parts": [
+      {
+        "text": "Distension, touch and vagal stimulation increase this secretion, as do gastrin, secretin, {CCK|C C K}, glucagon and {enterocrinin|entero-krinin}. Sympathetic stimulation inhibits it. In the first few centimeters of the duodenum, Brunner's glands add an alkaline mucus, rich in bicarbonate, that protects the wall from acid. They respond to irritation, vagal stimulation and secretin, and they are inhibited by sympathetic activity."
+      }
+    ]
+  },
+  {
+    "id": "s14",
+    "engine": "rm",
+    "title": "Brush-border enzymes",
+    "parts": [
+      {
+        "text": "Surprisingly few enzymes are released into the lumen: only enteropeptidase and amylase. Most stay in the brush border, or inside the enterocytes. Peptidases finish peptides into amino acids. Sucrase, maltase, isomaltase and lactase split disaccharides into monosaccharides. A little intestinal lipase splits fats. And nucleotidases break nucleotides into bases, phosphoric acid and pentose sugar."
+      }
+    ]
+  },
+  {
+    "id": "s15",
+    "engine": "rm",
+    "title": "Carbohydrate digestion",
+    "parts": [
+      {
+        "text": "Carbohydrate digestion begins in the mouth. Salivary amylase, ptyalin, digests twenty to forty percent of starch, and keeps working in the stomach for up to an hour. Pancreatic amylase is several times more powerful. Within fifteen to thirty minutes, it turns almost all remaining starch into maltose and small glucose polymers."
+      },
+      {
+        "text": "The brush border finishes the job. Maltase and alpha-dextrinase release glucose. Sucrase splits sucrose into glucose and fructose. Lactase splits lactose into glucose and galactose."
+      }
+    ]
+  },
+  {
+    "id": "s16",
+    "engine": "rm",
+    "title": "Protein digestion: activation",
+    "parts": [
+      {
+        "text": "Protein digestion starts in the stomach with pepsin, active only at a {pH|P H} of two to three. Its special skill is digesting collagen, which opens meat up to the other enzymes. Still, it handles only ten to twenty percent of protein digestion. The rest happens mainly in the duodenum and jejunum. Enterokinase on the brush border activates trypsinogen into trypsin. Trypsin then activates more trypsin, plus chymotrypsin, elastase and the carboxypeptidases."
+      }
+    ]
+  },
+  {
+    "id": "s17",
+    "engine": "rm",
+    "title": "Protein digestion: cutting",
+    "parts": [
+      {
+        "text": "Trypsin and chymotrypsin cut proteins into polypeptides. Carboxypeptidase clips amino acids off the carboxyl end, and elastase digests elastin fibers. Only a small fraction becomes free amino acids in the lumen. Most ends up as dipeptides and tripeptides, which peptidases on and inside the enterocytes finish off."
+      }
+    ]
+  },
+  {
+    "id": "s18",
+    "engine": "rm",
+    "title": "Fat digestion",
+    "parts": [
+      {
+        "text": "Fat is harder. It doesn't mix with water, and lipase only works at the surface of a droplet. Less than ten percent is digested in the stomach; the rest, in the small intestine. First, bile salts and lecithin coat the fat. They're amphipathic: one side fat-soluble, one side water-soluble. With the gut's churning, big globules break into tiny droplets. This is emulsification. Now pancreatic lipase, the key enzyme, splits triglycerides into free fatty acids and two-monoglycerides. Without enough pancreatic juice, fat is lost in the stool: steatorrhea."
+      }
+    ]
+  },
+  {
+    "id": "s19",
+    "engine": "rm",
+    "title": "Micelles",
+    "parts": [
+      {
+        "text": "Bile salts have a second job: they form micelles. Each is just three to six nanometers across, built from twenty to forty bile salt molecules. Their negatively charged polar groups face outward, so the micelle stays dissolved in water. Fatty acids, monoglycerides, cholesterol and fat-soluble vitamins hide inside. Micelles ferry this cargo to the brush border. Remember: bile salts digest nothing. They emulsify, and they transport."
+      }
+    ]
+  },
+  {
+    "id": "c3",
+    "engine": "hf",
+    "title": "Part three",
+    "parts": [
+      {
+        "text": "Part three. Absorption."
+      }
+    ]
+  },
+  {
+    "id": "s20",
+    "engine": "hf",
+    "title": "Absorptive surface",
+    "parts": [
+      {
+        "text": "To absorb all this, you need surface. Circular folds, the valvulae conniventes, triple the area. Villi multiply it ten times more. Each epithelial cell adds a brush border of up to a thousand microvilli: twenty-fold again. Together, that's about six hundred times. Roughly two hundred and fifty square meters, the size of a tennis court. And the biggest contributor? The microvilli."
+      }
+    ]
+  },
+  {
+    "id": "s21",
+    "engine": "rm",
+    "title": "End products",
+    "parts": [
+      {
+        "text": "By now, carbohydrates are monosaccharides, proteins are amino acids and small peptides, and fats are fatty acids and monoglycerides. Vitamins, minerals and water need no digestion at all."
+      }
+    ]
+  },
+  {
+    "id": "s22",
+    "engine": "rm",
+    "title": "Carbohydrate absorption",
+    "parts": [
+      {
+        "text": "Carbohydrates are absorbed as monosaccharides. Glucose and galactose enter with sodium through {SGLT1|S G L T one}. That's secondary active transport, powered by the sodium gradient that the sodium-potassium pump maintains. Fructose doesn't need sodium: it uses facilitated diffusion through {GLUT5|glute five}. All three exit into the blood through {GLUT2|glute two}. Pentoses simply diffuse. If lactase is missing, undigested lactose holds water in the lumen, causing osmotic diarrhea. That's lactose intolerance."
+      }
+    ]
+  },
+  {
+    "id": "s23",
+    "engine": "rm",
+    "title": "Protein absorption",
+    "parts": [
+      {
+        "text": "Proteins are absorbed as dipeptides, tripeptides and a few free amino acids. L-amino acids enter by sodium cotransport: secondary active transport again. D-amino acids diffuse passively. Dipeptides and tripeptides use a hydrogen-coupled carrier. Inside, cytoplasmic peptidases split them into amino acids, which leave the cell by facilitated transport. In cystinuria, the sodium amino acid transporter is missing in both intestine and kidney."
+      }
+    ]
+  },
+  {
+    "id": "s24",
+    "engine": "rm",
+    "title": "Fat absorption",
+    "parts": [
+      {
+        "text": "Fat absorption takes five steps. One: fatty acids and monoglycerides leave the micelle and diffuse into the cell. Two: the smooth endoplasmic reticulum rebuilds them into triglycerides. Three: the Golgi apparatus packages them with proteins into chylomicrons. Four: chylomicrons leave by exocytosis and enter the lacteal. Five: lymph carries them away. With plenty of micelles, about ninety-seven percent of fat is absorbed; without them, only forty to fifty percent. Fail to make {Apo B|apo B}, and you get abetalipoproteinemia. A defect at any step means steatorrhea."
+      }
+    ]
+  },
+  {
+    "id": "s25",
+    "engine": "rm",
+    "title": "Vitamins",
+    "parts": [
+      {
+        "text": "Vitamins are absorbed mainly in the jejunum and ileum. A, D, E and K are fat-soluble: they ride in micelles, so they need bile salts. Water-soluble vitamins, C and the B group, are absorbed in the jejunum and upper ileum, mostly by sodium-dependent cotransport. Vitamin {B12|B twelve} is the exception. It needs intrinsic factor from the stomach, and it is absorbed only in the terminal ileum. Lose the terminal ileum, or the parietal cells after gastrectomy or gastric atrophy, and the result is pernicious anemia."
+      }
+    ]
+  },
+  {
+    "id": "s26",
+    "engine": "rm",
+    "title": "Fluid budget & routes",
+    "parts": [
+      {
+        "text": "Every day, about nine liters of fluid enter the gut: two liters we drink, and seven liters of secretions. The small intestine absorbs about eight and a half liters, and the colon about four hundred milliliters. Water and electrolytes cross either through the cells, the transcellular route, or between them, the paracellular route. Tight junctions in the small intestine are leaky. In the colon, they're tight."
+      }
+    ]
+  },
+  {
+    "id": "s27",
+    "engine": "rm",
+    "title": "Sodium & water",
+    "parts": [
+      {
+        "text": "Sodium drives water absorption. It enters the cell by passive diffusion, with glucose or amino acids, with chloride, or in exchange for hydrogen ions. The basolateral pump then pushes it into the spaces between cells. Ions pile up there, creating an osmotic gradient, and water follows. The jejunum absorbs mainly sodium bicarbonate, the ileum mainly sodium chloride. Aldosterone strongly enhances sodium absorption, especially in the colon, so almost no salt or water is lost."
+      }
+    ]
+  },
+  {
+    "id": "s28",
+    "engine": "rm",
+    "title": "Chloride, potassium, bicarbonate, calcium",
+    "parts": [
+      {
+        "text": "Chloride follows sodium: by passive diffusion, sodium-chloride cotransport, or exchange for bicarbonate. Potassium is absorbed passively in the small intestine, but secreted in the colon under aldosterone, so severe diarrhea can cause hypokalemia. The ileum and large intestine secrete bicarbonate in exchange for chloride, neutralizing acids made by bacteria. And calcium absorption depends on {1,25-dihydroxy-vitamin D3|one twenty-five dihydroxy vitamin D three}, which builds calcium-binding protein and calcium pumps in enterocytes. When plasma calcium falls, parathyroid hormone increases its production."
+      }
+    ]
+  },
+  {
+    "id": "s29",
+    "engine": "rm",
+    "title": "Hormonal control of absorption",
+    "parts": [
+      {
+        "text": "Hormones fine-tune absorption. Glucocorticoids increase water and ion absorption in the small and large intestine. Somatostatin does the same in the ileum and colon. Epinephrine increases sodium chloride absorption in the ileum. And aldosterone makes more sodium channels in the colon."
+      }
+    ]
+  },
+  {
+    "id": "s30",
+    "engine": "rm",
+    "title": "Where nutrients go",
+    "parts": [
+      {
+        "text": "So where does it all go? Amino acids, monosaccharides and short-chain fatty acids enter the blood capillaries, and travel through the hepatic portal vein to the liver. Long-chain fatty acids, packed into chylomicrons, take the lymphatic route: lacteal, lymphatic vessels, thoracic duct, and into the blood at the left subclavian vein."
+      }
+    ]
+  },
+  {
+    "id": "s31",
+    "engine": "rm",
+    "title": "Absorption sites",
+    "parts": [
+      {
+        "text": "Along the tube: most minerals, like iron and calcium, are absorbed in the duodenum and upper jejunum. Carbohydrates, amino acids and water-soluble vitamins, in the jejunum and upper ileum. Lipids and fat-soluble vitamins, in the jejunum. And vitamin {B12|B twelve}, in the terminal ileum."
+      }
+    ]
+  },
+  {
+    "id": "s32",
+    "engine": "hf",
+    "title": "Quiz",
+    "parts": [
+      {
+        "id": "q1",
+        "text": "Quick check. How do lipid digestion products cross the brush border?",
+        "pause": 2.6
+      },
+      {
+        "id": "a1",
+        "text": "Simple diffusion.",
+        "pause": 1.0
+      },
+      {
+        "id": "q2",
+        "text": "What does segmentation do?",
+        "pause": 2.4
+      },
+      {
+        "id": "a2",
+        "text": "It mixes the chyme.",
+        "pause": 1.0
+      },
+      {
+        "id": "q3",
+        "text": "How does galactose cross the luminal membrane?",
+        "pause": 2.4
+      },
+      {
+        "id": "a3",
+        "text": "Secondary active transport, with sodium.",
+        "pause": 1.0
+      },
+      {
+        "id": "q4",
+        "text": "Which structure adds the most absorptive surface?",
+        "pause": 2.4
+      },
+      {
+        "id": "a4",
+        "text": "The microvilli.",
+        "pause": 1.0
+      },
+      {
+        "id": "q5",
+        "text": "Which hormone is released in response to acid?",
+        "pause": 2.4
+      },
+      {
+        "id": "a5",
+        "text": "Secretin.",
+        "pause": 1.0
+      },
+      {
+        "id": "q6",
+        "text": "Which of these does not stimulate intestinal motility?",
+        "pause": 2.6
+      },
+      {
+        "id": "a6",
+        "text": "Glucagon.",
+        "pause": 1.0
+      },
+      {
+        "id": "q7",
+        "text": "If bile salts are missing, what fails?",
+        "pause": 2.4
+      },
+      {
+        "id": "a7",
+        "text": "Absorption of fat, and fat-soluble vitamins.",
+        "pause": 1.0
+      },
+      {
+        "id": "q8",
+        "text": "And losing intrinsic factor after gastrectomy causes?",
+        "pause": 2.4
+      },
+      {
+        "id": "a8",
+        "text": "Pernicious anemia.",
+        "pause": 1.2
+      }
+    ]
+  },
+  {
+    "id": "s33",
+    "engine": "hf",
+    "title": "Outro",
+    "parts": [
+      {
+        "text": "Six meters of tube. Two hundred and fifty square meters of surface. Nine liters of fluid a day. Move, digest, absorb, and almost nothing goes to waste."
+      }
+    ]
+  }
+]

@@ -26,7 +26,7 @@
     const tl = gsap.timeline({ paused: true });
     tl.fromTo("#__ID__-track", { scaleX: 0 }, { scaleX: 1, duration: DUR - 0.2, ease: "power1.inOut" }, 0);
     tl.fromTo("#__ID__-num", { opacity: 0, y: 60, filter: "blur(14px)" }, { opacity: 0.9, y: 0, filter: "blur(0px)", duration: 0.9, ease: "expo.out" }, 0.1);
-    tl.fromTo("#__ID__-kicker", { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out" }, Math.max(0.15, cue("part") - 0.05));
+    tl.fromTo("#__ID__-kicker", { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out" }, Math.max(0.15, cue("__CUE0__") - 0.05));
     tl.fromTo("#__ID__-title", { opacity: 0, filter: "blur(12px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power3.out" }, tTitle - 0.12);
     tl.fromTo("#__ID__-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: "power2.inOut" }, tTitle);
     tl.fromTo(".__ID__-subw", { opacity: 0, filter: "blur(6px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.16, ease: "power3.out", stagger: 0.03 }, tTitle + 0.15);

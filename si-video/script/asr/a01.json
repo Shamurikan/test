@@ -1,0 +1,592 @@
+{
+ "duration": 41.43025,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "6fd441f6-7994-4e6f-9ff7-7ca5497413f7",
+ "segments": [
+  {
+   "end": 0.4,
+   "start": 0.4,
+   "text": "The"
+  },
+  {
+   "end": 0.88,
+   "start": 0.4,
+   "text": "small"
+  },
+  {
+   "end": 1.44,
+   "start": 0.88,
+   "text": "intestine"
+  },
+  {
+   "end": 1.84,
+   "start": 1.44,
+   "text": "fills"
+  },
+  {
+   "end": 1.92,
+   "start": 1.84,
+   "text": "the"
+  },
+  {
+   "end": 2.4,
+   "start": 1.92,
+   "text": "abdominal"
+  },
+  {
+   "end": 2.88,
+   "start": 2.4,
+   "text": "cavity"
+  },
+  {
+   "end": 3.6,
+   "start": 3.52,
+   "text": "the"
+  },
+  {
+   "end": 4,
+   "start": 3.6,
+   "text": "space"
+  },
+  {
+   "end": 4.32,
+   "start": 4,
+   "text": "between"
+  },
+  {
+   "end": 4.4,
+   "start": 4.32,
+   "text": "the"
+  },
+  {
+   "end": 5.04,
+   "start": 4.4,
+   "text": "diaphragm"
+  },
+  {
+   "end": 5.52,
+   "start": 5.04,
+   "text": "above"
+  },
+  {
+   "end": 6,
+   "start": 5.92,
+   "text": "and"
+  },
+  {
+   "end": 6.08,
+   "start": 6,
+   "text": "the"
+  },
+  {
+   "end": 6.48,
+   "start": 6.08,
+   "text": "pelvic"
+  },
+  {
+   "end": 6.96,
+   "start": 6.56,
+   "text": "inlet"
+  },
+  {
+   "end": 7.44,
+   "start": 6.96,
+   "text": "below"
+  },
+  {
+   "end": 8.48,
+   "start": 8.08,
+   "text": "walled"
+  },
+  {
+   "end": 8.64,
+   "start": 8.48,
+   "text": "by"
+  },
+  {
+   "end": 8.72,
+   "start": 8.64,
+   "text": "the"
+  },
+  {
+   "end": 9.2,
+   "start": 8.72,
+   "text": "abdominal"
+  },
+  {
+   "end": 9.6,
+   "start": 9.2,
+   "text": "muscles"
+  },
+  {
+   "end": 9.68,
+   "start": 9.6,
+   "text": "in"
+  },
+  {
+   "end": 10.08,
+   "start": 9.68,
+   "text": "front"
+  },
+  {
+   "end": 10.4,
+   "start": 10.32,
+   "text": "and"
+  },
+  {
+   "end": 10.48,
+   "start": 10.4,
+   "text": "the"
+  },
+  {
+   "end": 10.96,
+   "start": 10.48,
+   "text": "lumbar"
+  },
+  {
+   "end": 11.36,
+   "start": 10.96,
+   "text": "spine"
+  },
+  {
+   "end": 11.84,
+   "start": 11.36,
+   "text": "behind"
+  },
+  {
+   "end": 12.48,
+   "start": 12.24,
+   "text": "Open"
+  },
+  {
+   "end": 12.56,
+   "start": 12.48,
+   "text": "the"
+  },
+  {
+   "end": 13.04,
+   "start": 12.56,
+   "text": "wall"
+  },
+  {
+   "end": 13.28,
+   "start": 13.2,
+   "text": "and"
+  },
+  {
+   "end": 13.44,
+   "start": 13.28,
+   "text": "its"
+  },
+  {
+   "end": 13.84,
+   "start": 13.44,
+   "text": "coils"
+  },
+  {
+   "end": 14.08,
+   "start": 13.84,
+   "text": "sit"
+  },
+  {
+   "end": 14.64,
+   "start": 14.08,
+   "text": "centrally"
+  },
+  {
+   "end": 15.2,
+   "start": 14.96,
+   "text": "below"
+  },
+  {
+   "end": 15.28,
+   "start": 15.2,
+   "text": "the"
+  },
+  {
+   "end": 15.6,
+   "start": 15.28,
+   "text": "liver"
+  },
+  {
+   "end": 15.68,
+   "start": 15.6,
+   "text": "and"
+  },
+  {
+   "end": 16.16,
+   "start": 15.68,
+   "text": "stomach"
+  },
+  {
+   "end": 16.88,
+   "start": 16.48,
+   "text": "framed"
+  },
+  {
+   "end": 17.04,
+   "start": 16.88,
+   "text": "on"
+  },
+  {
+   "end": 17.28,
+   "start": 17.04,
+   "text": "three"
+  },
+  {
+   "end": 17.68,
+   "start": 17.28,
+   "text": "sides"
+  },
+  {
+   "end": 17.76,
+   "start": 17.68,
+   "text": "by"
+  },
+  {
+   "end": 17.84,
+   "start": 17.76,
+   "text": "the"
+  },
+  {
+   "end": 18.32,
+   "start": 17.84,
+   "text": "colon"
+  },
+  {
+   "end": 18.72,
+   "start": 18.56,
+   "text": "and"
+  },
+  {
+   "end": 19.04,
+   "start": 18.72,
+   "text": "draped"
+  },
+  {
+   "end": 19.2,
+   "start": 19.04,
+   "text": "by"
+  },
+  {
+   "end": 19.28,
+   "start": 19.2,
+   "text": "the"
+  },
+  {
+   "end": 19.6,
+   "start": 19.28,
+   "text": "greater"
+  },
+  {
+   "end": 20.08,
+   "start": 19.6,
+   "text": "omentum"
+  },
+  {
+   "end": 20.56,
+   "start": 20.4,
+   "text": "On"
+  },
+  {
+   "end": 20.64,
+   "start": 20.56,
+   "text": "the"
+  },
+  {
+   "end": 21.2,
+   "start": 20.64,
+   "text": "surface"
+  },
+  {
+   "end": 21.52,
+   "start": 21.44,
+   "text": "the"
+  },
+  {
+   "end": 22.16,
+   "start": 21.52,
+   "text": "duodenum"
+  },
+  {
+   "end": 22.48,
+   "start": 22.16,
+   "text": "lies"
+  },
+  {
+   "end": 22.56,
+   "start": 22.48,
+   "text": "in"
+  },
+  {
+   "end": 22.64,
+   "start": 22.56,
+   "text": "the"
+  },
+  {
+   "end": 23.44,
+   "start": 22.64,
+   "text": "epigastric"
+  },
+  {
+   "end": 23.52,
+   "start": 23.44,
+   "text": "and"
+  },
+  {
+   "end": 24,
+   "start": 23.52,
+   "text": "umbilical"
+  },
+  {
+   "end": 24.56,
+   "start": 24,
+   "text": "regions"
+  },
+  {
+   "end": 25.04,
+   "start": 24.96,
+   "text": "the"
+  },
+  {
+   "end": 25.6,
+   "start": 25.04,
+   "text": "jejunum"
+  },
+  {
+   "end": 26.08,
+   "start": 25.68,
+   "text": "mostly"
+  },
+  {
+   "end": 26.16,
+   "start": 26.08,
+   "text": "in"
+  },
+  {
+   "end": 26.24,
+   "start": 26.16,
+   "text": "the"
+  },
+  {
+   "end": 26.56,
+   "start": 26.24,
+   "text": "left"
+  },
+  {
+   "end": 26.72,
+   "start": 26.56,
+   "text": "upper"
+  },
+  {
+   "end": 27.28,
+   "start": 26.72,
+   "text": "quadrant"
+  },
+  {
+   "end": 27.68,
+   "start": 27.52,
+   "text": "and"
+  },
+  {
+   "end": 27.76,
+   "start": 27.68,
+   "text": "the"
+  },
+  {
+   "end": 28.16,
+   "start": 27.84,
+   "text": "ileum"
+  },
+  {
+   "end": 28.24,
+   "start": 28.16,
+   "text": "in"
+  },
+  {
+   "end": 28.32,
+   "start": 28.24,
+   "text": "the"
+  },
+  {
+   "end": 28.56,
+   "start": 28.32,
+   "text": "right"
+  },
+  {
+   "end": 28.8,
+   "start": 28.56,
+   "text": "lower"
+  },
+  {
+   "end": 29.28,
+   "start": 28.8,
+   "text": "quadrant"
+  },
+  {
+   "end": 29.6,
+   "start": 29.44,
+   "text": "and"
+  },
+  {
+   "end": 29.6,
+   "start": 29.6,
+   "text": "the"
+  },
+  {
+   "end": 30.24,
+   "start": 29.6,
+   "text": "pelvis"
+  },
+  {
+   "end": 30.72,
+   "start": 30.48,
+   "text": "One"
+  },
+  {
+   "end": 31.2,
+   "start": 30.72,
+   "text": "landmark"
+  },
+  {
+   "end": 31.52,
+   "start": 31.2,
+   "text": "matters"
+  },
+  {
+   "end": 31.92,
+   "start": 31.52,
+   "text": "most"
+  },
+  {
+   "end": 32.32,
+   "start": 32.24,
+   "text": "the"
+  },
+  {
+   "end": 33.12,
+   "start": 32.32,
+   "text": "transpyloric"
+  },
+  {
+   "end": 33.52,
+   "start": 33.12,
+   "text": "plane"
+  },
+  {
+   "end": 33.76,
+   "start": 33.68,
+   "text": "at"
+  },
+  {
+   "end": 34.16,
+   "start": 33.76,
+   "text": "vertebra"
+  },
+  {
+   "end": 34.8,
+   "start": 34.24,
+   "text": "L1"
+  },
+  {
+   "end": 35.2,
+   "start": 35.04,
+   "text": "It"
+  },
+  {
+   "end": 35.68,
+   "start": 35.2,
+   "text": "crosses"
+  },
+  {
+   "end": 35.76,
+   "start": 35.68,
+   "text": "the"
+  },
+  {
+   "end": 36.48,
+   "start": 35.76,
+   "text": "pylorus"
+  },
+  {
+   "end": 36.8,
+   "start": 36.72,
+   "text": "the"
+  },
+  {
+   "end": 37.12,
+   "start": 36.8,
+   "text": "first"
+  },
+  {
+   "end": 37.44,
+   "start": 37.12,
+   "text": "part"
+  },
+  {
+   "end": 37.52,
+   "start": 37.44,
+   "text": "of"
+  },
+  {
+   "end": 37.6,
+   "start": 37.52,
+   "text": "the"
+  },
+  {
+   "end": 38.24,
+   "start": 37.6,
+   "text": "duodenum"
+  },
+  {
+   "end": 38.72,
+   "start": 38.56,
+   "text": "and"
+  },
+  {
+   "end": 38.8,
+   "start": 38.72,
+   "text": "the"
+  },
+  {
+   "end": 39.36,
+   "start": 38.8,
+   "text": "origin"
+  },
+  {
+   "end": 39.44,
+   "start": 39.36,
+   "text": "of"
+  },
+  {
+   "end": 39.52,
+   "start": 39.44,
+   "text": "the"
+  },
+  {
+   "end": 40.16,
+   "start": 39.52,
+   "text": "superior"
+  },
+  {
+   "end": 40.8,
+   "start": 40.16,
+   "text": "mesenteric"
+  },
+  {
+   "end": 41.28,
+   "start": 40.8,
+   "text": "artery"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 41.28,
+   "speaker": "speaker:0",
+   "start": 0.4,
+   "text": "The small intestine fills the abdominal cavity, the space between the diaphragm above and the pelvic inlet below, walled by the abdominal muscles in front and the lumbar spine behind. Open the wall, and its coils sit centrally, below the liver and stomach, framed on three sides by the colon and draped by the greater omentum. On the surface, the duodenum lies in the epigastric and umbilical regions, the jejunum mostly in the left upper quadrant, and the ileum in the right lower quadrant and the pelvis. One landmark matters most, the transpyloric plane at vertebra L1. It crosses the pylorus, the first part of the duodenum, and the origin of the superior mesenteric artery."
+  }
+ ],
+ "text": "The small intestine fills the abdominal cavity, the space between the diaphragm above and the pelvic inlet below, walled by the abdominal muscles in front and the lumbar spine behind. Open the wall, and its coils sit centrally, below the liver and stomach, framed on three sides by the colon and draped by the greater omentum. On the surface, the duodenum lies in the epigastric and umbilical regions, the jejunum mostly in the left upper quadrant, and the ileum in the right lower quadrant and the pelvis. One landmark matters most, the transpyloric plane at vertebra L1. It crosses the pylorus, the first part of the duodenum, and the origin of the superior mesenteric artery."
+}

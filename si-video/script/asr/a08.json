@@ -1,0 +1,457 @@
+{
+ "duration": 31.320875,
+ "language": "English",
+ "language_code": "en",
+ "request_id": "8854daef-bc8e-41f0-bfd6-a8ae347e9c77",
+ "segments": [
+  {
+   "end": 0.4,
+   "start": 0.32,
+   "text": "The"
+  },
+  {
+   "end": 0.72,
+   "start": 0.4,
+   "text": "small"
+  },
+  {
+   "end": 1.28,
+   "start": 0.72,
+   "text": "intestine"
+  },
+  {
+   "end": 1.6,
+   "start": 1.36,
+   "text": "ends"
+  },
+  {
+   "end": 1.76,
+   "start": 1.6,
+   "text": "at"
+  },
+  {
+   "end": 1.84,
+   "start": 1.76,
+   "text": "the"
+  },
+  {
+   "end": 2.56,
+   "start": 1.84,
+   "text": "ileocecal"
+  },
+  {
+   "end": 3.04,
+   "start": 2.56,
+   "text": "junction"
+  },
+  {
+   "end": 3.36,
+   "start": 3.28,
+   "text": "in"
+  },
+  {
+   "end": 3.44,
+   "start": 3.36,
+   "text": "the"
+  },
+  {
+   "end": 3.76,
+   "start": 3.44,
+   "text": "right"
+  },
+  {
+   "end": 4.16,
+   "start": 3.76,
+   "text": "iliac"
+  },
+  {
+   "end": 4.72,
+   "start": 4.16,
+   "text": "fossa"
+  },
+  {
+   "end": 5.36,
+   "start": 5.12,
+   "text": "Here"
+  },
+  {
+   "end": 5.52,
+   "start": 5.36,
+   "text": "the"
+  },
+  {
+   "end": 5.92,
+   "start": 5.6,
+   "text": "ileum"
+  },
+  {
+   "end": 6.48,
+   "start": 5.92,
+   "text": "opens"
+  },
+  {
+   "end": 6.72,
+   "start": 6.56,
+   "text": "into"
+  },
+  {
+   "end": 6.8,
+   "start": 6.72,
+   "text": "the"
+  },
+  {
+   "end": 7.6,
+   "start": 6.8,
+   "text": "posteromedial"
+  },
+  {
+   "end": 7.92,
+   "start": 7.6,
+   "text": "wall"
+  },
+  {
+   "end": 8.08,
+   "start": 7.92,
+   "text": "of"
+  },
+  {
+   "end": 8.08,
+   "start": 8.08,
+   "text": "the"
+  },
+  {
+   "end": 8.48,
+   "start": 8.08,
+   "text": "large"
+  },
+  {
+   "end": 9.04,
+   "start": 8.48,
+   "text": "intestine"
+  },
+  {
+   "end": 9.76,
+   "start": 9.44,
+   "text": "between"
+  },
+  {
+   "end": 9.76,
+   "start": 9.76,
+   "text": "the"
+  },
+  {
+   "end": 10.32,
+   "start": 9.76,
+   "text": "cecum"
+  },
+  {
+   "end": 10.56,
+   "start": 10.4,
+   "text": "and"
+  },
+  {
+   "end": 10.64,
+   "start": 10.56,
+   "text": "the"
+  },
+  {
+   "end": 11.12,
+   "start": 10.64,
+   "text": "ascending"
+  },
+  {
+   "end": 11.52,
+   "start": 11.12,
+   "text": "colon"
+  },
+  {
+   "end": 12.08,
+   "start": 11.84,
+   "text": "Two"
+  },
+  {
+   "end": 12.48,
+   "start": 12.08,
+   "text": "lips"
+  },
+  {
+   "end": 12.88,
+   "start": 12.8,
+   "text": "the"
+  },
+  {
+   "end": 13.52,
+   "start": 12.88,
+   "text": "ileocecal"
+  },
+  {
+   "end": 13.92,
+   "start": 13.52,
+   "text": "fold"
+  },
+  {
+   "end": 14.72,
+   "start": 14.24,
+   "text": "project"
+  },
+  {
+   "end": 14.88,
+   "start": 14.72,
+   "text": "into"
+  },
+  {
+   "end": 14.96,
+   "start": 14.88,
+   "text": "the"
+  },
+  {
+   "end": 15.36,
+   "start": 14.96,
+   "text": "lumen"
+  },
+  {
+   "end": 15.76,
+   "start": 15.6,
+   "text": "and"
+  },
+  {
+   "end": 15.84,
+   "start": 15.76,
+   "text": "the"
+  },
+  {
+   "end": 16.24,
+   "start": 15.84,
+   "text": "ileum's"
+  },
+  {
+   "end": 16.64,
+   "start": 16.24,
+   "text": "circular"
+  },
+  {
+   "end": 17.04,
+   "start": 16.72,
+   "text": "muscle"
+  },
+  {
+   "end": 17.6,
+   "start": 17.04,
+   "text": "continues"
+  },
+  {
+   "end": 17.84,
+   "start": 17.6,
+   "text": "into"
+  },
+  {
+   "end": 18.08,
+   "start": 17.84,
+   "text": "them"
+  },
+  {
+   "end": 18.4,
+   "start": 18.32,
+   "text": "as"
+  },
+  {
+   "end": 18.56,
+   "start": 18.4,
+   "text": "the"
+  },
+  {
+   "end": 19.2,
+   "start": 18.56,
+   "text": "ileocecal"
+  },
+  {
+   "end": 19.76,
+   "start": 19.2,
+   "text": "sphincter"
+  },
+  {
+   "end": 20.24,
+   "start": 20.16,
+   "text": "The"
+  },
+  {
+   "end": 20.64,
+   "start": 20.24,
+   "text": "junction"
+  },
+  {
+   "end": 20.72,
+   "start": 20.64,
+   "text": "is"
+  },
+  {
+   "end": 21.2,
+   "start": 20.72,
+   "text": "supplied"
+  },
+  {
+   "end": 21.36,
+   "start": 21.2,
+   "text": "by"
+  },
+  {
+   "end": 21.44,
+   "start": 21.36,
+   "text": "the"
+  },
+  {
+   "end": 22.16,
+   "start": 21.52,
+   "text": "ileocolic"
+  },
+  {
+   "end": 22.56,
+   "start": 22.16,
+   "text": "artery"
+  },
+  {
+   "end": 22.88,
+   "start": 22.8,
+   "text": "the"
+  },
+  {
+   "end": 23.36,
+   "start": 22.88,
+   "text": "last"
+  },
+  {
+   "end": 23.76,
+   "start": 23.36,
+   "text": "branch"
+  },
+  {
+   "end": 24,
+   "start": 23.84,
+   "text": "from"
+  },
+  {
+   "end": 24.08,
+   "start": 24,
+   "text": "the"
+  },
+  {
+   "end": 24.32,
+   "start": 24.08,
+   "text": "right"
+  },
+  {
+   "end": 24.64,
+   "start": 24.32,
+   "text": "side"
+  },
+  {
+   "end": 24.8,
+   "start": 24.64,
+   "text": "of"
+  },
+  {
+   "end": 24.8,
+   "start": 24.8,
+   "text": "the"
+  },
+  {
+   "end": 25.36,
+   "start": 24.8,
+   "text": "superior"
+  },
+  {
+   "end": 26,
+   "start": 25.36,
+   "text": "mesenteric"
+  },
+  {
+   "end": 26.4,
+   "start": 26,
+   "text": "artery"
+  },
+  {
+   "end": 26.96,
+   "start": 26.72,
+   "text": "We'll"
+  },
+  {
+   "end": 27.2,
+   "start": 26.96,
+   "text": "see"
+  },
+  {
+   "end": 27.28,
+   "start": 27.2,
+   "text": "it"
+  },
+  {
+   "end": 27.36,
+   "start": 27.28,
+   "text": "at"
+  },
+  {
+   "end": 27.6,
+   "start": 27.36,
+   "text": "work"
+  },
+  {
+   "end": 28,
+   "start": 27.6,
+   "text": "later"
+  },
+  {
+   "end": 28.4,
+   "start": 28.32,
+   "text": "It"
+  },
+  {
+   "end": 28.8,
+   "start": 28.4,
+   "text": "slows"
+  },
+  {
+   "end": 29.28,
+   "start": 28.8,
+   "text": "emptying"
+  },
+  {
+   "end": 29.6,
+   "start": 29.44,
+   "text": "and"
+  },
+  {
+   "end": 30,
+   "start": 29.6,
+   "text": "blocks"
+  },
+  {
+   "end": 30.48,
+   "start": 30,
+   "text": "reflux"
+  },
+  {
+   "end": 30.64,
+   "start": 30.48,
+   "text": "from"
+  },
+  {
+   "end": 30.72,
+   "start": 30.64,
+   "text": "the"
+  },
+  {
+   "end": 31.12,
+   "start": 30.72,
+   "text": "colon"
+  }
+ ],
+ "speaker_turns": [
+  {
+   "end": 31.12,
+   "speaker": "speaker:0",
+   "start": 0.32,
+   "text": "The small intestine ends at the ileocecal junction in the right iliac fossa. Here the ileum opens into the posteromedial wall of the large intestine, between the cecum and the ascending colon. Two lips, the ileocecal fold, project into the lumen, and the ileum's circular muscle continues into them, as the ileocecal sphincter. The junction is supplied by the ileocolic artery, the last branch from the right side of the superior mesenteric artery. We'll see it at work later. It slows emptying and blocks reflux from the colon."
+  }
+ ],
+ "text": "The small intestine ends at the ileocecal junction in the right iliac fossa. Here the ileum opens into the posteromedial wall of the large intestine, between the cecum and the ascending colon. Two lips, the ileocecal fold, project into the lumen, and the ileum's circular muscle continues into them, as the ileocecal sphincter. The junction is supplied by the ileocolic artery, the last branch from the right side of the superior mesenteric artery. We'll see it at work later. It slows emptying and blocks reflux from the colon."
+}
