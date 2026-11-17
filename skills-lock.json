@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "skills": {
+    "generating-stem-flashcards": {
+      "source": "jalliet/flashcards",
+      "commit": "cd2d44ca9a000a25da08bedf0d5e22ab26eafce2",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "d47a14a0755fbe97d84119f9fff0f719986f79388726ac50ed2933e697ad4a4b"
+    }
+  }
+}
